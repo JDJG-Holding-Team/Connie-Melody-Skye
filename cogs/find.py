@@ -33,7 +33,7 @@ class Find(commands.Cog):
             
             user_id = user.id
 
-            result = await cur.execute("SELECT * from data WHERE user_id = ?", user)
+            result = await cur.execute("SELECT * from data WHERE user_id = ?", user_id)
 
             urls = await result.fetchall()
 
