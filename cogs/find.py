@@ -80,6 +80,8 @@ class Find(commands.Cog):
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
+                user = "Unknown"
+
                 if not proper_urls:
 
                     result = await cur.execute("SELECT * from data")
@@ -103,7 +105,12 @@ class Find(commands.Cog):
             url = random.choice(proper_urls)
 
             name = "Randomly Choosen"
-            value = "�"
+            value = f"\U0001f570"
+        
+        user = bot.get_user(url.user_id)
+
+        if not user:
+            user = "Unknown"
 
         embed = discord.Embed(title="Random Song", description=f"Service:\n{url.Service} \nAdded By: \n{user}")
 
