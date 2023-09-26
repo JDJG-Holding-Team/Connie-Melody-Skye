@@ -37,6 +37,14 @@ class Find(commands.Cog):
 
             proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
+            if not proper_urls:
+
+                result = await cur.execute("SELECT * from data")
+
+                urls = await result.fetchall()
+
+                proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
             url = random.choice(proper_urls)
 
             name = f"User Songs"
@@ -68,6 +76,18 @@ class Find(commands.Cog):
 
             name = "User and Service Songs"
             value = f"{user}"
+
+        else:
+            result = await cur.execute("SELECT * from data")
+
+            urls = await result.fetchall()
+
+            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+            url = random.choice(proper_urls)
+
+            name = "Randomly Choosen"
+            value = "�"
 
         embed = discord.Embed(title="Random Song", description=f"Service:\n{url.Service} \nAdded By: \n{user}")
 
