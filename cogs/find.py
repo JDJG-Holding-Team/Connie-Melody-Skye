@@ -27,7 +27,7 @@ class Find(commands.Cog):
 
 
     @find_song.autocomplete('Service')
-    async def autocomplete_callback(interaction: discord.Interaction, current: str):
+    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
 
         services = self.bot.services
         
