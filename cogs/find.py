@@ -59,7 +59,7 @@ class Find(commands.Cog):
 
         if service and user:
 
-            user = user.id
+            user_id = user.id
 
             result = await cur.execute("SELECT url from data WHERE service = ? and user_id = ?", service, user_id)
             
