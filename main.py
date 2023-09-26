@@ -38,7 +38,7 @@ class MusicFinderBot(commands.Bot):
         await super().close()
 
 
-bot = MusicFinderBot(command_prefix=commands.when_mentioned_or("e$"), intents=discord.Intents.all(), strip_after_prefix=True)
+bot = MusicFinderBot(command_prefix=commands.when_mentioned_or("y$"), intents=discord.Intents.all(), strip_after_prefix=True)
 
 
 # so far this.
