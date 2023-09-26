@@ -30,7 +30,7 @@ class MusicFinderBot(commands.Bot):
         result = await main_cursor.execute("SELECT Service FROM data")
 
         services = await result.fetchall()
-        self.services = dict(services)
+        self.services = list(services)
 
     async def close(self) -> None:
         if self.db:
