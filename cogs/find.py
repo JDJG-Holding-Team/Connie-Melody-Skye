@@ -15,7 +15,7 @@ class Find(commands.Cog):
         return
         # use for later.
 
-    @app_commands.command(description="Find a new song to listen to", name="find_song")
+    @app_commands.command(description="Find a new song to listen to", name="find")
     async def find_song(
         self,
         user : typing.Optional[typing.Union[discord.Member, discord.User]],
