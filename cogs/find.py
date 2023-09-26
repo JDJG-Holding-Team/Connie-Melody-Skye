@@ -74,11 +74,19 @@ class Find(commands.Cog):
 
             if not proper_urls:
 
-                result = await cur.execute("SELECT * from data")
+                result = await cur.execute("SELECT * from data WHERE service = ?", service)
 
                 urls = await result.fetchall()
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+                if not proper_urls:
+
+                    result = await cur.execute("SELECT * from data")
+
+                    urls = await result.fetchall()
+
+                    proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
             url = random.choice(proper_urls)
 
