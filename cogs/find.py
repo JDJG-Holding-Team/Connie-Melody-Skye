@@ -8,6 +8,8 @@ from discord.ext import commands
 
 from discord.app_commands import Choice
 
+import utils
+
 
 class Find(commands.Cog):
     def __init__(self, bot):
