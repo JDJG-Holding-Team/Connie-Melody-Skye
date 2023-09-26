@@ -45,9 +45,9 @@ class Find(commands.Cog):
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
-                user = self.bot.get_user(url.user_id)
-
             url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
 
             name = f"User Songs"
             value = f"{user}"
@@ -84,8 +84,6 @@ class Find(commands.Cog):
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
-                user = self.bot.get_user(url.user_id)
-
                 if not proper_urls:
 
                     result = await cur.execute("SELECT * from data")
@@ -95,6 +93,8 @@ class Find(commands.Cog):
                     proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
             url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
 
             name = "User and Service Songs"
             value = f"{user}"
