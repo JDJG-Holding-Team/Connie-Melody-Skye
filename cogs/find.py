@@ -32,7 +32,7 @@ class Find(commands.Cog):
             
             urls = await result.fetchall()
 
-            proper_urls = [dict(url) for url in urls]
+            proper_urls = [**dict(url) for url in urls]
 
             print(proper_urls)
 
