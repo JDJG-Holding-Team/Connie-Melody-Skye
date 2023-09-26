@@ -72,6 +72,14 @@ class Find(commands.Cog):
 
             proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
+            if not proper_urls:
+
+                result = await cur.execute("SELECT * from data")
+
+                urls = await result.fetchall()
+
+                proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
             url = random.choice(proper_urls)
 
             name = "User and Service Songs"
