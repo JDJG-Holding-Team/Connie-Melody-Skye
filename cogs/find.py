@@ -111,6 +111,8 @@ class Find(commands.Cog):
 
         await interaction.response.send_message(content=url.url, embed=embed)
 
+        # this definetly needs cleanup
+
     @find_song.autocomplete("service")
     async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
 
