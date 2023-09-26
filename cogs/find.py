@@ -32,7 +32,9 @@ class Find(commands.Cog):
             
             urls = await result.fetchall()
 
-            print(urls)
+            proper_urls = [dict(url) for url in urls]
+
+            print(proper_urls)
 
 
     @find_song.autocomplete('service')
