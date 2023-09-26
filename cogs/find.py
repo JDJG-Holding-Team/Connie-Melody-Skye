@@ -19,14 +19,14 @@ class Find(commands.Cog):
     async def find_song(
         self,
         user : typing.Optional[typing.Union[discord.Member, discord.User]],
-        Service : typing.Optional[str],
+        service : typing.Optional[str],
     ):
         
 
         await interaction.response.send_message(f"{Service}")
 
 
-    @find_song.autocomplete('Service')
+    @find_song.autocomplete('service')
     async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
 
         services = self.bot.services
