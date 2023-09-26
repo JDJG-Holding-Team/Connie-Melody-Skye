@@ -76,7 +76,7 @@ class Find(commands.Cog):
 
         embed.add_field(name=name, value=value)
 
-        await interaction.response.send_message(embed=embed)
+        await interaction.response.send_message(content = url.url, embed=embed)
 
 
     @find_song.autocomplete('service')
