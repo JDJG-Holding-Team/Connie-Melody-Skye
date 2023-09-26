@@ -42,7 +42,7 @@ class MusicFinderBot(commands.Bot):
 
 bot = MusicFinderBot(command_prefix=commands.when_mentioned_or("sb$"), intents=discord.Intents.all(), strip_after_prefix=True)
 
-@bot.event()
+@bot.event
 async def on_ready():
     print(bot.user)
     print(bot.id)
