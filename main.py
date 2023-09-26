@@ -7,9 +7,8 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
-from cogs import EXTENSIONS
-
 import utils
+from cogs import EXTENSIONS
 
 
 class MusicFinderBot(commands.Bot):
@@ -40,7 +39,10 @@ class MusicFinderBot(commands.Bot):
         await super().close()
 
 
-bot = MusicFinderBot(command_prefix=commands.when_mentioned_or("sb$"), intents=discord.Intents.all(), strip_after_prefix=True)
+bot = MusicFinderBot(
+    command_prefix=commands.when_mentioned_or("sb$"), intents=discord.Intents.all(), strip_after_prefix=True
+)
+
 
 @bot.event
 async def on_ready():
