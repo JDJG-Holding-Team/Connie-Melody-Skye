@@ -1,1 +1,1 @@
-from .extra import ServiceObject
+from .extra import ServiceObject, DataObject
