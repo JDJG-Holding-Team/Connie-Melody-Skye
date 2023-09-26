@@ -45,6 +45,8 @@ class Find(commands.Cog):
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
+                user = self.bot.get_user(url.user_id)
+
             url = random.choice(proper_urls)
 
             name = f"User Songs"
@@ -61,6 +63,8 @@ class Find(commands.Cog):
 
             name = "Service Songs"
             value = f"{url.Service}"
+
+            user = self.bot.get_user(url.user_id)
 
         if service and user:
 
@@ -80,7 +84,7 @@ class Find(commands.Cog):
 
                 proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
-                user = "Unknown"
+                user = self.bot.get_user(url.user_id)
 
                 if not proper_urls:
 
@@ -107,7 +111,7 @@ class Find(commands.Cog):
             name = "Randomly Choosen"
             value = f"\U0001f570"
         
-        user = bot.get_user(url.user_id)
+            user = self.bot.get_user(url.user_id)
 
         if not user:
             user = "Unknown"
