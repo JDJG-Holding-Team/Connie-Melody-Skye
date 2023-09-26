@@ -29,14 +29,54 @@ class Find(commands.Cog):
         
         cur = await self.bot.db.cursor()
 
-        if service:
+        if user and not service:
+            
+            user_id = user.id
+
+            result = await cur.execute("SELECT user_id from data WHERE user_id = ?", user)
+
+            urls = await result.fetchall()
+
+            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+            url = random.choice(proper_urls)
+
+            name = f"User Songs"
+            value = f"{user}"
+
+
+        if service and not user:
             result = await cur.execute("SELECT url from data WHERE service = ?", service)
             
             urls = await result.fetchall()
 
             proper_urls = [utils.DataObject(dict(url)) for url in urls]
 
-            print(proper_urls)
+            url = random.choice(proper_urls)
+
+            name = "Service Songs"
+            value = f"{url.Service}"
+
+        if service and user:
+
+            user = user.id
+
+            result = await cur.execute("SELECT url from data WHERE service = ? and user_id = ?", service, user_id)
+            
+            urls = await result.fetchall()
+
+            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+            url = random.choice(proper_urls)
+
+            name = "User and Service Songs"
+            value = f"{user}"  
+
+        embed = discord.Embed(title="Random Song", description=f"Service:\n{url.Service} \nAdded By: \n{user}")
+
+        embed.add_field(name=name, value=value)
+
+        await interaction.response.send_message(embed=embed)
 
 
     @find_song.autocomplete('service')
