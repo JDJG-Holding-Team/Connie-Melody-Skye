@@ -29,12 +29,12 @@ class Find(commands.Cog):
 
         services = self.bot.services
         
-        # all_choices = [Choice(name=name, value=link) for  in service.items()]
-        #startswith = [choices for choices in all_choices if choices.name.startswith(current)]
-        # if not (current and startswith):
-            # return all_choices[0:25]
+        all_choices = [Choice(name=service) for service  in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
 
-        # return startswith
+        return startswith
 
 
 async def setup(bot):
