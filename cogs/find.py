@@ -20,6 +20,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Find a new song to listen to", name="find")
     async def find_song(
         self,
+        interaction: discord.Interaction,
         user : typing.Optional[typing.Union[discord.Member, discord.User]],
         service : typing.Optional[str],
     ):
