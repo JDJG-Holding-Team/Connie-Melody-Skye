@@ -25,8 +25,14 @@ class Find(commands.Cog):
         service : typing.Optional[str],
     ):
         
+        cur = await self.bot.db.cursor()
 
-        await interaction.response.send_message(f"{Service}")
+        if service:
+            result = await cur.execute("SELECT url from data WHERE ?", service)
+            
+            urls = await result.fetchall()
+
+            print(urls)
 
 
     @find_song.autocomplete('service')
