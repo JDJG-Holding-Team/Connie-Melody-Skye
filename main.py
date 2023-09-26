@@ -32,7 +32,7 @@ class MusicFinderBot(commands.Bot):
         result = await main_cursor.execute("SELECT Service FROM data")
 
         services = await result.fetchall()
-        self.services = [utils.ServiceObject(dict(x)) for x in services]
+        self.services = [utils.ServiceObject(dict(x)["Service"]) for x in services]
 
     async def close(self) -> None:
         if self.db:
