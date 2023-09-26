@@ -16,7 +16,7 @@ class Find(commands.Cog):
         # use for later.
 
     @app_commands.command(description="Find a new song to listen to", name="find_song")
-    async def member_update(
+    async def find_song(
         self,
         user : typing.Optional[typing.Union[discord.Member, discord.User]],
         Service : str
@@ -24,7 +24,7 @@ class Find(commands.Cog):
         await interaction.response.send_message("Test")
 
 
-    @member_update.autocomplete('Service')
+    @find_song.autocomplete('Service')
     async def autocomplete_callback(interaction: discord.Interaction, current: str):
 
         services = self.bot.services
