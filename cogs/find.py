@@ -28,7 +28,7 @@ class Find(commands.Cog):
         cur = await self.bot.db.cursor()
 
         if service:
-            result = await cur.execute("SELECT url from data WHERE ?", service)
+            result = await cur.execute("SELECT url from data WHERE service = ?", service)
             
             urls = await result.fetchall()
 
