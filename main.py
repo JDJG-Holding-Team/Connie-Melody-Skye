@@ -25,6 +25,13 @@ class MusicFinderBot(commands.Bot):
 
         self.db = await asqlite.connect("database.db")
 
+        main_cursor = await self.db.cursor()
+
+        result = await main_cursor.execute("SELECT Service FROM data")
+
+        services = await result.fetchall()
+        self.services = dict(services)
+
     async def close(self) -> None:
         if self.db:
             await self.db.close()
