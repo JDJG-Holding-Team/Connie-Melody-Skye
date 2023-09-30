@@ -52,7 +52,7 @@ class Find(commands.Cog):
             name = f"User Songs"
             value = f"{user}"
 
-        if service and not user:
+        elif service and not user:
             result = await cur.execute("SELECT * from data WHERE service = ?", service)
 
             urls = await result.fetchall()
@@ -66,7 +66,7 @@ class Find(commands.Cog):
 
             user = self.bot.get_user(url.user_id)
 
-        if service and user:
+        elif service and user:
 
             user_id = user.id
 
