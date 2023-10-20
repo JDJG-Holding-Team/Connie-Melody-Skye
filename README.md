@@ -5,8 +5,6 @@ This Bot is designed to help find music using the database
 If you want to your own values to the database you can try:
 
 ```postgresql
-
-
 INSERT INTO data VALUES (user_id, 'url', 'Service')
 ```
 
