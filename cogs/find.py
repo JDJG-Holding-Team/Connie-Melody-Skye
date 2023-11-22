@@ -136,7 +136,7 @@ class Find(commands.Cog):
 
         return startswith
     
-    @app_commands.command(brief="gets a song without any arguments", name="quicksong")
+    @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
 
         result = await cur.execute("SELECT * from data")
