@@ -151,7 +151,7 @@ class Find(commands.Cog):
 
         user = self.bot.get_user(url.user_id)
 
-        await interaction.response.send_message(f"Song:{url.url}\nAdded by {user}\nService:{url.Service}")
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
 
 
 async def setup(bot):
