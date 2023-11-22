@@ -139,6 +139,8 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
 
+        cur = await self.bot.db.cursor()
+
         result = await cur.execute("SELECT * from data")
 
         urls = await result.fetchall()
