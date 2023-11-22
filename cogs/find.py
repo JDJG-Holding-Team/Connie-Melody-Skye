@@ -135,6 +135,21 @@ class Find(commands.Cog):
             return all_choices[0:25]
 
         return startswith
+    
+    @app_commands.command(brief="gets a song without any arguments", name="quicksong")
+    async def quicksong(self, interaction: discord.Interaction):
+
+        result = await cur.execute("SELECT * from data")
+
+        urls = await result.fetchall()
+
+        proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+        url = random.choice(proper_urls)
+
+        user = self.bot.get_user(url.user_id)
+
+        await interaction.response.send_message(f"Song:{url.url}\nAdded by {user}\nService:{url.service}")
 
 
 async def setup(bot):
