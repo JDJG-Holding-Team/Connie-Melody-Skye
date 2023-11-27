@@ -153,6 +153,23 @@ class Find(commands.Cog):
 
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
 
+    @app_commands.command(description="gets a random video from the database", name="quickvideo")
+    async def quickvideo(self, interaction: discord.Interaction):
+
+        cur = await self.bot.db.cursor()
+
+        result = await cur.execute("SELECT * from watched_videos")
+
+        urls = await result.fetchall()
+
+        proper_urls = [utils.DataObject(dict(url)) for url in urls]
+
+        url = random.choice(proper_urls)
+
+        user = self.bot.get_user(url.user_id)
+
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+
 
 async def setup(bot):
     await bot.add_cog(Find(bot))
