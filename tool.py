@@ -12,9 +12,10 @@ cursor = connection.cursor()
 cursor.executemany('INSERT INTO watched_videos (user_id, url, service) VALUES (?, ?, ?)', urls)
 
 connection.commit()
-connection.close()
 
 result = cursor.execute("SELECT url from watched_videos")
 urls = result.fetchall()
 
 print(dict(urls))
+
+connection.close()
