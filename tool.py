@@ -16,6 +16,6 @@ connection.commit()
 result = cursor.execute("SELECT url from watched_videos")
 urls = result.fetchall()
 
-print(dict(urls))
+print(list(urls))
 
 connection.close()
