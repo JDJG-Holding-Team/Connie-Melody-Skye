@@ -9,6 +9,11 @@ CREATE TABLE IF NOT EXISTS "watched_videos" (
 	"url"	TEXT,
 	"service"	TEXT
 );
+CREATE TABLE IF NOT EXISTS "to_watch" (
+	"user_id"	INTEGER,
+	"url"	TEXT,
+	"Service"	TEXT
+);
 INSERT INTO "data" VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube');
 INSERT INTO "data" VALUES (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube');
 INSERT INTO "data" VALUES (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube');
