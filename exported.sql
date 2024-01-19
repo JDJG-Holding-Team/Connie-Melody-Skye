@@ -14,2596 +14,2688 @@ CREATE TABLE IF NOT EXISTS "to_watch" (
 	"url"	TEXT,
 	"Service"	TEXT
 );
-INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
- (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube'),
- (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube'),
- (168422909482762240,'https://youtu.be/pDGjzTPH7FU','YouTube'),
- (168422909482762240,'https://youtu.be/112XW4gvRAA','YouTube'),
- (168422909482762240,'https://youtu.be/LT8XI1yshkY','YouTube'),
- (168422909482762240,'https://youtu.be/oQe_qwvTKvY','YouTube'),
- (168422909482762240,'https://youtu.be/ECkW--t3ewc','YouTube'),
- (168422909482762240,'https://youtu.be/-wwiwGbYG3Y','YouTube'),
- (168422909482762240,'https://youtu.be/exv52T2mPpc','YouTube'),
- (168422909482762240,'https://youtu.be/2Kk01MoYmWc','YouTube'),
- (168422909482762240,'https://youtu.be/NFw-FrYmAEw','YouTube'),
- (168422909482762240,'https://youtu.be/FvrQCys-KFo','YouTube'),
- (168422909482762240,'https://youtu.be/hfJKLC33ST4','YouTube'),
- (168422909482762240,'https://youtu.be/tNznVh5M3V0','YouTube'),
- (168422909482762240,'https://youtu.be/j8vxeJp00mU','YouTube'),
- (168422909482762240,'https://youtu.be/uRo0M-TbmFY','YouTube'),
- (168422909482762240,'https://youtu.be/pRy3TxzXVaE','YouTube'),
- (168422909482762240,'https://youtu.be/n9wlC2P0428','YouTube'),
- (168422909482762240,'https://youtu.be/4mKXJqWHy9o','YouTube'),
- (168422909482762240,'https://youtu.be/TPXTw1E9OuE','YouTube'),
- (168422909482762240,'https://youtu.be/-uHgo7_ZtXs','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=OLAK5uy_n9whXCjRIolUIJZcijEJppwsv2qNoacnM','YouTube'),
- (168422909482762240,'https://youtu.be/BO2hn1Gcgps','YouTube'),
- (168422909482762240,'https://youtu.be/UHOE-fV110g','YouTube'),
- (168422909482762240,'https://youtu.be/H01BwSD9eyQ','YouTube'),
- (168422909482762240,'https://youtu.be/T0HHAQAdnak','YouTube'),
- (168422909482762240,'https://youtu.be/gsZjHgPH-g8','YouTube'),
- (168422909482762240,'https://youtu.be/OhpVndPhPIQ','YouTube'),
- (168422909482762240,'https://youtu.be/Jk5ToAZ4uGk','YouTube'),
- (168422909482762240,'https://youtu.be/EtITrGEJdfY','YouTube'),
- (168422909482762240,'https://youtu.be/AqOcf0U4F0Q','YouTube'),
- (168422909482762240,'https://youtu.be/HXrkOLBMofw','YouTube'),
- (168422909482762240,'https://youtu.be/BQT8T-pcRWI','YouTube'),
- (168422909482762240,'https://youtu.be/qNk6yqO10do','YouTube'),
- (168422909482762240,'https://youtu.be/bBzUqpLFRa8','YouTube'),
- (168422909482762240,'https://youtu.be/vphrQxM_Rv4','YouTube'),
- (168422909482762240,'https://youtu.be/eD0XEH3qVCk','YouTube'),
- (168422909482762240,'https://youtu.be/Tazx_vCZCv4','YouTube'),
- (168422909482762240,'https://youtu.be/o1iOkNDGkFA','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLOrEojpA3r6RT_yUBj0epaUTvRx8iCVIO','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLB2880E9A7DFF6C25','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL2BY5n2oF82jb1DXxq6sWxSUuVpDeObBY','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL78C36CCBBDDF29D3','YouTube'),
- (168422909482762240,'https://youtu.be/0gEkNVq1ct0','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=VG6BcQe5azc&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=UdCkWlfHgOQ&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=3ATmZRj42ss&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=bBzUqpLFRa8&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=ws3dWKazVYA&feature=share','YouTube'),
- (168422909482762240,'https://youtu.be/2UmbRrc-Zd4','YouTube'),
- (168422909482762240,'https://youtu.be/mZghYCQMHMM','YouTube'),
- (168422909482762240,'https://youtu.be/lllr56_5-OM','YouTube'),
- (168422909482762240,'https://youtu.be/NW--HM53eEo','YouTube'),
- (168422909482762240,'https://youtu.be/zFAGsScytyA','YouTube'),
- (168422909482762240,'https://youtu.be/iMcl3E96sWI','YouTube'),
- (168422909482762240,'https://youtu.be/nj9syHGdZ-s','YouTube'),
- (168422909482762240,'https://youtu.be/CbEsAd5lbhU','YouTube'),
- (168422909482762240,'https://youtu.be/gVripgVq6_c','YouTube'),
- (168422909482762240,'https://youtu.be/z4nTLL8SbnE','YouTube'),
- (168422909482762240,'https://youtu.be/fpMdvbPM3oY','YouTube'),
- (168422909482762240,'https://youtu.be/oOWrhRj2XCQ','YouTube'),
- (168422909482762240,'https://youtu.be/t9Kux_nuxio','YouTube'),
- (168422909482762240,'https://youtu.be/rxqzpIfHFGk','YouTube'),
- (168422909482762240,'https://youtu.be/g3HwWmKbwYE','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLWFJ_WcAX_zwwVFv9WrT1JEE2FC6iA8UV','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL7JlbFp_rQHz9sr_lUX8prqdKOtumRIlk','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=uPIZuvyO5KI&feature=share','YouTube'),
- (168422909482762240,'https://youtu.be/ThlzP8Xz5MQ','YouTube'),
- (168422909482762240,'https://youtu.be/q1ULJ92aldE','YouTube'),
- (168422909482762240,'https://youtu.be/dOo2jWb73JY','YouTube'),
- (168422909482762240,'https://youtu.be/25N1pdzvp4c','YouTube'),
- (168422909482762240,'https://youtu.be/kyYdm54Nx3s','YouTube'),
- (168422909482762240,'https://youtu.be/byIjMomjWkA','YouTube'),
- (168422909482762240,'https://youtu.be/GNU8ZoFfRBI','YouTube'),
- (168422909482762240,'https://youtu.be/uGDQW77_OrU','YouTube'),
- (168422909482762240,'https://youtu.be/td2BHSxkafE','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL9P_ZLlzoCZ2ZgtRxJme2cpEHk7mnK5Y5','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLC7t3SL2tt4_ndZW0PjXxVBcNlyN8g0DC','YouTube'),
- (168422909482762240,'https://youtu.be/9_0eYH30sRk','YouTube'),
- (168422909482762240,'https://youtu.be/BecwWEE7Vkg','YouTube'),
- (168422909482762240,'https://youtu.be/5NV6Rdv1a3I','YouTube'),
- (168422909482762240,'https://youtu.be/EvRRt_JPFeg','YouTube'),
- (168422909482762240,'https://youtu.be/0B7jvVmpBPg','YouTube'),
- (168422909482762240,'https://youtu.be/ysCNbUOXfbI','YouTube'),
- (168422909482762240,'https://youtu.be/5d0V1yxrnPY','YouTube'),
- (168422909482762240,'https://youtu.be/6A8WgfNZOhM','YouTube'),
- (168422909482762240,'https://youtu.be/0t5bkpyucrc','YouTube'),
- (168422909482762240,'https://youtu.be/lrCWoHH4HVo','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLBO2h-GzDvIZc2sPO4Q0cQSOpS1JiOGjw','YouTube'),
- (168422909482762240,'https://youtu.be/BLObWFBSVH0','YouTube'),
- (168422909482762240,'https://youtu.be/Gx7sUmun6zE','YouTube'),
- (168422909482762240,'https://youtu.be/0X0sLw63KLU','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=gq5PMJ-pn48&t','YouTube'),
- (168422909482762240,'https://youtu.be/4IdEf-IRNSQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=095Kd3m0XQ4&start=0','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=OtvgvWK3hn4','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=37wk04K0z4E','YouTube'),
- (168422909482762240,'https://youtu.be/FyH2kP8gxGs','YouTube'),
- (168422909482762240,'https://youtu.be/dvasWIXLIVI','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=o1iOkNDGkFA','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=flGaYTEK9NI','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=_xPqx0-ssXw','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL60p5-zg-uLIn28dEckBclAU_wBXbDv8x','YouTube'),
- (168422909482762240,'https://youtu.be/TT_b3YU8SRk','YouTube'),
- (168422909482762240,'https://youtu.be/riSM2yTF9yU','YouTube'),
- (168422909482762240,'https://youtu.be/vnRGUN8nUqU','YouTube'),
- (168422909482762240,'https://youtu.be/xWfflrSW6iA','YouTube'),
- (168422909482762240,'https://youtu.be/XVA_8i6aAag','YouTube'),
- (168422909482762240,'https://youtu.be/2azTLdkIAVI','YouTube'),
- (168422909482762240,'https://youtu.be/S6bjwqAIP9w','YouTube'),
- (168422909482762240,'https://youtu.be/lBXjEZUKj6Q','YouTube'),
- (168422909482762240,'https://youtu.be/F8jKVYDOwG8','YouTube'),
- (168422909482762240,'https://youtu.be/55BR7F4JcFQ','YouTube'),
- (168422909482762240,'https://youtu.be/NC5bAQtXUdk','YouTube'),
- (168422909482762240,'https://youtu.be/sRuCvdT8H_Y','YouTube'),
- (168422909482762240,'https://youtu.be/rcKFUp4YioU','YouTube'),
- (168422909482762240,'https://youtu.be/0NwTPolvC1w','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=6SviXq0yFE8&feature=share','YouTube'),
- (168422909482762240,'https://youtu.be/egdZP5CXO1o','YouTube'),
- (168422909482762240,'https://youtu.be/83g69vWrysY','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=28FVxYQuLOQ','YouTube'),
- (168422909482762240,'https://youtu.be/4hd89rVQlcM','YouTube'),
- (168422909482762240,'https://youtu.be/xlhDuX7KQ88?t=807','YouTube'),
- (168422909482762240,'https://youtu.be/WxtU_eh0tMQ','YouTube'),
- (168422909482762240,'https://youtu.be/BcqMuY1rvOo','YouTube'),
- (168422909482762240,'https://youtu.be/Ew35ZIL6uT0','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=NdeiFVedxiM','YouTube'),
- (168422909482762240,'https://youtu.be/ZZr8EBDmams','YouTube'),
- (168422909482762240,'https://youtu.be/jUZ73jYSbPk','YouTube'),
- (168422909482762240,'https://youtu.be/m35pIk5wfNk','YouTube'),
- (168422909482762240,'https://youtu.be/k46gcfQ14EI','YouTube'),
- (168422909482762240,'https://youtu.be/31ybNrIwLlQ','YouTube'),
- (168422909482762240,'https://youtu.be/qSqDx1YCEtg','YouTube'),
- (168422909482762240,'https://youtu.be/AsJnL5rgOac','YouTube'),
- (168422909482762240,'https://youtu.be/Wtb8tgFkAWs','YouTube'),
- (168422909482762240,'https://youtu.be/Z7yoLhUDDjE','YouTube'),
- (168422909482762240,'https://youtu.be/SGxcyjHOqhs','YouTube'),
- (168422909482762240,'https://youtu.be/IBD6arUXffE','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Y59T2H6Xi1I','YouTube'),
- (168422909482762240,'https://youtu.be/rzW1LRnAfMw','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=NHR2miEYc6g','YouTube'),
- (168422909482762240,'https://youtu.be/_aofYpF2C9c','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=RE-O-KXdY0k','YouTube'),
- (168422909482762240,'https://youtu.be/FCbZddJt_V0','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=-NdVjE-7fdI','YouTube'),
- (168422909482762240,'https://youtu.be/zTMe5p_eTZg','YouTube'),
- (168422909482762240,'https://youtu.be/G-Zvdhy4LsQ','YouTube'),
- (168422909482762240,'https://youtu.be/Bbnd1r-JG18','YouTube'),
- (168422909482762240,'https://youtu.be/rmcmBV9GH4U','YouTube'),
- (168422909482762240,'https://youtu.be/VpiRaoCcWto','YouTube'),
- (168422909482762240,'https://youtu.be/sigB0cYW9_E','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=hNDv9XmDxdo&feature=share','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLsa7dvIdIrDll1frTUiwSVZri51TF7-ax','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=CD2w4QHNY8w','YouTube'),
- (168422909482762240,'https://youtu.be/HFihiBewRgg','YouTube'),
- (168422909482762240,'https://youtu.be/MC6QuXb_mYk','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLpcULAOXFs0chAOuej8PsNiy32d6KBymn','YouTube'),
- (168422909482762240,'https://youtu.be/_qve2LRJRcU','YouTube'),
- (168422909482762240,'https://youtu.be/W2DtqT9lw5A','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLLv3qeuV3YDoZBxxSdV4dr1D0G6OI5BpJ','YouTube'),
- (168422909482762240,'https://youtu.be/TFPhTz3wvWU','YouTube'),
- (168422909482762240,'https://youtu.be/kj32duoqmNM','YouTube'),
- (168422909482762240,'https://youtu.be/B6-hheRt0UI','YouTube'),
- (168422909482762240,'https://youtu.be/kuEPCtxw5mU','YouTube'),
- (168422909482762240,'https://youtu.be/xE2IIv95m48','YouTube'),
- (168422909482762240,'https://youtu.be/VdRs9owgk8A','YouTube'),
- (168422909482762240,'https://youtu.be/zq4qLfIH_8E','YouTube'),
- (168422909482762240,'https://youtu.be/KzhP1UJktwU','YouTube'),
- (168422909482762240,'https://youtu.be/mghE_45tWno','YouTube'),
- (168422909482762240,'https://youtu.be/wDdYcJb1knI','YouTube'),
- (168422909482762240,'https://youtu.be/c8lvT2GBUcQ','YouTube'),
- (168422909482762240,'https://youtu.be/JfWnrOWNqso','YouTube'),
- (168422909482762240,'https://youtu.be/HY7madya75A','YouTube'),
- (168422909482762240,'https://youtu.be/WTs6ErY4Tk4','YouTube'),
- (168422909482762240,'https://youtu.be/2Yf6L-KykkQ','YouTube'),
- (168422909482762240,'https://youtu.be/aW-CA_Pxxcc','YouTube'),
- (168422909482762240,'https://youtu.be/IuEL7-U12sA','YouTube'),
- (168422909482762240,'https://youtu.be/V7bQWveNpP0','YouTube'),
- (168422909482762240,'https://youtu.be/xCtOVDUYWS4','YouTube'),
- (168422909482762240,'https://youtu.be/CLwM2fjLfGQ','YouTube'),
- (168422909482762240,'https://youtu.be/hxjkUzFzshE','YouTube'),
- (168422909482762240,'https://youtu.be/lZzxfPXApXA','YouTube'),
- (168422909482762240,'https://youtu.be/EwFAneaz0nY','YouTube'),
- (168422909482762240,'https://youtu.be/VQq5rnWriwc','YouTube'),
- (168422909482762240,'https://youtu.be/emUJ7c8-5ZE','YouTube'),
- (168422909482762240,'https://youtu.be/arT86rIFM7k','YouTube'),
- (168422909482762240,'https://youtu.be/gmaIv5JaryU','YouTube'),
- (168422909482762240,'https://youtu.be/E8_2Oa5QqCc','YouTube'),
- (168422909482762240,'https://youtu.be/dkDR5OckDfA','YouTube'),
- (168422909482762240,'https://youtu.be/0eSNvUQg7zI','YouTube'),
- (168422909482762240,'https://youtu.be/CCsPBCi2Qz4','YouTube'),
- (168422909482762240,'https://youtu.be/3KJl_7DzHy8','YouTube'),
- (168422909482762240,'https://youtu.be/-jbp2BZ3S9M','YouTube'),
- (168422909482762240,'https://youtu.be/j5CeyqQo1I8','YouTube'),
- (168422909482762240,'https://youtu.be/r2UgrdaZmrQ','YouTube'),
- (168422909482762240,'https://youtu.be/bRXZSJoY-QE','YouTube'),
- (168422909482762240,'https://youtu.be/xVW20tP-hss','YouTube'),
- (168422909482762240,'https://youtu.be/E3DFY-oWm2U','YouTube'),
- (168422909482762240,'https://youtu.be/FVc4-Hg34gU','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=Vezy_1pz2MM&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=vcrQo6t4Giw','YouTube'),
- (168422909482762240,'https://youtu.be/wjOj_6cMGEY','YouTube'),
- (168422909482762240,'https://youtu.be/-Syn1mJVt7U','YouTube'),
- (168422909482762240,'https://youtu.be/3yHL-bb0Z8k','YouTube'),
- (168422909482762240,'https://youtu.be/5EzCtmorwHw','YouTube'),
- (168422909482762240,'https://youtu.be/NMIvBkKd1Bg','YouTube'),
- (168422909482762240,'https://youtu.be/Alyau1qbxKc','YouTube'),
- (168422909482762240,'https://youtu.be/NzIOn_b84tQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL5d8G56iag7v4g5WYh_TkfFh7y1l2msD9','YouTube'),
- (168422909482762240,'https://youtu.be/7uEq7ArqhRQ','YouTube'),
- (168422909482762240,'https://youtu.be/G7zZ8RyMk7I','YouTube'),
- (168422909482762240,'https://youtu.be/1uALnLVErC0','YouTube'),
- (168422909482762240,'https://youtu.be/4cORLXCXpZY','YouTube'),
- (168422909482762240,'https://youtu.be/7mFRm1ZlzOI','YouTube'),
- (168422909482762240,'https://youtu.be/6vZ_w1S6dgk','YouTube'),
- (168422909482762240,'https://youtu.be/7UHCfeeKZz4','YouTube'),
- (168422909482762240,'https://youtu.be/5iI4IqImY2A','YouTube'),
- (168422909482762240,'https://youtu.be/5_UykEF_HVk','YouTube'),
- (168422909482762240,'https://youtu.be/1Z82puJyHtA','YouTube'),
- (168422909482762240,'https://youtu.be/5aKqiXN06jk','YouTube'),
- (168422909482762240,'https://youtu.be/0hPi31iyuiY','YouTube'),
- (168422909482762240,'https://youtu.be/eMX0R0Eoq40','YouTube'),
- (168422909482762240,'https://youtu.be/K_7K7v2KGYU','YouTube'),
- (168422909482762240,'https://youtu.be/diScvS_ZOpM','YouTube'),
- (168422909482762240,'https://youtu.be/K_YbbAhRbIQ','YouTube'),
- (168422909482762240,'https://youtu.be/dx_N_rMeOwc','YouTube'),
- (168422909482762240,'https://youtu.be/YZpvYo1rLKE','YouTube'),
- (168422909482762240,'https://youtu.be/c0y9SDiihBY','YouTube'),
- (168422909482762240,'https://youtu.be/OojSNCjHRpQ','YouTube'),
- (168422909482762240,'https://youtu.be/rUs0iQZHDkM','YouTube'),
- (168422909482762240,'https://youtu.be/p9DcAqI1hHw','YouTube'),
- (168422909482762240,'https://youtu.be/nUGXGf9El04','YouTube'),
- (168422909482762240,'https://youtu.be/6a9tgAZ_ZfE','YouTube'),
- (168422909482762240,'https://youtube.com/watch?v=T5-ngdDxLM0&feature=share9','YouTube'),
- (168422909482762240,'https://youtu.be/lZGNqqzgPv8','YouTube'),
- (168422909482762240,'https://youtu.be/P0cHLd2BL34','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLf9WhiP4v6TYX0oCL7LO6IrnN6yihHKba','YouTube'),
- (168422909482762240,'https://youtu.be/SFz-O_IU9ZM','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL-h8uu7JbA95yahQYf1ZV_7rePyI3pusQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLGUQI0XpDNLMd9HPfuO2sPVD-zsqUuBEW','YouTube'),
- (168422909482762240,'https://youtu.be/Si0JkvftWeA','YouTube'),
- (168422909482762240,'https://youtu.be/iFZXGO74qH0','YouTube'),
- (168422909482762240,'https://youtu.be/_O3nDqhObTE','YouTube'),
- (168422909482762240,'https://youtu.be/QSA-FTl_nSQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLjyLjyXJQJUOr4wDlE1RRQQZMf5tej_H-','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLNqhEC8s3wXlQ31AT6eWFIIGEiLZZcTkk&feature=share9','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Lkn64ZE6VAo','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=M6f2hMDSXu4','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=0KI7QGFB_bY','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=wWZEndJsom0','YouTube'),
- (168422909482762240,'https://youtu.be/NxPIOo6c0fM','YouTube'),
- (168422909482762240,'https://youtu.be/Gd5F9UbvZpc','YouTube'),
- (168422909482762240,'https://youtu.be/MzDuNMJT6aY','YouTube'),
- (168422909482762240,'https://youtu.be/_zSkq-SKAO8','YouTube'),
- (168422909482762240,'https://youtu.be/5HxBqBUB-jE','YouTube'),
- (168422909482762240,'https://youtu.be/yQM07cp5qYs','YouTube'),
- (168422909482762240,'https://youtu.be/CNz2vz7_pmI','YouTube'),
- (168422909482762240,'https://youtu.be/bcp43CGYS5Y','YouTube'),
- (168422909482762240,'https://youtu.be/J3K7e_LWZug','YouTube'),
- (168422909482762240,'https://youtu.be/GbqA4xilrlw','YouTube'),
- (168422909482762240,'https://youtu.be/Vjb_REU_5vU','YouTube'),
- (168422909482762240,'https://youtu.be/tUtB6MrkcPk','YouTube'),
- (168422909482762240,'https://youtu.be/m-WiKUyPnQU','YouTube'),
- (168422909482762240,'https://youtu.be/cs3bqciYPnA','YouTube'),
- (168422909482762240,'https://youtu.be/IQHj4OVkYRc','YouTube'),
- (168422909482762240,'https://youtu.be/rcitxiZIjEI','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=6_UzdwxkiAE','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=K7-8uwamwtQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=wxH2nRNcoqA','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=z8kHqARUkjQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=DRdjXAbSMtQ','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Sq8fXJSenho','YouTube'),
- (168422909482762240,'https://youtu.be/4XFEA4F6NpE','YouTube'),
- (168422909482762240,'https://youtu.be/_SoiFI5DPVk','YouTube'),
- (168422909482762240,'https://youtu.be/bvhpOJa4rA0','YouTube'),
- (168422909482762240,'https://youtu.be/qSse8h5jniI','YouTube'),
- (168422909482762240,'https://youtu.be/-r6D_hPRqQE','YouTube'),
- (168422909482762240,'https://youtu.be/Gzq1JYFXYFw','YouTube'),
- (168422909482762240,'https://youtu.be/rEY03rNW9lA','YouTube'),
- (168422909482762240,'https://youtu.be/2-eQoi6xdH0','YouTube'),
- (168422909482762240,'https://youtu.be/6W3Kt7NNsCk','YouTube'),
- (168422909482762240,'https://youtu.be/Vuv-3_sUcSs','YouTube'),
- (168422909482762240,'https://youtu.be/JMVFI8HRZLI','YouTube'),
- (168422909482762240,'https://youtu.be/ee27SF6Bv4A','YouTube'),
- (168422909482762240,'https://youtu.be/gU_FEhxLsAc','YouTube'),
- (168422909482762240,'https://youtu.be/_99gK4hCJwo','YouTube'),
- (168422909482762240,'https://youtu.be/TX_YzXKROXg','YouTube'),
- (168422909482762240,'https://youtu.be/g65DurBPt1c','YouTube'),
- (168422909482762240,'https://youtu.be/qbpwb7oIfSg','YouTube'),
- (168422909482762240,'https://youtu.be/6eoHIf_sL2Q','YouTube'),
- (168422909482762240,'https://youtu.be/nxLGukC_IBU','YouTube'),
- (168422909482762240,'https://youtu.be/Yuop5ro6RlQ','YouTube'),
- (168422909482762240,'https://youtu.be/UBK02HiVlVo','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLb40FqbOPl1psPyznGfyjqSnLsmkPA-2B&feature=share9','YouTube'),
- (168422909482762240,'https://youtube.com/watch?v=1RRveZ1OgO0&feature=share9','YouTube'),
- (168422909482762240,'https://youtu.be/5k6zNZEipJQ','YouTube'),
- (168422909482762240,'https://youtu.be/SKsOr9YdiXM','YouTube'),
- (168422909482762240,'https://youtu.be/wTNBI7yHKJw','YouTube'),
- (168422909482762240,'https://youtu.be/OvR4Gt0LrHs','YouTube'),
- (168422909482762240,'https://youtu.be/XRgr1itD6oU','YouTube'),
- (168422909482762240,'https://youtu.be/F3VoKWhGVc0','YouTube'),
- (168422909482762240,'https://youtu.be/ux_nqA-7Zks','YouTube'),
- (168422909482762240,'https://youtu.be/xMeqJuzEutc','YouTube'),
- (168422909482762240,'https://youtu.be/WIa2DXh-Siw','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P','YouTube'),
- (168422909482762240,'https://youtu.be/A8eoERctJNc','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=7n1kbzBO4bk&list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P&pp=iAQB','YouTube'),
- (168422909482762240,'https://youtu.be/xlrLC2Y_7Ho','YouTube'),
- (168422909482762240,'https://youtu.be/lIEKgWfBpVs','YouTube'),
- (168422909482762240,'https://youtu.be/U394Boe8TKc','YouTube'),
- (168422909482762240,'https://youtu.be/lFBh9ufnaT0','YouTube'),
- (168422909482762240,'https://youtu.be/on6PQOUkLxI','YouTube'),
- (168422909482762240,'https://youtu.be/E_Zxcr8YkM0','YouTube'),
- (168422909482762240,'https://youtu.be/3iT_ZXK9pDY','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=mMPJYfrCowg','YouTube'),
- (168422909482762240,'https://youtu.be/wc2ofRG3GDY','YouTube'),
- (168422909482762240,'https://youtu.be/GdzvsNM-2UA','YouTube'),
- (168422909482762240,'https://youtu.be/X9OUZ62Wk8s','YouTube'),
- (168422909482762240,'https://youtu.be/f8lYaeFPtvw','YouTube'),
- (168422909482762240,'https://youtu.be/y3g7oJL8zq0','YouTube'),
- (168422909482762240,'https://youtu.be/MaD4EK8xD70','YouTube'),
- (168422909482762240,'https://youtu.be/ywQnoYOAbMA','YouTube'),
- (168422909482762240,'https://youtu.be/k0F974RJTow','YouTube'),
- (168422909482762240,'https://youtu.be/yNCgpaMlOcs','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=xslUg0i09Ig','YouTube'),
- (168422909482762240,'https://youtu.be/Wz_2qa8G8CY','YouTube'),
- (168422909482762240,'https://youtu.be/IJ7l9k8Mksc','YouTube'),
- (168422909482762240,'https://youtu.be/KfTOYDTgbIs','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=-iE0zRXHx6c&si=txr-iR51Sby7lVA-','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=-iE0zRXHx6c&si=jZUBISNaXCn2XHdN','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=lZzxfPXApXA&si=bfHopJIXMitVCe27','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=JFDY-RFV_OM&si=KgBg-g43blo9zwBh','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=on6PQOUkLxI&si=EmYc8faqlGN5ujf3','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=R1s5C4qclPg&si=VyFx4BWDJTyi1FFQ','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=1uALnLVErC0&si=Eor_n1V7nM0u4uK7','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=Vezy_1pz2MM&si=PFEXVxd5-MkvnHpo','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=OiYsmHBO74Q&si=MhyC1HsAfrFNmyv1','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=t48gGrPo2KI&si=0XPkyCzb8pt4XfMu','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=SFz-O_IU9ZM&si=6eu9M8aBNJlK3Zv2','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=PQ2wWf-fY_A&si=ndWj6DJNxtvQbaam','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=EjexaoiXFgs&si=4vYdsvPpGPNv5swn','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=VpiRaoCcWto&si=4O59N6ZTp7TEq9dh','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=2CN_mIQeJg4&si=VzxaKn4iF80BGf6x','YouTube'),
- (168422909482762240,'https://music.youtube.com/playlist?list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P&si=bnfoIkT4ITTuB8Yx','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=AU2dEh3CD18','YouTube'),
- (168422909482762240,'https://youtu.be/LMUhHodNecI?si=Ow_nEy2TIS5lDWry','YouTube'),
- (168422909482762240,'https://youtu.be/X1lFaO6VSwA?si=tk6ACf3JNQqZe5AW','YouTube'),
- (168422909482762240,'https://youtu.be/Fg1_UJuOuvU?si=CAz4WkXOSdpwz76Q','YouTube'),
- (168422909482762240,'https://youtu.be/tQCvky1Qo_g?si=LsCeD7-Ya21s_asy','YouTube'),
- (168422909482762240,'https://youtu.be/NoxDvqO_lZ0?si=mMsexNtC4OZYnnRp','YouTube'),
- (168422909482762240,'https://youtu.be/nu5cT5Phrq0?si=iST7hPiSdXnBZp7J','YouTube'),
- (168422909482762240,'https://youtu.be/DvOb276Dqmk?si=2_DJG9Nmz9fu2-ne','YouTube'),
- (168422909482762240,'https://youtu.be/cijjTRGouSE?si=ts8JYyr9YHKMssfm','YouTube'),
- (168422909482762240,'https://youtu.be/1olrYjfBhV8?si=hlXFXqiyEYm5LzoD','YouTube'),
- (168422909482762240,'https://youtu.be/Oni59LMewUk?si=_9s9XLAUi-nWqBFM','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLXGwdBTnr0ybG5bDnW3srGj8iwIFYoAYp&si=qWZObZk78rIQMwPC','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL60p5-zg-uLLQYyXw5vEuQqXQRMEkX8f3','YouTube'),
- (168422909482762240,'https://youtu.be/VLYqNOcFmG0?si=3-Ppgcx8YKBudLOX','YouTube'),
- (168422909482762240,'https://youtu.be/rDSoDDx-GTI?si=ZIzAivkk5WLGv5B6','YouTube'),
- (168422909482762240,'https://youtu.be/DCJTSC3e0GA?si=QCRkG3Q_JxQ-VW8i','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=2mRnuMfHpOk&list=PLJiQg8gfBfwwRdVPLG3wjeDAdQkyKldFb&index=90','YouTube'),
- (168422909482762240,'https://youtu.be/-HbnFy-mhcY?si=ZR34ETyXazEttkip','YouTube'),
- (168422909482762240,'https://youtu.be/h-2LRO8sGCI?si=BJkxbkq7P8Kp_C6U','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=lYioT8dba-w','YouTube'),
- (168422909482762240,'https://youtu.be/a7xDtho6rp8?si=JXqJb_KIH6hRFC_P','YouTube'),
- (168422909482762240,'https://youtu.be/lx1VlmMNUOc?si=yLDUNc-Rzvx8mXsY','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=2aWk2vOEStc&si=DjQlRaz_m-ux1xRe','YouTube'),
- (168422909482762240,'https://youtu.be/yE26ra5Ytfg?si=XZTzk8A-Qz_lb0RM','YouTube'),
- (168422909482762240,'https://youtu.be/1olrYjfBhV8?si=g7SGDERW6vZpHYbL','YouTube'),
- (168422909482762240,'https://youtu.be/6zt-5Dn2jlA?si=52cGe6m34BdsYEyq','YouTube'),
- (168422909482762240,'https://youtu.be/3rn6bQUTSGU?si=KxZNalqWNRDV3F4E','YouTube'),
- (168422909482762240,'https://youtu.be/sDvDmGRojmg?si=AKRekrLRe6IJDNEk','YouTube'),
- (168422909482762240,'https://youtu.be/dR1qnEN1j2E?si=nBl63a1FXknWJZVG','YouTube'),
- (168422909482762240,'https://youtu.be/1MJGo2p602s?si=hGOkFg8QRmsZMLgY','YouTube'),
- (168422909482762240,'https://youtu.be/eIsZ5SvoLMk?si=wD9fS1aQBiMBeG7B','YouTube'),
- (168422909482762240,'https://youtu.be/IFYtX2p0vAk?si=1oACIPk9YmN7mbpD','YouTube'),
- (168422909482762240,'https://youtu.be/POwwQmXqSWA?si=z2DuprKKGXiYjqRY','YouTube'),
- (168422909482762240,'https://youtu.be/kVOtuE83bA0?si=vrItESisHejoHc1X','YouTube'),
- (168422909482762240,'https://youtu.be/hRAeGYHNLag?si=ZqRSltqpzb3Uqffg','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLAs1Kha_R9dLAPNbN6LnhIU91xwRfjFQr','YouTube'),
- (168422909482762240,'https://youtu.be/IOCmYw7SJR8?si=tffKPstBQLbooB0C','YouTube'),
- (168422909482762240,'https://youtu.be/Fg1_UJuOuvU?si=Md__jU65pSQnmNiD','YouTube'),
- (168422909482762240,'https://youtu.be/9hjql8iBb1s?si=fwHra4sFQrZs4Zgi','YouTube'),
- (168422909482762240,'https://youtu.be/SIY6pRRgAZQ?si=CCDnyOXNigPXyl1q','YouTube'),
- (168422909482762240,'https://youtu.be/CkycbnuJrpU?si=1u3x2sWoU_fxJnia','YouTube'),
- (168422909482762240,'https://open.spotify.com/album/6yHWmClCEyj9aOodHAM4jx','Spotify'),
- (168422909482762240,'https://youtu.be/0eSNvUQg7zI?si=4wWMRNycllGP4GHw','YouTube'),
- (168422909482762240,'https://youtu.be/8pzxlHcrxJI?si=WgHHzObdRfTJKysM','YouTube'),
- (168422909482762240,'https://youtu.be/ZAFBSNQNve4?si=pCeS9QnS0yiMqG64','YouTube'),
- (168422909482762240,'https://youtu.be/3KJl_7DzHy8?si=oZcp1QfNAAL0FZ6F','YouTube'),
- (168422909482762240,'https://youtu.be/2RBazTfpybw?si=M8AVm5tPw5BN4zMB','YouTube'),
- (168422909482762240,'https://youtu.be/XMCYNH1EJTg?si=XBVii9Ce1tfwsyg-','YouTube'),
- (168422909482762240,'https://youtu.be/7_InP3Qe2yg?si=myeBKO3uRe_aVw5R','YouTube'),
- (168422909482762240,'https://youtu.be/CLwM2fjLfGQ?si=qvhO9GOrU1rZehcj','YouTube'),
- (168422909482762240,'https://youtu.be/a0YK-PEEDYE?si=xuK_FJXGjHPgNvHh','YouTube'),
- (168422909482762240,'https://youtu.be/luTSyiOIhdU?si=tRoRmwTa4eSxPlSS','YouTube'),
- (168422909482762240,'https://youtu.be/nUGXGf9El04?si=UWGf5-HaEwhXda30','YouTube'),
- (168422909482762240,'https://youtu.be/1P6wlK1PI-8?si=r9-40UNy6yCSEeBb','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=_H2dFBIL-eg','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=ifYFrwWSeSQ&si=zaLX0MKYvC3YGJq9','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=u_FRDqHT5y0&si=lh0N-3xrMCBIAZ6y','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=fmhxEnRf9g8&si=rPlHw7XH5KKUO8dA','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=2aWk2vOEStc&si=w-prHrotDHdKro83','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=UIfE6HyeSn8&si=C6ux_RNixiuobIOy','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=bIqJd5U1olc&si=nEhv0D4PrL9cXNDI','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=PxjqQMzLU6g&si=WJjdjIqOsv4M0_1w','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=txR3V5Geu2Y&si=Z0kFr8AIAJS4L1Ta','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=4SGimoONJvE&si=8p0YSuZHA2b05snN','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=62CEs-G6_iI&si=UJqh60iZYDM8vOLh','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=4KNQRcS4PSg&si=F9-1w7TUkuOXaZw9','YouTube'),
- (168422909482762240,'https://music.youtube.com/playlist?list=OLAK5uy_kidGzGmzCUSJK1LAtIh7ngZwRF9MT3qjE&si=1WEUAZhPKH4NJj-e','YouTube'),
- (168422909482762240,'https://music.youtube.com/playlist?list=OLAK5uy_m-rr6K-H8nfmI3MdSzCRpQw0gxDeG5jzk&si=z4nqsQqMfiTo6obd','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=mnsdfHft3Y4&si=PJr35F_R81biHXz4','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=7PRl6l0uKvE&si=mqs11X6ZdwwFHH4H','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=-KKcJXYAM54&si=MJYUH7LqlPCa5q5Z','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=TO4KTxv7_4w&si=uW1Ibp3mDRUQqab-','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=4yz4idv5ZdU&si=VrmI5n3s7ep-BoRh','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=XijZfSo6bJc&si=E4CsGNu4RIboNTmL','YouTube'),
- (168422909482762240,'https://youtu.be/5pywlN55Iok?si=Vsxfe2W_AKt7wDxj','YouTube'),
- (168422909482762240,'https://youtu.be/Pbm34U193qo?si=_WdFfFK8N0R8Du9z','YouTube'),
- (168422909482762240,'https://youtu.be/gT5bsym1Cug?si=zdSJX7GCmkFjaUr9','YouTube'),
- (168422909482762240,'https://youtu.be/EVIKjgnW2so?si=y7wnGZ1DY2cOMlPw','YouTube'),
- (168422909482762240,'https://youtu.be/i7FhjxukIl0?si=qjJYO1BuliyNcxWC','YouTube'),
- (168422909482762240,'https://youtu.be/Ob-7hjfvkRE?si=Nj017TSIkpmlytif','YouTube'),
- (168422909482762240,'https://youtu.be/pOusbm1mqNo?si=KFdyLRZIVTQkcxMr','YouTube'),
- (168422909482762240,'https://archive.org/details/undertale-collectors-edition-soundtrack/Undertale+Collector''s+Edition+Soundtrack','Archive.org'),
- (168422909482762240,'https://youtu.be/RxqIJh2dLUA?si=FKEwHov3YMeEihDo','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLqrlkIVyDLs9FSzmc5OMI4FazB8QyyWV1','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLNvQcJ1tQe2RE-xgKf-H-euXC9A90-52T','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=UhU2A00h1Ao','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=yDhinIGEEg8','YouTube'),
- (168422909482762240,'https://youtu.be/H7Bqbg9L5sE?si=xNGYIxViLRQWJeNt','YouTube'),
- (168422909482762240,'https://youtu.be/W2DtqT9lw5A?si=9Ax3-47GGQxbobZA','YouTube'),
- (168422909482762240,'https://youtu.be/89xI44bwVSM?si=tjyySiMMPkGmKg_L','YouTube'),
- (168422909482762240,'https://youtu.be/-jbp2BZ3S9M?si=XvJHR9VzZysSuNuc','YouTube'),
- (168422909482762240,'https://youtu.be/eMhgoTLFr58?si=PEfQGBhBpVUyn4dm','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLavKabWyl5jPEd_ttFKasHAkNq8SAYsv_','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=qHMsE1FuqGw&si=QsijX7Yzr6tx82zm','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=jqJo5mwt5DA&si=HjVCArGCMjnQ5mlX','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=yjAE8n0bpLA&si=i3aaVZXBxe5NdUGg','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLjyLjyXJQJUMqy9QIGi3MFzBYTTotQ9LP&si=NoVY_3GrViKG9C9a','YouTube'),
- (168422909482762240,'https://youtu.be/bYEc1EkyqIw','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLh4Eme5gACZEAazTK1vSZn3DCYJLQ4YHH','YouTube'),
- (168422909482762240,'https://youtu.be/UCLtLghEtBs?si=CQaY_oogTEkWZVZ6','YouTube'),
- (168422909482762240,'https://youtu.be/CJLsY0XkqDM?si=fC_ibkIM0wnCGf03','YouTube'),
- (168422909482762240,'https://youtu.be/ug6G-XQNXBc?si=nMXFTbEzxx1H4cAH','YouTube'),
- (168422909482762240,'https://youtu.be/BE4-vksdnr4?si=SYf0hf3mVrvAfv_s','YouTube'),
- (168422909482762240,'https://youtu.be/t2exPDg1mg4?si=L0o0IVJv7I2FHKin','YouTube'),
- (168422909482762240,'https://youtu.be/_BICcMa9KpA?si=sky_MFJYdhK4mbl-','YouTube'),
- (168422909482762240,'https://youtu.be/CSnXO6t53z8?si=U3alvJAgoTLAUCHa','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Ds3hvd-tneI','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=3yHL-bb0Z8k','YouTube'),
- (168422909482762240,'https://youtu.be/Z3w0gH4cNMU?si=sh6U-TxsOzAjGSRl','YouTube'),
- (168422909482762240,'https://youtu.be/Y3VjgZWEvd8','YouTube'),
- (168422909482762240,'https://youtu.be/2GVgONIvrKs?si=Wr-eBDDaTjA2v2uA','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLJiQg8gfBfwwRdVPLG3wjeDAdQkyKldFb','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=hs2TOn7CAbI','YouTube'),
- (168422909482762240,'https://youtu.be/Mi3kTchB8To?si=FOmq-PkNlPJUThPs','YouTube'),
- (168422909482762240,'https://youtu.be/WPCi7LJNJJk?si=bRI9PQQtS-nTSinr','YouTube'),
- (168422909482762240,'https://youtu.be/xE54i6rxxIA?si=ZBBY6dS4GcHGTgcG','YouTube'),
- (168422909482762240,'https://youtu.be/H-AT42lYGBg?si=GNtW2xqaNm5qoYQr','YouTube'),
- (168422909482762240,'https://youtu.be/Fe93CLbHjxQ?si=m7avw6flSle4zdIv','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=ePy7Xt2E-FE&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=xKzKNrBdAew&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=112XW4gvRAA&feature=share','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=C0qOwRCG6sc&feature=share','YouTube'),
- (168422909482762240,'https://youtu.be/D9FyQpwIJh4?si=3Hh-WZjtJKft2FjK','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=uFa4MrjB_t8&list=PLNVBCuBh-Vr1yymlYqoPAmdnw6G7DjDsp','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLOrEojpA3r6TX_SYLqVmmJWmQbyucAy6v','YouTube'),
- (168422909482762240,'https://youtu.be/srZdDAJbHfc?si=EoDAXhxF9Q7QiTZQ','YouTube'),
- (168422909482762240,'https://youtu.be/mc9LKJMedaY?si=0DEOTYW_LQPp0yGe','YouTube'),
- (168422909482762240,'https://youtu.be/VGh5DV0D3wk?si=Ytih5AJLquFICFrV','YouTube'),
- (168422909482762240,'https://youtu.be/usXhiWE2Uc0?si=V-BNCkd9uobbPbm6','YouTube'),
- (168422909482762240,'https://youtu.be/59M5z0c8YtE?si=0Lnm5BKn2QJIFnRl','YouTube'),
- (168422909482762240,'https://youtu.be/PKfxmFU3lWY?si=AOovFVNMWLYUn1ks','YouTube'),
- (168422909482762240,'https://youtu.be/_cB3HXVvm0g?si=qrd4Z7-uBKagcIe_','YouTube'),
- (168422909482762240,'https://youtu.be/XE-oMOEZ7Rc?si=VflxKmoqKhUCmMOg','YouTube'),
- (168422909482762240,'https://youtu.be/a-4Ny4URgf4?si=Yvh-t5QAxVurvdbn','YouTube'),
- (168422909482762240,'https://youtu.be/QMokMQ8Bu7Y?si=-TrAFUqk1hhi-5U9','YouTube'),
- (168422909482762240,'https://youtu.be/MwSkC85TDgY?si=oP_nTbAGkY1vtR35','YouTube'),
- (168422909482762240,'https://youtu.be/RhkZwqauQBQ?si=zSIGIwnRC8aZumY8','YouTube'),
- (168422909482762240,'https://youtu.be/wJ6L2RS_80s?si=Q7UumQ2D6tS4FEUj','YouTube'),
- (168422909482762240,'https://youtu.be/afwK743PL2Y?si=Kouks9l6Bw8tgCZZ','YouTube'),
- (168422909482762240,'https://youtu.be/Y1Z3Q3O7IRE?si=rzvhrlRZklOR3Nas','YouTube'),
- (168422909482762240,'https://youtu.be/_WPmsD0tKlA?si=kqYbCGtBpKfTWdvE','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=5TWdxxW-6xc&list=PLnaJlq-zKc0WUXhwhSowwJdpe1fZumJzd&pp=iAQB','YouTube'),
- (168422909482762240,'https://youtu.be/qD5vBt4SWYo?si=xnQlnRAQkn9RgFrT','YouTube'),
- (168422909482762240,'https://youtu.be/dHlpa5utQzQ?si=0AwQM3i_kt9KDHOd','YouTube'),
- (168422909482762240,'https://youtu.be/-hesc6ThW1Y?si=d5n8ZkOKjmjiaNoy','YouTube'),
- (168422909482762240,'https://youtu.be/sRuCvdT8H_Y?si=Dk8ZI988oclW3f6Z','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL8JttaK4Km_GBOZdL6IN2yt07rsPKiXGQ','YouTube'),
- (168422909482762240,'https://youtu.be/iN0-dRNsmRM?si=HN2YVHIlc4E8PVyN','YouTube'),
- (168422909482762240,'https://youtu.be/D3Edy0KdBUI?si=X0r-vsokI0wq99iv','YouTube'),
- (168422909482762240,'https://youtu.be/xWjnpLwfjLs?si=u2gZzSfZEFyXO0BR','YouTube'),
- (168422909482762240,'https://youtu.be/B1DYKodOLy8?si=l8BdHZqeDqBZhJue','YouTube'),
- (168422909482762240,'https://youtu.be/kvgllZ3G6kw?si=4PNbD2DkYLQ5ct9G','YouTube'),
- (168422909482762240,'https://youtu.be/4CBoboiNwPo?si=QmE1X7OE_STdAc6u','YouTube'),
- (168422909482762240,'https://youtu.be/MbVY2K1V6vk?si=4DG83V8ZDuFFnXX_','YouTube'),
- (168422909482762240,'https://youtu.be/sH16drUAcco?si=T8kyrWMzPKmWOnGk','YouTube'),
- (168422909482762240,'https://youtu.be/SdRYrIIa-1I?si=sFJxlZiPsIitFcpn','YouTube'),
- (168422909482762240,'https://youtu.be/UwdiUeH1RdA?si=WmmxceiIw6clYlTI','Youtube'),
- (168422909482762240,'https://youtu.be/F2J5ASM2IkM?si=tqpLCv7k1mKU8VCc','Youtube'),
- (168422909482762240,'https://youtu.be/10u0VZHDiq0?si=zLZr8PNOviJDcot2','Youtube'),
- (168422909482762240,'https://youtu.be/6wVGdnnQFgQ?si=ZAkKCJNatDFkTYxz','YouTube'),
- (168422909482762240,'https://youtu.be/qY0fWsQTXBU?si=aUinb2zhJCAljlMM','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLs32wOK-XZhZs7sZqsAyu4BhxRWEy0BvK','YouTube'),
- (168422909482762240,'https://youtu.be/Kf2aBgoHGVs?si=45HuVptYS67aPjdy','YouTube'),
- (168422909482762240,'https://youtu.be/C1gX17FVcHk?si=2hufQql1vBjpw2y2','YouTube'),
- (168422909482762240,'https://youtu.be/uLbdoF33NQQ?si=TMtEuy_4YgCsrl-r','YouTube'),
- (168422909482762240,'https://youtu.be/gEXWWJgyPw0?si=WVm73EpTrXD_4mxw','YouTube'),
- (168422909482762240,'https://youtu.be/tbK5PRrvnF0?si=JqYiHo3hShhpQc_8','YouTube'),
- (168422909482762240,'https://youtu.be/OfLDM1jibso?si=liV4j1y8eVpaaMpx','YouTube'),
- (168422909482762240,'https://youtu.be/arT86rIFM7k?si=Cg-KSSz5qU18wPH3','YouTube'),
- (168422909482762240,'https://youtu.be/m4-41W6mlhU?si=H7mp2GDCySIfQFre','YouTube'),
- (168422909482762240,'https://youtu.be/HevKLOQdAXY?si=_STimhEbf5Oxn8kY','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=IPfI5GMhzBw','YouTube'),
- (168422909482762240,'https://youtu.be/20YYsQljWFs?si=eUvqpbpYlBgthxOi','YouTube'),
- (168422909482762240,'https://music.youtube.com/watch?v=DJWg9n5bp1c&si=SRkDiXckixFhaIkM','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=8lbocsJWbUs','YouTube'),
- (168422909482762240,'https://youtu.be/kifM5WZ-4_Q?si=5HK7-zuYZLzZN7GJ','YouTube'),
- (168422909482762240,'https://youtu.be/bXE6B6Usj6o?si=4GiL3MKn8wK7ZIM8','YouTube'),
- (168422909482762240,'https://youtu.be/A0Xs9izK_7o?si=4l3kmBI4sMs_5Adn','YouTube'),
- (168422909482762240,'https://youtu.be/hUpegBuY7NU?si=Z3RHWnpMk6Tinc6F','YouTube'),
- (168422909482762240,'https://youtu.be/4CICqC6DJyI?si=mFnlwRfY_bc6nQ6s','YouTube'),
- (168422909482762240,'https://youtu.be/RJ6baspw2sk?si=P2jLtY2TTD6V2KR2','YouTube'),
- (168422909482762240,'https://youtu.be/skFjWOpqtmE?si=flp2kSMn_3BklY6r','YouTube'),
- (168422909482762240,'https://youtu.be/8PKomuwyJVE?si=Eu4UAJPWHbSQPIIA','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=OebzswLV2-c','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLGhL8Rq_E6Zhyp5I9SljEhr7KSktgQbXQ','YouTube'),
- (168422909482762240,'https://youtu.be/Oh0xiw6YdsA?si=pbsWZOD0zn5n2lZk','YouTube'),
- (168422909482762240,'https://youtu.be/hs2TOn7CAbI?si=gB1-Rv0vMZBVV-ZC','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=OiO2F6ICKnY','YouTube'),
- (168422909482762240,'https://youtu.be/t2exPDg1mg4?si=gaZdU7Mh60uD17S4','YouTube'),
- (168422909482762240,'https://youtu.be/eVMDsOmKRGI?si=JkX-vAk6oy4n7Hqh','YouTube'),
- (168422909482762240,'https://youtu.be/tpXaBMum2bQ?si=aqYRnqtFMIIlPbzi','YouTube'),
- (168422909482762240,'https://youtu.be/3O0LderWvfo?si=xrRAtjTcujtnOuk5','YouTube'),
- (168422909482762240,'https://youtu.be/mLOQmh-QUF0?si=pH7yf-elcsdNAaNU','YouTube'),
- (168422909482762240,'https://youtu.be/ygXGsnpATJc?si=WfOzgt9i0kGkQyQS','YouTube'),
- (168422909482762240,'https://youtu.be/wGt3Aa860FU?si=Ple43rqc9nvPx_Aa','YouTube'),
- (168422909482762240,'https://youtu.be/UZNcERE0fD0?si=gnLe4uL8b_iXII_1','YouTube'),
- (168422909482762240,'https://youtu.be/5aU0PIltPvk?si=_Y6AdNU5bz1IjYfx','YouTube'),
- (168422909482762240,'https://youtu.be/FjA103OJOkI?si=MV_yJ1P5mZPlbSxE','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLorOCzHWrQvxA65TTx7FJU5Ig50GDr-aF','YouTube'),
- (168422909482762240,'https://youtu.be/FhpK8Sm_bEU?si=YAO-eDzUJ4rVVsU2','YouTube'),
- (168422909482762240,'https://youtu.be/SqdeDAbejkQ?si=35daQHvY82-gJ4L_','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=jEDQmD7nhyQ','YouTube'),
- (168422909482762240,'https://youtu.be/93pInGfn84o?si=t56JL-wUlUqqJ1p1','YouTube'),
- (168422909482762240,'https://youtu.be/XQqQqK9ufo8?si=HQmmgdwOVbYFWtCw','YouTube'),
- (168422909482762240,'https://youtu.be/ux_nqA-7Zks','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=OLAK5uy_lk11aliTic05KPQfZlW0E2R_O0y3m14hU','YouTube'),
- (168422909482762240,'https://youtu.be/EvRRt_JPFeg?si=tK4ysuFekyMBCw_I','YouTube'),
- (168422909482762240,'https://youtu.be/GNJtPFXUnm4','YouTube'),
- (168422909482762240,'https://youtu.be/UbHY7vBAp4o?si=k5ct2ApN5M_QEh9K','YouTube'),
- (168422909482762240,'https://youtu.be/LFqnP1U24bg?si=emtnF0dMUm7LU2sb','YouTube'),
- (168422909482762240,'https://youtu.be/QhVi6nfet7E?si=bXuL1BNFJYWRwRDD','YouTube'),
- (168422909482762240,'https://youtu.be/I9QP6QPW9_k?si=MMbnNNCF5xRg0mey','YouTube'),
- (168422909482762240,'https://youtu.be/v3tIL36ZxBQ?si=gAfutJB2Mbsc6GcY','YouTube'),
- (168422909482762240,'https://youtu.be/yhTtEMNYWWc?si=D61mp4gmSF9pDj2R','YouTube'),
- (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=LhB1-G2QfbiYeSwI','YouTube'),
- (168422909482762240,'https://youtu.be/R9k9QGANkJM?si=GghCGN5vC_2FwGrR','YouTube'),
- (168422909482762240,'https://youtu.be/UuidwnXciEM?si=y7AzGS6j60bGPl7v','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=UuidwnXciEM','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Ei0vhsoNRU0','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=3rfNkfRIIbA','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLvmIFMXfvno1ACgJFjrcYCCw95r2FPkfe','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=vatxUikLPBI','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=JZH_LKe7eTQ','YouTube'),
- (168422909482762240,'https://youtu.be/fyR_d3OIfMA?si=VP0091VOphjp4u_6','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLS6ULattcBTqYcvKx_Ese5KaoIeOwk3LN','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLS6ULattcBToVFvlziDiaYvsql58Jwvgn','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL5mHyrIARDwjyNKH-NPrShutw-pSpJtKR','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLwwsvqADVqKOKCWxAICmxxxQ2XCUn7p3Y','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL_rWyEWQwwQjMELuxir_pmteUdARB47cB','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PLmu9MyoIo4lcEBWyuKMAHF5jH8zgVnKYU','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=53Y_Dl9VXVE&list=PLnmPwImw6aJ5IcGjABybxjBO1IT8D8SqT','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Sum9enh2Dpk&list=PLCZY90aqT7KgptridhTMKm-RORctolCk_','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=_6hKHt5yWtk&list=PLDKM1xIAJEeUDNRqhFHZRtq3qNnQ6WYXN','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=_6hKHt5yWtk&list=PLTKixxSRvtFx2DaOvvCIh7XTYY3hOjF7-','YouTube'),
- (168422909482762240,'https://youtu.be/VOTyWvH_7Cs?si=2bHzYL8vl8cl2zzs','YouTube'),
- (168422909482762240,'https://youtu.be/JFGP1cY4hqQ?si=ONU78vd0U4_oTU6N','YouTube'),
- (168422909482762240,'https://youtu.be/9H0rqmS90d4?si=XPlliCJmX_rbFKC8','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=zY6TIctodBdtEnyH','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/MicKOGlb8a0?si=ELPx03xNC8nvD7vG','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/QuN4oypHGK8?si=Sxm0bCfi7uGSLXXr','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/TwLg5sCOYCI?si=AjIB7NrwoUpu2xTl','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/_WpYZTMNExo?si=l3Tnq0f54VOkXT-4','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=rM5sfLER5rI','YouTube'),
- (168422909482762240,'https://youtu.be/0Sag5BaVrBY?si=dpDKaCnWlUhhbw-G','YouTube'),
- (168422909482762240,'https://youtu.be/0SuDVcTv25g?si=plpuFKijkh3sYTiq','YouTube'),
- (168422909482762240,'https://youtu.be/0_fVFw-m4t4?si=VQdZllXXyUKyY-gL','YouTube'),
- (168422909482762240,'https://youtu.be/0i9tR0nNr-M?si=7C73mMcSiKvshJQh','YouTube'),
- (168422909482762240,'https://youtu.be/0jrkmjfiaIg?si=BnNvy8Zfs_9YPQIp','YouTube'),
- (168422909482762240,'https://youtu.be/0mSdk_H-JuE?si=x5U3S7ljT00Jr1zq','YouTube'),
- (168422909482762240,'https://youtu.be/0w3IcMMCkBY?si=HpkY-abnMxW7_Yhj','YouTube'),
- (168422909482762240,'https://youtu.be/1al-pUIpk1s?si=p3TBP1Bwwgk3we6R','YouTube'),
- (168422909482762240,'https://youtu.be/1qpZ7TSgvqM?t=510','YouTube'),
- (168422909482762240,'https://youtu.be/22V3rKriX60?si=q6bUuAX11ytIGDK0','YouTube'),
- (168422909482762240,'https://youtu.be/2xohi-vmKlI?si=eyViNOBVSLtokcHs','YouTube'),
- (168422909482762240,'https://youtu.be/3-jh9EKenUs?si=lYUcnRJQFUW3c0Lt','YouTube'),
- (168422909482762240,'https://youtu.be/35dkSdLE1KE?si=2gdxMnomYNHD6aLL','YouTube'),
- (168422909482762240,'https://youtu.be/38gKLjdx_NY?si=YH8V0RSoNnJg3AVd','YouTube'),
- (168422909482762240,'https://youtu.be/3O0LderWvfo?si=xrRAtjTcujtnOuk5','YouTube'),
- (168422909482762240,'https://youtu.be/3gZRtD3YI10?si=vzIaVONQpqSHUEZM','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=EfkP5lUvue_32vp_','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=MdrDW4p9ZZB-QEXM','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=phKRx1mwO1D8pzGi','YouTube'),
- (168422909482762240,'https://youtu.be/4NcNhlImBmE?si=3d2WcwB8W2hWI5UM','YouTube'),
- (168422909482762240,'https://youtu.be/4Opu1chZ3BA?si=-vUBvU3oKsC2v2pw','YouTube'),
- (168422909482762240,'https://youtu.be/4Opu1chZ3BA?si=5msMepetU1fw8U4h','YouTube'),
- (168422909482762240,'https://youtu.be/4SN1YckY-BA?si=KpjljX5ZB8DnzecB','YouTube'),
- (168422909482762240,'https://youtu.be/4nivVPJTxMM?si=rqkJXUx5e4RVSO88','YouTube'),
- (168422909482762240,'https://youtu.be/5aU0PIltPvk?si=_Y6AdNU5bz1IjYfx','YouTube'),
- (168422909482762240,'https://youtu.be/5eiwprUj0BA?si=_yZZUbNL_KDKQf-i','YouTube'),
- (168422909482762240,'https://youtu.be/5pduSNPnpS4?si=liG8A2EljvfA8Bty','YouTube'),
- (168422909482762240,'https://youtu.be/5q6fmCg9RKk?si=WhXgSJ6u8w2jX0Au','YouTube'),
- (168422909482762240,'https://youtu.be/5qTbzbU1ouA?si=nr4TldW_E4QrQ98v','YouTube'),
- (168422909482762240,'https://youtu.be/66lBqKRPKN4?si=Ze6e8t67nozzjbtC','YouTube'),
- (168422909482762240,'https://youtu.be/6FyQ1oXTpYk?si=ZGzHU2D23CHYMbmW','YouTube'),
- (168422909482762240,'https://youtu.be/6XV03-wQxjA?si=2JCAyKRzBg5mXE-7','YouTube'),
- (168422909482762240,'https://youtu.be/6Xtk0C8H9-U?si=TQhVb_kJ9vhaMF7o','YouTube'),
- (168422909482762240,'https://youtu.be/6jUxOnoWsFU?si=n4NXxeeCoHnAAIcv','YouTube'),
- (168422909482762240,'https://youtu.be/6uh5Q9AlzsU?si=mw1RNL12whD-LNfZ','YouTube'),
- (168422909482762240,'https://youtu.be/7OKmJXfHM-c?si=IQiTZrpJHKRuuYGL','YouTube'),
- (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=8aitigmsTij3gAX4','YouTube'),
- (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=p_45CoQ_TGb855aW','YouTube'),
- (168422909482762240,'https://youtu.be/7sjrR0yLdSM?si=8AlNHH8xPTs0w8Pq','YouTube'),
- (168422909482762240,'https://youtu.be/88zU6TbGiqY?si=8rsaWQYdnYBLH0pf','YouTube'),
- (168422909482762240,'https://youtu.be/8sbrJbDJVYQ?si=kWAK5wFOBzbA1rpw','YouTube'),
- (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=7tEGO1Ulq83ncmj2','YouTube'),
- (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=LJ8T0Z5kHWxUz1-n','YouTube'),
- (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=MFbq2bHOtrjdKYlu','YouTube'),
- (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=miGDrCDuQPrC0Zv1','YouTube'),
- (168422909482762240,'https://youtu.be/9PeJn8vca98?si=5RwzdR69D45ALnpq','YouTube'),
- (168422909482762240,'https://youtu.be/A4Ncs9gXBAI?si=iTshjYbLpY_voEE-','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=-OvVvUId6KNo1_WP','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=-Zi7kmRS7MC-1uMg','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=FpFV43_OXMbt7kOv','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=LadkMg3Zfft5Kuc6','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=RFQ12uL8MzgsDrw1','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=WF3ybV6Fj9EGRNAk','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=_e2gDAyYUHiIWjCN','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=cCKlQhUVuABniYP6','YouTube'),
- (168422909482762240,'https://youtu.be/A68KCD9yemo?si=ziRIQDFKeK6_FXDu','YouTube'),
- (168422909482762240,'https://youtu.be/ABHmlHMPnis?si=xbwbcXQEtAzRveTM','YouTube'),
- (168422909482762240,'https://youtu.be/AUs07XHMD6E?si=alXZl7SZ3CWILV43','YouTube'),
- (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=1hVfp-KDixBQzSGR','YouTube'),
- (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=fhmheu-hkEV4mWne','YouTube'),
- (168422909482762240,'https://youtu.be/AvbDYtDZk1s?si=UqIoXrXf0BZfY0sg','YouTube'),
- (168422909482762240,'https://youtu.be/AwDjkI57pP0?si=ATKdNRd4YHkWgTc6','YouTube'),
- (168422909482762240,'https://youtu.be/B4OTIRIKnv8?si=0NaW8jpmLM3EmJtW','YouTube'),
- (168422909482762240,'https://youtu.be/B9gbU7vRXSk?si=CkZqAWLZ5_TD2OD_','YouTube'),
- (168422909482762240,'https://youtu.be/Bb3bXgUEMk4?si=1f2CK0wKHSb3lyaH','YouTube'),
- (168422909482762240,'https://youtu.be/C8VeeXrSb0Q?si=E3FzDYVo5wLgVJ2i','YouTube'),
- (168422909482762240,'https://youtu.be/CDvS5yNd7W8?si=wf17n2saSg_IxPRE','YouTube'),
- (168422909482762240,'https://youtu.be/CLT2wnMEeWY?si=k5oN_xP3BTKtBukl','YouTube'),
- (168422909482762240,'https://youtu.be/CoW4KPGOO-E?si=N5_EOGP6Wv-UGWUr','YouTube'),
- (168422909482762240,'https://youtu.be/D-ZF_oHnjpU?si=WMkGP9Z02HEUWUfl','YouTube'),
- (168422909482762240,'https://youtu.be/DEts4eoZQrs?si=GHh1sC2Tpx7KJUcZ','YouTube'),
- (168422909482762240,'https://youtu.be/DEts4eoZQrs?si=_QSQGgf_HWmbu3xl','YouTube'),
- (168422909482762240,'https://youtu.be/DIfpMTXA2kU?si=y-pKY9FQdF3GNEUj','YouTube'),
- (168422909482762240,'https://youtu.be/DLjJwW1lFxI?si=zbGa5Kbqz6OiStsf','YouTube'),
- (168422909482762240,'https://youtu.be/DlyLAtgjQGw?si=IB3Hs-lyuDunNY2J','YouTube'),
- (168422909482762240,'https://youtu.be/Dz-vFqFcU7U?si=meS-BcMQBujgtY_e','YouTube'),
- (168422909482762240,'https://youtu.be/E-rygOH87Ag?si=vl0F8qNGkRavwtgs','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=-6ck3bEr8UesKyOv','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=3e9xgkJYyD_tQQlw','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=Avrvz9_RIrTz_mjq','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZXypGoYiYqxpClVQ','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZsvMwmwIhqbRn02S','YouTube'),
- (168422909482762240,'https://youtu.be/EXdCcCwauEg?si=TJKyOrfQ_Zj9q6Yt','YouTube'),
- (168422909482762240,'https://youtu.be/Ekuu8WsyvHk?si=kNWW8cwhOawokx45','YouTube'),
- (168422909482762240,'https://youtu.be/FaswgkmJmGs?si=do_gbZMwYxFlhvRN','YouTube'),
- (168422909482762240,'https://youtu.be/Fnk6hWr8kZQ?si=9sRFLxYyEwfbKC0b','YouTube'),
- (168422909482762240,'https://youtu.be/G8g5BrLm7uQ?si=HLFy1kxObZbM8VIv','YouTube'),
- (168422909482762240,'https://youtu.be/GbZw4crfhxY?si=iCLw7Yabzlz8TDU5','YouTube'),
- (168422909482762240,'https://youtu.be/H8agYk3Jv4c?si=CMOUXBQEr8s4W8dY','YouTube'),
- (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube'),
- (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube'),
- (168422909482762240,'https://youtu.be/HL4utvyfxLA?si=7nLKjo-J5e9-cx6H','YouTube'),
- (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube'),
- (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube'),
- (168422909482762240,'https://youtu.be/H_Mgg8ZbG9M?si=K8S5bPDSceiY8Raj','YouTube'),
- (168422909482762240,'https://youtu.be/HdLD0oM_yMY?si=IEq6pdjwxFTB6Zeu','YouTube'),
- (168422909482762240,'https://youtu.be/Hm6Sj1ffV-E?si=zG8ZaC12d7tcjUi6','YouTube'),
- (168422909482762240,'https://youtu.be/HmAxk_5RYDU?si=XfBhvXrvlcypnC4k','YouTube'),
- (168422909482762240,'https://youtu.be/I1QFAUJ95OQ?si=4mFUAtC-e0kIHsyI','YouTube'),
- (168422909482762240,'https://youtu.be/IHhd4CthYZI?si=guEigo56-3Klxgnv','YouTube'),
- (168422909482762240,'https://youtu.be/IJlRlfFy9OA?si=VxIOZoK1XL9kzuFU','YouTube'),
- (168422909482762240,'https://youtu.be/I_WiKKryLsI?si=aY-fEkpfgW48G3CA','YouTube'),
- (168422909482762240,'https://youtu.be/IsQY0iOBtGI?si=-2417souqjyWdYOJ','YouTube'),
- (168422909482762240,'https://youtu.be/IxD7zBgBeqI?si=lCwQuOoJM-B5VXyY','YouTube'),
- (168422909482762240,'https://youtu.be/J1h3MbbJYZQ?si=DDU7ft-BSWZfwhxJ','YouTube'),
- (168422909482762240,'https://youtu.be/J2Gl1rKvIrw?si=85nyWJwfPJEkAEpW','YouTube'),
- (168422909482762240,'https://youtu.be/JS_bME1KFDg?si=QKUkmbv8F_QeY7Rw','YouTube'),
- (168422909482762240,'https://youtu.be/K9eQLXVylgg?si=V1X_xlv0oZgayHY5','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=MrGA6rRvzB5YoHGn','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Nw59M-qVJ41jYYAa','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Okftn-Ev2xY1t1PC','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Ol3lklAih6nJNMRr','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=gC84PnoA9RgXjtlQ','YouTube'),
- (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=mXrdTDTs_iq6UshL','YouTube'),
- (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=O4M8s-swk_uWOD3s','YouTube'),
- (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=p24RlJQ7GCrh_whO','YouTube'),
- (168422909482762240,'https://youtu.be/LJeIo9VBwts?si=ZseWAjuFhjLm9Dd8','YouTube'),
- (168422909482762240,'https://youtu.be/LZgeIReY04c?si=WPJ0-SZH2cRyzVay','YouTube'),
- (168422909482762240,'https://youtu.be/L_5CgBvHKVU?si=us76Pn1Ku-5UkWeh','YouTube'),
- (168422909482762240,'https://youtu.be/Lnl8rwB-fwg?si=dT0om4kbZmX5QtwN','YouTube'),
- (168422909482762240,'https://youtu.be/LnlgYtLp2vo?si=NMp4slktVYvQFLyK','YouTube'),
- (168422909482762240,'https://youtu.be/Lt37DJkGg-0?si=FUszWpmhvraUrktL','YouTube'),
- (168422909482762240,'https://youtu.be/Lt_1kx9z3kU?si=2pO3I46a5nvklUjN','YouTube'),
- (168422909482762240,'https://youtu.be/M90umYYPqjo?si=tlmc-tePjB_8L67T','YouTube'),
- (168422909482762240,'https://youtu.be/MD3thQufPzg?si=bEsE3zwyZwKe7eEY','YouTube'),
- (168422909482762240,'https://youtu.be/NLtNF_0vQIk?si=AmHcaoaIEZ-pRP37','YouTube'),
- (168422909482762240,'https://youtu.be/NW2iWGwNU0o?si=cLS4_lNP6EHHAEk7','YouTube'),
- (168422909482762240,'https://youtu.be/NWFSJPP2clE?si=cUaVMPmAkWURDQ7v','YouTube'),
- (168422909482762240,'https://youtu.be/NjQXwRNPXcE?si=WBAJVgQfvKOETnP1','YouTube'),
- (168422909482762240,'https://youtu.be/O041V58gX6w?si=Or_4Sm3kkJGdKhJA','YouTube'),
- (168422909482762240,'https://youtu.be/OJbO1A1Znws?si=whSFXe9NHu1_G0Q_','YouTube'),
- (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=CzW2myI49gxLuR-n','YouTube'),
- (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=EW1LmFcnbRaNMb00','YouTube'),
- (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=Z1xZCtgNRbKBdIGv','YouTube'),
- (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=ivHx1rRIF-gu9Lgt','YouTube'),
- (168422909482762240,'https://youtu.be/OZyJnbeYG_Q?feature=shared','YouTube'),
- (168422909482762240,'https://youtu.be/OdPrG4kKYck?si=F2vhTJMiMvfJlLG7','YouTube'),
- (168422909482762240,'https://youtu.be/OfiJrxKkvzc?si=SOH8jmXNKoX252Yr','YouTube'),
- (168422909482762240,'https://youtu.be/PrwnnIjiRJA?si=d5pvEHBQ5P9_u6Yy','YouTube'),
- (168422909482762240,'https://youtu.be/Q20_QXrnURM?si=eoOIooOnoHBAiDqf','YouTube'),
- (168422909482762240,'https://youtu.be/Q6bzAKoOnac?si=AjkRMOZvANqKfQmM','YouTube'),
- (168422909482762240,'https://youtu.be/QEoCIMNJi4o?si=7YndCrcqWnJHEHuR','YouTube'),
- (168422909482762240,'https://youtu.be/QiiVbLQFrIo?si=2GPbOrojHLR0LIoy','YouTube'),
- (168422909482762240,'https://youtu.be/RW5K7OBoMaA?si=3J8MYR0KS8nfH5iW','YouTube'),
- (168422909482762240,'https://youtu.be/RYIu7Qlqh4M?si=s_8uz_fIcDx2euaH','YouTube'),
- (168422909482762240,'https://youtu.be/RfLtAdSgWPQ?si=_J_lOpxVMF0KuWXN','YouTube'),
- (168422909482762240,'https://youtu.be/RkUg2ZG9CXg?si=-h3KNtBt9QeisRbI','YouTube'),
- (168422909482762240,'https://youtu.be/SAW3fyd8OwM?si=_I2jP-ls9O0i_BRx','YouTube'),
- (168422909482762240,'https://youtu.be/Sl7zdTor3Is?si=B6lt-f5OCGerP-to','YouTube'),
- (168422909482762240,'https://youtu.be/StB9sJXtHyw?si=OQaCWvFkrO7CeBAh','YouTube'),
- (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube'),
- (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube'),
- (168422909482762240,'https://youtu.be/T4eoVk_2g-4?si=hM1waWxyXhnK_NQu','YouTube'),
- (168422909482762240,'https://youtu.be/TAD1F2I3Zfk?si=gmQi1IeCt4Dt3yOH','YouTube'),
- (168422909482762240,'https://youtu.be/TDUySYLHicI?si=WAAK0k4sC8OVFYKr','YouTube'),
- (168422909482762240,'https://youtu.be/TRLreW9atAA?si=7g2bTbUmxijoKdFr','YouTube'),
- (168422909482762240,'https://youtu.be/TagiVDEKxyc?si=KkZTU59Va5xRw6ri','YouTube'),
- (168422909482762240,'https://youtu.be/ThDRciEPqcU?si=JMpwskxxHsYXa9zB','YouTube'),
- (168422909482762240,'https://youtu.be/UAY_ghm0kGQ?si=tHSNRvzlz3-6ehs2','YouTube'),
- (168422909482762240,'https://youtu.be/UCsXO7r6-z4?si=Kwlu9gIyTA-wyuG3','YouTube'),
- (168422909482762240,'https://youtu.be/UD5XdjkfyzM?si=p4Trb1vE5oVAAoq1','YouTube'),
- (168422909482762240,'https://youtu.be/UNix5iTeWJo?si=B_QHMOseBMbsY2__','YouTube'),
- (168422909482762240,'https://youtu.be/UQxJhLgEzL4?si=bb2CHAb0nj3XtEZD','YouTube'),
- (168422909482762240,'https://youtu.be/UZNcERE0fD0?si=gnLe4uL8b_iXII_1','YouTube'),
- (168422909482762240,'https://youtu.be/V2vPB2jSS8E?si=w1OjNT0rs5gpWDaV','YouTube'),
- (168422909482762240,'https://youtu.be/V3raYES3o80?si=hZk9axGdQwBzKUOs','YouTube'),
- (168422909482762240,'https://youtu.be/VA3z5Q2VIQ8?si=ipiyJY-UdHiBpHLy','YouTube'),
- (168422909482762240,'https://youtu.be/VWavstJydZU?si=lqWj4o1-c6ty_lrJ','YouTube'),
- (168422909482762240,'https://youtu.be/VrwqEesAklo?si=2E1t-92PO2bE41WE','YouTube'),
- (168422909482762240,'https://youtu.be/W2SjAWjf-Jc?si=AGmfpudM_m5AtNtf','YouTube'),
- (168422909482762240,'https://youtu.be/WBfb4OH7YEA?si=JEtJEVKfTDQXOXUT','YouTube'),
- (168422909482762240,'https://youtu.be/WUswCyMEeiQ?si=rEsko_t_Pn-4-Chz','YouTube'),
- (168422909482762240,'https://youtu.be/X7KmISVMBtc?si=CsXjkMbAiMkIyR4C','YouTube'),
- (168422909482762240,'https://youtu.be/XYW1HGskfQ8?si=bMMUSFy48nxUUk2X','YouTube'),
- (168422909482762240,'https://youtu.be/Y1Gv4zR92ds?si=ybDVUThfvxWOgJzA','YouTube'),
- (168422909482762240,'https://youtu.be/Y8tqlMOSiVA?si=PMZhXBnhbae-iqpu','YouTube'),
- (168422909482762240,'https://youtu.be/YADGLmnXqwM?si=yH1eW0Dk9x82n3Sy','YouTube'),
- (168422909482762240,'https://youtu.be/YBCTf918fso?si=1Xk1HbBiGEaO3ksF','YouTube'),
- (168422909482762240,'https://youtu.be/YFHwyzX1aNU?si=E5tzriyyaXRZk-qv','YouTube'),
- (168422909482762240,'https://youtu.be/YsvEFKSeM6s?si=nbX93tVMi8TVzzBX','YouTube'),
- (168422909482762240,'https://youtu.be/ZWoVImWXuuo?si=XAHoQU0H-dq2jIBs','YouTube'),
- (168422909482762240,'https://youtu.be/_GARcKCaUfI?si=b05v29mldT_2sUrZ','YouTube'),
- (168422909482762240,'https://youtu.be/_GARcKCaUfI?si=nBIssg2V88nMLhxi','YouTube'),
- (168422909482762240,'https://youtu.be/aRkkMKImxXQ?si=ZheY3x03huCW79Cb','YouTube'),
- (168422909482762240,'https://youtu.be/aXUl5xpmGCg?si=K7itlvKZcS6ot8wC','YouTube'),
- (168422909482762240,'https://youtu.be/adtp8ekgNlk?si=mAMJuQmJMGRestFR','YouTube'),
- (168422909482762240,'https://youtu.be/agRTtcEfTaE?si=qIReC8oMyEf3sWsp','YouTube'),
- (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=_0_D5ddJMKBJYmQy','YouTube'),
- (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=jNNQUqzBNQ8QB1gh','YouTube'),
- (168422909482762240,'https://youtu.be/bsKHCG8fWWQ?si=AETjiDpIXXsAWqhU','YouTube'),
- (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube'),
- (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube'),
- (168422909482762240,'https://youtu.be/cFWA4lHQncs?si=NzCYa1rqxJTRU5ek','YouTube'),
- (168422909482762240,'https://youtu.be/cJ1u45g_WT0?si=ak2C1LiHmwj8i5un','YouTube'),
- (168422909482762240,'https://youtu.be/dF-TiaVAR2k?si=w4YJnK1A2nB0qqdP','YouTube'),
- (168422909482762240,'https://youtu.be/dn5U1eJjSxE?si=rPYgX7W62-vYLBhl','YouTube'),
- (168422909482762240,'https://youtu.be/dobxbndOqd8?si=_tug9qYrK2adNM2C','YouTube'),
- (168422909482762240,'https://youtu.be/eVqW4XjZwC8?si=cpyHdQPdpKA3a2Aj','YouTube'),
- (168422909482762240,'https://youtu.be/esfGVbh_LTI?si=fubyqvyDp9A9cTea','YouTube'),
- (168422909482762240,'https://youtu.be/eud3t6kT30s?si=QZ--jSEyYw6lskUG','YouTube'),
- (168422909482762240,'https://youtu.be/exGOdwwOpqk?si=v8krkYiaaoVvlBRP','YouTube'),
- (168422909482762240,'https://youtu.be/fQjzKOJjkxg?si=7VBJzuosB5xLBfHl','YouTube'),
- (168422909482762240,'https://youtu.be/fYiEMRlV8Nc?si=XJDweID_tYfGlB63','YouTube'),
- (168422909482762240,'https://youtu.be/fi_HO6SrwSA?si=C_sfA-n2OuY71eq7','YouTube'),
- (168422909482762240,'https://youtu.be/hSDNKXg8_S0?si=Aq3cVDaCHwytmggE','YouTube'),
- (168422909482762240,'https://youtu.be/hfKUfJLwBhQ?si=EUZt7n9kwEUdPclq','YouTube'),
- (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=c8mLw-HzZpcavzMJ','YouTube'),
- (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=oXzblH_lRlXF74A7','YouTube'),
- (168422909482762240,'https://youtu.be/hi0Hy27v4OA?si=JKaumGnmLLLb_rLK','YouTube'),
- (168422909482762240,'https://youtu.be/hnhs3tlWLxc?si=rSOMP0XREZXIsyCa','YouTube'),
- (168422909482762240,'https://youtu.be/iEOttfOJr2o?si=DWRIAleTNWgLmvv5','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=b9qf2_VuJEN4aVFs','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=mo6e5FF2knU8D-2M','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=wj4RLPmaDf3yEUgo','YouTube'),
- (168422909482762240,'https://youtu.be/iYJuoDhPDfE?si=gvcZJ4uzESCP4ss7','YouTube'),
- (168422909482762240,'https://youtu.be/ivErUOTUqes?si=-vBw5O3pvUYIFpB9','YouTube'),
- (168422909482762240,'https://youtu.be/j37fhBr1XCY?si=FcUI8SIvm40uNsP5','YouTube'),
- (168422909482762240,'https://youtu.be/jC6HaSsf7p4?si=e3xhx7Ch0G68Ssd8','YouTube'),
- (168422909482762240,'https://youtu.be/jGKk4J3_yvA?si=0OL4h34k0dJveXMv','YouTube'),
- (168422909482762240,'https://youtu.be/jPoJeSmQDbo?si=EutWY95NeDY4Qtri','YouTube'),
- (168422909482762240,'https://youtu.be/jZOmeqUSjIE?si=NrjbJtDsc1o2jJZ4','YouTube'),
- (168422909482762240,'https://youtu.be/jcXB-4ZQiKU?si=THZ5878bRJ7TbW4C','YouTube'),
- (168422909482762240,'https://youtu.be/jr-Mu0fDTf8?si=Iw3UBTZWbZ-LoCvA','YouTube'),
- (168422909482762240,'https://youtu.be/kqQjkC7tdwc?si=rj2GjO2wtOqE485v','YouTube'),
- (168422909482762240,'https://youtu.be/kyJhPwlqDPk?si=3aljue5jQacsPGYX','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=3ED_EWyWAaGOiBJM','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=PazwxBgMfRYdTfO4','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=kco8rRnmxptZEpRp','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=ruQurg78YS6R6Atu','YouTube'),
- (168422909482762240,'https://youtu.be/mLOQmh-QUF0?si=pH7yf-elcsdNAaNU','YouTube'),
- (168422909482762240,'https://youtu.be/nPMoA0S-kpU?si=Ai4gNTiFxI_1Vhua','YouTube'),
- (168422909482762240,'https://youtu.be/nTfCxORgKEk?si=GJjpdShWF_-9V5mU','YouTube'),
- (168422909482762240,'https://youtu.be/nhvElLCjoW4?si=5YGdWB1KotHq3NOd','YouTube'),
- (168422909482762240,'https://youtu.be/niOXnsz0Fso?si=-AbXzXq3Ge0H6eAW','YouTube'),
- (168422909482762240,'https://youtu.be/o9V7jdolGOE?si=AdFLND4fs8k2dwBj','YouTube'),
- (168422909482762240,'https://youtu.be/oEPWWQT_2NE?si=5shxkQi3T0EaUy9x','YouTube'),
- (168422909482762240,'https://youtu.be/oPvC9qQ-8gE?si=rwYiuFvH6F-IYq0D','YouTube'),
- (168422909482762240,'https://youtu.be/olPepc51W1Q?si=3mk5d3HJ-jONoPdE','YouTube'),
- (168422909482762240,'https://youtu.be/ouBJMpQZmhs?si=OmF3SqVNz2FzO44j','YouTube'),
- (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube'),
- (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube'),
- (168422909482762240,'https://youtu.be/pXfukvVAMqY?si=3jjzZQ_80b97SjDZ','YouTube'),
- (168422909482762240,'https://youtu.be/pa9px0JLQhY?si=2WkV3DrZLj-GFSKz','YouTube'),
- (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=ETxikkNb766z5J7T','YouTube'),
- (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=dWSpBMFWPPafCc8V','YouTube'),
- (168422909482762240,'https://youtu.be/pm-fc7mkwE0?si=8y5OmRS_2lMsGhsL','YouTube'),
- (168422909482762240,'https://youtu.be/pySsqycArHE?si=5bosjQTwpKtuxhoa','YouTube'),
- (168422909482762240,'https://youtu.be/pyd_TeJTiT0?si=rT9keXjBTfnpvYyQ','YouTube'),
- (168422909482762240,'https://youtu.be/q4_eBoPCKVE?si=HoWVAIEK3MHZVur9','YouTube'),
- (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=9hkgcQdtfjN-TN8H','YouTube'),
- (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=aWg77gotDEJnDLB8','YouTube'),
- (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=vYAJug8Q1-PpVjpi','YouTube'),
- (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=9p2PFNpB-Duw-hG2','YouTube'),
- (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=XgDqwZFXewQFoBge','YouTube'),
- (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=jXjpp7iHNE3lggAX','YouTube'),
- (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=oYK20cZRmaofo-C_','YouTube'),
- (168422909482762240,'https://youtu.be/rb_tWptGXk8?si=IZqG_Do2o71Iwx9f','YouTube'),
- (168422909482762240,'https://youtu.be/s2SPsHlVuS4?si=UzmybN6PcGwjuJkq','YouTube'),
- (168422909482762240,'https://youtu.be/s46TZDTTFdM?si=3BPbVv9PszjbmtI9','YouTube'),
- (168422909482762240,'https://youtu.be/sZ22YulJwao?si=x2YkYQfDBVIwLC6V','YouTube'),
- (168422909482762240,'https://youtu.be/sx5PUXwpgNU?si=EHJ48JuN_P17-mUb','YouTube'),
- (168422909482762240,'https://youtu.be/sxlZdzYrr0I?si=vvCrAFXV6oz-kiyW','YouTube'),
- (168422909482762240,'https://youtu.be/tADvYY-2K74?si=Ip1UW_Nfu-3cHjZQ','YouTube'),
- (168422909482762240,'https://youtu.be/tRHU-YFdz78?si=L32c7xw4Ff2YxF7s','YouTube'),
- (168422909482762240,'https://youtu.be/tUsXPAuHZVE?si=4IJeJK4au3yHNU0N','YouTube'),
- (168422909482762240,'https://youtu.be/tYJlDhJijg4?si=2isHdLYJKm6BoqO1','YouTube'),
- (168422909482762240,'https://youtu.be/thXJHs5tRIU?si=OmCv1XmvL8nCQc3T','YouTube'),
- (168422909482762240,'https://youtu.be/tisK4ZVnAZk?si=hIcMmPZQBIjMMqS1','YouTube'),
- (168422909482762240,'https://youtu.be/toTtunvlqE4?si=a8a2qVvU5_5ETp27','YouTube'),
- (168422909482762240,'https://youtu.be/ts-3_i6qrMc?si=ycSGQ8PihjfhZjZZ','YouTube'),
- (168422909482762240,'https://youtu.be/tznGzMuc1uE?feature=shared','YouTube'),
- (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=_uMChOw4bWwPpSul','YouTube'),
- (168422909482762240,'https://youtu.be/uHPIpmwwQqw?si=9SRy42Nd8Iuu8x2f','YouTube'),
- (168422909482762240,'https://youtu.be/uMHeBf4W8yY?si=8WJYY6tbcgd7nk_G','YouTube'),
- (168422909482762240,'https://youtu.be/ugdESt4y3IA?si=AdBn9RLQQbnAVgz5','YouTube'),
- (168422909482762240,'https://youtu.be/vRv4J2Vcyio?si=CAi-ix-3g63WleU4','YouTube'),
- (168422909482762240,'https://youtu.be/vRv4J2Vcyio?si=bcofhKiRQG5v_Cdz','YouTube'),
- (168422909482762240,'https://youtu.be/vTVO0GYC5BY?si=0fxs4W4uBHdSToMf','YouTube'),
- (168422909482762240,'https://youtu.be/wGt3Aa860FU?si=Ple43rqc9nvPx_Aa','YouTube'),
- (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube'),
- (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube'),
- (168422909482762240,'https://youtu.be/y2k9GQK0b_g?si=61HIEpm8h2dhbwXZ','YouTube'),
- (168422909482762240,'https://youtu.be/yK68PRlDr54?si=L3GRA-rUQTuMU-iW','YouTube'),
- (168422909482762240,'https://youtu.be/yZxUFBOyGcU?si=R1kcKX-L1cGLCKfY','YouTube'),
- (168422909482762240,'https://youtu.be/ygXGsnpATJc?si=WfOzgt9i0kGkQyQS','YouTube'),
- (168422909482762240,'https://youtu.be/z5aI0uja4Yo?si=JQUqUvGAARlzdaFg','YouTube'),
- (168422909482762240,'https://youtu.be/z6R5BeBL7wE?si=vrbIenPBBs7vZ-jY','YouTube'),
- (168422909482762240,'https://youtu.be/zC9aoRNrvLs?si=ryblKQV5vR4N1PBs','YouTube'),
- (168422909482762240,'https://youtu.be/znlEfDxKhRg?si=qcXidW9pziPoN453','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLKEzuOOEQvYNf1xvRn8D6bEN5JbvJXraV&si=nwHPEOJOcQ8ypipv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-7f0IYRtkzk?si=LCfLHITISL2gbezB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-FJgjjlahso?si=IlYGMx5WNfxS_gzL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-Jwc1uzVOP4?si=u8eVltdBhtlpI6lZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-KTiwG3Wdcc?si=kTF49MAVXYnsIyOO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-O6Qaoa2FR4?si=HB01T9w74ggN7Q66','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=7ayAhewmrdXR8jno','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=JiSIU8hN4A-wenA0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=a2UeT2t_ZoKSp-sN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-RBpK8TJOWE?si=p1p8Sb8ocaqkmSR_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-SYaZvWLuAc?si=li_jZFtkUM9EPpuA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-c2bqZUfSNY?si=pexsDinnYkKs5Iip','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-ekfg0-d2tA?si=3wV7kiheKw6uLlWW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-jU5rAXLxk4?si=IGnXtiI9Fj7w8Zf1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-lPqD0Kj-gA?si=w_IGiNH-c1mnxYCz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-nHv1kfBeEI?si=9Nz-tWIMvI7xLP0L','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-tv8DyPj8l8?si=x616naekN0OGji0o','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-vOC66wY2gA?si=KK67bOuYtBWmRORV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0G0ZskbiYyg?si=5NXEaFLHg4RsBdWJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0YYoPVqPqzk?si=NO9vIJqKIWc9RdIu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0fZLG6j15cM?si=WFb6Jq7da4UCfDBl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0g_88dMmA1k?si=xxYXIeGeN_JGMgio','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0m4_RXlUMI4?si=jyKy9ddSa0qW4etx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0mOF6V2c2Nk?si=y0RNZIryZ2kBjm8x','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0oAYF91q1Bs?si=uYvuKrhR95z1kTXJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0ptXCgkQWyA?si=pISQOB0B_9gC6Uds','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0ryA3wlsRrY?si=ExAQhn-O_mHCp48B','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1BanceI-XsQ?si=9TX101nq1vgUO19b','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1BanceI-XsQ?si=z41szWqDWEEQpJsr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1D1flGW7s88?si=401L2Wy_BXRqUiSc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1DNIekejuxs?si=x22rULSCNM9sku8R','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1Q2zOQ2BJa0?si=C_nw4ASYu6fHKjMV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1VyakCy99J0?si=GnBefdVEV7GzeVAm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2AGOP7pLqu0?si=w5a02m8MXol3uYSB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2GPTohOnI_U?si=YMTtGmeyDE6x9-3F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2LncMbMmvhI?si=3d8Yb8pjT01w739g','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2LncMbMmvhI?si=C6VG9UzRjXTNqA1x','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2MiPMwGykXg?si=LFKsKqmTMHP2VC0n','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2WBQpBv9PAk?si=0ugUcyq-imm8TU7F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2dyd79ppk4U?si=wUjmgsPhr9NUZV7M','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2eFQoRufe3M?si=IYZ_pvVW8gaaJv3q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2wy92DGHemA?si=JP4XDszbrDdDcBte','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2y3tzOHLdG0?si=f4XleDwfLj6wHqqL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/35DrorRhRXA?si=7Ka-Z9oVMu7dzzNq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/36TiC5x2Xss?si=P3qK4xuY8VLBv9C6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/37aRGW3j3Zc?si=iVvbJnXMdwbJsCkk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3GkL3W8TFMs?si=fhWDVbYeF5-M7Yhd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3_0GPu04nqA?si=nT5YC4fn-YkqeIUU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3_NY9JRUD38?si=8mxMCciD5FxjNsxu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3kUB-0aeamQ?si=UU0TqqHJO9p109WZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3rZmUMQE1yc?si=kdkmm7dnmsDhyF7E','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4J4RI6QUyAg?si=C1Hmjr1_-ozQJqxz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4XqAGSj2VWk?si=xmVa14AtCwrNKtVT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4YJT6O4uE3A?si=OLQT3Z7YfgrlvKG7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4YJT6O4uE3A?si=XjvNeZv1HOxGHD1c','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4aoe1pnxmtQ?si=3r5s681IYneAMceJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4iNKqQWudjY?si=ZjbcOYWDBoCXPLdB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4nKj5_erykI?si=goKUpkjtzQUNnky6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4oXl-zrbAfw?si=nbzfmarx6XrTA53m','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4tzCURTjL7Q?si=l0Djfzfn5nibJBDR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4xhSGNnP3lM?si=iaEhwG3DM4oPhMy1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/57jgP4_VmDg?si=7ICZ3kJVcrffXW6R','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/59BhIdSDxWU?si=5urasWm2yMDuy-ST','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5ACBu0exTbU?si=Ur9rt1LUxX2LxP-Y','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5JWq3nRIxMs?si=VFHD8X7UPit8n9IK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5LuMEyFEg_E?si=8a3tdUuH_iXsRSUN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5UJhpWKUpJ4?si=BTtIwydfXnVIoujz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5XlNY47ZlD4?si=JIMguZM8snTpM3zg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5sHHEXSPNtU?si=lXnqUitS9gBW1EQk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5vrkCOwiyXE?si=4uPd5pgDnJQl62Cw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5xn85mv9LQM?si=ncan6OaaCoDxv1GE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/675ijWQpM3I?si=4ZbrpfWwwj7xXKld','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6Q-qIuHx4eA?si=eJgIF8KiTJAHfyeW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6UTdkCnDL_M?si=E2_GdEDNrxWk_VS8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6fXuwfdjr7I?si=Th-NC1Elhy1lun-H','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6lSOkJAjwIQ?si=RxMEoDUwPNIdDrar','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6sTIOEHi3YY?si=djC9JVKQ_SesBbbt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/77HSUlyPI3Y?si=Azr3pztWoaDRQJ8S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7Jr_Ni64xKQ?si=3CrjzZlHaLYg6_e_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7R0L0RiZPs8?si=OAnttulD89N-QipL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7UqOZlGtiCI?si=ahEdQEmnkGyq1jdm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=XMzW8tSsoA1J_kHy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=nOYFH676hBsancJF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7o83vZczieU?si=b8WxdBYLW0JM7K04','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7omvMJphTPk?si=VqcaMcXyX-X-x9Tw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8Aup-eni5pc?si=0FyEbuNWKUXhQhU5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8CK4It8iHCk?si=qY_nEtzXVNkzR4n9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8EX3fTFYZ8s?si=SaJb5ofNja0Strzh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8Ec3rZ8i18g?si=fQFeK1yLjMSMAMM9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8SBWAYjBe5M?si=lF1jhO99srpaTQGg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8SBWAYjBe5M?si=veFb0ERTCdZfq7LA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9OfGWhMPu10?si=QXZ1jTrfN33ZLmj4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9Qc8eU18iKU?si=2UcPK0qLHHth5fP3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9RIISx90GjI?si=GKM9SQEkq_uqWXVx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9RIISx90GjI?si=OuKXf3iiZnszoOWO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9TkbvMLvZHE?si=TLqjtwvEbke5QpsE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9VGhwQ3ZVUE?si=y1GGsWxQ1wdd8Ywp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9XC0mHE2VkM?si=S0q6iraHpXtPgvxx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9ZpydZhAfg0?si=6sfgQLsPb5pc2wTj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9ZpydZhAfg0?si=8AmjJFz4_YjCob3q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9bVM8J2Xrg0?si=_Vp_bIzV2fJqcx4g','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9f6Fogo-cwE?si=epwz7hz3AVYHHozj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9jW_mQDrQWI?si=AcGYWC9g76vgaaNC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9lKRBEI1d8k?si=bQuZRnsB0I980lt4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9p1UMpfrvao?si=sRGza2SwHJ9g2Gr9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ABEHb6OjcrI?si=UY-fIM12Pxu9JkxS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ALLHzvzBJI0?si=YlXJ8mLifC5cscKl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ArD6-SbXINY?si=oFP30Fk9hDy_jgvG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AsozNOXB3nE?si=asYGzyM7EyNp-ml3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AvQuUx85q08?si=6lMT14phZY8IOdoN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/B-m8pyrGDmw?si=5a42L8WAnGKsrO2S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/B1p50SOiVTw?si=4AXeVwd4at9n35kW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BAUqUPekhC4?si=_chVvkRZGwhMTt9O','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BIttTo9AZXc?si=_0FdxhrK5HLQ3wnu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BOCuomUCDRY?si=mTKDImcsaT_6iA9h','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BbatfwWCgfc?si=-eJXpxBQIBnbozjF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Bg6xGMAHuH8?si=ayxDWhBU7-LngkP_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Bm0bQv2yoTs?si=ExIz-k595aJHaSyP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=pnlAeudyRTZZQ2m4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CLGrGrvGpso?si=3CJopKMT63oUgljc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CLGrGrvGpso?si=EmL7UZVaXVhFNQyu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CMsj15ItIuo?si=RMuAcvnHDXUwRQxE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CVwYyEwmoBA?si=h3JrZKTCRo6okLps','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Cg55ihay4Hs?si=vYWERiZHLqHJ41kD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CwVw1U0siHs?si=-AZait-7yHKRRhUc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CxPQF_OKgl8?si=mOSVxZJY_9U41V9P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/D1dv39-ekBM?si=wsioB-wQ5E-qTYru','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DH3aKv-0vko?si=nMcTefwHd_KVoCbL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DKbLu_m2wJU?si=26diyY1_r1oUEJYf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DMdYlZcEiyM?si=UbQ4SnqFr3jbN74C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DRRy7-rsKLM?si=Xkbm5smipIx9LpSg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DWodDqDj594?si=_QV0sNZC4bT1SaAE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DbGax2-PX0Y?si=vswXoUcq4Ef3fR-N','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=8Cm4FSMxykdcsGXt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=hcSywzmrkNjq2amN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Dvra2L0EmoU?si=7PFmfi8c2pWQ-bXs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/E-yzwIBzOR4?feature=shared','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/E8i5ZAimY6k?si=GhdFM8k-stEVegIW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EBpwBnkMfyo?si=oPTIH5oRpxZf6rab','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EGgBDpx44lM?si=aRkVamAE6vBcA-Ch','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ER8PpyoUWJw?si=Lc9AmB4g_YWbbsQ-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=HiBB6vl0ZsCm552e','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=Qysb8RrCBujJOMjv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=j7tDBd0gHW-8-4Go','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ETps8ALQH-A?si=Ntc_TCna4iylplvu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EUY7OQVAaXM?si=SYeuRPCE-zF5YAcH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EVw7uRsEY1E?si=YXDiDrVT1gZ1vJxs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EciI0-pMtcw?si=Rdy3gd-xOHpeMouH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Eg8q1IEdty0?si=stgkVJwYocDV_fJu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EryxkdeqICQ?si=YwSBz84nvlCBQ8rU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/F4x_L-bCYBA?si=IOEuIOFNTyFEJ4pk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FFIKfI9Nt_o?si=r7E09NTEDKITCMOP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FTe0esFXhaM?si=nURmZ6_yDbxVrbsk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FWYkHZ9RTdk?si=LN9MgvM1ZJS7GyLM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/F_pLd3n9alA?si=evEjaWrGG2rW6yZv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FezfDeHThHg?si=-ZZfhfG1yuzC3m5-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Fkh0rfrzNsk?si=t5RZC-OPvuC8tFvz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FkiF6uCs1Fk?si=O_XnpUpGdSY_vseD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FkiF6uCs1Fk?si=YP56lMBiCcKay2pV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Frm5H719LuE?si=1906drnUs4vWObfc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FvY1lhRXHws?si=F2YdHIDi-pvGV35V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FzyVKXTTqc8?si=rJxQcNh7k51E9XmD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GEcZvD0bTEY?si=WDuUVdNw5iqyK60j','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GGo4suAJBlQ?si=E3_Ovu_1PJeDhSr_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GNqAY0K_-Uo?si=TJWCLRWsq_9euwgm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GWvggYmBKcs?si=y4e5qBFNYZjH-6rg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GXNvL_GuDQM?si=_zHcAYXLTO7mFM5X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G_3AZdO_Ays?si=FsbwasHR_cqXPHS6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G_3AZdO_Ays?si=v0vGFZRPVl-Mfd-J','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gdqj-r4p2P8?si=-50IMUNdrd8_UBm6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GoPTxu4phCQ?si=w45X1zzW0zV3wW4e','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GpDM7saE4jg?si=lBL15P82_vqZfWSO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gq88q4zI10I?si=GjkYxJ6GWeRUHjNv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gq88q4zI10I?si=hbwP5fL9HjmZA4-n','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Grq35_AvDmk?si=v31t9_Bqerw5vF5s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GwHpu4dyudc?si=dH8XzBOwdwHNEIZs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GxJmWNs8dbw?si=XCPxw1W9TN5X3CHU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gy1ndIBWgtU?si=llZnkD3ERP6mgRgU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gz9DVWegGX4?si=jueWjqkchfzAFE1w','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/H3c-GpcAJv4?si=EjCLmTG0I32kDCeF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/HWCavlzIgak?si=X7JzvvtUoPvdCKxm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Hl1v0p0wN3c?si=HCJqg-yOjwV6hrL8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/I9kEPhXSVmA?si=5HrKhDiTtFZANrVO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IL9r3UWMU64?si=ytRW5_J5x0nCk3MD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IYsYkVHmeyM?si=6e8jLvkLrvneZ7Tx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ia9mp9P0t88?si=LaPw5zWavsvia2L5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IdSvfey-WWc?si=5zE5IHHkyVKtWgFp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IesAJmoTgGE?si=h8296RRxk0XxeXr3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IfBj3T4_Gig?si=BkacUDw7tYLgEHZf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IirbsZ8FAHA?si=iyzBLg1nNI7_D_Ie','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IirbsZ8FAHA?si=wQv2qHyG4HYEHS5I','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=igoGrHmP9O2hW3Ll','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=mT2kJHDsi8boL1ll','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ImtgoOxmI6M?si=TksRGdD4MYWwPxuC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/J1JzIrB7T3M?si=fTlqoKydkGadlIJT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JAU1gwsDukw?si=Cs_mMCO3cnkg311L','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JRd6kDhHCnI?si=QlxsS6XNVuZWEsLe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JZvynm3AI3k?si=SqFOvIBViIIyR2AY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Jbr9EEprpho?si=J4A2gbfESEeyr-Op','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JceP5iiTh50?si=RWBvL5hCwh0lMMVC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JceP5iiTh50?si=buW3O2IW-OSiVr2W','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JgdwkPtWRuE?si=6TUtu2iW5ic_Kr1K','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Jq7gMZwRSqM?si=8o_rp6cpQYjJ0YIB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Jqdc8KBQRVg?si=bylrRuBqbQ1ylaMT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Jqdc8KBQRVg?si=fwwm9hN2HbxgXC_P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/K-5fJ2-GXss?si=7jSvy-urGsSv9BCQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=ciOOyeywyOZdq-C5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=gp3TuoVOizGkS86u','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KFZadHZ0q0I?si=nGiS6DDPGfifz8Z4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KfrkbhqvEDQ?si=f8wEi5C_g84_vWo-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LCddtIJYZac?si=B2hRARwGDCH7Ot06','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LD5SA8ekaTA?si=aaoMlxGKkXvYv482','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LFjZZ9a_i0A?si=PtyzOxzdDXLTClZW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LP6HAEaeIrQ?si=QOO0TNCQHo7wWbGE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LUpoYnYjFv0?si=9qgaIiHBU_K8AuYh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LcjUorNM6Ic?si=DZ503OnI1GpjugON','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LhoTRUHwVGk?si=DHssqZgOE205H817','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Lwcy8SUKWJE?si=58a1u5hYHAXVfU--','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Lwcy8SUKWJE?si=LcAyhHwz0JEoSNZg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M09ibrqMPYY?si=KMd3moFkCSDMp0P7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M7tyJiumObk?si=H29iJrjnKeUmxK_o','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MEVXKNCqLMc?si=XGaPLuLRv6wHa5ZX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MF9glaWugbg?si=lIfa-aW2gaYCkBCp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MIcqFv9GKe4?si=U5tEEbSX5UmSE5qR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MK9AgXgRuwM?si=VOhNNetOnbcRzC3j','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MK9AgXgRuwM?si=YWpxw50xSMYM3SaO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MQ29xpPXH0I?si=diJyiqnpFEysKnm3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MVQOn4__UDk?si=THO_V-_2iiRkihR9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M_WLflMCXHs?si=oagWgcLMDnnhN2w0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M_eRrxzD6aw?si=01T38Xsr-wVX-u4A','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MekuBUZGewk?si=7gzh6dqgk7SGe8G5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Mi9jti-YTLY?si=AkM573PjKfGVlaDr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/N3-_wwL4yuI?si=2xOCC5fBQplRXMVW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NLTIsu7vBhw?si=NaJ-JFa9ZKh67pz_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NLTIsu7vBhw?si=v14fLai_exVga_KW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/N_q39nGiS18?si=fj-HIBgWeSzTr-9C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ng9FJBeyPfQ?si=QqkVy0ow_2xCp224','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NkCZM-hDpAY?si=FFuQqqJmmhOzSY7M','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NofuujICv5I?si=P1UVcrCJKS5L1rZO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ny5vjwA-3hU?si=YEK_VT8B9mJZESPG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/O0-9DAJmYGw?si=VQ-9Itnfk3sVs19C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/O3KOZT54XoY?si=4j75fIXzVKwiaK3m','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/O74LjXyN3QQ?si=7z89EfOOw8ur_LgM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/O74LjXyN3QQ?si=Q_Nt03u5hbDBBVIU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ODKyt-mhxvc?si=CMiQtIB3UFZ4MZFy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=lUgjtsLZ0i97zu_r','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=tMDFwyM408MGnvhc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OPI_k7R-ijM?si=9ESikq0Hrl8CLH8c','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OU427erQJKI?si=xpGYtfjeJBghmeZo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ocs00dEpqXg?si=bzpgAPnSj-ib5NHP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OkSW96KxZC8?si=U7WjNZ0Xn2pKsEpB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Otq9wvcigtI?si=fwlHt_ck71uUWjBV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OvSbzCvgZDA?si=1F4hPLix1koTOBJF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OyFRa5HSNL8?si=1MeSobxQtpN-YY8j','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OyjRlEHhw8g?si=1WS-Yfc9gKTDoowr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OyjRlEHhw8g?si=X4ChIr5DrFYE3VYs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/P4MXUy3Jl7s?si=NgL7eGuVQFTeNZrA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/P4MXUy3Jl7s?si=ePWI3w7oZML38Dps','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PAnF6ivXhSk?si=i0GiqLX61ZZKW6ca','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PRX6to6WOhY?si=1BUlTK7jEa9KOBFG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PaEkMcZzzN4?si=9jVgeThWbnAv8SZl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PixTdRMiAzQ?si=zdsUZjjX1wv7r7II','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PoRhbkBx2jY?si=lOvxShHkLTzAfULl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PqkpyoVXEUk?si=fxOar2LAXx-AntkP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PvBoiqTMJgs?si=HIjEHbZGE1cf-sWj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q-g7LOewdHo?si=svASAQyLyCJkO2wF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q6M4S-6Pq8E?si=UIlseHK5UaaKVYd0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QErWFiMrfAs?si=-yXbRjqh2RX9i_Co','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QF6ATQgYruU?si=W8ZP_Dj5TUxl97wy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QiP6UKBmFr8?si=iOKpIH_3Yx6kRVzj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QlsRnyohp6M?si=eyq4JExpI4zDnPQN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QqNPks6PBQ0?si=E4tu12Tx7giFLXjb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/R7pBgtHawnQ?si=4Mg0Sg1zS-UGCXA5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=3JT8zXrP-ZC5XnmZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=iIwinYHdMJxUnAbO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RHcDfs7QAxs?si=8krjhkIa0s-pe4Tr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RnYIW2fI_S0?si=yZdNkSjDyq-NIsPl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RoRwwam_TpU?si=ALqsMX1kyjBMlYce','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S2NZg5IQNj0?si=kTvGUQE7ueOrzE6V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Spd8xD2u62M?si=CLDLnp1SygBfJ-V_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Spd8xD2u62M?si=zJcXryuZDOC26HXL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SqXrdEtIeZI?si=UIdJWiHwZgi5LTVt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Std4f5LjBBM?si=lsM3qX6MG1OSfS-f','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Sxrk7gWdrGo?si=oHMkXNfNH4oGWC9k','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/T0t-DYPWVw0?si=yasKH-tyDrc6Bn9L','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/T8wXnFPGTBQ?si=_wwRGeRJxQi0Ut9F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TD8vBsgBP-8?si=Ofd67elXKdCR61nU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/THiaxtHxLYw?si=BkhDv97Craoi-tG0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/THiaxtHxLYw?si=Vo20QNBlb6LV9cox','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=-7C9b8g-PUblx-pA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=QF-h3RGh1vtqnP5d','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TUQ7L3JMHio?si=Yf4DZ1dFuBtO4PZ5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TZKce1A5ph4?si=qDq_LRNq7CRqCt-Q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TvDrcn9P6Ko?si=O0zksccik8n-KPmE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TwXu4cJ9pCY?si=ousDq_PYq6_O--kO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TzXkvB-pf_s?si=msGyHCMEaRHg_fv6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/U86Eeq7AMcE?si=kBnnd-O1f35hf-fJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UH4oL0DtB34?si=LULKhMuGlgBXLkbt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UU8iujc8OIE?si=MRFh1_2DtjeP883P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UWNLu1id1t8?si=-Rsh8KmmZ6ENI8g0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UkYp9BL8yu8?si=hKKpELT_2MaqbN_5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Uoxr0xbaH1c?si=NDqslAbfM8bsqocg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=7aH0RXadSW2JTwOh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=rzhmD9DvaVDMzc9c','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Uxz3WNHqJYk?si=pgVbLsFBAivggFCX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/V1trgm9nPOs?si=UU-l74_5icrfwdkW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/V1wjFneeTR4?si=eUh9-CjxlJV4vKvg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/V4FeLiuaW2U?si=ymJiw6ethOEZTP92','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/V6qKR0byhYo?si=kwmrfk7cIpuNO65F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VAWwtjtRM98?si=kGVFyqTjFGYXOc6Y','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VAWwtjtRM98?si=la3lFeCzNpbReiLo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VCYusUqneJU?si=xTr2QGOXNQNxAAsy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VLLo6T8ydBQ?si=50amRu4Tu0RHbpFO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VLhgSptHxwE?si=PEz5RlF4nRvF_8-0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VP52Hf9mfMc?si=IoZck_WmMy8oPfKS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Vk6_3X7Ablw?si=Jy2KrwmoKcOWfHOb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VnciMwXRHJ8?si=5auWrxt0iegO14ji','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VpNZ4K5wLRk?si=NmMza9KkxEaQZPIy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VuE91YZ7SLw?si=1hAJAc81CEaPs9U2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/W0BT8bVYR0A?si=fN0Vkt8B59ZJFfh9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WAe2czS_wog?si=rLl1UKb9xM5D7i9V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WBqiaAHhtB4?si=13vZcjw744WNl7gx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WBqiaAHhtB4?si=EsMGzshDFebxGmvU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WNr7GbF7Z2s?si=5JAH1XFlQRUxt8Bg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Wth_34p4Zbw?si=K1dFLN5OmODgqNUW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/X0lJ9spAqSA?si=zgjvVlksFiyN5PsA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XCZnziFMoPM?si=l2ZsKUA7kgbzvNaw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XHrnqiHsB9U?si=iQ8NTQfr8RrSthbg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XKgzBtakZdI?si=YmhPef-wzAfsUJUG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XWh2pUgJPSM?si=BL9YZqQRSqvgAgkH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XdKWYUfYCv4?si=5J6q-r_mqVdEGB5O','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Xecr1Fct-oE?si=sq9Dh9AMkfawj_Dy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YIqsQDX6jMU?si=pleEy_pt8LD8BRqM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YQHH-dbUY8o?si=qAvfqiUCJA5lyifE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YZBMHpLpgBQ?si=3pB1tQi8n9KHPEOM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YmQfVrmI598?si=CnTacCU2aECzjiuf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Yz2snZ_1w98?si=epg8OYiUN4YFkIlx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z0-jvY95XQE?si=lGh3WTScVXNbfwpP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z0gmhon_w0k?si=ytVD5oK2gX85kv9k','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z2eLGz2IhTw?si=beO7jDKNFhvtHphk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z2wAShPcPRU?si=IUKwGR1X3I_whP3P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z6rCwVYnUyw?si=9tSe1FYvI58MATXz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z85n0Lb3FZY?si=ex2JZ3p4licBlo2r','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZC0wQseVHxk?si=9QpJgnxYjRHLyYk2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZEhuxUxKSWc?si=35C5Twk5cctTF_yg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZYsHVt8INuc?si=A4xYFeRAlBcb7RLw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZfuUH06Qi3U?si=vvqZMsaT1POKXcao','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZwzkGo6PJdg?si=oOFIptzkbjxtmnJl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_YtxokRQ0n0?si=bZp0_wk53Nsu7CEa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_mW-J8LytEI?si=AyJx86qgs1Oqs9hI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_mW-J8LytEI?si=AyJx86qgs1Oqs9hI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/a4MN51_yKeQ?si=RwnIp_tzLpjqbUXw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aHngkHJwbQs?si=Qd4nFBiZ0c4NWN3E','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aUweAzm-HHA?si=z5w-Q_aiOqHEtymQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/abK5K2p-9gQ?si=K-v-d5-sx1gayXIT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aob6GGEdjmI?si=M0jUUD4kaH6Oy_Gj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=6lvEtaVdSs88KErX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=FGn4KrEGYWBdIt6u','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=yNoAHDczKiubsj5R','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/azacrk4BQnk?si=fQ0TjKZy4IbXe5jV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bAj6555JTf8?si=r2S8MB4TWES14gxq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bAj6555JTf8?si=xIGKt_Q0GaVukQ1a','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bD0na6MynsY?si=H7X4rNXa_DQMmaqo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bLi457eQTQo?si=e8ZTfRxrQJEmxMof','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bSELPQS-Cvc?si=mDTGMmsCA2zWtjyi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bVvNr-Ofrdk?si=Mten7zqV8LXU_4HU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bYA9F9GKo4k?si=As8PhHIZ66ngY2da','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bc2MYQ8odLM?si=edVUjcFidVYYKW-q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bfwBJ38vNU4?si=PR8El6DsW-PUxQdJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bjqEkFscMVE?si=bigwQIYwWilk0bkh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bqDV2D6yAek?si=2xUQQSrBh9AAbBHW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bxzZpMRqWYs?si=pkP4htDxb5HBthrm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/by9xe-wudnk?si=LbwCgePmBDH8JxIt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bz8DBOW0FM8?si=LkDAUGPRAQlbOEW7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/c1xoMKGwjUc?si=XjDCIfjpGIwwGltI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/c3aLCRWrVxU?si=ZsmH0coECAV-zcQC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cDEZU0r3aRc?si=1B6A7mkAbO4GwlbK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cDEZU0r3aRc?si=h_OEADNfYipxrNj-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cFRT9E0C3XM?si=7t2BOviPtQdye_9C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cFRT9E0C3XM?si=wSCKQW7_jhhYJ1MQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cMIOKkF_NuA?si=qKYHDpp-S-EihTuu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cT4EDGDM18o?si=H0uC5OHoRQHrmKCb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cWj0tMokJY8?si=HLvCblWbTxUHL0hS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cZIUK_8M2Vg?si=9vstPD0Xa5U_Etp7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/csBc4HtI65k?si=QR_1DxwpRL2PGqfv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/csOkkAbxAS0?si=qaEN0EpfMBmaToOi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/d045mXGmOb0?si=oboZDNMU9LVK7vNV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/d3fqQ6fmz8A?si=aFZpwtFJhBbdbfkS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dFjyxB2msog?si=r5QH6sUQuF1V9sja','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dOl3NAdpbpI?si=P9f2L5J8OfW0AzQC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dQ0EgA-W0Us?si=6ifX2iBEPvdnkqCe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dQuc2IYC2O0?si=NvqlQGgY2ZOY0909','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dj3qEgbfMcc?si=dlkGXLCAVybrkKEL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eEAH8Zydt7w?si=rNccTq115LVJIGgq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eOPxg5qCxDQ?si=xFPiaiQoQ3WgLhO0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eOPxg5qCxDQ?si=xFPiaiQoQ3WgLhO0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eUbEvDsRFHM?si=qJohd7mkkAAW1HDO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/egdtkEmfUYo?si=U3zculLCfIb7t4c9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ehWz7u_EHoY?si=CbIZluI9paUyXpnk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ehWz7u_EHoY?si=MMN5xQ-vZvv1pOOd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ej43mXODSUA?si=kmf3eqdUFUqhfTZO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=DbfEU7533bYV8qI5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=U0Q2TREggZ0uQnsl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=JfFqzIIXpAuTpNg-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=hz5wfQWohC05bAuE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fDAcB99t5oI?si=hXGJaqn5YSrXza-X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fHJL4_X4jAQ?si=Ryl41jOyeUS0MtkC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fIKhnbNhGLc?si=_7gFYT1fnC5mcqbv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f_LDsc98YSA?si=BluXl6yXXx1jLGNG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fgUb-aKOxGk?si=7O5M9CCeHqVCmCL3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/g2BjfYCSZEo?si=1vpUdo7tcZCSOVV8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/g6SC_ZG8Mt0?si=lRXIQzQa7fLepUit','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gB5uCGLva0c?si=o16za-LiGFGJG6Ef','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gBxwXanK4yM?si=nO_lprvJ5HC0fe5X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=-UA72DV1X7SxdJbV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=2hbZuALfMpSrl5gZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gTcZeoUrFHU?si=o437Zi8RiuKDXNIb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ghoac5rWF0o?si=zWnZZmuZ7CBMkknh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gi2qfrTtLPw?si=pPyK_kbPyGdROJJ3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gio0IVr7tWM?si=fbwPmFm-lQuwVkDn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/guy7b2foGO0?si=uGf0Ii80xhT68egU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h20tnzOSXGQ?si=jpkQo8pSEUr2VUe9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h20tnzOSXGQ?si=uQDrFNpsnCVyW5G-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h7xESZEmxJM?si=4W0zwc-FkgJqUfPi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h7xESZEmxJM?si=G3gqjn3u48bKVvEQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h8ElOpITBjQ?si=unreAiivtOE28sZG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hWaG9Apd8fA?si=AFAntcA10rnqlqZP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hf7uWoxhrB4?si=5alRAYiEP7Dr4EmH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hjGhiGaN4d4?si=s3q8oA1NsRckL8wc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/i2gl2458YD4?si=sLgM8_QrvCNRGjGO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/i3T0r7jA6IU?si=W_G6STdWwIbHgzfv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/i4JuNrxQ2jk?si=sTXkk5w1w7tI2HCS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/i525kF6UgMA?si=an_5TU8nRvuWOpp0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iAZ5jYPBNoo?si=YDE-AFSUEm4VuSEa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iCqlq0Re6Xw?si=J7pbT2omT7bNHonq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iGJtDxc6mao?si=fAAuQGSnbQTWFZV8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iJEXmSRfsrA?si=zAma8f2DVrtxP0qI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iLC_TfetHdM?si=aXXV-WOUiJO0ut95','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iLutFvl07l8?si=PUeso35HNUl6OwFp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iX7DDeXYpc0?si=yXqKOnoFv0F3X0XV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/id9ZXI4eBiU?si=6QTLxle2FDy0a-g0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ilHe8G6j-lY?si=2-t_KUqkroCt2bQq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ioZtwTKu4s8?si=D0E-BlKFUga-2V5-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j-dzEcpzcT8?si=OybeApyECiTEgu98','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j0ADPlnpOk4?si=axaTirhcG63qg7qz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j2JHM9Lw3oc?si=ESyBbOkcejWCIesn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jAFAAYSl49I?si=JR33EI7HAO1aJ6Fs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jGasNw8ze9g?si=hgiN4Zsy31CQDYIO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j_P8duQ9IG4?si=dZtr2SvjBV2zF2N8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jsAR_tvQqGk?si=hTVjki2u1eC_VzFv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/k8LS_YTCsBE?si=IDFYRhU_oSq9nTDM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kEsv9jYlw0c?si=VvsnsIUEmp3R6mdg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kNP3HhDjUWo?si=xGKQITAVIHVW-4Xp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kWV-SmsUu5A?si=f1XyaqIrlWZwJC90','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kaLXpED6GCs?si=t-L6M-tb3G0rxwao','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kabUKYmaIaQ?si=0Ygu8J9UC8H3tYzG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=Gmv9RoZ6xCp0slmu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=ztCuxYDLZSVRdqzb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/keW_a93wfPw?si=KBjvlh8xB5jIJuDK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kjiVYCcTNJE?si=313z7c9Bko5SL7JE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kz3ctKEupC0?si=PhsjYkquhEAaqZET','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/l18hdmkQ5nY?si=np2AmQf9xKbo62cC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/l2G5k_q5U9M?si=foDBmn_AioCHm2mk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lAhmzWUq-5E?si=3eU_s2BKw2KpR23e','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lAhmzWUq-5E?si=OoHeRc6tBADv7T4P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lFL3HmX_YMg?si=0ChCZbN3nsFR7Mo2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lyxKBBAc9ls?si=7jXFh1gn8x3vFgqt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/m73EHOzEapI?si=0EMaFnspbkrQ5EFi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mC-UikSpQjc?si=8y9fGD7qvGzqwu79','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mLzQ16giQIM?si=-elldUDHP7FtUxoP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mLzQ16giQIM?si=KpPgb7cE5VgPb0ew','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mMEDbXD3okU?si=kDeHMIWY3pu6rrzX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mhrDHUrUoz0?si=u2xUzgtLyM7UzeqB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mmhOn7apaMs?si=XbRQqb8o1uDu1Dgy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mpMebubYve0?si=kFAyciS3Xob-k6cL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/n75eIr7vG_Q?si=F2m9VZAwPSqP2Nqd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nCm-cElIclw?si=KRIGcfVUQqHFOFxL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nHwgR9RURSg?si=xq0PRdfIew6R3Ltm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nhudtzySIYc?si=kzN0-inE6_JP4X-Z','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nlDxl-eoBIs?si=VHHBIN3xGGfN76UQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nr8zyH98xoE?si=XLv43tZhQtdAYTE8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ntqaXjrNTLI?si=r5JSs_Ha3XprS3t8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nxGck8_IJLs?si=UpEaTWfacqOLqzUF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nyVnVVjN0sI?si=-NPz3egssYnYY_m3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/o3-XL4NmIpQ?si=-tjKXkVGYiKK_61q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/oGaKm6dvBqU?si=1I30l6khhkTCuyKK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/oHJlefbTxRM?si=0Y-_jANWafhMTZcx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/oQx76isxOnQ?si=JXwYOjXHu5Z4ZrXI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/obd0HWQw3pw?si=d4txi8ccN4bF-dj7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/p5w187g5CFA?si=8Ie1IR5VghNGPk5d','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pJIRuakptAw?si=MEJgD6xR59FgcSkP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pNwyY6nPNkg?si=tMFaaAJvVo6mZ9-9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pTJPHtqt8so?si=aehld_9yw4BhMi6V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pWwb23UAAek?si=GXC7G1XSwCJfkn07','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pgA_WMPKDQc?si=WE7f3ArYVU_Gs-Jq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ps0Vtfr5fQ0?si=t9iUcyPx5U7idG-d','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/purJlAIvanI?si=oVcpSCYP0UnMK8_T','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/q4WwVUINi2I?si=pCV0Hr8p1AzDh9kZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qNbNffnHM2M?si=gbQHdsfqWSX2p1k2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qT44dVrKXXo?si=-CtK8Dr4Bpk3g899','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qWHN0B2Hw3Q?si=rifexWP48KkPUbRX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qXxC0R9CQkI?si=eUXj-Tmw4neIG9Nf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qaDWgpvEtv0?si=KCdTDUGJuKVFOYx_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qbcl-h_uZS4?si=aqzQJ1X2Uh6I-P0_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qikyjNwqWFY?si=v_6xYz_QUb4NNleg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qjhZ6o4aTBM?si=YskwJlQlAI-_V_S4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r2OlEtJyTVo?si=PBUc_6uUm8MVdpI5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=_mxyq21C8MfDy6iA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=eYx7W3LtHzSBxaHD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r6bXqqa3koA?si=sucJ1sN5EFJaQhYW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r9qWLJj0kdk?si=nkSKeg-k3JQByz-2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rDamhK0-mtk?si=23EnrM5jEUlKaM-m','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rGfKvZSK-gc?si=cZVGjBi5UElJsJzW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rHAJJyUB2fE?si=_3_or9k7wzeMiDp_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rQlr5Y7YC38?si=RbeE238IwtL5KJXi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rS2nbrs8V00?si=DSKLV2laJm09flrL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r_GAoV87xlA?si=oP6xdpnPeUwydEn8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ra2IoDqtPpo?si=CEjTLnHfgnUBN9O3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rlTYQN1RPKs?si=gpdW0f1h0nnXHpJp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rmLS3YB9uYA?si=8UKM1UOA7XFUVT5g','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rmLS3YB9uYA?si=tX3d11YL6PlPNSje','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rqymcwMva3o?si=Jx9y66AHQWDSjGEd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s3g49Fbw14E?si=47ouxRUxdRTEXkEy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sAEQTpl3YTs?si=QaIZi-DpMuPlRLkQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sCHMQV1ZxIA?si=cpE6o5o_DuFhgfVa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sDQhHS6nJyE?si=Ks37JxpnQN912zSM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sQVee0fGDCA?si=cIC-CfvkAKTgNW9F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s_vWJdp0Ydo?si=Cbdc9zWRqGRW2zzH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sebw4dMv074?si=RBP-WAzQep1MYCIE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/six4VdTGzdk?si=pG5nP7SqyWg14QHO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=Hoj40B-EQ2hVEPuF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=WmhIStThparbQO1_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/slAGP37Olks?si=MsPw0j-szvGmrTra','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/slfd8dGM6DM?si=SRnBa8g77Ynp_dTj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/slfd8dGM6DM?si=hWj2nyjnDLNZkEfs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/t-VayBY3fDk?si=nPf8nm2GXLO8lig6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/t3TI6WufiWo?si=9kP-k2z2HF8mddoI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tR_f-7wIa_g?si=yWRObMZpIxwrrWf0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tSwoMF94NLk?si=E_2FVc7z0JoD9su2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tTR6WLTxQso?si=iAdaRBJCsKohCHi_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tVCf1PMbXWA?si=kVFggf6jI4yKDYhM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tXF9hhGeZBY?si=RGpBVkaLT_7tgNhl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/teLVv0ar6Q4?si=f23eSgv-jHHupU-Z','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tns1ZBAVIoc?si=YDhASmjUEiea4ZJa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tx9YN6nk-Mg?si=QBEETW-5gR3QymGC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tyUI3dbkGWU?si=ruquOk92Doxfgtr_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/u4BIEM4aMuU?si=9QuQcaVKFscZ-iu8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uKB6QkWoaxY?si=d8_Qp1hZszAabdfm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uKB6QkWoaxY?si=d8_Qp1hZszAabdfm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uOH1XXviUmo?si=KBBg0_-x0LxIiVoF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uncVb6V6FJ4?si=MiMb7TDC8qVj1Mga','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/unhHn40niMc?si=o5sVjWGpHlfLH2z3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=5OQLCqK0b82AApXu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=ED-T_V9-m3yzEQf0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=f3SrjbItrg30Y48g','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v1y83N-jCUA?si=vWMzgnrXqNxbNlgO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v2U0z5m4w2c?si=GzDgAKTJpcwlADxU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=1nUeb1Qiv6tbrrGa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=D6YW0dXyQ-Bt2KwC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vAxIQOe_wOU?si=GkpIcp2ROCgttm8v','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vAxIQOe_wOU?si=P6iOOxn62mv7w2Hm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vIdhu_gVpy8?si=CR-Aue08eQOcGNDu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vIdhu_gVpy8?si=eVrv-rzTrTRYodLz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vTFHMuVR1BQ?si=jF4bjK7p4UqKnQi0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vWWNPn_FJXA?si=rQg2k_n94lpritxA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vh99t3lMsaU?si=pLGfdPnR2412rBoT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/w2JxrHeodqw?si=UM8D5ngTFstKQz_L','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/w375k-ukdGo?si=rKL20HB7BpfdqShD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wdQX8Q2DlLA?si=9vq7qNmUjNRW8r4F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wswgBYshA04?si=CtnMPu6GJucLVdDl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wthgg6QA7ec?si=bT8C_svCoyZ93Ab8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xF7q2vhuidM?si=VG1GPJ0ZDtdqk0Ue','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xHyng3F5osU?si=NcCdYUGodpD1sHjC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xLO10_q4SRM?si=YxKFR7eY-IaocjtA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xMCp0jSNHj0?si=il9xiiXMnPhkyF53','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xRLXHk2ZYaA?si=AH6a29UCBFs66yXw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/x_8AqsloapM?si=5oXeOWxcaZiNI0jX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xq804xDXSI4?si=-ZBnAYQSL5sODc6f','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yE0rb-e4MTc?si=M0FIEwQ6UTEqgU1p','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yIA2U2o9rO8?si=v42uVZUEcuZVMSSg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yOlRXYnDypI?si=bJEDp330kWDOIcgH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yZw-ty4VTds?si=1e7Y3SelH_EfZBfg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ylwRrTUrUX0?si=kF-mlhNj_HrEQxGf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ysSZONyyUQU?si=ShlEYWdNPVmJkjSJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yzZqncB5f-k?si=zFGb1B8Al25XfUYA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/z8gYHGn0CzE?si=Bau4kXcYFNiU0Bny','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zFpJ9wo2MBs?si=9oLbq3f6tvjuN74q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zHEbmDZgMdI?si=WXEloEtP5UNOlmeN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zUTtIgqOGiI?si=VF2raUqsJiH0o71G','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zUufThfBoOA?si=-bBqcAyJANR2mbEH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zX1piRMQYDQ?si=QlksJdINGk2gNpTB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zX1piRMQYDQ?si=mPLqy88KZ9q4cmCi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zaohM2DclNk?si=BXu5XeVmt2QOFyW9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zaohM2DclNk?si=_Xw2NxImq2kuq93W','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zbh-v8ICJWc?si=DcC_zz-yzmUC0yzc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zgDvEXCxNDw?si=ze6saSBMb10HshVc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zgMPMwVdAns?si=uH7j6N13Y5TTUOz6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zpb-L9T_lRw?si=-iJsIWCK6RByMMuT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ztmn-aLrvsk?si=XEyDYBjSUH2Jdhxp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zxDjfJfd-rc?si=GX7ZrMhlu_82NH2S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FqiW9whtRXg?si=2i-h95pBdYRXqIW8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3GkL3W8TFMs?si=fhWDVbYeF5-M7Yhd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/y4YjcRt0UvE?si=nzYqmo_ow_JrvaNn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/teLVv0ar6Q4?si=f23eSgv-jHHupU-Z','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9VGhwQ3ZVUE?si=y1GGsWxQ1wdd8Ywp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nm-OZOn1qME?si=OwVwax9X1SOCBpws','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IlPrtnlFGgE?si=wjKO7cqdVdQuwcPf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/CwVw1U0siHs?si=-AZait-7yHKRRhUc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mvr1LqtsCGE?si=tMCH_DIMO2TpbcoI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-a1FnTox5Hk?si=gWPD5y2at9CQUQEo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/grqODaXejxM?si=6wxqA-FWaLDR2wE-','YouTube'),
- (168422909482762240,'https://youtu.be/3IRMJF8DNWg?si=zcOxFIFkbV79j5Vz','YouTube'),
- (168422909482762240,'https://youtu.be/W7_pVTWVxzU?si=bno4M5_LcdmZN1R7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uSvo9SPzJx0?si=IZdkPFwMdLsHhWRi','YouTube'),
- (168422909482762240,'https://youtu.be/9PeJn8vca98?si=5RwzdR69D45ALnpq','YouTube'),
- (168422909482762240,'https://youtu.be/IfxJPkiJFek?si=BGXGuPoqNtu1dzAI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YZBMHpLpgBQ?si=3pB1tQi8n9KHPEOM','YouTube'),
- (168422909482762240,'https://youtu.be/fi_HO6SrwSA?si=C_sfA-n2OuY71eq7','YouTube'),
- (168422909482762240,'https://youtu.be/q4_eBoPCKVE?si=HoWVAIEK3MHZVur9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8psOMzUofNk?si=VdxbSRz55wbwyl8J','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=-UA72DV1X7SxdJbV','YouTube'),
- (168422909482762240,'https://youtu.be/apPveasyJC4?si=1miVZEauEJuLlDa5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PuCPE75jHD8?si=WhzvOQFf_bMelO3N','YouTube'),
- (168422909482762240,'https://youtu.be/Bb3bXgUEMk4?si=1f2CK0wKHSb3lyaH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vml4s2nuv5c?si=7IdCwOInn-9_wdpV','YouTube'),
- (168422909482762240,'https://youtu.be/Ezbam7HOMEw?si=v7Yp5_yXVWuUhrqM','YouTube'),
- (168422909482762240,'https://youtu.be/nhvElLCjoW4?si=5YGdWB1KotHq3NOd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PRYYs70gMkc?si=NwP4Oz4S-wq778FU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/l2G5k_q5U9M?si=foDBmn_AioCHm2mk','YouTube'),
- (168422909482762240,'https://youtu.be/YxhqmUkwPnM?si=gMx7Z1PjpAlnflIG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SH74mSrhIAY?si=KIsX-ZhrgO4gxau_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=rzhmD9DvaVDMzc9c','YouTube'),
- (168422909482762240,'https://youtu.be/jJFRpJzcanM?si=Z7lCmh-8hWIIwcBQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XoiAUjdTHvU?si=WaibuR2oyzMdvCxW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TFo-vMIg-Ng?si=DZagk5mrDvrPgPnK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ILPL76HDVGs?si=eFoEGMvcPele8AI8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LKKBS8gxY7s?si=-GtgwYNn88dL7gF5','YouTube'),
- (168422909482762240,'https://youtu.be/7jBfSzr0VdU?si=soMSP7Jhn69xKOsK','YouTube'),
- (168422909482762240,'https://youtu.be/kkJqRkaq8co?si=lSx1Mo-mQ77rqgu8','YouTube'),
- (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=GKZNye3v_THdsvYx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S4HOxtffg2Q?si=OFxNjo0c25-Kr9cz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jl05g9R2q-c?si=UKkbtH-NZfqMkUB_','YouTube'),
- (168422909482762240,'https://youtu.be/hi0Hy27v4OA?si=JKaumGnmLLLb_rLK','YouTube'),
- (168422909482762240,'https://youtu.be/9isUIkGzlQk?si=HaJ95KWSvkQDh_Le','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=-7C9b8g-PUblx-pA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eHNv2Irj7eU?si=ioR7USzOMUW83SB_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/En8GM9T8k3I?si=URXOOQiLYFVEEvGJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h9v_y5Lnkgc?si=i4HKPCNooy2MZybi','YouTube'),
- (168422909482762240,'https://youtu.be/FUOyJuRIkmE?si=I8Q7m5zoS4NfFsLy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3rIpI7B4yCw?si=c25gGvzDoEtEZxnh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=igoGrHmP9O2hW3Ll','YouTube'),
- (168422909482762240,'https://youtu.be/0Sag5BaVrBY?si=dpDKaCnWlUhhbw-G','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bnacVVjI1A4?si=dBgddFmxh4vtLFb9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dQuc2IYC2O0?si=NvqlQGgY2ZOY0909','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/37EEjeVLhbw?si=D2zYSNwklbgkD-av','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ICAPVhY29GY?si=O3ZthiD76nK13GFC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/z8gYHGn0CzE?si=Bau4kXcYFNiU0Bny','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7xAPIJHiVa8?si=clNKkR2UlVWL_c6R','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sDv1jLmW3ao?si=ZN5FD0TmBz7YyMpr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cMwwnxpsXjU?si=8nqK21oBuv6DMO8k','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zUufThfBoOA?si=-bBqcAyJANR2mbEH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hgUcLoyDRx0?si=ax_MOEBeqf9kkWGO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Grq35_AvDmk?si=v31t9_Bqerw5vF5s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r5oQhMgP_Mo?si=lHzIBI39hgtquRRx','YouTube'),
- (168422909482762240,'https://youtu.be/jC6HaSsf7p4?si=e3xhx7Ch0G68Ssd8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NuHgTidVjhk?si=HNPhE01HfjmMhEN1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h4X319Y9e2o?si=ffM8_rsVtSo3R7vb','YouTube'),
- (168422909482762240,'https://youtu.be/36dp-5ra1gY?si=aTCrW0l9wMjyYfoA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=Hoj40B-EQ2hVEPuF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ymMnPccHUw0?si=Sg-fDiH4OJKZFjss','YouTube'),
- (168422909482762240,'https://youtu.be/WAHq0FGOBDQ?si=EjpPU34-6CYxrm2e','YouTube'),
- (168422909482762240,'https://youtu.be/Aqx7riSTgkg?si=St3ajk6TbPTm8Z3p','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ID-k9i6Goyc?si=0oCPwnlxDQtvWxkL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/txZ3MrhdbzU?si=DyNUaCCYpfnaiANH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SeTdy0ky2d4?si=3gINVt8Zp9TI70O8','YouTube'),
- (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=_uMChOw4bWwPpSul','YouTube'),
- (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=G6k_DkznXNbqwUwN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Mg1saQRCy-8?si=f4JIBXJ_0u7KCTgu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AXGUKdHcCPI?si=kCbM9Q4J6iEo0cdW','YouTube'),
- (168422909482762240,'https://youtu.be/yZxUFBOyGcU?si=R1kcKX-L1cGLCKfY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/97f620UXqao?si=DWvUx4o3jq1-5iLj','YouTube'),
- (168422909482762240,'https://youtu.be/eVqW4XjZwC8?si=cpyHdQPdpKA3a2Aj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TW8JGNmYrCk?si=7gCqcul1EVdamLjY','YouTube'),
- (168422909482762240,'https://youtu.be/omaN1q43N20?si=_1uiLzbJk_TSbiIT','YouTube'),
- (168422909482762240,'https://youtu.be/Lt_1kx9z3kU?si=2pO3I46a5nvklUjN','YouTube'),
- (168422909482762240,'https://youtu.be/E-rygOH87Ag?si=vl0F8qNGkRavwtgs','YouTube'),
- (168422909482762240,'https://youtu.be/K9eQLXVylgg?si=V1X_xlv0oZgayHY5','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/dJk5FUvepzM?si=xO4sq1BsGFpExbll','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8UQCPCDjMSs?si=Y_N_hSqrTEdkSxbG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/I4jJsGPMf_E?si=IJZEKGRtNRcDgkdq','YouTube'),
- (168422909482762240,'https://youtu.be/X7KmISVMBtc?si=CsXjkMbAiMkIyR4C','YouTube'),
- (168422909482762240,'https://youtu.be/9isUIkGzlQk?si=c6_t-Mg9sO0m4alN','YouTube'),
- (168422909482762240,'https://youtu.be/6xBuXocNHM4?si=PEqxkIVMXJOl34t9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cH-cTLHglzc?si=0PJAJrcNn3DNwZiQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wy8RFjeV6pM?si=XNVVGxoxBmSr5JDl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bhNuLTPZvMU?si=0-8zlQ2phcfxrbEd','YouTube'),
- (168422909482762240,'https://youtu.be/_6pYUfNEiTw?si=Yy0ima1adecWWvzH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/P6SgwnYFtYQ?si=8Vi5pFouxMUj2c0B','YouTube'),
- (168422909482762240,'https://youtu.be/9r0Bpn8Qgoc?si=A6DH0orWS5O7GiAE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/59BhIdSDxWU?si=5urasWm2yMDuy-ST','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jd0rQi24PBQ?si=wMCrnGNjdgfmwzoE','YouTube'),
- (168422909482762240,'https://youtu.be/YsvEFKSeM6s?si=nbX93tVMi8TVzzBX','YouTube'),
- (168422909482762240,'https://youtu.be/bUruyUgisCs?si=pFg8NqVh_FaisvYz','YouTube'),
- (168422909482762240,'https://youtu.be/g7sCYN5C5po?si=wQO5V5GgKh7l1K_u','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/E-yzwIBzOR4?feature=shared','YouTube'),
- (168422909482762240,'https://youtu.be/I9QP6QPW9_k?si=A50p-Lh4vtkmglvW','YouTube'),
- (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=aexRh-Gm-aY7A1DE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5UJhpWKUpJ4?si=BTtIwydfXnVIoujz','YouTube'),
- (168422909482762240,'https://youtu.be/_x7NSw0Irc0?si=eZaYjZFm1aMwcthF','YouTube'),
- (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=MFbq2bHOtrjdKYlu','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=Avrvz9_RIrTz_mjq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/44Do5x5abRY?si=-rf0Nl3wgAZuPIq1','YouTube'),
- (168422909482762240,'https://youtu.be/Pw2vRbewluA?si=nq6UDPSDL6quqbVn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5TXjZD6QYi4?si=Ep-D4X4SLyjk5uDu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PFglrIzOJQs?si=dEtVwQzE60eRcPJ8','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=zY6TIctodBdtEnyH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Qv--FRnnJ54?si=bc0W9TxP_fhm1ejf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Y4aAmWGu6nU?si=dwdHw0FVoZEZVpeA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VnDoOQwXL9o?si=3fbzbnsouyPT5lF0','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZsvMwmwIhqbRn02S','YouTube'),
- (168422909482762240,'https://youtu.be/M90umYYPqjo?si=tlmc-tePjB_8L67T','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_XznSuuA_1E?si=8JZ6Q5JtpLwX-eIC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xhfbho8HUTo?si=Zpbd2KvwlEwaOujE','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=wj4RLPmaDf3yEUgo','YouTube'),
- (168422909482762240,'https://youtu.be/CDvS5yNd7W8?si=wf17n2saSg_IxPRE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qWHN0B2Hw3Q?si=rifexWP48KkPUbRX','YouTube'),
- (168422909482762240,'https://youtu.be/5pduSNPnpS4?si=liG8A2EljvfA8Bty','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=hz5wfQWohC05bAuE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PRoywBGZTVg?si=E_cPvdzq56eZPSXT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KdsB3dInJLM?si=FEMBK2FtP3ovnHr0','YouTube'),
- (168422909482762240,'https://youtu.be/iYJuoDhPDfE?si=gvcZJ4uzESCP4ss7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q2L9buy0LnQ?si=KqZGmmIR54DH21F2','YouTube'),
- (168422909482762240,'https://youtu.be/hi5LGOW9dZI?si=HTxyYoe1a6FIdg5F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/we3AVK2Xlxc?si=rse9U29sQ8Y8XNNc','YouTube'),
- (168422909482762240,'https://youtu.be/8A1BMr310dg?si=_VdaD5e1db-oGWYB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pTJPHtqt8so?si=aehld_9yw4BhMi6V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ekrxN9u1eLc?si=AKwU4gJgua6K6GER','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LD5SA8ekaTA?si=aaoMlxGKkXvYv482','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vy9SHOzmBWo?si=u_0WW7OKG3KFDyKe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VuE91YZ7SLw?si=1hAJAc81CEaPs9U2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=U0Q2TREggZ0uQnsl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PxJWeA1hHqQ?si=gTPBIXSIoG9bZAei','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xm6FMunktSk?si=wAlOV4nIruhBu-QX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vLBtWxkbzgM?si=633SGP1oUBlZZo6t','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8drEnfy_bek?si=ViaATc_phoxz4EYw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iov-Yc1hrFM?si=XTkKnyW7QjAmeDko','YouTube'),
- (168422909482762240,'https://youtu.be/KTFFbHQ_p0Y?si=4vxLoa-lcsq9K1nW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9jwvu81fX1c?si=fBYPnHdfxOUXXVlT','YouTube'),
- (168422909482762240,'https://youtu.be/_6pYUfNEiTw?si=XgExnAWoEFrtyCg-','YouTube'),
- (168422909482762240,'https://youtu.be/ZWoVImWXuuo?si=XAHoQU0H-dq2jIBs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EvC9rZxOweA?si=4nNV4Lx2TJyR-Lno','YouTube'),
- (168422909482762240,'https://youtu.be/WBy8xpN-FJ0?si=_lZVLx2W6A1CKIvl','YouTube'),
- (168422909482762240,'https://youtu.be/virn7AEkGqM?si=9VEdak7IYrf9pBYu','YouTube'),
- (168422909482762240,'https://youtu.be/dobxbndOqd8?si=_tug9qYrK2adNM2C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8mv5frNkuqo?si=-67tYjdVj8W_HQyJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zHEbmDZgMdI?si=WXEloEtP5UNOlmeN','YouTube'),
- (168422909482762240,'https://youtu.be/CWZtVb5FG2Q?si=ruFKc-AeGMmECII1','YouTube'),
- (168422909482762240,'https://youtu.be/s2SPsHlVuS4?si=UzmybN6PcGwjuJkq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JJsRnHBT6r8?si=JgIBMT8iydaNsqUV','YouTube'),
- (168422909482762240,'https://youtu.be/06lnVXM1FUY?si=ChNCxHtlygiyXfOO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6zW2WTp9SCk?si=waXwy6_dhXgEJsV-','YouTube'),
- (168422909482762240,'https://youtu.be/0_fVFw-m4t4?si=VQdZllXXyUKyY-gL','YouTube'),
- (168422909482762240,'https://youtu.be/Q20_QXrnURM?si=eoOIooOnoHBAiDqf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-84vzasHnRw?si=vAAaW1JgJTU3i0SI','YouTube'),
- (168422909482762240,'https://youtu.be/hSDNKXg8_S0?si=Aq3cVDaCHwytmggE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GDlEVZkCVVY?si=fPMlomSrL_9nQZm_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=D6YW0dXyQ-Bt2KwC','YouTube'),
- (168422909482762240,'https://youtu.be/B9gbU7vRXSk?si=CkZqAWLZ5_TD2OD_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GEcZvD0bTEY?si=WDuUVdNw5iqyK60j','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sebw4dMv074?si=RBP-WAzQep1MYCIE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Lzqe8PIOHOQ?si=-mp1KjzEXFc9jWz9','YouTube'),
- (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=B0ovvCeEIVJIXn5s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/L4OuFRI8yus?si=TJ1KgqWpaP4mZcX-','YouTube'),
- (168422909482762240,'https://youtu.be/RdjJPWWZ1Dg?si=IUhWyG10PK022SiE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EVB1umgh1ww?si=_j11Qj1eswKwNLQd','YouTube'),
- (168422909482762240,'https://youtu.be/thXJHs5tRIU?si=OmCv1XmvL8nCQc3T','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/D2L1dR8CqEo?si=QDeQnIyH9YEgPm6G','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EmF1CodTtb4?si=oTBbV6u11Kfrk37y','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S8qKkpLHv14?si=ZIqFv2htbHj5wUgp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_nkMB5IZb1I?si=CqyehIc2lDZCHfES','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1RtjAJEr0iY?si=xRhiLzh-PdY4Q0Nw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vT6AAzaimyU?si=b1mZhgcHaS8sz30Q','YouTube'),
- (168422909482762240,'https://youtu.be/PrwnnIjiRJA?si=d5pvEHBQ5P9_u6Yy','YouTube'),
- (168422909482762240,'https://youtu.be/CoW4KPGOO-E?si=N5_EOGP6Wv-UGWUr','YouTube'),
- (168422909482762240,'https://youtu.be/UuidwnXciEM?si=GtfcREHaromKHPrA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TOHwcYNRvss?si=F6pBC1lSdmWw3jnk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jS5rH3Q0VTo?si=LwkYkm_IJH6gdaJz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VclVpQyhLxA?si=ML70E7qqTxswY8sg','YouTube'),
- (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=MgPw9GmJK4_UbHr0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gP3luSR9_fw?si=PxAH3_GmGwk7lseK','YouTube'),
- (168422909482762240,'https://youtu.be/jGKk4J3_yvA?si=0OL4h34k0dJveXMv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FL7eUyZGrx0?si=fPFRSNX2QTOhfyd2','YouTube'),
- (168422909482762240,'https://youtu.be/vIE5O_v2KLA?si=DTQeZneFsTZBOdAM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=8Cm4FSMxykdcsGXt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1vwE-tY_P1Q?si=yiI1v-YzvNS4sLHC','YouTube'),
- (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=U6awMBUKCbEMj2zZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0G0ZskbiYyg?si=5NXEaFLHg4RsBdWJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5vrkCOwiyXE?si=4uPd5pgDnJQl62Cw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vMacidXz1zA?si=uRItVKs2HjFik79r','YouTube'),
- (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=8aitigmsTij3gAX4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2s9lxdTxHZA?si=ErE8ysi6v0j-MBKD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3Q92K1BWZ-8?si=kXwsCroHsi4XaDOJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FdFc6jIxUos?si=qTqM52bR0aj2tkjv','YouTube'),
- (168422909482762240,'https://youtu.be/tUsXPAuHZVE?si=4IJeJK4au3yHNU0N','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UkYp9BL8yu8?si=hKKpELT_2MaqbN_5','YouTube'),
- (168422909482762240,'https://youtu.be/pXfukvVAMqY?si=3jjzZQ_80b97SjDZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6ids62HkfSM?si=HkI23QW-IMAwkja_','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RiRKCzsq8oU?si=VjmwErEauuClX1ms','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BeHcVwfuJ0Q?si=LMwKP0A8cH4-zYee','YouTube'),
- (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=LwKf7xiWaMkZtoj_','YouTube'),
- (168422909482762240,'https://youtu.be/o9V7jdolGOE?si=AdFLND4fs8k2dwBj','YouTube'),
- (168422909482762240,'https://youtu.be/CWZtVb5FG2Q?si=jB5UGu2612nDz4Fm','YouTube'),
- (168422909482762240,'https://youtu.be/nPMoA0S-kpU?si=Ai4gNTiFxI_1Vhua','YouTube'),
- (168422909482762240,'https://youtu.be/T4eoVk_2g-4?si=hM1waWxyXhnK_NQu','YouTube'),
- (168422909482762240,'https://youtu.be/RW5K7OBoMaA?si=3J8MYR0KS8nfH5iW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/w5_LhCB1i84?si=9kVfwnehfZW_INXF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q2L9buy0LnQ?si=ROc7nDl-FTOj7xAe','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=3e9xgkJYyD_tQQlw','YouTube'),
- (168422909482762240,'https://youtu.be/OSRAoSCO2O0?si=LxC22KxoK49VomTd','YouTube'),
- (168422909482762240,'https://youtu.be/0i9tR0nNr-M?si=7C73mMcSiKvshJQh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/e6NvvELXggY?si=mBpitHLlPtzKKWFS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/oYe6PgzGVJY?si=NTnf7Ab8xc69wUaK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MMWaqR54GDQ?si=2DsaBzaYlCreN6PC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cMwwnxpsXjU?si=r6wcVisOnKL1ka2x','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kK4bnE_noqA?si=oxh6RJ9nHjxKDnqz','YouTube'),
- (168422909482762240,'https://youtu.be/tADvYY-2K74?si=Ip1UW_Nfu-3cHjZQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C3VHEByjqXQ?si=woGsDB2puwbBEtVn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q-g7LOewdHo?si=svASAQyLyCJkO2wF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=7aH0RXadSW2JTwOh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PeYXczC3sNE?si=pFM_sLV9qZoQ84_r','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/c1xoMKGwjUc?si=XjDCIfjpGIwwGltI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DlVwR_xC40w?si=gPTfdcgB30eO2dnF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GpDM7saE4jg?si=lBL15P82_vqZfWSO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Cis7rilF0HQ?si=mAQmDs940mhn9FdY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dM37_dSJdbk?si=5kqGE15-amg498sd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KquLnUzFC0Y?si=Qm_rr55AV9ILVwAv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gTUGyRVH26Y?si=jCi6Y7JDG5Mrw2aB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cZI7W5Eatno?si=7xMucdwyThDww8Eq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ue8xs6Jb6xs?si=9A21MLG0reDXfqWP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GhLlvn58GZ0?si=n5B11kH3HcQvl450','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ofX5pU7EBQg?si=abK6MDu4OgPWlpS6','YouTube'),
- (168422909482762240,'https://youtu.be/Fnk6hWr8kZQ?si=9sRFLxYyEwfbKC0b','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ekrxN9u1eLc?si=6bWh7VOCucVC2lGF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OYy0Rk2KEUU?si=g1UxNLgYdKVvevDo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JEaFaGmdG0g?si=ox1CbnO87pCamtbK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_ttguHeSoNs?si=Sd0XclreZXIPH1AK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4nKj5_erykI?si=goKUpkjtzQUNnky6','YouTube'),
- (168422909482762240,'https://youtu.be/CLT2wnMEeWY?si=k5oN_xP3BTKtBukl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/g54Lq80FyJI?si=9R0C8hVmkvh1mhZs','YouTube'),
- (168422909482762240,'https://youtu.be/teQ-bvdw-xk?si=7lsFPaQcEC7UVXWa','YouTube'),
- (168422909482762240,'https://youtu.be/kyJhPwlqDPk?si=3aljue5jQacsPGYX','YouTube'),
- (168422909482762240,'https://youtu.be/5-UASvJTSaA?si=fCBDqHkFdLhIDhfT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=DbfEU7533bYV8qI5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Yxi9ypHdFyM?si=H2tHhixePgF7BArn','YouTube'),
- (168422909482762240,'https://youtu.be/ivErUOTUqes?si=-vBw5O3pvUYIFpB9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GGZ5bcHTu5Y?si=BJuCDolXKKoGkCBT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_z_uHs8dH5E?si=f6a0xc3OHMjzns0C','YouTube'),
- (168422909482762240,'https://youtu.be/ts-3_i6qrMc?si=ycSGQ8PihjfhZjZZ','YouTube'),
- (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=JgweeQbrpzTNzEJU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KwokmGJM4XY?si=OnssasAeNmrPzX5B','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/F3YawWRQILs?si=WawZF1JMqIxhMISe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qbcl-h_uZS4?si=aqzQJ1X2Uh6I-P0_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/35DrorRhRXA?si=7Ka-Z9oVMu7dzzNq','YouTube'),
- (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=jNNQUqzBNQ8QB1gh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_M28RBFdYLU?si=79LVwml0CKsBeget','YouTube'),
- (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=xdG39tkkpwjQvkwS','YouTube'),
- (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=3OkcdhGFw-tDWmPk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aFwr5caJcWA?si=xSCH_3GchcexP7Di','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VyZHQJpTaNE?si=kcrRbUZTxLR57LvT','YouTube'),
- (168422909482762240,'https://youtu.be/VtZZ7QxVvh4?si=0qwzowOAvqm5mbTU','YouTube'),
- (168422909482762240,'https://youtu.be/OZyJnbeYG_Q?feature=shared','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wKdYGUhx-u8?si=0zCniFt-iowEfzrQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Kq0uG5mGGkw?si=vMmEtXz3SEpsszKW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=Gmv9RoZ6xCp0slmu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hcQrxOHpJe4?si=PthENNUy6vGN0T-S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kO78J1wOG_A?si=-O-qrcxjYlb7j-vp','YouTube'),
- (168422909482762240,'https://youtu.be/OdPrG4kKYck?si=F2vhTJMiMvfJlLG7','YouTube'),
- (168422909482762240,'https://youtu.be/exGOdwwOpqk?si=v8krkYiaaoVvlBRP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/trpzwt1dP9M?si=Rv8Ati6Q_xGqFmOt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_K5IAPDsOYI?si=JeTRZ_im6fIn4ez1','YouTube'),
- (168422909482762240,'https://youtu.be/vRGSnEbQf0U?si=bBixCMeDS1LMrLD1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ecAn8iensMM?si=NnUR06dAPIseoqq2','YouTube'),
- (168422909482762240,'https://youtu.be/WUswCyMEeiQ?si=rEsko_t_Pn-4-Chz','YouTube'),
- (168422909482762240,'https://youtu.be/J1h3MbbJYZQ?si=DDU7ft-BSWZfwhxJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dOl3NAdpbpI?si=P9f2L5J8OfW0AzQC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/59Gtpsz-Wio?si=QrcdsvxozsYBi_2S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/H0bxGJPc6dc?si=Me4rqZHWrOswlvfk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/unhHn40niMc?si=o5sVjWGpHlfLH2z3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fO_0u0xg63M?si=PjIatiFHp4yg7744','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nXktNMJOs-M?si=CAZoF6Hci18-COlv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Uxz3WNHqJYk?si=pgVbLsFBAivggFCX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dQ0EgA-W0Us?si=6ifX2iBEPvdnkqCe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rFThjHedkQs?si=vDkXZWs6zapAjGf1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8CK4It8iHCk?si=qY_nEtzXVNkzR4n9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Afo7t9JaOjk?si=dHZB-L-kT4OdDdmX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gio0IVr7tWM?si=fbwPmFm-lQuwVkDn','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=-6ck3bEr8UesKyOv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qRtzKdtG_qc?si=RtSl7FqVghCGNd6o','YouTube'),
- (168422909482762240,'https://youtu.be/jr-Mu0fDTf8?si=Iw3UBTZWbZ-LoCvA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dKF1RmGppa4?si=TUTadIf9Mzfu_kDc','YouTube'),
- (168422909482762240,'https://youtu.be/WBfb4OH7YEA?si=JEtJEVKfTDQXOXUT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GWvggYmBKcs?si=y4e5qBFNYZjH-6rg','YouTube'),
- (168422909482762240,'https://youtu.be/Q7E09MBDncY?si=w7Z1jvKmGnXCpF7A','YouTube'),
- (168422909482762240,'https://youtu.be/0C2SNblI9To?si=KNiBeR74MR0261jP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/oe08cCMJEkg?si=K4XutE4Z3qGjRaKz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/g2BjfYCSZEo?si=1vpUdo7tcZCSOVV8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/N7lLOdwGMdQ?si=uxzNilUy5YkOCbrx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WTRqWKxncdw?si=mgy37pOYxUaWbyHh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Fkh0rfrzNsk?si=t5RZC-OPvuC8tFvz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5czDyuxwx7Q?si=X_-bClX8F1Mfqfvn','YouTube'),
- (168422909482762240,'https://youtu.be/TDUySYLHicI?si=WAAK0k4sC8OVFYKr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9IAq8TeY4qQ?si=HbikiW7hcZfv8zgr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/R1kO0R4T0lo?si=zS82gmou4aQKZ1MC','YouTube'),
- (168422909482762240,'https://youtu.be/4nivVPJTxMM?si=rqkJXUx5e4RVSO88','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7o83vZczieU?si=b8WxdBYLW0JM7K04','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OACXOIZtPho?si=q522vdvHsKUik0N-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/d7zzt0Q5iNI?si=OFEnamO2EjkHwF2j','YouTube'),
- (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=a3iyxmheaYkkb-as','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NWv6TSFg4Ik?si=d3629JwEcOvmx8fI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IVdaysrIS74?si=OciOegj8T8TaARJ6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MF9glaWugbg?si=lIfa-aW2gaYCkBCp','YouTube'),
- (168422909482762240,'https://youtu.be/Kcohq313q00?si=e0bBqabkjMWLr497','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XVstYKLVPrc?si=UH5OZk6gecIQ1cWO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zb3D7acV87o?si=XJez2epQsOfkYpIu','YouTube'),
- (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/b7fFfIMeZyM?si=T4zE8yuCPRIET2hL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S8J2JDIKZJk?si=wl6X1mCOs9ycqlJf','YouTube'),
- (168422909482762240,'https://youtu.be/35dkSdLE1KE?si=2gdxMnomYNHD6aLL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cZIUK_8M2Vg?si=9vstPD0Xa5U_Etp7','YouTube'),
- (168422909482762240,'https://youtu.be/UuidwnXciEM?si=y7AzGS6j60bGPl7v','YouTube'),
- (168422909482762240,'https://youtu.be/-MsSNgjRCaw?si=MpEASYMZK6oN_Svd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8fjias2skJo?si=HFAl8Fqr55NLOoUb','YouTube'),
- (168422909482762240,'https://youtu.be/cFWA4lHQncs?si=NzCYa1rqxJTRU5ek','YouTube'),
- (168422909482762240,'https://youtu.be/tYJlDhJijg4?si=2isHdLYJKm6BoqO1','YouTube'),
- (168422909482762240,'https://youtu.be/UNix5iTeWJo?si=B_QHMOseBMbsY2__','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/B6MIHrLxAms?si=AUgmRLC0tDPZnB7Z','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=PazwxBgMfRYdTfO4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/y1iY5KDZatA?si=vuQBB-S7EucJPDE2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gp_6QgcA_SA?si=W8__-uBWTSuHPhvs','YouTube'),
- (168422909482762240,'https://youtu.be/pa9px0JLQhY?si=2WkV3DrZLj-GFSKz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2nU_Kyb8fxM?si=7rhtTe4V71mB2Tb8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qPbLzd1UdaU?si=pHzVGSWM0x5bdOXV','YouTube'),
- (168422909482762240,'https://youtu.be/6FyQ1oXTpYk?si=ZGzHU2D23CHYMbmW','YouTube'),
- (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=u8ygbDT3DJwfwSwd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JR6x1iHKBig?si=2GiNTdm8oUp5VNrB','YouTube'),
- (168422909482762240,'https://youtu.be/FWnPxke0row?si=ILQ32sJ1AZAT-AtK','YouTube'),
- (168422909482762240,'https://youtu.be/SLqOIHFitL0?si=rAV2ZYz7zBS8IaAx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/do0hV2MnurY?si=xQTsyRGyo9qENUzu','YouTube'),
- (168422909482762240,'https://youtu.be/UAY_ghm0kGQ?si=tHSNRvzlz3-6ehs2','YouTube'),
- (168422909482762240,'https://youtu.be/bsKHCG8fWWQ?si=AETjiDpIXXsAWqhU','YouTube'),
- (168422909482762240,'https://youtu.be/_P0myujlOs8?si=x5u5QvPexqwkuYS3','YouTube'),
- (168422909482762240,'https://youtu.be/jWQYt12WhnE?si=u6GG3xq19rV0koA8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NMkbY2F60xE?si=i3XXgxiIzh_JcAQf','YouTube'),
- (168422909482762240,'https://youtu.be/cJ1u45g_WT0?si=ak2C1LiHmwj8i5un','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EKQH409-PGE?si=8e5wHqWlA_UfDURt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/H_hA4uiUpSk?si=OI9McYoxsKYnAfZ6','YouTube'),
- (168422909482762240,'https://youtu.be/M_2Sh700w_E?si=t7F0gbSmqIwd_i6_','YouTube'),
- (168422909482762240,'https://youtu.be/fBx2mFAJbYY?si=RspzQZH6QvVC-rDy','YouTube'),
- (168422909482762240,'https://youtu.be/zOJaPDmzUV0?si=VXw2L3DjZW7IIt0X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NkZjjZijYDU?si=WSY3th7R9BXI9dzH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kRGniNQn34E?si=zGX2T664nnqj7rym','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/W2EmtmoDrcU?si=pg452ZuAHy79s8FD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vFbE81pCHLI?si=oFh83TWXSu-8yb0-','YouTube'),
- (168422909482762240,'https://youtu.be/p-uA009s1dM?si=gr-BvSztnaXBe9pG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KfhdguONGOg?si=u1ksyz_P1bVPB60S','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4xhSGNnP3lM?si=iaEhwG3DM4oPhMy1','YouTube'),
- (168422909482762240,'https://youtu.be/YBCTf918fso?si=1Xk1HbBiGEaO3ksF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gdqj-r4p2P8?si=-50IMUNdrd8_UBm6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2ZS1kxz7jdk?si=OIPmFRUw7BGwuP-6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BleoXYnM0wA?si=UY2YKRZ66_P_2iTa','YouTube'),
- (168422909482762240,'https://youtu.be/1aRB_F4kzDg?si=L9Q-jsb_MALyevcO','YouTube'),
- (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=miGDrCDuQPrC0Zv1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-spS_VhpjcY?si=MJyEKxU5eXGAjzpz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9FNWyK4AbEE?si=PwzUTLVIMYTdKlVz','YouTube'),
- (168422909482762240,'https://youtu.be/ThDRciEPqcU?si=JMpwskxxHsYXa9zB','YouTube'),
- (168422909482762240,'https://youtu.be/jZOmeqUSjIE?si=NrjbJtDsc1o2jJZ4','YouTube'),
- (168422909482762240,'https://youtu.be/D-ZF_oHnjpU?si=WMkGP9Z02HEUWUfl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MUcyqZLnAWQ?si=HTVHTj0gmMIUAJUe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GU5mGhXwTEM?si=zEk10ZqXGk25dm_B','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qdnx8QsjjIo?si=y6J2UhJ5721QbwJC','YouTube'),
- (168422909482762240,'https://youtu.be/HmAxk_5RYDU?si=XfBhvXrvlcypnC4k','YouTube'),
- (168422909482762240,'https://youtu.be/l5e6UU_YUCE?si=dAIRtNT4bG2l1SEN','YouTube'),
- (168422909482762240,'https://youtu.be/1qpZ7TSgvqM?t=510','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IdSvfey-WWc?si=5zE5IHHkyVKtWgFp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0g3evsRyfWQ?si=L2grCWwKTR3RpXAo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uycCMq6mpoM?si=dr4IKBZolk9sAu_T','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9NqBsENDpd4?si=R0dBdeS2fLsIpXB0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OfVPTOdxoDw?si=9--KlypfTU3RfUOu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AxwHaKEjbDo?si=AnsGsZy36zuYJFrE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/91XwGFrFdDE?si=KdoH7wCRQdQcIc4K','YouTube'),
- (168422909482762240,'https://youtube.com/playlist?list=PLKEzuOOEQvYNf1xvRn8D6bEN5JbvJXraV&si=nwHPEOJOcQ8ypipv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6sTIOEHi3YY?si=djC9JVKQ_SesBbbt','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=ruQurg78YS6R6Atu','YouTube'),
- (168422909482762240,'https://youtu.be/M_2Sh700w_E?si=sPakp5gx_1wtWH1Z','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/m2tNsDLM05g?si=vYzq85FYeGpk2BBR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/byzVFuu_Eac?si=Sv0RiR_XKgJUviGa','YouTube'),
- (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=TdArVmLqVH8gxty4','YouTube'),
- (168422909482762240,'https://youtu.be/NWFSJPP2clE?si=cUaVMPmAkWURDQ7v','YouTube'),
- (168422909482762240,'https://youtu.be/HL4utvyfxLA?si=7nLKjo-J5e9-cx6H','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/b1JEPGr7t7I?si=od-g4D05FrJv1n9f','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kxyulZODTyI?si=US7S6tSUALE9Dtdi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PixTdRMiAzQ?si=zdsUZjjX1wv7r7II','YouTube'),
- (168422909482762240,'https://youtu.be/XYW1HGskfQ8?si=bMMUSFy48nxUUk2X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4uuWROHLfIY?si=EHAxEUf9K9Td6Vqm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MVQOn4__UDk?si=THO_V-_2iiRkihR9','YouTube'),
- (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=8Q4q6lgUCUp5B9TP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Cd3XMAJ5TD0?si=kojil5JAfZ0QDmOs','YouTube'),
- (168422909482762240,'https://youtu.be/4xfoD09e81I?si=tVqK3hTcvucD3P_w','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sDQhHS6nJyE?si=Ks37JxpnQN912zSM','YouTube'),
- (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=p_45CoQ_TGb855aW','YouTube'),
- (168422909482762240,'https://youtu.be/3-jh9EKenUs?si=lYUcnRJQFUW3c0Lt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LuMGrWUXJDw?si=Cr9kIx8pJZAnheei','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wCkaNh5_OPg?si=oY5YB4H0gDlZrKLE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9_rvh90DBgs?si=lJSjI26IjdzVEVA6','YouTube'),
- (168422909482762240,'https://youtu.be/uHPIpmwwQqw?si=9SRy42Nd8Iuu8x2f','YouTube'),
- (168422909482762240,'https://youtu.be/5eiwprUj0BA?si=_yZZUbNL_KDKQf-i','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0lqicuSY-YQ?si=4jxWmngyw7VnQ9AA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9OaEAAXPc7U?si=_JBxxgIAXmQd7fwR','YouTube'),
- (168422909482762240,'https://youtu.be/hEYSjT-7MYI?si=H0XY4AhB2I_M0SVA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/29Kxrv9gUqQ?si=GVArE-IMIhHU6mNq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ra2IoDqtPpo?si=CEjTLnHfgnUBN9O3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OYkNrUYiIPs?si=NrvBIXZwdsTGA3pb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VfDLiuHHfbQ?si=cITmU_VFm9TwIlFc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lFL3HmX_YMg?si=0ChCZbN3nsFR7Mo2','YouTube'),
- (168422909482762240,'https://youtu.be/eWlwooxhgOo?si=iETUU4CoYHEsedMq','YouTube'),
- (168422909482762240,'https://youtu.be/G8g5BrLm7uQ?si=HLFy1kxObZbM8VIv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/o3-XL4NmIpQ?si=-tjKXkVGYiKK_61q','YouTube'),
- (168422909482762240,'https://youtu.be/C8VeeXrSb0Q?si=E3FzDYVo5wLgVJ2i','YouTube'),
- (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=SpsAuT_1v0bSIy_O','YouTube'),
- (168422909482762240,'https://youtu.be/OfiJrxKkvzc?si=SOH8jmXNKoX252Yr','YouTube'),
- (168422909482762240,'https://youtu.be/zRcbCb8mFNI?si=y0kG2Pv_mJdeYsf9','YouTube'),
- (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=qRUZTkWYvJonhMqk','YouTube'),
- (168422909482762240,'https://youtu.be/UuidwnXciEM?si=gu6hk404wQ5fRCT2','YouTube'),
- (168422909482762240,'https://youtu.be/Bt59CHiFZcA?si=hClx3f8w874RPa4G','YouTube'),
- (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=1hVfp-KDixBQzSGR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XcxbfvwH6z4?si=W-otMGaY_44ARmHa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/N-vmvhFTLBU?si=TG3bTMacIlhlrXfi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/W_i-eaIyFuM?si=GkXzOy4zu27cFSYD','YouTube'),
- (168422909482762240,'https://youtu.be/iEOttfOJr2o?si=DWRIAleTNWgLmvv5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/T9dUnUcnvY0?si=hUMCDt7dX5cNNCf2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cDU-WTiKBFA?si=w8yy5I2LiwzCh9T6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C_cgzZm44a8?si=3MJdeacrE7Fy5HYa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5J-NXeor6a4?si=hOEurw2MTXbFMeA7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RwPybgjTfPg?si=C5PnMxeL65oils_4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tVwZEVsTclU?si=PLZcnwLkoFPvEqYf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-5vL2KDbh1Q?si=bjDzLSf_03smLDwd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5gAJCNpUlLM?si=vuHkbR0GD6CqPIag','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2ZCV3WfILQI?si=ednKeNZx2JNB7c_x','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G8Phq5OFvOM?si=_9Lf_zodU2hsjqXE','YouTube'),
- (168422909482762240,'https://youtu.be/wValyK7oAf8?si=W73LaOe7Dj_nOqnz','YouTube'),
- (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=p24RlJQ7GCrh_whO','YouTube'),
- (168422909482762240,'https://youtu.be/oPvC9qQ-8gE?si=rwYiuFvH6F-IYq0D','YouTube'),
- (168422909482762240,'https://youtu.be/StB9sJXtHyw?si=OQaCWvFkrO7CeBAh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-q2lVwUAJA0?si=t0T00gjAbnNxg2uM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pZg5lmQKxw4?si=53fXVz_zGg19ZnY2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lbGws36R04Y?si=LL6cLyxw3L6j4Bt7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bhNuLTPZvMU?si=gnVBWDO3EDid2KRw','YouTube'),
- (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=IzJ_K7AwXQ_UpDim','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qGIQnA-oOG4?si=qXkXld5x3WuBIq_b','YouTube'),
- (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wHCCKmrsEJY?si=-QrBzA-3sR2lMI0V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G2leAHi7UNk?si=bHC9l0myd_8nJmXV','YouTube'),
- (168422909482762240,'https://youtu.be/hm-I9krlpLQ?si=hXieBrOI8EeDtUpV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5zQM2vAYr5o?si=CqbrLrivoJW2VuS-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GUV9NboDr4I?si=v_BWV6-CqqAJHPsa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ioZtwTKu4s8?si=D0E-BlKFUga-2V5-','YouTube'),
- (168422909482762240,'https://youtu.be/B0N-qYLP2_4?si=EWWl681lbvIRaqub','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YYKS1AEshJQ?si=GvDrgEkRPOE0g5np','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hS5yWody8Ts?si=F2_l0XizYn_BmOEb','YouTube'),
- (168422909482762240,'https://youtu.be/0SuDVcTv25g?si=plpuFKijkh3sYTiq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s_vWJdp0Ydo?si=Cbdc9zWRqGRW2zzH','YouTube'),
- (168422909482762240,'https://youtu.be/WNgJCe3HSGY?si=LbaSsri-FdHEtilQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yKCSBDUeAw4?si=-vaeqXLoB4jW6U7A','YouTube'),
- (168422909482762240,'https://youtu.be/AUs07XHMD6E?si=alXZl7SZ3CWILV43','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qX1L_PuhmXM?si=Bg33lA0SMarIRoZm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0uRn6O0B61U?si=as-fTjfwdcGQ-6aK','YouTube'),
- (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=dWSpBMFWPPafCc8V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FpmhRoF2-HA?si=_yhpVLEVTclNlEd2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8IB8hP-Tia8?si=13EsbFi2pB5Y1PEh','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/TwLg5sCOYCI?si=AjIB7NrwoUpu2xTl','YouTube'),
- (168422909482762240,'https://youtu.be/8sbrJbDJVYQ?si=kWAK5wFOBzbA1rpw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WNr7GbF7Z2s?si=5JAH1XFlQRUxt8Bg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Bb52TSr73qE?si=HPlb7WI7tJKN7K-k','YouTube'),
- (168422909482762240,'https://youtu.be/hm-I9krlpLQ?si=vULGHgkEY_mi8Fv8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7BB0knNGTXU?si=-xp-Gh0kMjPbWS4l','YouTube'),
- (168422909482762240,'https://youtu.be/jSpJhzxNAFw?si=MTzdLHnJfYZlazIl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2gUeBn0Vnn4?si=FGFp8DiWtxUux1O1','YouTube'),
- (168422909482762240,'https://youtu.be/FWnPxke0row?si=eaZZHz2QM1IeFWVf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sAEQTpl3YTs?si=QaIZi-DpMuPlRLkQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EVw7uRsEY1E?si=YXDiDrVT1gZ1vJxs','YouTube'),
- (168422909482762240,'https://youtu.be/BR0Siv6CSy0?si=_XRUuUCTUO5Pn7dg','YouTube'),
- (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=nA1DS0ahN6JWk8H9','YouTube'),
- (168422909482762240,'https://youtu.be/rb_tWptGXk8?si=IZqG_Do2o71Iwx9f','YouTube'),
- (168422909482762240,'https://youtu.be/VE52IOpNYJ0?si=d47qQUprj-NgAduW','YouTube'),
- (168422909482762240,'https://youtu.be/6a2FTvhKUI0?si=x36FJ426NtimiKl9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dm7hZDPtdsA?si=aqfRrEmNxgFOgkAl','YouTube'),
- (168422909482762240,'https://youtu.be/8eOYNvJ_i0w?si=zGq2XOZPRseCUS7M','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LKoyWl7RQw4?si=ANvF6s6dvkqZflJF','YouTube'),
- (168422909482762240,'https://youtu.be/IfxJPkiJFek?si=JnkgbsaeEuSTMRIf','YouTube'),
- (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=G7LGjfvyvKZ_2UoR','YouTube'),
- (168422909482762240,'https://youtu.be/RC1L_ngLP_U?si=pcU-Tqy0XIdjBh0B','YouTube'),
- (168422909482762240,'https://youtu.be/c_arQ-6ElYI?si=iZl1JhfiM4tABzxH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OqTFDFWEJUg?si=Ba8tqeT6IpRq6jo5','YouTube'),
- (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=c8mLw-HzZpcavzMJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=ciOOyeywyOZdq-C5','YouTube'),
- (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=y0ykjrjSit5PL8CK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/46gqDpsrRmc?si=Gpk6l_nPEhlksjMR','YouTube'),
- (168422909482762240,'https://youtu.be/vRGSnEbQf0U?si=koEkzE535owAd8X0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ie8SUasOjL0?si=OxTl3gouEWYpKeo6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M6_YRPq39P8?si=VGYBq1U2-QUslxPt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vml4s2nuv5c?si=XhMB41eu-biakP0-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rixf25wAkcA?si=_ZlJ9KzMrvcHDb0W','YouTube'),
- (168422909482762240,'https://youtu.be/VE52IOpNYJ0?si=OzkZkA0EHqnLEJpr','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=EfkP5lUvue_32vp_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ybbi5lHczi4?si=OLHzGxqFJK37PmOP','YouTube'),
- (168422909482762240,'https://youtu.be/tisK4ZVnAZk?si=hIcMmPZQBIjMMqS1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ie52kwaIwy4?si=O7maGTsYVarKYkWa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kEsv9jYlw0c?si=VvsnsIUEmp3R6mdg','YouTube'),
- (168422909482762240,'https://youtu.be/6uh5Q9AlzsU?si=mw1RNL12whD-LNfZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ObeijqNrLFg?si=9HSIGzRHoPjCoSN1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/163jrmnh-aU?si=VWBFV6OoSEI4CvaU','YouTube'),
- (168422909482762240,'https://youtu.be/6XV03-wQxjA?si=2JCAyKRzBg5mXE-7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vl_57YfCDV8?si=tGYysDrBhI_zE7WI','YouTube'),
- (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=OUD148FfF6Q3hg2F','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qTclurwnwi0?si=FOka618UDYM_D9kc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8ySY8x6yNzA?si=ULZEjVAKDAF0Xs7C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GBsuGS40aIA?si=rPl57u3B2Gp0dtMF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0-qzydP0_nY?si=2Lkiv94wPrdfkyLJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2eFQoRufe3M?si=IYZ_pvVW8gaaJv3q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MhkPAYXOT1A?si=yZm_RKqhIn4AAzpo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uUyCfZqfjEM?si=r5F3tzRgDa2pwOWL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/HO4GNX00R1o?si=xMtmmIVQ3emm1FGb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ix-U4Ld4oj0?si=FG4RNFwJcBab1iPZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/W0BT8bVYR0A?si=fN0Vkt8B59ZJFfh9','YouTube'),
- (168422909482762240,'https://youtu.be/UQxJhLgEzL4?si=bb2CHAb0nj3XtEZD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zb3D7acV87o?si=q2Ok22Fl8LfUyXPU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jrvfSXX01Fk?si=D62dBXyqjHBiRXFO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lxE2K27ZbAo?si=3_P2TOpL_FqGkyfT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XYHOi-twy_0?si=mU2SqP75bCvcJw1M','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G_rOy6UH4Jk?si=_udbCz6Qy4qqa6_c','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cQYovxBFVGY?si=bksUK3W3PqJz-p76','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jHrgg-YyAE8?si=sxXvuPZuzN-_z6jq','YouTube'),
- (168422909482762240,'https://youtu.be/DIfpMTXA2kU?si=y-pKY9FQdF3GNEUj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DWodDqDj594?si=_QV0sNZC4bT1SaAE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xHK-wTVGOTo?si=wYLy_F9FAtSdc1IS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/q_j-rAhhFT4?si=y9ifImtV98oQBVVm','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BKvzvdWjBMg?si=-63GzNi1HNvwe8fO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ia4oKy_oqoI?si=5j8nIvQyUEzMKCEt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6YxSt8nX8sk?si=DIujAXP-W0lgjSt1','YouTube'),
- (168422909482762240,'https://youtu.be/SsVOWRGKNPc?si=pUTfduO6zEm_cJB-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6YOhCKaW4Q4?si=6XH7pUA6O04x_RI9','YouTube'),
- (168422909482762240,'https://youtu.be/1-DvXBoxKjY?si=MWMWBTzji9V_wI-2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/POl0f9XP-6s?si=ToPdgSya1pULCal7','YouTube'),
- (168422909482762240,'https://youtu.be/wVAHr53KoBQ?si=HfzbtCUbVzPSJFqD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sCHMQV1ZxIA?si=cpE6o5o_DuFhgfVa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/a4bgPCige98?si=_EfUoybi0uUR3BjA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qIsRvi7F6w4?si=kDrwGDRXbySM8xMu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kvNlL-Ag3pQ?si=PnIO2rcnqKesbS9o','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_2P6Idz1eMg?si=wF2GE4ZmnHnDpEIZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-9McsW-ZUVE?si=OibhONuJ_zw-ZZhC','YouTube'),
- (168422909482762240,'https://youtu.be/Iiiyf5r-WX4?si=jfqFwOCXEU2byBMd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yhenZGc_WzM?si=2fOxyUhzuDCPRKMk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uHRKq_0ezKc?si=frEdLNu3ILj-WEWh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eI-htLxwRwo?si=n3sxEnMyMldHV2-Q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/o7w0vx7trS0?si=vJtFV79tQgR2Gh11','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s7E4m_2FLV4?si=tZvgeaDa2LwxyAVM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ia9mp9P0t88?si=LaPw5zWavsvia2L5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KqKe4nmLuU8?si=u-2jl9NFTzN1SOo9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rGfKvZSK-gc?si=cZVGjBi5UElJsJzW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8Y8TxkKs6Xw?si=FSvesXs8f114soj2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-VSjx9nDM_Q?si=hHC6tPNQ4JsS76PY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xHK-wTVGOTo?si=T03kd3EmenFzSvXL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/q_ANuvDAM_k?si=3zL2LFFdMHfu5M9I','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Q2vgdp9UpeM?si=6AiD7eurPJ736EQd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VclVpQyhLxA?si=RqIdtb7p81xWqjGH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=iIwinYHdMJxUnAbO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/V9UJcDKtp58?si=SfHdzQwAT77lfKa2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WGB0w4Y4T3E?si=r2PwH4uhmLy8vAdK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SD2eJf8b1MM?si=A1vMfemBLV7JJ1Jg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Azg0icuRinA?si=kap9cVXgHIhOjZ_V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7n3iqcL2a88?si=I7aTTXk6EZDoZ8Fc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/H6rCkQI8lr8?si=at-WAPWlks6m1K7u','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/shGUqsDxrVw?si=zQ4uZ_fa-VMBR9Bv','YouTube'),
- (168422909482762240,'https://youtu.be/EXdCcCwauEg?si=TJKyOrfQ_Zj9q6Yt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aOyQS81tR_E?si=OH_zwKp_L9NsAwbT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Efs6XBg3axA?si=pwTEUjKxxhu3y6aL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MC9oCBoyYFA?si=nnOigzGWwzvbcgzY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FXqFvnsAS3g?si=rp4IVbTVnCgDfNQP','YouTube'),
- (168422909482762240,'https://youtu.be/hfKUfJLwBhQ?si=EUZt7n9kwEUdPclq','YouTube'),
- (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=LJ8T0Z5kHWxUz1-n','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hiP_UPqKFVc?si=ewu5CrVa1EXd0QeK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j_gNH3K1KU8?si=NXFfNcPgCxh2jJjZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xq804xDXSI4?si=-ZBnAYQSL5sODc6f','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TUxKXffEUL0?si=ztvJLGAcAIh3Vyxr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ggWuc5ecsIg?si=G7SLro8gnyZPmIlD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_LskVXk9eT4?si=mGTdlMr8IVCWnPzn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eGMY9G0eTa8?si=EIAGHaIowDlIAObt','YouTube'),
- (168422909482762240,'https://youtu.be/AvbDYtDZk1s?si=UqIoXrXf0BZfY0sg','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
- (168422909482762240,'https://youtu.be/mWsUPEACMuU?si=d4PfIRxeDX39uw1R','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7GsSzlok4EE?si=Og_7OzoM6lVa3OOh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bc2MYQ8odLM?si=edVUjcFidVYYKW-q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=2hbZuALfMpSrl5gZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AhuzorPrwRw?si=PDBIXq4vu1l7NQCz','YouTube'),
- (168422909482762240,'https://youtu.be/IsQY0iOBtGI?si=-2417souqjyWdYOJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OPBmKwlkAfM?si=rJvws8xqtHynJ6hw','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qGC_a6cKHok?si=3R5W_-jGkPP7PbeA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vT6AAzaimyU?si=24cwJyGm8x5HfCE0','YouTube'),
- (168422909482762240,'https://youtu.be/90Bs-nHu6qg?si=DediXlJ4d8kllVbI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zCDKvGtyO1k?si=Bc1PFGL8PltqPuf6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=nOYFH676hBsancJF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s8AGlWM0DvQ?si=Kf0ToS6YSFfK1u0W','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s3C_6hakFvI?si=QX_-8Q00WFDhkill','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NqENNjgzBrw?si=imQnbf8hABO8MFN8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GhOXiPzdI_c?si=nxlQ3Jbn9L7Lg7Oy','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=woQjvYfiOh8','YouTube'),
- (168422909482762240,'https://youtu.be/5qTbzbU1ouA?si=nr4TldW_E4QrQ98v','YouTube'),
- (168422909482762240,'https://youtu.be/V2vPB2jSS8E?si=w1OjNT0rs5gpWDaV','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IKvSr8-ciNQ?si=Yf4rOr1FaKw5GnZ2','YouTube'),
- (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=LdrMb1-rlv8CtwkL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YPoIQDNax6s?si=uShjLLxFVjWdgQdt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TfriSyaFc6Y?si=qW5kSmM4F3ncEGLv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sUs4UC0gn0w?si=oUSlFyJx7ON8lphF','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RIdzy5sGQrU?si=Kznc7PSPmiRdmzgT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gi2qfrTtLPw?si=pPyK_kbPyGdROJJ3','YouTube'),
- (168422909482762240,'https://youtu.be/aXUl5xpmGCg?si=K7itlvKZcS6ot8wC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pTn7HjZBeJw?si=OvSG29Wo7VZpRmQy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4xGbuPMF5JM?si=VHLW1DytmCIXuUvJ','YouTube'),
- (168422909482762240,'https://youtu.be/MD3thQufPzg?si=bEsE3zwyZwKe7eEY','YouTube'),
- (168422909482762240,'https://youtu.be/Y1Gv4zR92ds?si=ybDVUThfvxWOgJzA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/97OMyGe9eKk?si=-dyPATnk9FriXcMh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/UEG25-xwFYY?si=bGltfqs9D2uOsH5d','YouTube'),
- (168422909482762240,'https://youtu.be/jpBRvkMYkTk?si=Ocsk6pyEam_9jKdz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6y3759NBUOM?si=w13Cdp66lPj0jpo-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/j-dzEcpzcT8?si=OybeApyECiTEgu98','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=WmhIStThparbQO1_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/E20JaTSHbe0?si=wndGVikIPd07lolu','YouTube'),
- (168422909482762240,'https://youtu.be/TRLreW9atAA?si=7g2bTbUmxijoKdFr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Y0Kapf8tPsw?si=3BTPybaJFY3-7lvp','YouTube'),
- (168422909482762240,'https://youtu.be/v3tIL36ZxBQ?si=xiKOKxFxioXnk9Lu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=XMzW8tSsoA1J_kHy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r5oQhMgP_Mo?si=amTSyWHYOUZfemm0','YouTube'),
- (168422909482762240,'https://youtu.be/LJeIo9VBwts?si=ZseWAjuFhjLm9Dd8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VCYusUqneJU?si=xTr2QGOXNQNxAAsy','YouTube'),
- (168422909482762240,'https://youtu.be/pyd_TeJTiT0?si=rT9keXjBTfnpvYyQ','YouTube'),
- (168422909482762240,'https://youtu.be/ieKfAks22NY?si=32zL1men4S6xu3IT','YouTube'),
- (168422909482762240,'https://youtu.be/LZgeIReY04c?si=WPJ0-SZH2cRyzVay','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/szX_RuNdhio?si=JZ-K1vWxItZsxPI7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FOoQ-z1BZAk?si=BBRcjez6Lbue-6c9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-r9mW6OFIIU?si=VL_L5zHZegAtzBtk','YouTube'),
- (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=O4M8s-swk_uWOD3s','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=phKRx1mwO1D8pzGi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4UbOlnLMJj8?si=DzBNMqRXn0SycdXx','YouTube'),
- (168422909482762240,'https://youtu.be/UD5XdjkfyzM?si=p4Trb1vE5oVAAoq1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S0Y4bshdyKQ?si=z1X2hdeQqL8l3S9c','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7aLRUqUzVw0?si=HTU1aXzR60d9sDTI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/26uK5VbaDRY?si=dAD-OEwzPI8YrF0b','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KlgXxFDsIVg?si=ufx5aEbEdlSH-CPe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yyxdV2sqePo?si=FdB8AqwPGPdcHEMP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SoqFg8MfFIQ?si=usazg2W6GUACZG6p','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6ids62HkfSM?si=t5byWVuad82xGdDW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/glMs2uzUPOI?si=ranWoYjFc8nG67b3','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0gOqrdAYyp0?si=bgWV68Gr-XJjcgAI','YouTube'),
- (168422909482762240,'https://youtu.be/7sjrR0yLdSM?si=8AlNHH8xPTs0w8Pq','YouTube'),
- (168422909482762240,'https://youtu.be/Hm6Sj1ffV-E?si=zG8ZaC12d7tcjUi6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/elzJx8cdE_k?si=5RlTvJhsNVLJgWmB','YouTube'),
- (168422909482762240,'https://youtu.be/10A5qpmC6pE?si=LU-tTNQ60uDkriHA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JZvynm3AI3k?si=SqFOvIBViIIyR2AY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/HxiPUYAiBs4?si=WqDldgry3Kkcz4NI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/82LMaO1Cel8?si=6gUOAdQEGoxcnoW7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AMzJtd5GMFQ?si=d8vnsU4F8dX_eseP','YouTube'),
- (168422909482762240,'https://youtu.be/E1kOqCCX8-M?si=zH1FpBT_nZtU0Zp7','YouTube'),
- (168422909482762240,'https://youtu.be/Lnl8rwB-fwg?si=dT0om4kbZmX5QtwN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2AGOP7pLqu0?si=w5a02m8MXol3uYSB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/37EEjeVLhbw?si=gLhyjrGRZEF4aWmi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/U8oKs6c0eA0?si=X1dyX24NxWYdeajt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DyhYYsii6I4?si=qRa5-v9d0yPxbv2F','YouTube'),
- (168422909482762240,'https://youtu.be/J9xhUg4wydA?si=lKNjq7j43hHTnGqt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/l-bxvtlG7b0?si=vt4TzbezTvTpU5vA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mkihEtuVliU?si=rvGDH67dt-ctV8m5','YouTube'),
- (168422909482762240,'https://youtu.be/38gKLjdx_NY?si=YH8V0RSoNnJg3AVd','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=QF-h3RGh1vtqnP5d','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Wt_dM90X1II?si=18b-dsI7tcKQ6_mH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8IyYqlnG4Bo?si=QGyZc_CULRfZHtfY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zdrjDRI_ynQ?si=DrGHzskO8T3hDv2P','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3jTovCrsK2o?si=D0y7eG0J_OXUzIAf','YouTube'),
- (168422909482762240,'https://youtu.be/3gZRtD3YI10?si=vzIaVONQpqSHUEZM','YouTube'),
- (168422909482762240,'https://youtu.be/SLqOIHFitL0?si=Bu3dSy3pcCq0R6Vj','YouTube'),
- (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=fhmheu-hkEV4mWne','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Dvra2L0EmoU?si=7PFmfi8c2pWQ-bXs','YouTube'),
- (168422909482762240,'https://youtu.be/CJ3Rv0ulE5o?si=GymDgVvmnncCxEF0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eUbEvDsRFHM?si=qJohd7mkkAAW1HDO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VYO7EAsBUyA?si=nJMvYTTaAGuaXPKh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/dU70KUfVN-c?si=ng2jqa1ykERUQ6Fe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/czIonbLUXfg?si=7ZWQM74K3EzUW902','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hIlRZxX5IXw?si=TxjudtJv9ufIFS_n','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eRN9Y4pNC8k?si=EVyHWwrS9U-OwlcV','YouTube'),
- (168422909482762240,'https://youtu.be/FWnPxke0row?si=Ezzyhx4seNAh7065','YouTube'),
- (168422909482762240,'https://youtu.be/VdMGPD4wUjk?feature=shared','YouTube'),
- (168422909482762240,'https://youtu.be/Y8tqlMOSiVA?si=PMZhXBnhbae-iqpu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kzf4J2cjTcw?si=eAwTo_ogTYbkfRhJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/y2eqWorSQKM?si=f7O1YzEwHh3MqP4n','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/6wEa08hiilk?si=-N167SDPxP1Wp9jT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_RUFFOH3DB4?si=lRD6zBzXK3m9uQVz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/agRChf-NQas?si=Aa6bRjIa148FoSO0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/six4VdTGzdk?si=pG5nP7SqyWg14QHO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RY_bFkKxth8?si=-wqZ3AlLEOubmm43','YouTube'),
- (168422909482762240,'https://youtu.be/esfGVbh_LTI?si=fubyqvyDp9A9cTea','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=rM5sfLER5rI','YouTube'),
- (168422909482762240,'https://youtu.be/66lBqKRPKN4?si=Ze6e8t67nozzjbtC','YouTube'),
- (168422909482762240,'https://youtu.be/SZmXKH-DcGk?si=9-6YPQpRNLDg1LVv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/7w98SesTufo?si=4se2sEWVbloBnlAu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/snvl2WP32hs?si=d0KdRlrCFeKTzfPY','YouTube'),
- (168422909482762240,'https://youtu.be/NjQXwRNPXcE?si=WBAJVgQfvKOETnP1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1av-nSYnZlw?si=4J2W5HLqTk-8NCpX','YouTube'),
- (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=XaHSWKAzXbN7rfgQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=pnlAeudyRTZZQ2m4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hf7uWoxhrB4?si=5alRAYiEP7Dr4EmH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wvppl5Jj1mk?si=BsXLsfjPkDvhJxas','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hboTxdSD0nk?si=8rm9jVMPoUcAwRVb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NgKIYlfoF7U?si=m4ZSEqjiH1tRs5qr','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Mg1saQRCy-8?si=kbZVJtaMzH0xjlUQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gag8jLIsuTI?si=aqILwa4uigtN7H0A','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hRqYHN2sBZc?si=0ATzFyiJtBm8-_F8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/p4KCy6YFSkM?si=YauNbqW3-Dp901CT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rVErzH5LvN8?si=tPye-OpIc1RvGBj2','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=mo6e5FF2knU8D-2M','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/91XwGFrFdDE?si=2XtqvBizJxn46hk9','YouTube'),
- (168422909482762240,'https://youtu.be/dn5U1eJjSxE?si=rPYgX7W62-vYLBhl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OGvM-M5NPMM?si=jVvexZ-Hgrf261kN','YouTube'),
- (168422909482762240,'https://youtu.be/ymtHD9BVrpk?si=u6xezY4lUhM656iQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JJpc43asg8E?si=T4GW_NeBIWHqIRCk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WhD28kAD7oE?si=oHNrHFNwonvpZ0q1','YouTube'),
- (168422909482762240,'https://youtu.be/HdLD0oM_yMY?si=IEq6pdjwxFTB6Zeu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/vsnh_vYAt6E?si=ODzAoL3vydbIwo8s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/riFwVLdyPfY?si=tkg121pD58ntoolY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JuqADXcnWr4?si=3UsJ0oUeuON7EqiT','YouTube'),
- (168422909482762240,'https://youtu.be/QiiVbLQFrIo?si=2GPbOrojHLR0LIoy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/BTWhhc0lQLU?si=R3o2OeWRVdD0_ioR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/snYVIqzl6Gs?si=0X8uoo6oTt7NOo-s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zfVYSY5uZv8?si=Vg8B_FTuvkI_1QWy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_zZ6ufK9KWQ?si=ncDDroyDh-Ok-Ei5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=gp3TuoVOizGkS86u','YouTube'),
- (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=_0_D5ddJMKBJYmQy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iE7vtpXi41Y?si=P9KDexoHXG36CRiP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0ICHsyA6Eyw?si=O1GZUa6gfYUzoFQM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1OCRGVwwhm8?si=Plq7t56uz7ag8Xp_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ILPL76HDVGs?si=4H7Hp8GJq9-gPA8A','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8sOjf1kospQ?si=odfpikRffYCdn3sq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XIHM90KiPAA?si=7I5AUW2R_ZeaR-CC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-FJgjjlahso?si=IlYGMx5WNfxS_gzL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YeePo8Ua-y0?si=Q7To_qygD1Jlv2NL','YouTube'),
- (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=-t2g--gFjAtklVnF','YouTube'),
- (168422909482762240,'https://youtu.be/HaCDNfx8JWA?si=DPJkaHaxUL8BRwbz','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TkGtMstJ-kU?si=5pN5r4XGzEXrO0g8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ghoac5rWF0o?si=zWnZZmuZ7CBMkknh','YouTube'),
- (168422909482762240,'https://youtu.be/iafhDKHue-g?si=VnTIWaz4tmIOYf1r','YouTube'),
- (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=ztY0SMsD3jrdQp8J','YouTube'),
- (168422909482762240,'https://youtu.be/TAD1F2I3Zfk?si=gmQi1IeCt4Dt3yOH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Zhb4xg6oMEk?si=Zdy_NpNZ3Ho81xbx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/9NQWbeHSmD8?si=s3Pa14hHRaZIOPq-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kdlqhI3TJJQ?si=T2d6GKmk1Uqqql1l','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/J_njKVmyKc4?si=OLL5HmMrm2LeqVwx','YouTube'),
- (168422909482762240,'https://youtu.be/kqQjkC7tdwc?si=rj2GjO2wtOqE485v','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=mT2kJHDsi8boL1ll','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/E_M5Jkp2A1I?si=WNu42RTLyrYg035U','YouTube'),
- (168422909482762240,'https://youtu.be/tRHU-YFdz78?si=L32c7xw4Ff2YxF7s','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JWYnNx5BX2k?si=KpmmUAlxPWxQJfmE','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/TF5VLi_qrDk?si=bQF_hn6DAW9QyBx7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OGsIqbCmXUM?si=em1XnDOjaA-R2pzb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KGNDGwP7-80?si=jFWXXGGznFXBoLg9','YouTube'),
- (168422909482762240,'https://youtu.be/9MjfnqRDQu4?si=ttktukS4BEdMwwOT','YouTube'),
- (168422909482762240,'https://youtu.be/ll_UhrQMC-I?si=OCxhwGO-y-hR0vP-','YouTube'),
- (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=PRQdKZ9E49VNBg6o','YouTube'),
- (168422909482762240,'https://youtu.be/E--GDs-VKYw?si=gyWryFdtPlk5TxdS','YouTube'),
- (168422909482762240,'https://youtu.be/JZ6tYkStri4?si=ACkmQrqSZifteXKc','YouTube'),
- (168422909482762240,'https://youtu.be/lMoUOHAf8zo?si=5msMmyQU6NvR2mzX','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_AOaQIFJk-Q?si=A1Ui4LultuXBsnyr','YouTube'),
- (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=7tEGO1Ulq83ncmj2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-ekfg0-d2tA?si=3wV7kiheKw6uLlWW','YouTube'),
- (168422909482762240,'https://youtu.be/Q6bzAKoOnac?si=AjkRMOZvANqKfQmM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s8AGlWM0DvQ?si=UVdAg75vSmaKI2fi','YouTube'),
- (168422909482762240,'https://youtu.be/0jrkmjfiaIg?si=BnNvy8Zfs_9YPQIp','YouTube'),
- (168422909482762240,'https://youtu.be/LoZdralHqpc?si=QixNK5t4GX2lhBEN','YouTube'),
- (168422909482762240,'https://youtu.be/c_arQ-6ElYI?si=PnRP9Lm7ORv9K8or','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/R-yef88RCb8?si=_140rzIXj0ukglF0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z2mnM9CpaBI?si=sk47FLQ2fbBCPl3z','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qZzDDd0hQTA?si=fbAuGOa1317y4lh1','YouTube'),
- (168422909482762240,'https://youtu.be/GHITLSJze70?si=5wdwLMQdgU4gGFLK','YouTube'),
- (168422909482762240,'https://youtu.be/RHnRGKLYRps?si=gVN5Tw54bODkpm3h','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iAZ5jYPBNoo?si=YDE-AFSUEm4VuSEa','YouTube'),
- (168422909482762240,'https://youtu.be/VZrUBsRd8dE?si=12Q2UxljshuyBVEi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eiyCdYnFGX8?si=9TmAEsVKcojSStC5','YouTube'),
- (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=oXzblH_lRlXF74A7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0JJ70b8tbOg?si=PKIGnF2pmKTu6vGl','YouTube'),
- (168422909482762240,'https://youtu.be/sx5PUXwpgNU?si=EHJ48JuN_P17-mUb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fIKhnbNhGLc?si=_7gFYT1fnC5mcqbv','YouTube'),
- (168422909482762240,'https://youtu.be/_P0myujlOs8?si=IRt5anEQmQkUjomt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FVU6F48Isok?si=Xxl-att0pJUJzutn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/sI1fNHoWWag?si=dC5axnuzHCyZOW1L','YouTube'),
- (168422909482762240,'https://youtu.be/z6R5BeBL7wE?si=vrbIenPBBs7vZ-jY','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AEUBWw9H_IY?si=VnVFDWWdbLl2ADtj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/S0Ejaf-7SnM?si=vnn_HnEPTczvwoYG','YouTube'),
- (168422909482762240,'https://youtu.be/mWsUPEACMuU?si=2t0-yPeFhS9Q3tpi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KVw-NXCInn4?si=5eKtfvfeSg6vajfC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/y1iY5KDZatA?si=tSRqX0_p1aFV9oyh','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qAWqH8C2v3w?si=rxY9ddlSouzkNX2y','YouTube'),
- (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=1NNCD8hjzPwBQDt5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cMIOKkF_NuA?si=qKYHDpp-S-EihTuu','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gx3AZLjLHes?si=LOrOa5qxVOpfUJdJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aK6pdReYc4U?si=garSv2f_H4Fzh3eA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QqBzTTABj7g?si=k_5Lv9F-1Jo0HpOi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/pC75E0y4DPw?si=yF3Pm8fxQg2UM5fB','YouTube'),
- (168422909482762240,'https://youtu.be/I1QFAUJ95OQ?si=4mFUAtC-e0kIHsyI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/W9AINUkCz1g?si=dT3-GVPFgnXsppYe','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/QF6ATQgYruU?si=W8ZP_Dj5TUxl97wy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/x_8AqsloapM?si=6stSKqhaow0xjRTJ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GaXxAhCC8Es?si=mtz2J3pbbrYy6val','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/yKf-F50FhSE?si=omP7KtBa-gjAoA2q','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3TMO6HlEqms?si=KR-kQYpqazjs_GHM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/87HHnVc7Ido?si=Ii7c-2vqcJc-k0Mv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RxvOtltUiFA?si=IgFDuhDUyT4p0y-8','YouTube'),
- (168422909482762240,'https://youtu.be/Wln7kMJsWkg?si=XBTiabRYTo6EOa0v','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LDQRyjVhuYA?si=JJa-jfpp44GKhbV0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Bla4apuWtdU?si=ivbngZWj7jtVGMkW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zpb-L9T_lRw?si=-iJsIWCK6RByMMuT','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xMJ_qvaMhoI?si=bht82D8WdKMANyRS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/iOa2SaEaSFQ?si=O44O5ZqPbVarQvId','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cQYovxBFVGY?si=HMasmtevimIvdXts','YouTube'),
- (168422909482762240,'https://youtu.be/NLtNF_0vQIk?si=AmHcaoaIEZ-pRP37','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zEyfw9PM6oc?si=X4QuTMpyxTBD5Sci','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cGxGsRvOvN0?si=3pD9J9KT2SrGt2Cj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fRIUkROmyB0?si=-rQPji-BJtpdNHdW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=ztCuxYDLZSVRdqzb','YouTube'),
- (168422909482762240,'https://youtu.be/Pw2vRbewluA?si=FcyBPTVAYmP6HktS','YouTube'),
- (168422909482762240,'https://youtu.be/9YgLfadZ6OQ?si=N6thu4p7uZb4sF-p','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VLLo6T8ydBQ?si=50amRu4Tu0RHbpFO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8ZRfSuaJpBI?si=_J-iExsAwdkNLISk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Gz9DVWegGX4?si=jueWjqkchfzAFE1w','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zA-fZmS_vrU?si=nf-1xHRaolv8dnWt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PJNxKeo8Uc0?si=-Egv15LvFxbEnMP3','YouTube'),
- (168422909482762240,'https://youtu.be/RfLtAdSgWPQ?si=_J_lOpxVMF0KuWXN','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cKLwvO_3OoU?si=ilQar8OGZE3I619N','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/P-v9BGUFWNk?si=VMecpZtwegwx25EK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ArD6-SbXINY?si=oFP30Fk9hDy_jgvG','YouTube'),
- (168422909482762240,'https://youtu.be/RYIu7Qlqh4M?si=s_8uz_fIcDx2euaH','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=lUgjtsLZ0i97zu_r','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube'),
- (168422909482762240,'https://youtu.be/YADGLmnXqwM?si=yH1eW0Dk9x82n3Sy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8drEnfy_bek?si=TwuCtvhzPus1qisO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MHVRJTAGEEQ?si=1pBGFKSTYBmU6uUB','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=MaIDlHM3qC4&list=PL6sOIpFyShKP9Vowr5Arl92Kym3iXUhOh&pp=iAQB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JCCfTPoqBVA?si=XGQuz84vLIZHWyzk','YouTube'),
- (168422909482762240,'https://youtu.be/vt7EC1PEJoI?si=pXZrt5iNvplh-u4u','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/xea248WTzWQ?si=f5XWdWPKuzYFVZ9Y','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Wa576Mozsyw?si=oKARp0P0H-q9rX_6','YouTube'),
- (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=lX1oIRZnxlFW27dl','YouTube'),
- (168422909482762240,'https://youtu.be/rqVCdNkMGlE?si=vbt_xdPe6MKWvxk6','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hGCXQKj0JtM?si=KQ6xQk8XrZfnex7D','YouTube'),
- (168422909482762240,'https://youtu.be/Rcif_7hmjiU?si=eJMhz3kiZ-9smX5o','YouTube'),
- (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=MdrDW4p9ZZB-QEXM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/aDQO6e5fu-8?si=VPCQxAtQvXeGUa_V','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VvWWOhVyb3g?si=agpWAs-zRjetrK7_','YouTube'),
- (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZXypGoYiYqxpClVQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/eFlm1mZsaHo?si=CNnViO9oXhS11iML','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/42gsUJ67oYQ?si=0szjK91YteyiFiR1','YouTube'),
- (168422909482762240,'https://youtu.be/TagiVDEKxyc?si=KkZTU59Va5xRw6ri','YouTube'),
- (168422909482762240,'https://youtu.be/7OKmJXfHM-c?si=IQiTZrpJHKRuuYGL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ku1k4f8cJwk?si=0hGU2NrmPUfIS_Gt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/u88upbbUasU?si=XrGs0GCpLv95AUiS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Lbf37m2QDJY?si=hsOUAQUYYOnsHQFS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uyxi_6amDeQ?si=Sqq7U6hS3OxTKEZP','YouTube'),
- (168422909482762240,'https://youtu.be/zOJaPDmzUV0?si=Wy0StYEfS2zjK5VQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/cT4EDGDM18o?si=H0uC5OHoRQHrmKCb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Wlbp5hNtlnk?si=aWcT8V9sB4ubWFQi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/DH3aKv-0vko?si=nMcTefwHd_KVoCbL','YouTube'),
- (168422909482762240,'https://youtu.be/jcXB-4ZQiKU?si=THZ5878bRJ7TbW4C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/-Jwc1uzVOP4?si=u8eVltdBhtlpI6lZ','YouTube'),
- (168422909482762240,'https://youtu.be/2xohi-vmKlI?si=eyViNOBVSLtokcHs','YouTube'),
- (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube'),
- (168422909482762240,'https://youtu.be/ABHmlHMPnis?si=xbwbcXQEtAzRveTM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/lleTlMtbN8Q?si=vSxaJIvKh26CyTVj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4LHp58J7vz8?si=2NbloaUiJrle2bH9','YouTube'),
- (168422909482762240,'https://youtu.be/tznGzMuc1uE?feature=shared','YouTube'),
- (168422909482762240,'https://youtu.be/zC9aoRNrvLs?si=ryblKQV5vR4N1PBs','YouTube'),
- (168422909482762240,'https://youtu.be/AH5F73qPtQQ?si=lOSnu3NTAuDrH-7u','YouTube'),
- (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=UpMexexfV3HuyqtQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/h82S8-Xdxg8?si=4bA-295gzFoxI_3D','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/c1v5kxs3Hts?si=qvi_RIV6kEeD3xJi','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ov7tj2oKRM8?si=5Z9sm0aVrt4NarfO','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/IVdaysrIS74?si=GlC4k-hWpJmC5idx','YouTube'),
- (168422909482762240,'https://youtu.be/-wiJxu3BSRk?si=hQRnKFz-11G5u6mG','YouTube'),
- (168422909482762240,'https://youtu.be/4NcNhlImBmE?si=3d2WcwB8W2hWI5UM','YouTube'),
- (168422909482762240,'https://youtu.be/zwn3QVsrndU?si=ryW_QEn4qPRkomoF','YouTube'),
- (168422909482762240,'https://youtu.be/-zBl2_XL60s?si=YMy4P2K4qWOanIZp','YouTube'),
- (168422909482762240,'https://youtu.be/OnC_P0rUgys?si=azTbt3YOHEIwKZ_D','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MV8frsygXaY?si=Tf7wQXaQwWCc5nfS','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/5M7GRI_XTP0?si=UyS6tWO7ah7Pwkty','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/wl2AQEBSJ6Q?si=AV2MhwPx3W-FFyrj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/37aRGW3j3Zc?si=iVvbJnXMdwbJsCkk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/d7ltudlIht8?si=7YPhA3WGfvZJMLSd','YouTube'),
- (168422909482762240,'https://youtu.be/tHaZHeFZq6w?si=4vGXs8u9eRw1Kuri','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/D6enxa3tdEk?si=wSRayrZWs8Seat56','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=1nUeb1Qiv6tbrrGa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ZVkc6mEcP2o?si=dJXJUBpmKOsS4_Zk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/EBpwBnkMfyo?si=oPTIH5oRpxZf6rab','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3IGjKjTkPW4?si=yWV3ZluXqlE4w22A','YouTube'),
- (168422909482762240,'https://youtu.be/IHhd4CthYZI?si=guEigo56-3Klxgnv','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=kco8rRnmxptZEpRp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M_WLflMCXHs?si=oagWgcLMDnnhN2w0','YouTube'),
- (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube'),
- (168422909482762240,'https://youtu.be/W2SjAWjf-Jc?si=AGmfpudM_m5AtNtf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Z-mjNJ5GkIc?si=rqFqF-tEYXhSYz1q','YouTube'),
- (168422909482762240,'https://youtu.be/xuM4PEqg1Z8?si=lmLKRvHLE92tMnEn','YouTube'),
- (168422909482762240,'https://youtu.be/yRuqFceddfU?si=vXhFVmheUsKscBVC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mSHPi0IMy38?si=f_z5m3U8nlDfgmmR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=tMDFwyM408MGnvhc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M6_YRPq39P8?si=WF01Fb_nNUJR2EvC','YouTube'),
- (168422909482762240,'https://youtu.be/ll_UhrQMC-I?si=0PJLZxnjFc-lHUk3','YouTube'),
- (168422909482762240,'https://youtu.be/IonwS9J9vf8?si=jnWzB_HzJtCkdqDI','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/fRIUkROmyB0?si=4-2RfZ9-5AtH415g','YouTube'),
- (168422909482762240,'https://www.youtube.com/watch?v=Dkt1f_cpqF4','YouTube'),
- (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s0bhhPVG21E?si=XWSj4RCTJoYeTmjy','YouTube'),
- (168422909482762240,'https://youtu.be/s46TZDTTFdM?si=3BPbVv9PszjbmtI9','YouTube'),
- (168422909482762240,'https://youtu.be/DLjJwW1lFxI?si=zbGa5Kbqz6OiStsf','YouTube'),
- (168422909482762240,'https://youtu.be/YWdbDSZWlBU?si=3Iec3OqIA4tczv8o','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=3JT8zXrP-ZC5XnmZ','YouTube'),
- (168422909482762240,'https://youtu.be/ksVJcues82A?si=Eoqa1PMcWjVHfzE7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/s3g49Fbw14E?si=47ouxRUxdRTEXkEy','YouTube'),
- (168422909482762240,'https://youtu.be/EGcFGPZMrcg?si=D6Sg3w2z6cG_AogA','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f5f_Biexd4o?si=iJ5qTWvWRDxupIkD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/ROldqrpDjeo?si=rZ3c4GEbsW9HaEIG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tJqnfEc-SdE?si=OknjkuIreWfmIXRz','YouTube'),
- (168422909482762240,'https://youtu.be/Z8AFcsmoW5Q?si=6aVfUkydiLm01Ikq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/elG4sq4Xxvw?si=_u-QVUfUGA1dvJ-C','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/KZjkvoTl6tk?si=S_x9QmKKlvRnKT7m','YouTube'),
- (168422909482762240,'https://youtu.be/Lt37DJkGg-0?si=FUszWpmhvraUrktL','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=_mxyq21C8MfDy6iA','YouTube'),
- (168422909482762240,'https://youtu.be/SAW3fyd8OwM?si=_I2jP-ls9O0i_BRx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/YEPrTL3cA4A?si=GEzsThFmffKgOedt','YouTube'),
- (168422909482762240,'https://youtu.be/9cRm4VUBYhE?si=gq82gx1K8D1O3M-0','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/OU427erQJKI?si=xpGYtfjeJBghmeZo','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/q_ANuvDAM_k?si=CdlFkqqLxkBQbsWn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/PPhEVzoW90o?si=WlDFleXG5D1iZuxM','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XM8BmLipo2k?si=QCcAdH7oo8fjrTxC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/rK_smGgn_8A?si=MEpR5saHFeE8eoJP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/XDH4MldRqwU?si=mFpuppM30T3JOf74','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Us1InfcEpHc?si=_zl6OvyC8kKfs3se','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/0jYIr9MCTcM?si=eD7B4NhJMHN6fqsP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qRQX9fgrI4s?si=0jbulkUAUs4GyvVv','YouTube'),
- (168422909482762240,'https://youtu.be/0w3IcMMCkBY?si=HpkY-abnMxW7_Yhj','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LnYMlXM91uE?si=AWpBIZjSWW6Ell8T','YouTube'),
- (168422909482762240,'https://youtu.be/5q6fmCg9RKk?si=WhXgSJ6u8w2jX0Au','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/b-aVEs4QNVc?si=zSHAPHQBAXJxbTAd','YouTube'),
- (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=MVttbWnAN0NVxSuc','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/A7Aymz733pg?si=MkiojqsetMNkoqqH','YouTube'),
- (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=28BLCeMNd9tEavOB','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GAK62_qiSU0?si=X-J45wrkm3T4Bhst','YouTube'),
- (168422909482762240,'https://youtu.be/KC4jamHFxzY?si=N-flxrkTWkveaPa1','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=eYx7W3LtHzSBxaHD','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/tyUI3dbkGWU?si=ruquOk92Doxfgtr_','YouTube'),
- (168422909482762240,'https://youtu.be/ti2MNaKtcbU?si=94FPsbA2a8NwUWWZ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/bjqEkFscMVE?si=bigwQIYwWilk0bkh','YouTube'),
- (168422909482762240,'https://youtu.be/AwDjkI57pP0?si=ATKdNRd4YHkWgTc6','YouTube'),
- (168422909482762240,'https://youtu.be/yI19__8tdwQ?si=Dqz5R0nlByTko0oK','YouTube'),
- (168422909482762240,'https://youtu.be/toTtunvlqE4?si=a8a2qVvU5_5ETp27','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/3v8k5hJTbCs?si=mJFa5BDvyPlS4rOz','YouTube'),
- (168422909482762240,'https://youtu.be/6khdlewOjjk?si=PWe14wAjFsHvPV6M','YouTube'),
- (168422909482762240,'https://youtu.be/hnhs3tlWLxc?si=rSOMP0XREZXIsyCa','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mhBQ1bg2X5k?si=q-zUQsg-opXlPZGw','YouTube'),
- (168422909482762240,'https://youtu.be/GbZw4crfhxY?si=iCLw7Yabzlz8TDU5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FTe0esFXhaM?si=nURmZ6_yDbxVrbsk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Ocs00dEpqXg?si=bzpgAPnSj-ib5NHP','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Jj2EYOcqK7g?si=pRe9G105z2E_yBu1','YouTube'),
- (168422909482762240,'https://youtu.be/2V_xYubUJFo?si=naMYQ0JPyX1Z0814','YouTube'),
- (168422909482762240,'https://youtu.be/M04JlWTRQEA?si=rC66mr3uClpZcXDL','YouTube'),
- (168422909482762240,'https://youtu.be/88zU6TbGiqY?si=8rsaWQYdnYBLH0pf','YouTube'),
- (168422909482762240,'https://youtu.be/fBx2mFAJbYY?si=CXFVolc8w2e2eMJ4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/uncVb6V6FJ4?si=MiMb7TDC8qVj1Mga','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/zdrjDRI_ynQ?si=ID4pb3RIb6MDF5J5','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/M7tyJiumObk?si=H29iJrjnKeUmxK_o','YouTube'),
- (168422909482762240,'https://youtu.be/aRkkMKImxXQ?si=ZheY3x03huCW79Cb','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/c-UnQ5AT3CE?si=8nCy355YOxfOTnRv','YouTube'),
- (168422909482762240,'https://youtu.be/OSRAoSCO2O0?si=s_WLJIVNYC6hVBOG','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/WlaKqDmkmPI?si=BNNHXrC9kmBm0USp','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MekuBUZGewk?si=7gzh6dqgk7SGe8G5','YouTube'),
- (168422909482762240,'https://youtu.be/1lHmGTXOMcY?si=crDMqH-nQ0kkU7_8','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/GBMHlMwux74?si=uWoD-GJMgi0Wd0ho','YouTube'),
- (168422909482762240,'https://youtu.be/B0KIhkkHx9A?si=H_LnHDuxuv2T7x4d','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/AcCikCZwIvM?si=1bOFFPyXuDbndjYl','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/mC-UikSpQjc?si=8y9fGD7qvGzqwu79','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hKxceiuOVfY?si=B2hIrZo54LwEiHTk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/kvNlL-Ag3pQ?si=KEhKlnUHY9DnWx4p','YouTube'),
- (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=b9qf2_VuJEN4aVFs','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nlDxl-eoBIs?si=VHHBIN3xGGfN76UQ','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/gBxwXanK4yM?si=nO_lprvJ5HC0fe5X','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/NrIZWX5T6Mg?si=M926n_wAiqYE5drk','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/8uj_XhZB8YM?si=CS8Dlwfbeig_hvgk','YouTube'),
- (168422909482762240,'https://youtu.be/0mSdk_H-JuE?si=x5U3S7ljT00Jr1zq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/_ZQFJwTxpSs?si=6xD_lhVjTtVcWznf','YouTube'),
- (168422909482762240,'https://youtu.be/0cmtCBCpASE?si=hjCfRWK-vOlF2n81','YouTube'),
- (168422909482762240,'https://youtu.be/L_5CgBvHKVU?si=us76Pn1Ku-5UkWeh','YouTube'),
- (168422909482762240,'https://youtu.be/ugdESt4y3IA?si=AdBn9RLQQbnAVgz5','YouTube'),
- (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=3ED_EWyWAaGOiBJM','YouTube'),
- (168422909482762240,'https://youtu.be/skFjWOpqtmE?si=Oxx3jPKfJzEkoKhg','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/nWFa4u1cNl8?si=H3QzyngSdJgdnhSY','YouTube'),
- (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=Ypb-NDxGb2ubFm5Q','YouTube'),
- (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=vKKjz_XVucXezLIE','YouTube'),
- (168422909482762240,'https://youtu.be/GmOSDuq05Kk?si=iSv8RKBoyU8Z5-k9','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=JfFqzIIXpAuTpNg-','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/REyNqPhcquw?si=gb2DhnAnBiKCAJD7','YouTube'),
- (168422909482762240,'https://youtu.be/svt3ou8ZLKc?si=qxgO3jCLtcXquOqR','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/hIaL138AeJo?si=PtTW6_JbAr6bStDz','YouTube'),
- (168422909482762240,'https://youtu.be/ffBP4zZhehA?si=lMl1h9MWm7xWakM7','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1UBYpY3GiLg?si=YWPw6r41J54gKpf2','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/czphf8TYR0o?si=6i4Rig69dYieKr1o','YouTube'),
- (168422909482762240,'https://youtu.be/lFfL8fexGQE?si=qR9-nMW3CG5Zhax4','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/obPbMsIySOE?si=CJB0QoRlIt6RHLkf','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/N-U6dc_F0m0?si=GU-uN-BrCsTTZoQL','YouTube'),
- (168422909482762240,'https://youtu.be/FaswgkmJmGs?si=do_gbZMwYxFlhvRN','YouTube'),
- (168422909482762240,'https://youtu.be/vlKEO9XIY-Q?si=-1jg2YaUf9O7k8pv','YouTube'),
- (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4MZqDcPP7HE?si=gS1sQGDwfyx77GCn','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/2R0623DQTlo?si=5PiQnm53VcHU7xqC','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/SqXrdEtIeZI?si=UIdJWiHwZgi5LTVt','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/qT44dVrKXXo?si=-CtK8Dr4Bpk3g899','YouTube'),
- (168422909482762240,'https://youtu.be/Hon4mGJXgm0?si=sk_UuAT0dIWROUYq','YouTube'),
- (168422909482762240,'https://www.youtube.com/live/B9YSwvAbTQk?si=l0e1Yb80RcJdUnP8','YouTube'),
- (168422909482762240,'https://youtu.be/oEPWWQT_2NE?si=5shxkQi3T0EaUy9x','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/MJjql8kEdK8?si=PB4ii92i437NJZo0','YouTube'),
- (168422909482762240,'https://youtu.be/YFHwyzX1aNU?si=E5tzriyyaXRZk-qv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LCddtIJYZac?si=B2hRARwGDCH7Ot06','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/VGodkiW8Fqg?si=X_Mc7uDE2nNogzR9','YouTube'),
- (168422909482762240,'https://youtu.be/0OXlDyKhzcg?si=oC7xkg81cmDJ15Re','YouTube'),
- (168422909482762240,'https://youtu.be/B4OTIRIKnv8?si=0NaW8jpmLM3EmJtW','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/Iov-Yc1hrFM?si=XoRQN_g8ykkGDgxz','YouTube'),
- (168422909482762240,'https://youtu.be/KwG6X4t7NdU?si=qoBS0KeP6gv5RUAI','YouTube'),
- (168422909482762240,'https://youtu.be/a5jy6mLelAU?si=Lycq-hntOAQU02hq','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/4DihusgPs3s?si=cMj4ytHDp8AYgc29https://youtu.be/MytRMvYSCwg?si=K1XbUVbcr5EBw_Ue','YouTube'),
- (168422909482762240,'https://youtu.be/ntJafPCcSPA?si=x6bCQpYEtlZfDsq7','YouTube'),
- (168422909482762240,'https://youtu.be/krXH8jXefqE?si=t5Xh_KvggUWHJ3nN','YouTube'),
- (168422909482762240,'https://youtu.be/9GwPO38q6eY?si=Yjd4eADLs4kfVdRy','YouTube'),
- (168422909482762240,'https://youtu.be/VYKPr3qyLwk?si=E43L_SlWVDsEPYES','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/FdElcyixFdg?si=VU7lJGbarwlRB2x2','YouTube'),
- (168422909482762240,'https://youtu.be/sdWmm33VzBM?si=0xcJ8HOI7rj8Lr9j','YouTube'),
- (168422909482762240,'https://youtu.be/F9x1DFHTkMs?si=_0Str2Y2p7qbKrie','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/e6l3nXEMV9A?si=ncvK2KlWHR6OI9WD','YouTube'),
- (168422909482762240,'https://youtu.be/qhumZYxU4dI?si=LU8fzCtaydkvi1-a','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/G2G8d1LJS_U?si=fTbRIs2zL0b_lJNr','YouTube'),
- (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=2fKEg0qUhLLRbRjH','YouTube'),
- (168422909482762240,'https://youtu.be/_vJTU3uYRxg?si=dYdx1awXMd0BKSzW','YouTube'),
- (168422909482762240,'https://youtu.be/krXH8jXefqE?si=246ggrROahVM1jtT','YouTube'),
- (168422909482762240,'https://youtu.be/txAC4WMD5f8?si=TRpQMm8FrF6jQJfK','YouTube'),
- (168422909482762240,'https://youtu.be/vxtFsjSMbfM?si=c0pitgsZr7umvD9_','YouTube'),
- (168422909482762240,'https://youtu.be/zunJKyMlBiA?si=vkXRnMq0a8ikXe89','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/LouEkgWq3Fo?si=5ba4ZDo5WfZc0New','YouTube'),
- (168422909482762240,'https://youtu.be/NV55ANSYoAs?si=KCq6VBV57gy70FtS','YouTube'),
- (168422909482762240,'https://youtu.be/dmaqfR-F2-M?si=EI1QsqlK9zHE6Egf','YouTube'),
- (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=sOwgE7Kr0ZcLOsf7','YouTube'),
- (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=nzAU_YyH6489gBkt','YouTube'),
- (168422909482762240,'https://youtu.be/dsxOX1CCtBA?si=-eu8071PSK5PeTaZ','YouTube'),
- (168422909482762240,'https://youtu.be/ti2MNaKtcbU?si=CleogT-oUvFIu2ni','YouTube'),
- (168422909482762240,'https://youtu.be/Kjg9j1e7-Y4?si=o2qvCVx2gpN4xrRf','YouTube'),
- (168422909482762240,'https://youtu.be/0cgaQZmUV_g?si=Jvf_boaGXmVJvGxb','YouTube'),
- (168422909482762240,'https://youtu.be/DPLT4l1JrgY?si=EmebXfl_5bOajG8u','YouTube'),
- (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=YirhnFQzNILuzGiU','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/JyOYBJmhZ2Q?si=IwStSmGXjf1QfUVR','YouTube'),
- (168422909482762240,'https://youtu.be/PRaycqLnRr4?si=04GITJqY61_TeYa3','YouTube'),
- (168422909482762240,'https://youtu.be/-XflmrrdTNk?si=7itzloETCE8wMEtK','YouTube'),
- (168422909482762240,'https://youtu.be/75hgWJT6P0Y?si=99hF-wEzstKeS-rv','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/jDF0wY3lUQA?si=6QI0jtQ6iMUI_U6b','YouTube'),
- (168422909482762240,'https://youtu.be/NRdkk6_64_4?si=FEoRA_L2MkN-l_ND','YouTube'),
- (168422909482762240,'https://youtu.be/4i7P9nbOTvA?si=FIERsJekkoI-Ak16','YouTube'),
- (168422909482762240,'https://youtu.be/Nf-FT2C4YQw?si=YYYgirsIwWYbCK7c','YouTube'),
- (168422909482762240,'https://youtu.be/9Uc1ti_jXq8?si=Q8vCRDJWD1X0ok4U','YouTube'),
- (168422909482762240,'https://youtu.be/k_1Z3WEzLj4?si=qI_biniUalADNfRQ','YouTube'),
- (168422909482762240,'https://youtu.be/PYzoR_hy_ko?si=DcdNgybIoV5TrFA8','YouTube'),
- (168422909482762240,'https://youtu.be/0HeuTBRlm1Q?si=YbMPr4hgXisb3fEg','YouTube'),
- (168422909482762240,'https://youtu.be/NRdkk6_64_4?si=n4H1HH_IbltQW9qs','YouTube'),
- (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=xhCcU3Kw_Lo0Z8yB','YouTube'),
- (168422909482762240,'https://youtu.be/a8nfwg3Ty1Y?si=WeQ3pVMnGZ0fXumx','YouTube'),
- (168422909482762240,'https://youtube.com/shorts/1QGxfzUwrD0?si=rf69JiXqZXiRy6aD','YouTube'),
- (168422909482762240,'https://youtu.be/0cgaQZmUV_g?si=5GkWcTJziikILQHM','YouTube'),
- (168422909482762240,'https://youtu.be/_xXIC96jXBQ?si=3mcRESXLYhZttBcT','YouTube'),
- (168422909482762240,'https://youtu.be/krXH8jXefqE?si=E-vqQnnmTius3de1','YouTube'),
- (168422909482762240,'https://youtu.be/WjKN8jFc22E?si=nuEKgagPPX35ns6x','YouTube'),
- (168422909482762240,'https://youtu.be/3HuGo5O-Ohc?si=DerEx1ZU79zC7Q4G','YouTube'),
- (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=buNZoUc5vCs8MZdu','YouTube'),
- (168422909482762240,'https://youtu.be/cHTmEaO_Es8?si=5N4qawKOusrDc9aw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/pDGjzTPH7FU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/112XW4gvRAA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/LT8XI1yshkY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/oQe_qwvTKvY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ECkW--t3ewc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-wwiwGbYG3Y','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/exv52T2mPpc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2Kk01MoYmWc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NFw-FrYmAEw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FvrQCys-KFo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/hfJKLC33ST4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/tNznVh5M3V0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/j8vxeJp00mU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/uRo0M-TbmFY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/pRy3TxzXVaE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/n9wlC2P0428','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4mKXJqWHy9o','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/TPXTw1E9OuE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-uHgo7_ZtXs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=OLAK5uy_n9whXCjRIolUIJZcijEJppwsv2qNoacnM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BO2hn1Gcgps','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UHOE-fV110g','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/H01BwSD9eyQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/T0HHAQAdnak','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gsZjHgPH-g8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/OhpVndPhPIQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Jk5ToAZ4uGk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EtITrGEJdfY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/AqOcf0U4F0Q','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/HXrkOLBMofw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BQT8T-pcRWI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qNk6yqO10do','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bBzUqpLFRa8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/vphrQxM_Rv4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/eD0XEH3qVCk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Tazx_vCZCv4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/o1iOkNDGkFA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLOrEojpA3r6RT_yUBj0epaUTvRx8iCVIO','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLB2880E9A7DFF6C25','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL2BY5n2oF82jb1DXxq6sWxSUuVpDeObBY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL78C36CCBBDDF29D3','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0gEkNVq1ct0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=VG6BcQe5azc&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=UdCkWlfHgOQ&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=3ATmZRj42ss&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=bBzUqpLFRa8&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=ws3dWKazVYA&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2UmbRrc-Zd4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/mZghYCQMHMM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lllr56_5-OM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NW--HM53eEo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/zFAGsScytyA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/iMcl3E96sWI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/nj9syHGdZ-s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CbEsAd5lbhU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gVripgVq6_c','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/z4nTLL8SbnE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/fpMdvbPM3oY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/oOWrhRj2XCQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/t9Kux_nuxio','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rxqzpIfHFGk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/g3HwWmKbwYE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLWFJ_WcAX_zwwVFv9WrT1JEE2FC6iA8UV','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL7JlbFp_rQHz9sr_lUX8prqdKOtumRIlk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=uPIZuvyO5KI&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ThlzP8Xz5MQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/q1ULJ92aldE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dOo2jWb73JY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/25N1pdzvp4c','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kyYdm54Nx3s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/byIjMomjWkA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/GNU8ZoFfRBI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/uGDQW77_OrU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/td2BHSxkafE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL9P_ZLlzoCZ2ZgtRxJme2cpEHk7mnK5Y5','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLC7t3SL2tt4_ndZW0PjXxVBcNlyN8g0DC','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/9_0eYH30sRk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BecwWEE7Vkg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5NV6Rdv1a3I','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EvRRt_JPFeg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0B7jvVmpBPg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ysCNbUOXfbI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5d0V1yxrnPY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6A8WgfNZOhM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0t5bkpyucrc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lrCWoHH4HVo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLBO2h-GzDvIZc2sPO4Q0cQSOpS1JiOGjw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BLObWFBSVH0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Gx7sUmun6zE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0X0sLw63KLU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=gq5PMJ-pn48&t','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4IdEf-IRNSQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=095Kd3m0XQ4&start=0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=OtvgvWK3hn4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=37wk04K0z4E','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FyH2kP8gxGs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dvasWIXLIVI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=o1iOkNDGkFA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=flGaYTEK9NI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=_xPqx0-ssXw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL60p5-zg-uLIn28dEckBclAU_wBXbDv8x','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/TT_b3YU8SRk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/riSM2yTF9yU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/vnRGUN8nUqU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xWfflrSW6iA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XVA_8i6aAag','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2azTLdkIAVI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/S6bjwqAIP9w','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lBXjEZUKj6Q','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/F8jKVYDOwG8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/55BR7F4JcFQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NC5bAQtXUdk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/sRuCvdT8H_Y','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rcKFUp4YioU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0NwTPolvC1w','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=6SviXq0yFE8&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/egdZP5CXO1o','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/83g69vWrysY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=28FVxYQuLOQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4hd89rVQlcM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xlhDuX7KQ88?t=807','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/WxtU_eh0tMQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BcqMuY1rvOo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Ew35ZIL6uT0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=NdeiFVedxiM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ZZr8EBDmams','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/jUZ73jYSbPk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/m35pIk5wfNk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/k46gcfQ14EI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/31ybNrIwLlQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qSqDx1YCEtg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/AsJnL5rgOac','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Wtb8tgFkAWs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Z7yoLhUDDjE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SGxcyjHOqhs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IBD6arUXffE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Y59T2H6Xi1I','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rzW1LRnAfMw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=NHR2miEYc6g','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_aofYpF2C9c','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=RE-O-KXdY0k','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FCbZddJt_V0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=-NdVjE-7fdI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/zTMe5p_eTZg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/G-Zvdhy4LsQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Bbnd1r-JG18','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rmcmBV9GH4U','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VpiRaoCcWto','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/sigB0cYW9_E','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=hNDv9XmDxdo&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLsa7dvIdIrDll1frTUiwSVZri51TF7-ax','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=CD2w4QHNY8w','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/HFihiBewRgg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/MC6QuXb_mYk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLpcULAOXFs0chAOuej8PsNiy32d6KBymn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_qve2LRJRcU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/W2DtqT9lw5A','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLLv3qeuV3YDoZBxxSdV4dr1D0G6OI5BpJ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/TFPhTz3wvWU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kj32duoqmNM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/B6-hheRt0UI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kuEPCtxw5mU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xE2IIv95m48','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VdRs9owgk8A','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/zq4qLfIH_8E','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/KzhP1UJktwU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/mghE_45tWno','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wDdYcJb1knI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/c8lvT2GBUcQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/JfWnrOWNqso','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/HY7madya75A','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/WTs6ErY4Tk4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2Yf6L-KykkQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/aW-CA_Pxxcc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IuEL7-U12sA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/V7bQWveNpP0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xCtOVDUYWS4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CLwM2fjLfGQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/hxjkUzFzshE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lZzxfPXApXA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EwFAneaz0nY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VQq5rnWriwc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/emUJ7c8-5ZE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/arT86rIFM7k','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gmaIv5JaryU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/E8_2Oa5QqCc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dkDR5OckDfA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0eSNvUQg7zI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CCsPBCi2Qz4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3KJl_7DzHy8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-jbp2BZ3S9M','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/j5CeyqQo1I8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/r2UgrdaZmrQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bRXZSJoY-QE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xVW20tP-hss','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/E3DFY-oWm2U','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FVc4-Hg34gU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=Vezy_1pz2MM&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=vcrQo6t4Giw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wjOj_6cMGEY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-Syn1mJVt7U','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3yHL-bb0Z8k','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5EzCtmorwHw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NMIvBkKd1Bg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Alyau1qbxKc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NzIOn_b84tQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL5d8G56iag7v4g5WYh_TkfFh7y1l2msD9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/7uEq7ArqhRQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/G7zZ8RyMk7I','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1uALnLVErC0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4cORLXCXpZY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/7mFRm1ZlzOI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6vZ_w1S6dgk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/7UHCfeeKZz4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5iI4IqImY2A','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5_UykEF_HVk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1Z82puJyHtA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5aKqiXN06jk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0hPi31iyuiY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/eMX0R0Eoq40','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/K_7K7v2KGYU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/diScvS_ZOpM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/K_YbbAhRbIQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dx_N_rMeOwc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/YZpvYo1rLKE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/c0y9SDiihBY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/OojSNCjHRpQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rUs0iQZHDkM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/p9DcAqI1hHw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/nUGXGf9El04','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6a9tgAZ_ZfE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/watch?v=T5-ngdDxLM0&feature=share9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lZGNqqzgPv8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/P0cHLd2BL34','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLf9WhiP4v6TYX0oCL7LO6IrnN6yihHKba','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SFz-O_IU9ZM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL-h8uu7JbA95yahQYf1ZV_7rePyI3pusQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLGUQI0XpDNLMd9HPfuO2sPVD-zsqUuBEW','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Si0JkvftWeA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/iFZXGO74qH0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_O3nDqhObTE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/QSA-FTl_nSQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLjyLjyXJQJUOr4wDlE1RRQQZMf5tej_H-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLNqhEC8s3wXlQ31AT6eWFIIGEiLZZcTkk&feature=share9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Lkn64ZE6VAo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=M6f2hMDSXu4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=0KI7QGFB_bY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=wWZEndJsom0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NxPIOo6c0fM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Gd5F9UbvZpc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/MzDuNMJT6aY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_zSkq-SKAO8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5HxBqBUB-jE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/yQM07cp5qYs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CNz2vz7_pmI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bcp43CGYS5Y','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/J3K7e_LWZug','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/GbqA4xilrlw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Vjb_REU_5vU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/tUtB6MrkcPk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/m-WiKUyPnQU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/cs3bqciYPnA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IQHj4OVkYRc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rcitxiZIjEI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=6_UzdwxkiAE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=K7-8uwamwtQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=wxH2nRNcoqA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=z8kHqARUkjQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=DRdjXAbSMtQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Sq8fXJSenho','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4XFEA4F6NpE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_SoiFI5DPVk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bvhpOJa4rA0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qSse8h5jniI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-r6D_hPRqQE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Gzq1JYFXYFw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rEY03rNW9lA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2-eQoi6xdH0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6W3Kt7NNsCk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Vuv-3_sUcSs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/JMVFI8HRZLI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ee27SF6Bv4A','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gU_FEhxLsAc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_99gK4hCJwo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/TX_YzXKROXg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/g65DurBPt1c','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qbpwb7oIfSg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6eoHIf_sL2Q','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/nxLGukC_IBU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Yuop5ro6RlQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UBK02HiVlVo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLb40FqbOPl1psPyznGfyjqSnLsmkPA-2B&feature=share9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/watch?v=1RRveZ1OgO0&feature=share9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5k6zNZEipJQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SKsOr9YdiXM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wTNBI7yHKJw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/OvR4Gt0LrHs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XRgr1itD6oU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/F3VoKWhGVc0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ux_nqA-7Zks','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xMeqJuzEutc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/WIa2DXh-Siw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/A8eoERctJNc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=7n1kbzBO4bk&list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P&pp=iAQB','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xlrLC2Y_7Ho','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lIEKgWfBpVs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/U394Boe8TKc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lFBh9ufnaT0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/on6PQOUkLxI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/E_Zxcr8YkM0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3iT_ZXK9pDY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=mMPJYfrCowg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wc2ofRG3GDY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/GdzvsNM-2UA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/X9OUZ62Wk8s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/f8lYaeFPtvw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/y3g7oJL8zq0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/MaD4EK8xD70','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ywQnoYOAbMA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/k0F974RJTow','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/yNCgpaMlOcs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=xslUg0i09Ig','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Wz_2qa8G8CY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IJ7l9k8Mksc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/KfTOYDTgbIs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=-iE0zRXHx6c&si=txr-iR51Sby7lVA-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=-iE0zRXHx6c&si=jZUBISNaXCn2XHdN','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=lZzxfPXApXA&si=bfHopJIXMitVCe27','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=JFDY-RFV_OM&si=KgBg-g43blo9zwBh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=on6PQOUkLxI&si=EmYc8faqlGN5ujf3','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=R1s5C4qclPg&si=VyFx4BWDJTyi1FFQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=1uALnLVErC0&si=Eor_n1V7nM0u4uK7','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=Vezy_1pz2MM&si=PFEXVxd5-MkvnHpo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=OiYsmHBO74Q&si=MhyC1HsAfrFNmyv1','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=t48gGrPo2KI&si=0XPkyCzb8pt4XfMu','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=SFz-O_IU9ZM&si=6eu9M8aBNJlK3Zv2','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=PQ2wWf-fY_A&si=ndWj6DJNxtvQbaam','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=EjexaoiXFgs&si=4vYdsvPpGPNv5swn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=VpiRaoCcWto&si=4O59N6ZTp7TEq9dh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=2CN_mIQeJg4&si=VzxaKn4iF80BGf6x','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/playlist?list=PL8vEUsckfa9ixvpLuj-ybfA1wGWl4JH-P&si=bnfoIkT4ITTuB8Yx','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=AU2dEh3CD18','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/LMUhHodNecI?si=Ow_nEy2TIS5lDWry','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/X1lFaO6VSwA?si=tk6ACf3JNQqZe5AW','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Fg1_UJuOuvU?si=CAz4WkXOSdpwz76Q','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/tQCvky1Qo_g?si=LsCeD7-Ya21s_asy','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/NoxDvqO_lZ0?si=mMsexNtC4OZYnnRp','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/nu5cT5Phrq0?si=iST7hPiSdXnBZp7J','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/DvOb276Dqmk?si=2_DJG9Nmz9fu2-ne','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/cijjTRGouSE?si=ts8JYyr9YHKMssfm','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1olrYjfBhV8?si=hlXFXqiyEYm5LzoD','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Oni59LMewUk?si=_9s9XLAUi-nWqBFM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLXGwdBTnr0ybG5bDnW3srGj8iwIFYoAYp&si=qWZObZk78rIQMwPC','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL60p5-zg-uLLQYyXw5vEuQqXQRMEkX8f3','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VLYqNOcFmG0?si=3-Ppgcx8YKBudLOX','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/rDSoDDx-GTI?si=ZIzAivkk5WLGv5B6','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/DCJTSC3e0GA?si=QCRkG3Q_JxQ-VW8i','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=2mRnuMfHpOk&list=PLJiQg8gfBfwwRdVPLG3wjeDAdQkyKldFb&index=90','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-HbnFy-mhcY?si=ZR34ETyXazEttkip','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/h-2LRO8sGCI?si=BJkxbkq7P8Kp_C6U','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=lYioT8dba-w','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/a7xDtho6rp8?si=JXqJb_KIH6hRFC_P','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lx1VlmMNUOc?si=yLDUNc-Rzvx8mXsY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=2aWk2vOEStc&si=DjQlRaz_m-ux1xRe','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/yE26ra5Ytfg?si=XZTzk8A-Qz_lb0RM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1olrYjfBhV8?si=g7SGDERW6vZpHYbL','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6zt-5Dn2jlA?si=52cGe6m34BdsYEyq','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3rn6bQUTSGU?si=KxZNalqWNRDV3F4E','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/sDvDmGRojmg?si=AKRekrLRe6IJDNEk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dR1qnEN1j2E?si=nBl63a1FXknWJZVG','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1MJGo2p602s?si=hGOkFg8QRmsZMLgY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/eIsZ5SvoLMk?si=wD9fS1aQBiMBeG7B','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IFYtX2p0vAk?si=1oACIPk9YmN7mbpD','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/POwwQmXqSWA?si=z2DuprKKGXiYjqRY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kVOtuE83bA0?si=vrItESisHejoHc1X','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/hRAeGYHNLag?si=ZqRSltqpzb3Uqffg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLAs1Kha_R9dLAPNbN6LnhIU91xwRfjFQr','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IOCmYw7SJR8?si=tffKPstBQLbooB0C','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Fg1_UJuOuvU?si=Md__jU65pSQnmNiD','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/9hjql8iBb1s?si=fwHra4sFQrZs4Zgi','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SIY6pRRgAZQ?si=CCDnyOXNigPXyl1q','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CkycbnuJrpU?si=1u3x2sWoU_fxJnia','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://open.spotify.com/album/6yHWmClCEyj9aOodHAM4jx','Spotify');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0eSNvUQg7zI?si=4wWMRNycllGP4GHw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/8pzxlHcrxJI?si=WgHHzObdRfTJKysM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ZAFBSNQNve4?si=pCeS9QnS0yiMqG64','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3KJl_7DzHy8?si=oZcp1QfNAAL0FZ6F','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2RBazTfpybw?si=M8AVm5tPw5BN4zMB','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XMCYNH1EJTg?si=XBVii9Ce1tfwsyg-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/7_InP3Qe2yg?si=myeBKO3uRe_aVw5R','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CLwM2fjLfGQ?si=qvhO9GOrU1rZehcj','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/a0YK-PEEDYE?si=xuK_FJXGjHPgNvHh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/luTSyiOIhdU?si=tRoRmwTa4eSxPlSS','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/nUGXGf9El04?si=UWGf5-HaEwhXda30','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/1P6wlK1PI-8?si=r9-40UNy6yCSEeBb','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=_H2dFBIL-eg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=ifYFrwWSeSQ&si=zaLX0MKYvC3YGJq9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=u_FRDqHT5y0&si=lh0N-3xrMCBIAZ6y','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=fmhxEnRf9g8&si=rPlHw7XH5KKUO8dA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=2aWk2vOEStc&si=w-prHrotDHdKro83','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=UIfE6HyeSn8&si=C6ux_RNixiuobIOy','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=bIqJd5U1olc&si=nEhv0D4PrL9cXNDI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=PxjqQMzLU6g&si=WJjdjIqOsv4M0_1w','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=txR3V5Geu2Y&si=Z0kFr8AIAJS4L1Ta','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=4SGimoONJvE&si=8p0YSuZHA2b05snN','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=62CEs-G6_iI&si=UJqh60iZYDM8vOLh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=4KNQRcS4PSg&si=F9-1w7TUkuOXaZw9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/playlist?list=OLAK5uy_kidGzGmzCUSJK1LAtIh7ngZwRF9MT3qjE&si=1WEUAZhPKH4NJj-e','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/playlist?list=OLAK5uy_m-rr6K-H8nfmI3MdSzCRpQw0gxDeG5jzk&si=z4nqsQqMfiTo6obd','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=mnsdfHft3Y4&si=PJr35F_R81biHXz4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=7PRl6l0uKvE&si=mqs11X6ZdwwFHH4H','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=-KKcJXYAM54&si=MJYUH7LqlPCa5q5Z','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=TO4KTxv7_4w&si=uW1Ibp3mDRUQqab-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=4yz4idv5ZdU&si=VrmI5n3s7ep-BoRh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=XijZfSo6bJc&si=E4CsGNu4RIboNTmL','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5pywlN55Iok?si=Vsxfe2W_AKt7wDxj','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Pbm34U193qo?si=_WdFfFK8N0R8Du9z','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gT5bsym1Cug?si=zdSJX7GCmkFjaUr9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EVIKjgnW2so?si=y7wnGZ1DY2cOMlPw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/i7FhjxukIl0?si=qjJYO1BuliyNcxWC','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Ob-7hjfvkRE?si=Nj017TSIkpmlytif','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/pOusbm1mqNo?si=KFdyLRZIVTQkcxMr','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://archive.org/details/undertale-collectors-edition-soundtrack/Undertale+Collector''s+Edition+Soundtrack','Archive.org');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/RxqIJh2dLUA?si=FKEwHov3YMeEihDo','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLqrlkIVyDLs9FSzmc5OMI4FazB8QyyWV1','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLNvQcJ1tQe2RE-xgKf-H-euXC9A90-52T','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=UhU2A00h1Ao','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=yDhinIGEEg8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/H7Bqbg9L5sE?si=xNGYIxViLRQWJeNt','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/W2DtqT9lw5A?si=9Ax3-47GGQxbobZA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/89xI44bwVSM?si=tjyySiMMPkGmKg_L','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-jbp2BZ3S9M?si=XvJHR9VzZysSuNuc','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/eMhgoTLFr58?si=PEfQGBhBpVUyn4dm','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLavKabWyl5jPEd_ttFKasHAkNq8SAYsv_','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=qHMsE1FuqGw&si=QsijX7Yzr6tx82zm','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=jqJo5mwt5DA&si=HjVCArGCMjnQ5mlX','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=yjAE8n0bpLA&si=i3aaVZXBxe5NdUGg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLjyLjyXJQJUMqy9QIGi3MFzBYTTotQ9LP&si=NoVY_3GrViKG9C9a','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bYEc1EkyqIw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLh4Eme5gACZEAazTK1vSZn3DCYJLQ4YHH','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UCLtLghEtBs?si=CQaY_oogTEkWZVZ6','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CJLsY0XkqDM?si=fC_ibkIM0wnCGf03','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ug6G-XQNXBc?si=nMXFTbEzxx1H4cAH','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/BE4-vksdnr4?si=SYf0hf3mVrvAfv_s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/t2exPDg1mg4?si=L0o0IVJv7I2FHKin','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_BICcMa9KpA?si=sky_MFJYdhK4mbl-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/CSnXO6t53z8?si=U3alvJAgoTLAUCHa','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Ds3hvd-tneI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=3yHL-bb0Z8k','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Z3w0gH4cNMU?si=sh6U-TxsOzAjGSRl','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Y3VjgZWEvd8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/2GVgONIvrKs?si=Wr-eBDDaTjA2v2uA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLJiQg8gfBfwwRdVPLG3wjeDAdQkyKldFb','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=hs2TOn7CAbI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Mi3kTchB8To?si=FOmq-PkNlPJUThPs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/WPCi7LJNJJk?si=bRI9PQQtS-nTSinr','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xE54i6rxxIA?si=ZBBY6dS4GcHGTgcG','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/H-AT42lYGBg?si=GNtW2xqaNm5qoYQr','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Fe93CLbHjxQ?si=m7avw6flSle4zdIv','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=ePy7Xt2E-FE&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=xKzKNrBdAew&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=112XW4gvRAA&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=C0qOwRCG6sc&feature=share','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/D9FyQpwIJh4?si=3Hh-WZjtJKft2FjK','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=uFa4MrjB_t8&list=PLNVBCuBh-Vr1yymlYqoPAmdnw6G7DjDsp','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLOrEojpA3r6TX_SYLqVmmJWmQbyucAy6v','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/srZdDAJbHfc?si=EoDAXhxF9Q7QiTZQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/mc9LKJMedaY?si=0DEOTYW_LQPp0yGe','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VGh5DV0D3wk?si=Ytih5AJLquFICFrV','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/usXhiWE2Uc0?si=V-BNCkd9uobbPbm6','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/59M5z0c8YtE?si=0Lnm5BKn2QJIFnRl','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/PKfxmFU3lWY?si=AOovFVNMWLYUn1ks','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_cB3HXVvm0g?si=qrd4Z7-uBKagcIe_','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XE-oMOEZ7Rc?si=VflxKmoqKhUCmMOg','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/a-4Ny4URgf4?si=Yvh-t5QAxVurvdbn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/QMokMQ8Bu7Y?si=-TrAFUqk1hhi-5U9','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/MwSkC85TDgY?si=oP_nTbAGkY1vtR35','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/RhkZwqauQBQ?si=zSIGIwnRC8aZumY8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wJ6L2RS_80s?si=Q7UumQ2D6tS4FEUj','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/afwK743PL2Y?si=Kouks9l6Bw8tgCZZ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Y1Z3Q3O7IRE?si=rzvhrlRZklOR3Nas','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_WPmsD0tKlA?si=kqYbCGtBpKfTWdvE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=5TWdxxW-6xc&list=PLnaJlq-zKc0WUXhwhSowwJdpe1fZumJzd&pp=iAQB','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qD5vBt4SWYo?si=xnQlnRAQkn9RgFrT','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/dHlpa5utQzQ?si=0AwQM3i_kt9KDHOd','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/-hesc6ThW1Y?si=d5n8ZkOKjmjiaNoy','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/sRuCvdT8H_Y?si=Dk8ZI988oclW3f6Z','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL8JttaK4Km_GBOZdL6IN2yt07rsPKiXGQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/iN0-dRNsmRM?si=HN2YVHIlc4E8PVyN','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/D3Edy0KdBUI?si=X0r-vsokI0wq99iv','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/xWjnpLwfjLs?si=u2gZzSfZEFyXO0BR','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/B1DYKodOLy8?si=l8BdHZqeDqBZhJue','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kvgllZ3G6kw?si=4PNbD2DkYLQ5ct9G','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4CBoboiNwPo?si=QmE1X7OE_STdAc6u','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/MbVY2K1V6vk?si=4DG83V8ZDuFFnXX_','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/sH16drUAcco?si=T8kyrWMzPKmWOnGk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SdRYrIIa-1I?si=sFJxlZiPsIitFcpn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UwdiUeH1RdA?si=WmmxceiIw6clYlTI','Youtube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/F2J5ASM2IkM?si=tqpLCv7k1mKU8VCc','Youtube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/10u0VZHDiq0?si=zLZr8PNOviJDcot2','Youtube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/6wVGdnnQFgQ?si=ZAkKCJNatDFkTYxz','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qY0fWsQTXBU?si=aUinb2zhJCAljlMM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLs32wOK-XZhZs7sZqsAyu4BhxRWEy0BvK','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Kf2aBgoHGVs?si=45HuVptYS67aPjdy','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/C1gX17FVcHk?si=2hufQql1vBjpw2y2','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/uLbdoF33NQQ?si=TMtEuy_4YgCsrl-r','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/gEXWWJgyPw0?si=WVm73EpTrXD_4mxw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/tbK5PRrvnF0?si=JqYiHo3hShhpQc_8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/OfLDM1jibso?si=liV4j1y8eVpaaMpx','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/arT86rIFM7k?si=Cg-KSSz5qU18wPH3','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/m4-41W6mlhU?si=H7mp2GDCySIfQFre','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/HevKLOQdAXY?si=_STimhEbf5Oxn8kY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=IPfI5GMhzBw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/20YYsQljWFs?si=eUvqpbpYlBgthxOi','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=DJWg9n5bp1c&si=SRkDiXckixFhaIkM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=8lbocsJWbUs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/kifM5WZ-4_Q?si=5HK7-zuYZLzZN7GJ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/bXE6B6Usj6o?si=4GiL3MKn8wK7ZIM8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/A0Xs9izK_7o?si=4l3kmBI4sMs_5Adn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/hUpegBuY7NU?si=Z3RHWnpMk6Tinc6F','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/4CICqC6DJyI?si=mFnlwRfY_bc6nQ6s','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/RJ6baspw2sk?si=P2jLtY2TTD6V2KR2','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/skFjWOpqtmE?si=flp2kSMn_3BklY6r','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/8PKomuwyJVE?si=Eu4UAJPWHbSQPIIA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=OebzswLV2-c','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLGhL8Rq_E6Zhyp5I9SljEhr7KSktgQbXQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Oh0xiw6YdsA?si=pbsWZOD0zn5n2lZk','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/hs2TOn7CAbI?si=gB1-Rv0vMZBVV-ZC','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=OiO2F6ICKnY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/t2exPDg1mg4?si=gaZdU7Mh60uD17S4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/eVMDsOmKRGI?si=JkX-vAk6oy4n7Hqh','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/tpXaBMum2bQ?si=aqYRnqtFMIIlPbzi','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3O0LderWvfo?si=xrRAtjTcujtnOuk5','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/mLOQmh-QUF0?si=pH7yf-elcsdNAaNU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ygXGsnpATJc?si=WfOzgt9i0kGkQyQS','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/wGt3Aa860FU?si=Ple43rqc9nvPx_Aa','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UZNcERE0fD0?si=gnLe4uL8b_iXII_1','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/5aU0PIltPvk?si=_Y6AdNU5bz1IjYfx','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FjA103OJOkI?si=MV_yJ1P5mZPlbSxE','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLorOCzHWrQvxA65TTx7FJU5Ig50GDr-aF','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/FhpK8Sm_bEU?si=YAO-eDzUJ4rVVsU2','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SqdeDAbejkQ?si=35daQHvY82-gJ4L_','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=jEDQmD7nhyQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/93pInGfn84o?si=t56JL-wUlUqqJ1p1','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XQqQqK9ufo8?si=HQmmgdwOVbYFWtCw','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ux_nqA-7Zks','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=OLAK5uy_lk11aliTic05KPQfZlW0E2R_O0y3m14hU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EvRRt_JPFeg?si=tK4ysuFekyMBCw_I','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/GNJtPFXUnm4','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UbHY7vBAp4o?si=k5ct2ApN5M_QEh9K','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/LFqnP1U24bg?si=emtnF0dMUm7LU2sb','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/QhVi6nfet7E?si=bXuL1BNFJYWRwRDD','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/I9QP6QPW9_k?si=MMbnNNCF5xRg0mey','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/v3tIL36ZxBQ?si=gAfutJB2Mbsc6GcY','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/yhTtEMNYWWc?si=D61mp4gmSF9pDj2R','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=LhB1-G2QfbiYeSwI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/R9k9QGANkJM?si=GghCGN5vC_2FwGrR','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UuidwnXciEM?si=y7AzGS6j60bGPl7v','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=UuidwnXciEM','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Ei0vhsoNRU0','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=3rfNkfRIIbA','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLvmIFMXfvno1ACgJFjrcYCCw95r2FPkfe','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=vatxUikLPBI','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=JZH_LKe7eTQ','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/fyR_d3OIfMA?si=VP0091VOphjp4u_6','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLS6ULattcBTqYcvKx_Ese5KaoIeOwk3LN','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLS6ULattcBToVFvlziDiaYvsql58Jwvgn','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL5mHyrIARDwjyNKH-NPrShutw-pSpJtKR','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLwwsvqADVqKOKCWxAICmxxxQ2XCUn7p3Y','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL_rWyEWQwwQjMELuxir_pmteUdARB47cB','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLmu9MyoIo4lcEBWyuKMAHF5jH8zgVnKYU','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=53Y_Dl9VXVE&list=PLnmPwImw6aJ5IcGjABybxjBO1IT8D8SqT','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Sum9enh2Dpk&list=PLCZY90aqT7KgptridhTMKm-RORctolCk_','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=_6hKHt5yWtk&list=PLDKM1xIAJEeUDNRqhFHZRtq3qNnQ6WYXN','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=_6hKHt5yWtk&list=PLTKixxSRvtFx2DaOvvCIh7XTYY3hOjF7-','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/VOTyWvH_7Cs?si=2bHzYL8vl8cl2zzs','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/JFGP1cY4hqQ?si=ONU78vd0U4_oTU6N','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/9H0rqmS90d4?si=XPlliCJmX_rbFKC8','YouTube');
+INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'messages','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=zY6TIctodBdtEnyH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/MicKOGlb8a0?si=ELPx03xNC8nvD7vG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/QuN4oypHGK8?si=Sxm0bCfi7uGSLXXr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/TwLg5sCOYCI?si=AjIB7NrwoUpu2xTl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/_WpYZTMNExo?si=l3Tnq0f54VOkXT-4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=rM5sfLER5rI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0Sag5BaVrBY?si=dpDKaCnWlUhhbw-G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0SuDVcTv25g?si=plpuFKijkh3sYTiq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0_fVFw-m4t4?si=VQdZllXXyUKyY-gL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0i9tR0nNr-M?si=7C73mMcSiKvshJQh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0jrkmjfiaIg?si=BnNvy8Zfs_9YPQIp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0mSdk_H-JuE?si=x5U3S7ljT00Jr1zq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0w3IcMMCkBY?si=HpkY-abnMxW7_Yhj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1al-pUIpk1s?si=p3TBP1Bwwgk3we6R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1qpZ7TSgvqM?t=510','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/22V3rKriX60?si=q6bUuAX11ytIGDK0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/2xohi-vmKlI?si=eyViNOBVSLtokcHs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3-jh9EKenUs?si=lYUcnRJQFUW3c0Lt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/35dkSdLE1KE?si=2gdxMnomYNHD6aLL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/38gKLjdx_NY?si=YH8V0RSoNnJg3AVd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3O0LderWvfo?si=xrRAtjTcujtnOuk5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3gZRtD3YI10?si=vzIaVONQpqSHUEZM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=EfkP5lUvue_32vp_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=MdrDW4p9ZZB-QEXM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=phKRx1mwO1D8pzGi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4NcNhlImBmE?si=3d2WcwB8W2hWI5UM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4Opu1chZ3BA?si=-vUBvU3oKsC2v2pw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4Opu1chZ3BA?si=5msMepetU1fw8U4h','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4SN1YckY-BA?si=KpjljX5ZB8DnzecB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4nivVPJTxMM?si=rqkJXUx5e4RVSO88','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5aU0PIltPvk?si=_Y6AdNU5bz1IjYfx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5eiwprUj0BA?si=_yZZUbNL_KDKQf-i','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5pduSNPnpS4?si=liG8A2EljvfA8Bty','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5q6fmCg9RKk?si=WhXgSJ6u8w2jX0Au','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5qTbzbU1ouA?si=nr4TldW_E4QrQ98v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/66lBqKRPKN4?si=Ze6e8t67nozzjbtC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6FyQ1oXTpYk?si=ZGzHU2D23CHYMbmW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6XV03-wQxjA?si=2JCAyKRzBg5mXE-7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6Xtk0C8H9-U?si=TQhVb_kJ9vhaMF7o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6jUxOnoWsFU?si=n4NXxeeCoHnAAIcv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6uh5Q9AlzsU?si=mw1RNL12whD-LNfZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7OKmJXfHM-c?si=IQiTZrpJHKRuuYGL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=8aitigmsTij3gAX4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=p_45CoQ_TGb855aW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7sjrR0yLdSM?si=8AlNHH8xPTs0w8Pq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/88zU6TbGiqY?si=8rsaWQYdnYBLH0pf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8sbrJbDJVYQ?si=kWAK5wFOBzbA1rpw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=7tEGO1Ulq83ncmj2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=LJ8T0Z5kHWxUz1-n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=MFbq2bHOtrjdKYlu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=miGDrCDuQPrC0Zv1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9PeJn8vca98?si=5RwzdR69D45ALnpq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A4Ncs9gXBAI?si=iTshjYbLpY_voEE-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=-OvVvUId6KNo1_WP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=-Zi7kmRS7MC-1uMg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=FpFV43_OXMbt7kOv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=LadkMg3Zfft5Kuc6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=RFQ12uL8MzgsDrw1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=WF3ybV6Fj9EGRNAk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=_e2gDAyYUHiIWjCN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=cCKlQhUVuABniYP6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/A68KCD9yemo?si=ziRIQDFKeK6_FXDu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ABHmlHMPnis?si=xbwbcXQEtAzRveTM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AUs07XHMD6E?si=alXZl7SZ3CWILV43','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=1hVfp-KDixBQzSGR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=fhmheu-hkEV4mWne','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AvbDYtDZk1s?si=UqIoXrXf0BZfY0sg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AwDjkI57pP0?si=ATKdNRd4YHkWgTc6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B4OTIRIKnv8?si=0NaW8jpmLM3EmJtW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B9gbU7vRXSk?si=CkZqAWLZ5_TD2OD_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Bb3bXgUEMk4?si=1f2CK0wKHSb3lyaH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/C8VeeXrSb0Q?si=E3FzDYVo5wLgVJ2i','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CDvS5yNd7W8?si=wf17n2saSg_IxPRE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CLT2wnMEeWY?si=k5oN_xP3BTKtBukl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CoW4KPGOO-E?si=N5_EOGP6Wv-UGWUr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/D-ZF_oHnjpU?si=WMkGP9Z02HEUWUfl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DEts4eoZQrs?si=GHh1sC2Tpx7KJUcZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DEts4eoZQrs?si=_QSQGgf_HWmbu3xl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DIfpMTXA2kU?si=y-pKY9FQdF3GNEUj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DLjJwW1lFxI?si=zbGa5Kbqz6OiStsf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DlyLAtgjQGw?si=IB3Hs-lyuDunNY2J','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Dz-vFqFcU7U?si=meS-BcMQBujgtY_e','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/E-rygOH87Ag?si=vl0F8qNGkRavwtgs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=-6ck3bEr8UesKyOv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=3e9xgkJYyD_tQQlw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=Avrvz9_RIrTz_mjq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZXypGoYiYqxpClVQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZsvMwmwIhqbRn02S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EXdCcCwauEg?si=TJKyOrfQ_Zj9q6Yt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ekuu8WsyvHk?si=kNWW8cwhOawokx45','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FaswgkmJmGs?si=do_gbZMwYxFlhvRN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Fnk6hWr8kZQ?si=9sRFLxYyEwfbKC0b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/G8g5BrLm7uQ?si=HLFy1kxObZbM8VIv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/GbZw4crfhxY?si=iCLw7Yabzlz8TDU5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/H8agYk3Jv4c?si=CMOUXBQEr8s4W8dY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HL4utvyfxLA?si=7nLKjo-J5e9-cx6H','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/H_Mgg8ZbG9M?si=K8S5bPDSceiY8Raj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HdLD0oM_yMY?si=IEq6pdjwxFTB6Zeu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Hm6Sj1ffV-E?si=zG8ZaC12d7tcjUi6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HmAxk_5RYDU?si=XfBhvXrvlcypnC4k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I1QFAUJ95OQ?si=4mFUAtC-e0kIHsyI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IHhd4CthYZI?si=guEigo56-3Klxgnv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IJlRlfFy9OA?si=VxIOZoK1XL9kzuFU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I_WiKKryLsI?si=aY-fEkpfgW48G3CA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IsQY0iOBtGI?si=-2417souqjyWdYOJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IxD7zBgBeqI?si=lCwQuOoJM-B5VXyY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/J1h3MbbJYZQ?si=DDU7ft-BSWZfwhxJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/J2Gl1rKvIrw?si=85nyWJwfPJEkAEpW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/JS_bME1KFDg?si=QKUkmbv8F_QeY7Rw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/K9eQLXVylgg?si=V1X_xlv0oZgayHY5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=MrGA6rRvzB5YoHGn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Nw59M-qVJ41jYYAa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Okftn-Ev2xY1t1PC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=Ol3lklAih6nJNMRr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=gC84PnoA9RgXjtlQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KETXHGVhsHs?si=mXrdTDTs_iq6UshL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=O4M8s-swk_uWOD3s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=p24RlJQ7GCrh_whO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LJeIo9VBwts?si=ZseWAjuFhjLm9Dd8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LZgeIReY04c?si=WPJ0-SZH2cRyzVay','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/L_5CgBvHKVU?si=us76Pn1Ku-5UkWeh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lnl8rwB-fwg?si=dT0om4kbZmX5QtwN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LnlgYtLp2vo?si=NMp4slktVYvQFLyK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lt37DJkGg-0?si=FUszWpmhvraUrktL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lt_1kx9z3kU?si=2pO3I46a5nvklUjN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M90umYYPqjo?si=tlmc-tePjB_8L67T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/MD3thQufPzg?si=bEsE3zwyZwKe7eEY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NLtNF_0vQIk?si=AmHcaoaIEZ-pRP37','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NW2iWGwNU0o?si=cLS4_lNP6EHHAEk7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NWFSJPP2clE?si=cUaVMPmAkWURDQ7v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NjQXwRNPXcE?si=WBAJVgQfvKOETnP1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/O041V58gX6w?si=Or_4Sm3kkJGdKhJA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OJbO1A1Znws?si=whSFXe9NHu1_G0Q_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=CzW2myI49gxLuR-n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=EW1LmFcnbRaNMb00','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=Z1xZCtgNRbKBdIGv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OPqr_bCtW_4?si=ivHx1rRIF-gu9Lgt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OZyJnbeYG_Q?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OdPrG4kKYck?si=F2vhTJMiMvfJlLG7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OfiJrxKkvzc?si=SOH8jmXNKoX252Yr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PrwnnIjiRJA?si=d5pvEHBQ5P9_u6Yy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q20_QXrnURM?si=eoOIooOnoHBAiDqf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q6bzAKoOnac?si=AjkRMOZvANqKfQmM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/QEoCIMNJi4o?si=7YndCrcqWnJHEHuR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/QiiVbLQFrIo?si=2GPbOrojHLR0LIoy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RW5K7OBoMaA?si=3J8MYR0KS8nfH5iW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RYIu7Qlqh4M?si=s_8uz_fIcDx2euaH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RfLtAdSgWPQ?si=_J_lOpxVMF0KuWXN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RkUg2ZG9CXg?si=-h3KNtBt9QeisRbI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SAW3fyd8OwM?si=_I2jP-ls9O0i_BRx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Sl7zdTor3Is?si=B6lt-f5OCGerP-to','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/StB9sJXtHyw?si=OQaCWvFkrO7CeBAh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/T4eoVk_2g-4?si=hM1waWxyXhnK_NQu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD1F2I3Zfk?si=gmQi1IeCt4Dt3yOH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TDUySYLHicI?si=WAAK0k4sC8OVFYKr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TRLreW9atAA?si=7g2bTbUmxijoKdFr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TagiVDEKxyc?si=KkZTU59Va5xRw6ri','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ThDRciEPqcU?si=JMpwskxxHsYXa9zB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UAY_ghm0kGQ?si=tHSNRvzlz3-6ehs2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UCsXO7r6-z4?si=Kwlu9gIyTA-wyuG3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UD5XdjkfyzM?si=p4Trb1vE5oVAAoq1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UNix5iTeWJo?si=B_QHMOseBMbsY2__','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UQxJhLgEzL4?si=bb2CHAb0nj3XtEZD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UZNcERE0fD0?si=gnLe4uL8b_iXII_1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/V2vPB2jSS8E?si=w1OjNT0rs5gpWDaV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/V3raYES3o80?si=hZk9axGdQwBzKUOs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VA3z5Q2VIQ8?si=ipiyJY-UdHiBpHLy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VWavstJydZU?si=lqWj4o1-c6ty_lrJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VrwqEesAklo?si=2E1t-92PO2bE41WE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/W2SjAWjf-Jc?si=AGmfpudM_m5AtNtf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WBfb4OH7YEA?si=JEtJEVKfTDQXOXUT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WUswCyMEeiQ?si=rEsko_t_Pn-4-Chz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X7KmISVMBtc?si=CsXjkMbAiMkIyR4C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/XYW1HGskfQ8?si=bMMUSFy48nxUUk2X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Y1Gv4zR92ds?si=ybDVUThfvxWOgJzA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Y8tqlMOSiVA?si=PMZhXBnhbae-iqpu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YADGLmnXqwM?si=yH1eW0Dk9x82n3Sy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YBCTf918fso?si=1Xk1HbBiGEaO3ksF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YFHwyzX1aNU?si=E5tzriyyaXRZk-qv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YsvEFKSeM6s?si=nbX93tVMi8TVzzBX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZWoVImWXuuo?si=XAHoQU0H-dq2jIBs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_GARcKCaUfI?si=b05v29mldT_2sUrZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_GARcKCaUfI?si=nBIssg2V88nMLhxi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/aRkkMKImxXQ?si=ZheY3x03huCW79Cb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/aXUl5xpmGCg?si=K7itlvKZcS6ot8wC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/adtp8ekgNlk?si=mAMJuQmJMGRestFR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/agRTtcEfTaE?si=qIReC8oMyEf3sWsp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=_0_D5ddJMKBJYmQy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=jNNQUqzBNQ8QB1gh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bsKHCG8fWWQ?si=AETjiDpIXXsAWqhU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cFWA4lHQncs?si=NzCYa1rqxJTRU5ek','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cJ1u45g_WT0?si=ak2C1LiHmwj8i5un','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dF-TiaVAR2k?si=w4YJnK1A2nB0qqdP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dn5U1eJjSxE?si=rPYgX7W62-vYLBhl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dobxbndOqd8?si=_tug9qYrK2adNM2C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eVqW4XjZwC8?si=cpyHdQPdpKA3a2Aj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/esfGVbh_LTI?si=fubyqvyDp9A9cTea','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eud3t6kT30s?si=QZ--jSEyYw6lskUG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/exGOdwwOpqk?si=v8krkYiaaoVvlBRP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fQjzKOJjkxg?si=7VBJzuosB5xLBfHl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fYiEMRlV8Nc?si=XJDweID_tYfGlB63','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fi_HO6SrwSA?si=C_sfA-n2OuY71eq7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hSDNKXg8_S0?si=Aq3cVDaCHwytmggE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hfKUfJLwBhQ?si=EUZt7n9kwEUdPclq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=c8mLw-HzZpcavzMJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=oXzblH_lRlXF74A7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hi0Hy27v4OA?si=JKaumGnmLLLb_rLK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hnhs3tlWLxc?si=rSOMP0XREZXIsyCa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iEOttfOJr2o?si=DWRIAleTNWgLmvv5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=b9qf2_VuJEN4aVFs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=mo6e5FF2knU8D-2M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=wj4RLPmaDf3yEUgo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iYJuoDhPDfE?si=gvcZJ4uzESCP4ss7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ivErUOTUqes?si=-vBw5O3pvUYIFpB9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/j37fhBr1XCY?si=FcUI8SIvm40uNsP5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jC6HaSsf7p4?si=e3xhx7Ch0G68Ssd8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jGKk4J3_yvA?si=0OL4h34k0dJveXMv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jPoJeSmQDbo?si=EutWY95NeDY4Qtri','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jZOmeqUSjIE?si=NrjbJtDsc1o2jJZ4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jcXB-4ZQiKU?si=THZ5878bRJ7TbW4C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jr-Mu0fDTf8?si=Iw3UBTZWbZ-LoCvA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kqQjkC7tdwc?si=rj2GjO2wtOqE485v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kyJhPwlqDPk?si=3aljue5jQacsPGYX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=3ED_EWyWAaGOiBJM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=PazwxBgMfRYdTfO4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=kco8rRnmxptZEpRp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=ruQurg78YS6R6Atu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/mLOQmh-QUF0?si=pH7yf-elcsdNAaNU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/nPMoA0S-kpU?si=Ai4gNTiFxI_1Vhua','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/nTfCxORgKEk?si=GJjpdShWF_-9V5mU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/nhvElLCjoW4?si=5YGdWB1KotHq3NOd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/niOXnsz0Fso?si=-AbXzXq3Ge0H6eAW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/o9V7jdolGOE?si=AdFLND4fs8k2dwBj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/oEPWWQT_2NE?si=5shxkQi3T0EaUy9x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/oPvC9qQ-8gE?si=rwYiuFvH6F-IYq0D','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/olPepc51W1Q?si=3mk5d3HJ-jONoPdE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ouBJMpQZmhs?si=OmF3SqVNz2FzO44j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pXfukvVAMqY?si=3jjzZQ_80b97SjDZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pa9px0JLQhY?si=2WkV3DrZLj-GFSKz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=ETxikkNb766z5J7T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=dWSpBMFWPPafCc8V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pm-fc7mkwE0?si=8y5OmRS_2lMsGhsL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pySsqycArHE?si=5bosjQTwpKtuxhoa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pyd_TeJTiT0?si=rT9keXjBTfnpvYyQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/q4_eBoPCKVE?si=HoWVAIEK3MHZVur9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=9hkgcQdtfjN-TN8H','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=aWg77gotDEJnDLB8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qLQ567UCTXY?si=vYAJug8Q1-PpVjpi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=9p2PFNpB-Duw-hG2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=XgDqwZFXewQFoBge','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=jXjpp7iHNE3lggAX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qxfRfduKtLo?si=oYK20cZRmaofo-C_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/rb_tWptGXk8?si=IZqG_Do2o71Iwx9f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/s2SPsHlVuS4?si=UzmybN6PcGwjuJkq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/s46TZDTTFdM?si=3BPbVv9PszjbmtI9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/sZ22YulJwao?si=x2YkYQfDBVIwLC6V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/sx5PUXwpgNU?si=EHJ48JuN_P17-mUb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/sxlZdzYrr0I?si=vvCrAFXV6oz-kiyW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tADvYY-2K74?si=Ip1UW_Nfu-3cHjZQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tRHU-YFdz78?si=L32c7xw4Ff2YxF7s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tUsXPAuHZVE?si=4IJeJK4au3yHNU0N','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tYJlDhJijg4?si=2isHdLYJKm6BoqO1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/thXJHs5tRIU?si=OmCv1XmvL8nCQc3T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tisK4ZVnAZk?si=hIcMmPZQBIjMMqS1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/toTtunvlqE4?si=a8a2qVvU5_5ETp27','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ts-3_i6qrMc?si=ycSGQ8PihjfhZjZZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tznGzMuc1uE?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=_uMChOw4bWwPpSul','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/uHPIpmwwQqw?si=9SRy42Nd8Iuu8x2f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/uMHeBf4W8yY?si=8WJYY6tbcgd7nk_G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ugdESt4y3IA?si=AdBn9RLQQbnAVgz5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vRv4J2Vcyio?si=CAi-ix-3g63WleU4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vRv4J2Vcyio?si=bcofhKiRQG5v_Cdz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vTVO0GYC5BY?si=0fxs4W4uBHdSToMf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wGt3Aa860FU?si=Ple43rqc9nvPx_Aa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/y2k9GQK0b_g?si=61HIEpm8h2dhbwXZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yK68PRlDr54?si=L3GRA-rUQTuMU-iW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yZxUFBOyGcU?si=R1kcKX-L1cGLCKfY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ygXGsnpATJc?si=WfOzgt9i0kGkQyQS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/z5aI0uja4Yo?si=JQUqUvGAARlzdaFg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/z6R5BeBL7wE?si=vrbIenPBBs7vZ-jY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zC9aoRNrvLs?si=ryblKQV5vR4N1PBs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/znlEfDxKhRg?si=qcXidW9pziPoN453','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLKEzuOOEQvYNf1xvRn8D6bEN5JbvJXraV&si=nwHPEOJOcQ8ypipv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-7f0IYRtkzk?si=LCfLHITISL2gbezB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-FJgjjlahso?si=IlYGMx5WNfxS_gzL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-Jwc1uzVOP4?si=u8eVltdBhtlpI6lZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-KTiwG3Wdcc?si=kTF49MAVXYnsIyOO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-O6Qaoa2FR4?si=HB01T9w74ggN7Q66','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=7ayAhewmrdXR8jno','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=JiSIU8hN4A-wenA0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-Q6grTNnLdI?si=a2UeT2t_ZoKSp-sN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-RBpK8TJOWE?si=p1p8Sb8ocaqkmSR_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-SYaZvWLuAc?si=li_jZFtkUM9EPpuA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-c2bqZUfSNY?si=pexsDinnYkKs5Iip','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-ekfg0-d2tA?si=3wV7kiheKw6uLlWW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-jU5rAXLxk4?si=IGnXtiI9Fj7w8Zf1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-lPqD0Kj-gA?si=w_IGiNH-c1mnxYCz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-nHv1kfBeEI?si=9Nz-tWIMvI7xLP0L','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-tv8DyPj8l8?si=x616naekN0OGji0o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-vOC66wY2gA?si=KK67bOuYtBWmRORV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0G0ZskbiYyg?si=5NXEaFLHg4RsBdWJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0YYoPVqPqzk?si=NO9vIJqKIWc9RdIu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0fZLG6j15cM?si=WFb6Jq7da4UCfDBl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0g_88dMmA1k?si=xxYXIeGeN_JGMgio','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0m4_RXlUMI4?si=jyKy9ddSa0qW4etx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0mOF6V2c2Nk?si=y0RNZIryZ2kBjm8x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0oAYF91q1Bs?si=uYvuKrhR95z1kTXJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0ptXCgkQWyA?si=pISQOB0B_9gC6Uds','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0ryA3wlsRrY?si=ExAQhn-O_mHCp48B','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1BanceI-XsQ?si=9TX101nq1vgUO19b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1BanceI-XsQ?si=z41szWqDWEEQpJsr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1D1flGW7s88?si=401L2Wy_BXRqUiSc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1DNIekejuxs?si=x22rULSCNM9sku8R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1Q2zOQ2BJa0?si=C_nw4ASYu6fHKjMV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1VyakCy99J0?si=GnBefdVEV7GzeVAm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2AGOP7pLqu0?si=w5a02m8MXol3uYSB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2GPTohOnI_U?si=YMTtGmeyDE6x9-3F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2LncMbMmvhI?si=3d8Yb8pjT01w739g','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2LncMbMmvhI?si=C6VG9UzRjXTNqA1x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2MiPMwGykXg?si=LFKsKqmTMHP2VC0n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2WBQpBv9PAk?si=0ugUcyq-imm8TU7F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2dyd79ppk4U?si=wUjmgsPhr9NUZV7M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2eFQoRufe3M?si=IYZ_pvVW8gaaJv3q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2wy92DGHemA?si=JP4XDszbrDdDcBte','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2y3tzOHLdG0?si=f4XleDwfLj6wHqqL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/35DrorRhRXA?si=7Ka-Z9oVMu7dzzNq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/36TiC5x2Xss?si=P3qK4xuY8VLBv9C6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/37aRGW3j3Zc?si=iVvbJnXMdwbJsCkk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3GkL3W8TFMs?si=fhWDVbYeF5-M7Yhd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3_0GPu04nqA?si=nT5YC4fn-YkqeIUU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3_NY9JRUD38?si=8mxMCciD5FxjNsxu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3kUB-0aeamQ?si=UU0TqqHJO9p109WZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3rZmUMQE1yc?si=kdkmm7dnmsDhyF7E','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4J4RI6QUyAg?si=C1Hmjr1_-ozQJqxz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4XqAGSj2VWk?si=xmVa14AtCwrNKtVT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4YJT6O4uE3A?si=OLQT3Z7YfgrlvKG7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4YJT6O4uE3A?si=XjvNeZv1HOxGHD1c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4aoe1pnxmtQ?si=3r5s681IYneAMceJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4iNKqQWudjY?si=ZjbcOYWDBoCXPLdB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4nKj5_erykI?si=goKUpkjtzQUNnky6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4oXl-zrbAfw?si=nbzfmarx6XrTA53m','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4tzCURTjL7Q?si=l0Djfzfn5nibJBDR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4xhSGNnP3lM?si=iaEhwG3DM4oPhMy1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/57jgP4_VmDg?si=7ICZ3kJVcrffXW6R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/59BhIdSDxWU?si=5urasWm2yMDuy-ST','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5ACBu0exTbU?si=Ur9rt1LUxX2LxP-Y','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5JWq3nRIxMs?si=VFHD8X7UPit8n9IK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5LuMEyFEg_E?si=8a3tdUuH_iXsRSUN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5UJhpWKUpJ4?si=BTtIwydfXnVIoujz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5XlNY47ZlD4?si=JIMguZM8snTpM3zg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5sHHEXSPNtU?si=lXnqUitS9gBW1EQk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5vrkCOwiyXE?si=4uPd5pgDnJQl62Cw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5xn85mv9LQM?si=ncan6OaaCoDxv1GE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/675ijWQpM3I?si=4ZbrpfWwwj7xXKld','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6Q-qIuHx4eA?si=eJgIF8KiTJAHfyeW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6UTdkCnDL_M?si=E2_GdEDNrxWk_VS8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6fXuwfdjr7I?si=Th-NC1Elhy1lun-H','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6lSOkJAjwIQ?si=RxMEoDUwPNIdDrar','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6sTIOEHi3YY?si=djC9JVKQ_SesBbbt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/77HSUlyPI3Y?si=Azr3pztWoaDRQJ8S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7Jr_Ni64xKQ?si=3CrjzZlHaLYg6_e_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7R0L0RiZPs8?si=OAnttulD89N-QipL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7UqOZlGtiCI?si=ahEdQEmnkGyq1jdm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=XMzW8tSsoA1J_kHy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=nOYFH676hBsancJF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7o83vZczieU?si=b8WxdBYLW0JM7K04','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7omvMJphTPk?si=VqcaMcXyX-X-x9Tw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8Aup-eni5pc?si=0FyEbuNWKUXhQhU5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8CK4It8iHCk?si=qY_nEtzXVNkzR4n9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8EX3fTFYZ8s?si=SaJb5ofNja0Strzh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8Ec3rZ8i18g?si=fQFeK1yLjMSMAMM9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8SBWAYjBe5M?si=lF1jhO99srpaTQGg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8SBWAYjBe5M?si=veFb0ERTCdZfq7LA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9OfGWhMPu10?si=QXZ1jTrfN33ZLmj4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9Qc8eU18iKU?si=2UcPK0qLHHth5fP3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9RIISx90GjI?si=GKM9SQEkq_uqWXVx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9RIISx90GjI?si=OuKXf3iiZnszoOWO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9TkbvMLvZHE?si=TLqjtwvEbke5QpsE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9VGhwQ3ZVUE?si=y1GGsWxQ1wdd8Ywp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9XC0mHE2VkM?si=S0q6iraHpXtPgvxx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9ZpydZhAfg0?si=6sfgQLsPb5pc2wTj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9ZpydZhAfg0?si=8AmjJFz4_YjCob3q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9bVM8J2Xrg0?si=_Vp_bIzV2fJqcx4g','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9f6Fogo-cwE?si=epwz7hz3AVYHHozj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9jW_mQDrQWI?si=AcGYWC9g76vgaaNC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9lKRBEI1d8k?si=bQuZRnsB0I980lt4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9p1UMpfrvao?si=sRGza2SwHJ9g2Gr9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ABEHb6OjcrI?si=UY-fIM12Pxu9JkxS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ALLHzvzBJI0?si=YlXJ8mLifC5cscKl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ArD6-SbXINY?si=oFP30Fk9hDy_jgvG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AsozNOXB3nE?si=asYGzyM7EyNp-ml3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AvQuUx85q08?si=6lMT14phZY8IOdoN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/B-m8pyrGDmw?si=5a42L8WAnGKsrO2S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/B1p50SOiVTw?si=4AXeVwd4at9n35kW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BAUqUPekhC4?si=_chVvkRZGwhMTt9O','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BIttTo9AZXc?si=_0FdxhrK5HLQ3wnu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BOCuomUCDRY?si=mTKDImcsaT_6iA9h','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BbatfwWCgfc?si=-eJXpxBQIBnbozjF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Bg6xGMAHuH8?si=ayxDWhBU7-LngkP_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Bm0bQv2yoTs?si=ExIz-k595aJHaSyP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=pnlAeudyRTZZQ2m4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CLGrGrvGpso?si=3CJopKMT63oUgljc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CLGrGrvGpso?si=EmL7UZVaXVhFNQyu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CMsj15ItIuo?si=RMuAcvnHDXUwRQxE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CVwYyEwmoBA?si=h3JrZKTCRo6okLps','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Cg55ihay4Hs?si=vYWERiZHLqHJ41kD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CwVw1U0siHs?si=-AZait-7yHKRRhUc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CxPQF_OKgl8?si=mOSVxZJY_9U41V9P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/D1dv39-ekBM?si=wsioB-wQ5E-qTYru','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DH3aKv-0vko?si=nMcTefwHd_KVoCbL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DKbLu_m2wJU?si=26diyY1_r1oUEJYf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DMdYlZcEiyM?si=UbQ4SnqFr3jbN74C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DRRy7-rsKLM?si=Xkbm5smipIx9LpSg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DWodDqDj594?si=_QV0sNZC4bT1SaAE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DbGax2-PX0Y?si=vswXoUcq4Ef3fR-N','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=8Cm4FSMxykdcsGXt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=hcSywzmrkNjq2amN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Dvra2L0EmoU?si=7PFmfi8c2pWQ-bXs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/E-yzwIBzOR4?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/E8i5ZAimY6k?si=GhdFM8k-stEVegIW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EBpwBnkMfyo?si=oPTIH5oRpxZf6rab','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EGgBDpx44lM?si=aRkVamAE6vBcA-Ch','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ER8PpyoUWJw?si=Lc9AmB4g_YWbbsQ-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=HiBB6vl0ZsCm552e','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=Qysb8RrCBujJOMjv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ER91tmzmRe0?si=j7tDBd0gHW-8-4Go','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ETps8ALQH-A?si=Ntc_TCna4iylplvu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EUY7OQVAaXM?si=SYeuRPCE-zF5YAcH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EVw7uRsEY1E?si=YXDiDrVT1gZ1vJxs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EciI0-pMtcw?si=Rdy3gd-xOHpeMouH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Eg8q1IEdty0?si=stgkVJwYocDV_fJu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EryxkdeqICQ?si=YwSBz84nvlCBQ8rU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/F4x_L-bCYBA?si=IOEuIOFNTyFEJ4pk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FFIKfI9Nt_o?si=r7E09NTEDKITCMOP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FTe0esFXhaM?si=nURmZ6_yDbxVrbsk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FWYkHZ9RTdk?si=LN9MgvM1ZJS7GyLM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/F_pLd3n9alA?si=evEjaWrGG2rW6yZv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FezfDeHThHg?si=-ZZfhfG1yuzC3m5-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Fkh0rfrzNsk?si=t5RZC-OPvuC8tFvz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FkiF6uCs1Fk?si=O_XnpUpGdSY_vseD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FkiF6uCs1Fk?si=YP56lMBiCcKay2pV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Frm5H719LuE?si=1906drnUs4vWObfc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FvY1lhRXHws?si=F2YdHIDi-pvGV35V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FzyVKXTTqc8?si=rJxQcNh7k51E9XmD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GEcZvD0bTEY?si=WDuUVdNw5iqyK60j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GGo4suAJBlQ?si=E3_Ovu_1PJeDhSr_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GNqAY0K_-Uo?si=TJWCLRWsq_9euwgm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GWvggYmBKcs?si=y4e5qBFNYZjH-6rg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GXNvL_GuDQM?si=_zHcAYXLTO7mFM5X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G_3AZdO_Ays?si=FsbwasHR_cqXPHS6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G_3AZdO_Ays?si=v0vGFZRPVl-Mfd-J','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gdqj-r4p2P8?si=-50IMUNdrd8_UBm6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GoPTxu4phCQ?si=w45X1zzW0zV3wW4e','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GpDM7saE4jg?si=lBL15P82_vqZfWSO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gq88q4zI10I?si=GjkYxJ6GWeRUHjNv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gq88q4zI10I?si=hbwP5fL9HjmZA4-n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Grq35_AvDmk?si=v31t9_Bqerw5vF5s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GwHpu4dyudc?si=dH8XzBOwdwHNEIZs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GxJmWNs8dbw?si=XCPxw1W9TN5X3CHU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gy1ndIBWgtU?si=llZnkD3ERP6mgRgU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gz9DVWegGX4?si=jueWjqkchfzAFE1w','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/H3c-GpcAJv4?si=EjCLmTG0I32kDCeF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/HWCavlzIgak?si=X7JzvvtUoPvdCKxm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Hl1v0p0wN3c?si=HCJqg-yOjwV6hrL8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/I9kEPhXSVmA?si=5HrKhDiTtFZANrVO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IL9r3UWMU64?si=ytRW5_J5x0nCk3MD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IYsYkVHmeyM?si=6e8jLvkLrvneZ7Tx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ia9mp9P0t88?si=LaPw5zWavsvia2L5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IdSvfey-WWc?si=5zE5IHHkyVKtWgFp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IesAJmoTgGE?si=h8296RRxk0XxeXr3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IfBj3T4_Gig?si=BkacUDw7tYLgEHZf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IirbsZ8FAHA?si=iyzBLg1nNI7_D_Ie','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IirbsZ8FAHA?si=wQv2qHyG4HYEHS5I','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=igoGrHmP9O2hW3Ll','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=mT2kJHDsi8boL1ll','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ImtgoOxmI6M?si=TksRGdD4MYWwPxuC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/J1JzIrB7T3M?si=fTlqoKydkGadlIJT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JAU1gwsDukw?si=Cs_mMCO3cnkg311L','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JRd6kDhHCnI?si=QlxsS6XNVuZWEsLe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JZvynm3AI3k?si=SqFOvIBViIIyR2AY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Jbr9EEprpho?si=J4A2gbfESEeyr-Op','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JceP5iiTh50?si=RWBvL5hCwh0lMMVC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JceP5iiTh50?si=buW3O2IW-OSiVr2W','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JgdwkPtWRuE?si=6TUtu2iW5ic_Kr1K','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Jq7gMZwRSqM?si=8o_rp6cpQYjJ0YIB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Jqdc8KBQRVg?si=bylrRuBqbQ1ylaMT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Jqdc8KBQRVg?si=fwwm9hN2HbxgXC_P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/K-5fJ2-GXss?si=7jSvy-urGsSv9BCQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=ciOOyeywyOZdq-C5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=gp3TuoVOizGkS86u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KFZadHZ0q0I?si=nGiS6DDPGfifz8Z4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KfrkbhqvEDQ?si=f8wEi5C_g84_vWo-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LCddtIJYZac?si=B2hRARwGDCH7Ot06','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LD5SA8ekaTA?si=aaoMlxGKkXvYv482','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LFjZZ9a_i0A?si=PtyzOxzdDXLTClZW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LP6HAEaeIrQ?si=QOO0TNCQHo7wWbGE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LUpoYnYjFv0?si=9qgaIiHBU_K8AuYh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LcjUorNM6Ic?si=DZ503OnI1GpjugON','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LhoTRUHwVGk?si=DHssqZgOE205H817','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Lwcy8SUKWJE?si=58a1u5hYHAXVfU--','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Lwcy8SUKWJE?si=LcAyhHwz0JEoSNZg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M09ibrqMPYY?si=KMd3moFkCSDMp0P7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M7tyJiumObk?si=H29iJrjnKeUmxK_o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MEVXKNCqLMc?si=XGaPLuLRv6wHa5ZX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MF9glaWugbg?si=lIfa-aW2gaYCkBCp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MIcqFv9GKe4?si=U5tEEbSX5UmSE5qR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MK9AgXgRuwM?si=VOhNNetOnbcRzC3j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MK9AgXgRuwM?si=YWpxw50xSMYM3SaO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MQ29xpPXH0I?si=diJyiqnpFEysKnm3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MVQOn4__UDk?si=THO_V-_2iiRkihR9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M_WLflMCXHs?si=oagWgcLMDnnhN2w0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M_eRrxzD6aw?si=01T38Xsr-wVX-u4A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MekuBUZGewk?si=7gzh6dqgk7SGe8G5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Mi9jti-YTLY?si=AkM573PjKfGVlaDr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/N3-_wwL4yuI?si=2xOCC5fBQplRXMVW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NLTIsu7vBhw?si=NaJ-JFa9ZKh67pz_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NLTIsu7vBhw?si=v14fLai_exVga_KW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/N_q39nGiS18?si=fj-HIBgWeSzTr-9C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ng9FJBeyPfQ?si=QqkVy0ow_2xCp224','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NkCZM-hDpAY?si=FFuQqqJmmhOzSY7M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NofuujICv5I?si=P1UVcrCJKS5L1rZO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ny5vjwA-3hU?si=YEK_VT8B9mJZESPG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/O0-9DAJmYGw?si=VQ-9Itnfk3sVs19C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/O3KOZT54XoY?si=4j75fIXzVKwiaK3m','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/O74LjXyN3QQ?si=7z89EfOOw8ur_LgM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/O74LjXyN3QQ?si=Q_Nt03u5hbDBBVIU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ODKyt-mhxvc?si=CMiQtIB3UFZ4MZFy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=lUgjtsLZ0i97zu_r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=tMDFwyM408MGnvhc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OPI_k7R-ijM?si=9ESikq0Hrl8CLH8c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OU427erQJKI?si=xpGYtfjeJBghmeZo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ocs00dEpqXg?si=bzpgAPnSj-ib5NHP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OkSW96KxZC8?si=U7WjNZ0Xn2pKsEpB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Otq9wvcigtI?si=fwlHt_ck71uUWjBV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OvSbzCvgZDA?si=1F4hPLix1koTOBJF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OyFRa5HSNL8?si=1MeSobxQtpN-YY8j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OyjRlEHhw8g?si=1WS-Yfc9gKTDoowr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OyjRlEHhw8g?si=X4ChIr5DrFYE3VYs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/P4MXUy3Jl7s?si=NgL7eGuVQFTeNZrA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/P4MXUy3Jl7s?si=ePWI3w7oZML38Dps','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PAnF6ivXhSk?si=i0GiqLX61ZZKW6ca','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PRX6to6WOhY?si=1BUlTK7jEa9KOBFG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PaEkMcZzzN4?si=9jVgeThWbnAv8SZl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PixTdRMiAzQ?si=zdsUZjjX1wv7r7II','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PoRhbkBx2jY?si=lOvxShHkLTzAfULl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PqkpyoVXEUk?si=fxOar2LAXx-AntkP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PvBoiqTMJgs?si=HIjEHbZGE1cf-sWj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q-g7LOewdHo?si=svASAQyLyCJkO2wF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q6M4S-6Pq8E?si=UIlseHK5UaaKVYd0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QErWFiMrfAs?si=-yXbRjqh2RX9i_Co','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QF6ATQgYruU?si=W8ZP_Dj5TUxl97wy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QiP6UKBmFr8?si=iOKpIH_3Yx6kRVzj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QlsRnyohp6M?si=eyq4JExpI4zDnPQN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QqNPks6PBQ0?si=E4tu12Tx7giFLXjb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QtKG0ow0ZuQ?si=ZwOmToseJ0EyUBE4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/R7pBgtHawnQ?si=4Mg0Sg1zS-UGCXA5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=3JT8zXrP-ZC5XnmZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=iIwinYHdMJxUnAbO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RHcDfs7QAxs?si=8krjhkIa0s-pe4Tr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RnYIW2fI_S0?si=yZdNkSjDyq-NIsPl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RoRwwam_TpU?si=ALqsMX1kyjBMlYce','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S2NZg5IQNj0?si=kTvGUQE7ueOrzE6V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Spd8xD2u62M?si=CLDLnp1SygBfJ-V_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Spd8xD2u62M?si=zJcXryuZDOC26HXL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SqXrdEtIeZI?si=UIdJWiHwZgi5LTVt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Std4f5LjBBM?si=lsM3qX6MG1OSfS-f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Sxrk7gWdrGo?si=oHMkXNfNH4oGWC9k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/T0t-DYPWVw0?si=yasKH-tyDrc6Bn9L','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/T8wXnFPGTBQ?si=_wwRGeRJxQi0Ut9F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TD8vBsgBP-8?si=Ofd67elXKdCR61nU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/THiaxtHxLYw?si=BkhDv97Craoi-tG0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/THiaxtHxLYw?si=Vo20QNBlb6LV9cox','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=-7C9b8g-PUblx-pA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=QF-h3RGh1vtqnP5d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TUQ7L3JMHio?si=Yf4DZ1dFuBtO4PZ5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TZKce1A5ph4?si=qDq_LRNq7CRqCt-Q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TvDrcn9P6Ko?si=O0zksccik8n-KPmE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TwXu4cJ9pCY?si=ousDq_PYq6_O--kO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TzXkvB-pf_s?si=msGyHCMEaRHg_fv6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/U86Eeq7AMcE?si=kBnnd-O1f35hf-fJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UH4oL0DtB34?si=LULKhMuGlgBXLkbt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UU8iujc8OIE?si=MRFh1_2DtjeP883P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UWNLu1id1t8?si=-Rsh8KmmZ6ENI8g0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UkYp9BL8yu8?si=hKKpELT_2MaqbN_5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Uoxr0xbaH1c?si=NDqslAbfM8bsqocg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=7aH0RXadSW2JTwOh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=rzhmD9DvaVDMzc9c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Uxz3WNHqJYk?si=pgVbLsFBAivggFCX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V1trgm9nPOs?si=UU-l74_5icrfwdkW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V1wjFneeTR4?si=eUh9-CjxlJV4vKvg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V4FeLiuaW2U?si=ymJiw6ethOEZTP92','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V6qKR0byhYo?si=kwmrfk7cIpuNO65F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VAWwtjtRM98?si=kGVFyqTjFGYXOc6Y','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VAWwtjtRM98?si=la3lFeCzNpbReiLo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VCYusUqneJU?si=xTr2QGOXNQNxAAsy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VLLo6T8ydBQ?si=50amRu4Tu0RHbpFO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VLhgSptHxwE?si=PEz5RlF4nRvF_8-0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VP52Hf9mfMc?si=IoZck_WmMy8oPfKS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Vk6_3X7Ablw?si=Jy2KrwmoKcOWfHOb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VnciMwXRHJ8?si=5auWrxt0iegO14ji','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VpNZ4K5wLRk?si=NmMza9KkxEaQZPIy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VuE91YZ7SLw?si=1hAJAc81CEaPs9U2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/W0BT8bVYR0A?si=fN0Vkt8B59ZJFfh9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WAe2czS_wog?si=rLl1UKb9xM5D7i9V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WBqiaAHhtB4?si=13vZcjw744WNl7gx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WBqiaAHhtB4?si=EsMGzshDFebxGmvU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WNr7GbF7Z2s?si=5JAH1XFlQRUxt8Bg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Wth_34p4Zbw?si=K1dFLN5OmODgqNUW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/X0lJ9spAqSA?si=zgjvVlksFiyN5PsA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XCZnziFMoPM?si=l2ZsKUA7kgbzvNaw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XHrnqiHsB9U?si=iQ8NTQfr8RrSthbg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XKgzBtakZdI?si=YmhPef-wzAfsUJUG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XWh2pUgJPSM?si=BL9YZqQRSqvgAgkH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XdKWYUfYCv4?si=5J6q-r_mqVdEGB5O','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Xecr1Fct-oE?si=sq9Dh9AMkfawj_Dy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YIqsQDX6jMU?si=pleEy_pt8LD8BRqM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YQHH-dbUY8o?si=qAvfqiUCJA5lyifE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YZBMHpLpgBQ?si=3pB1tQi8n9KHPEOM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YmQfVrmI598?si=CnTacCU2aECzjiuf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Yz2snZ_1w98?si=epg8OYiUN4YFkIlx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z0-jvY95XQE?si=lGh3WTScVXNbfwpP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z0gmhon_w0k?si=ytVD5oK2gX85kv9k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z2eLGz2IhTw?si=beO7jDKNFhvtHphk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z2wAShPcPRU?si=IUKwGR1X3I_whP3P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z6rCwVYnUyw?si=9tSe1FYvI58MATXz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z85n0Lb3FZY?si=ex2JZ3p4licBlo2r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZC0wQseVHxk?si=9QpJgnxYjRHLyYk2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZEhuxUxKSWc?si=35C5Twk5cctTF_yg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZYsHVt8INuc?si=A4xYFeRAlBcb7RLw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZfuUH06Qi3U?si=vvqZMsaT1POKXcao','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZwzkGo6PJdg?si=oOFIptzkbjxtmnJl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_YtxokRQ0n0?si=bZp0_wk53Nsu7CEa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_mW-J8LytEI?si=AyJx86qgs1Oqs9hI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_mW-J8LytEI?si=AyJx86qgs1Oqs9hI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/a4MN51_yKeQ?si=RwnIp_tzLpjqbUXw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aHngkHJwbQs?si=Qd4nFBiZ0c4NWN3E','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aUweAzm-HHA?si=z5w-Q_aiOqHEtymQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/abK5K2p-9gQ?si=K-v-d5-sx1gayXIT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aob6GGEdjmI?si=M0jUUD4kaH6Oy_Gj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=6lvEtaVdSs88KErX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=FGn4KrEGYWBdIt6u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/api9rN59Vpk?si=yNoAHDczKiubsj5R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/azacrk4BQnk?si=fQ0TjKZy4IbXe5jV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bAj6555JTf8?si=r2S8MB4TWES14gxq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bAj6555JTf8?si=xIGKt_Q0GaVukQ1a','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bD0na6MynsY?si=H7X4rNXa_DQMmaqo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bLi457eQTQo?si=e8ZTfRxrQJEmxMof','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bSELPQS-Cvc?si=mDTGMmsCA2zWtjyi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bVvNr-Ofrdk?si=Mten7zqV8LXU_4HU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bYA9F9GKo4k?si=As8PhHIZ66ngY2da','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bc2MYQ8odLM?si=edVUjcFidVYYKW-q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bfwBJ38vNU4?si=PR8El6DsW-PUxQdJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bjqEkFscMVE?si=bigwQIYwWilk0bkh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bqDV2D6yAek?si=2xUQQSrBh9AAbBHW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bxzZpMRqWYs?si=pkP4htDxb5HBthrm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/by9xe-wudnk?si=LbwCgePmBDH8JxIt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bz8DBOW0FM8?si=LkDAUGPRAQlbOEW7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/c1xoMKGwjUc?si=XjDCIfjpGIwwGltI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/c3aLCRWrVxU?si=ZsmH0coECAV-zcQC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cDEZU0r3aRc?si=1B6A7mkAbO4GwlbK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cDEZU0r3aRc?si=h_OEADNfYipxrNj-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cFRT9E0C3XM?si=7t2BOviPtQdye_9C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cFRT9E0C3XM?si=wSCKQW7_jhhYJ1MQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cMIOKkF_NuA?si=qKYHDpp-S-EihTuu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cT4EDGDM18o?si=H0uC5OHoRQHrmKCb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cWj0tMokJY8?si=HLvCblWbTxUHL0hS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cZIUK_8M2Vg?si=9vstPD0Xa5U_Etp7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/csBc4HtI65k?si=QR_1DxwpRL2PGqfv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/csOkkAbxAS0?si=qaEN0EpfMBmaToOi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/d045mXGmOb0?si=oboZDNMU9LVK7vNV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/d3fqQ6fmz8A?si=aFZpwtFJhBbdbfkS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dFjyxB2msog?si=r5QH6sUQuF1V9sja','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dOl3NAdpbpI?si=P9f2L5J8OfW0AzQC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dQ0EgA-W0Us?si=6ifX2iBEPvdnkqCe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dQuc2IYC2O0?si=NvqlQGgY2ZOY0909','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dj3qEgbfMcc?si=dlkGXLCAVybrkKEL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eEAH8Zydt7w?si=rNccTq115LVJIGgq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eOPxg5qCxDQ?si=xFPiaiQoQ3WgLhO0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eOPxg5qCxDQ?si=xFPiaiQoQ3WgLhO0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eUbEvDsRFHM?si=qJohd7mkkAAW1HDO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/egdtkEmfUYo?si=U3zculLCfIb7t4c9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ehWz7u_EHoY?si=CbIZluI9paUyXpnk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ehWz7u_EHoY?si=MMN5xQ-vZvv1pOOd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ej43mXODSUA?si=kmf3eqdUFUqhfTZO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=DbfEU7533bYV8qI5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=U0Q2TREggZ0uQnsl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=JfFqzIIXpAuTpNg-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=hz5wfQWohC05bAuE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fDAcB99t5oI?si=hXGJaqn5YSrXza-X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fHJL4_X4jAQ?si=Ryl41jOyeUS0MtkC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fIKhnbNhGLc?si=_7gFYT1fnC5mcqbv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f_LDsc98YSA?si=BluXl6yXXx1jLGNG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fgUb-aKOxGk?si=7O5M9CCeHqVCmCL3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/g2BjfYCSZEo?si=1vpUdo7tcZCSOVV8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/g6SC_ZG8Mt0?si=lRXIQzQa7fLepUit','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gB5uCGLva0c?si=o16za-LiGFGJG6Ef','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gBxwXanK4yM?si=nO_lprvJ5HC0fe5X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=-UA72DV1X7SxdJbV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=2hbZuALfMpSrl5gZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gTcZeoUrFHU?si=o437Zi8RiuKDXNIb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ghoac5rWF0o?si=zWnZZmuZ7CBMkknh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gi2qfrTtLPw?si=pPyK_kbPyGdROJJ3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gio0IVr7tWM?si=fbwPmFm-lQuwVkDn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/guy7b2foGO0?si=uGf0Ii80xhT68egU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h20tnzOSXGQ?si=jpkQo8pSEUr2VUe9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h20tnzOSXGQ?si=uQDrFNpsnCVyW5G-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h7xESZEmxJM?si=4W0zwc-FkgJqUfPi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h7xESZEmxJM?si=G3gqjn3u48bKVvEQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h8ElOpITBjQ?si=unreAiivtOE28sZG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hWaG9Apd8fA?si=AFAntcA10rnqlqZP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hf7uWoxhrB4?si=5alRAYiEP7Dr4EmH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hjGhiGaN4d4?si=s3q8oA1NsRckL8wc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/i2gl2458YD4?si=sLgM8_QrvCNRGjGO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/i3T0r7jA6IU?si=W_G6STdWwIbHgzfv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/i4JuNrxQ2jk?si=sTXkk5w1w7tI2HCS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/i525kF6UgMA?si=an_5TU8nRvuWOpp0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iAZ5jYPBNoo?si=YDE-AFSUEm4VuSEa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iCqlq0Re6Xw?si=J7pbT2omT7bNHonq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iGJtDxc6mao?si=fAAuQGSnbQTWFZV8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iJEXmSRfsrA?si=zAma8f2DVrtxP0qI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iLC_TfetHdM?si=aXXV-WOUiJO0ut95','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iLutFvl07l8?si=PUeso35HNUl6OwFp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iX7DDeXYpc0?si=yXqKOnoFv0F3X0XV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/id9ZXI4eBiU?si=6QTLxle2FDy0a-g0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ilHe8G6j-lY?si=2-t_KUqkroCt2bQq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ioZtwTKu4s8?si=D0E-BlKFUga-2V5-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j-dzEcpzcT8?si=OybeApyECiTEgu98','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j0ADPlnpOk4?si=axaTirhcG63qg7qz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j2JHM9Lw3oc?si=ESyBbOkcejWCIesn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jAFAAYSl49I?si=JR33EI7HAO1aJ6Fs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jGasNw8ze9g?si=hgiN4Zsy31CQDYIO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j_P8duQ9IG4?si=dZtr2SvjBV2zF2N8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jsAR_tvQqGk?si=hTVjki2u1eC_VzFv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/k8LS_YTCsBE?si=IDFYRhU_oSq9nTDM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kEsv9jYlw0c?si=VvsnsIUEmp3R6mdg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kNP3HhDjUWo?si=xGKQITAVIHVW-4Xp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kWV-SmsUu5A?si=f1XyaqIrlWZwJC90','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kaLXpED6GCs?si=t-L6M-tb3G0rxwao','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kabUKYmaIaQ?si=0Ygu8J9UC8H3tYzG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=Gmv9RoZ6xCp0slmu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=ztCuxYDLZSVRdqzb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/keW_a93wfPw?si=KBjvlh8xB5jIJuDK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kjiVYCcTNJE?si=313z7c9Bko5SL7JE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kz3ctKEupC0?si=PhsjYkquhEAaqZET','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/l18hdmkQ5nY?si=np2AmQf9xKbo62cC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/l2G5k_q5U9M?si=foDBmn_AioCHm2mk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lAhmzWUq-5E?si=3eU_s2BKw2KpR23e','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lAhmzWUq-5E?si=OoHeRc6tBADv7T4P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lFL3HmX_YMg?si=0ChCZbN3nsFR7Mo2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lyxKBBAc9ls?si=7jXFh1gn8x3vFgqt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/m73EHOzEapI?si=0EMaFnspbkrQ5EFi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mC-UikSpQjc?si=8y9fGD7qvGzqwu79','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mLzQ16giQIM?si=-elldUDHP7FtUxoP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mLzQ16giQIM?si=KpPgb7cE5VgPb0ew','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mMEDbXD3okU?si=kDeHMIWY3pu6rrzX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mhrDHUrUoz0?si=u2xUzgtLyM7UzeqB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mmhOn7apaMs?si=XbRQqb8o1uDu1Dgy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mpMebubYve0?si=kFAyciS3Xob-k6cL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/n75eIr7vG_Q?si=F2m9VZAwPSqP2Nqd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nCm-cElIclw?si=KRIGcfVUQqHFOFxL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nHwgR9RURSg?si=xq0PRdfIew6R3Ltm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nhudtzySIYc?si=kzN0-inE6_JP4X-Z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nlDxl-eoBIs?si=VHHBIN3xGGfN76UQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nr8zyH98xoE?si=XLv43tZhQtdAYTE8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ntqaXjrNTLI?si=r5JSs_Ha3XprS3t8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nxGck8_IJLs?si=UpEaTWfacqOLqzUF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nyVnVVjN0sI?si=-NPz3egssYnYY_m3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/o3-XL4NmIpQ?si=-tjKXkVGYiKK_61q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oGaKm6dvBqU?si=1I30l6khhkTCuyKK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oHJlefbTxRM?si=0Y-_jANWafhMTZcx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oQx76isxOnQ?si=JXwYOjXHu5Z4ZrXI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/obd0HWQw3pw?si=d4txi8ccN4bF-dj7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/p5w187g5CFA?si=8Ie1IR5VghNGPk5d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pJIRuakptAw?si=MEJgD6xR59FgcSkP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pNwyY6nPNkg?si=tMFaaAJvVo6mZ9-9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pTJPHtqt8so?si=aehld_9yw4BhMi6V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pWwb23UAAek?si=GXC7G1XSwCJfkn07','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pgA_WMPKDQc?si=WE7f3ArYVU_Gs-Jq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ps0Vtfr5fQ0?si=t9iUcyPx5U7idG-d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/purJlAIvanI?si=oVcpSCYP0UnMK8_T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/q4WwVUINi2I?si=pCV0Hr8p1AzDh9kZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qNbNffnHM2M?si=gbQHdsfqWSX2p1k2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qT44dVrKXXo?si=-CtK8Dr4Bpk3g899','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qWHN0B2Hw3Q?si=rifexWP48KkPUbRX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qXxC0R9CQkI?si=eUXj-Tmw4neIG9Nf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qaDWgpvEtv0?si=KCdTDUGJuKVFOYx_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qbcl-h_uZS4?si=aqzQJ1X2Uh6I-P0_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qikyjNwqWFY?si=v_6xYz_QUb4NNleg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qjhZ6o4aTBM?si=YskwJlQlAI-_V_S4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r2OlEtJyTVo?si=PBUc_6uUm8MVdpI5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=_mxyq21C8MfDy6iA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=eYx7W3LtHzSBxaHD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r6bXqqa3koA?si=sucJ1sN5EFJaQhYW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r9qWLJj0kdk?si=nkSKeg-k3JQByz-2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rDamhK0-mtk?si=23EnrM5jEUlKaM-m','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rGfKvZSK-gc?si=cZVGjBi5UElJsJzW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rHAJJyUB2fE?si=_3_or9k7wzeMiDp_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rQlr5Y7YC38?si=RbeE238IwtL5KJXi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rS2nbrs8V00?si=DSKLV2laJm09flrL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r_GAoV87xlA?si=oP6xdpnPeUwydEn8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ra2IoDqtPpo?si=CEjTLnHfgnUBN9O3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rlTYQN1RPKs?si=gpdW0f1h0nnXHpJp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rmLS3YB9uYA?si=8UKM1UOA7XFUVT5g','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rmLS3YB9uYA?si=tX3d11YL6PlPNSje','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rqymcwMva3o?si=Jx9y66AHQWDSjGEd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s3g49Fbw14E?si=47ouxRUxdRTEXkEy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sAEQTpl3YTs?si=QaIZi-DpMuPlRLkQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sCHMQV1ZxIA?si=cpE6o5o_DuFhgfVa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sDQhHS6nJyE?si=Ks37JxpnQN912zSM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sQVee0fGDCA?si=cIC-CfvkAKTgNW9F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s_vWJdp0Ydo?si=Cbdc9zWRqGRW2zzH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sebw4dMv074?si=RBP-WAzQep1MYCIE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/six4VdTGzdk?si=pG5nP7SqyWg14QHO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=Hoj40B-EQ2hVEPuF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=WmhIStThparbQO1_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/slAGP37Olks?si=MsPw0j-szvGmrTra','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/slfd8dGM6DM?si=SRnBa8g77Ynp_dTj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/slfd8dGM6DM?si=hWj2nyjnDLNZkEfs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/t-VayBY3fDk?si=nPf8nm2GXLO8lig6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/t3TI6WufiWo?si=9kP-k2z2HF8mddoI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tR_f-7wIa_g?si=yWRObMZpIxwrrWf0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tSwoMF94NLk?si=E_2FVc7z0JoD9su2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tTR6WLTxQso?si=iAdaRBJCsKohCHi_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tVCf1PMbXWA?si=kVFggf6jI4yKDYhM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tXF9hhGeZBY?si=RGpBVkaLT_7tgNhl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/teLVv0ar6Q4?si=f23eSgv-jHHupU-Z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tns1ZBAVIoc?si=YDhASmjUEiea4ZJa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tx9YN6nk-Mg?si=QBEETW-5gR3QymGC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tyUI3dbkGWU?si=ruquOk92Doxfgtr_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/u4BIEM4aMuU?si=9QuQcaVKFscZ-iu8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uKB6QkWoaxY?si=d8_Qp1hZszAabdfm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uKB6QkWoaxY?si=d8_Qp1hZszAabdfm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uOH1XXviUmo?si=KBBg0_-x0LxIiVoF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uncVb6V6FJ4?si=MiMb7TDC8qVj1Mga','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/unhHn40niMc?si=o5sVjWGpHlfLH2z3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=5OQLCqK0b82AApXu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=ED-T_V9-m3yzEQf0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uxhRK0IQsKg?si=f3SrjbItrg30Y48g','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v1y83N-jCUA?si=vWMzgnrXqNxbNlgO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v2U0z5m4w2c?si=GzDgAKTJpcwlADxU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=1nUeb1Qiv6tbrrGa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=D6YW0dXyQ-Bt2KwC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vAxIQOe_wOU?si=GkpIcp2ROCgttm8v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vAxIQOe_wOU?si=P6iOOxn62mv7w2Hm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vIdhu_gVpy8?si=CR-Aue08eQOcGNDu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vIdhu_gVpy8?si=eVrv-rzTrTRYodLz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vTFHMuVR1BQ?si=jF4bjK7p4UqKnQi0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vWWNPn_FJXA?si=rQg2k_n94lpritxA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vh99t3lMsaU?si=pLGfdPnR2412rBoT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/w2JxrHeodqw?si=UM8D5ngTFstKQz_L','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/w375k-ukdGo?si=rKL20HB7BpfdqShD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wdQX8Q2DlLA?si=9vq7qNmUjNRW8r4F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wswgBYshA04?si=CtnMPu6GJucLVdDl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wthgg6QA7ec?si=bT8C_svCoyZ93Ab8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xF7q2vhuidM?si=VG1GPJ0ZDtdqk0Ue','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xHyng3F5osU?si=NcCdYUGodpD1sHjC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xLO10_q4SRM?si=YxKFR7eY-IaocjtA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xMCp0jSNHj0?si=il9xiiXMnPhkyF53','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xRLXHk2ZYaA?si=AH6a29UCBFs66yXw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/x_8AqsloapM?si=5oXeOWxcaZiNI0jX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xq804xDXSI4?si=-ZBnAYQSL5sODc6f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yE0rb-e4MTc?si=M0FIEwQ6UTEqgU1p','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yIA2U2o9rO8?si=v42uVZUEcuZVMSSg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yOlRXYnDypI?si=bJEDp330kWDOIcgH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yZw-ty4VTds?si=1e7Y3SelH_EfZBfg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ylwRrTUrUX0?si=kF-mlhNj_HrEQxGf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ysSZONyyUQU?si=ShlEYWdNPVmJkjSJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yzZqncB5f-k?si=zFGb1B8Al25XfUYA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/z8gYHGn0CzE?si=Bau4kXcYFNiU0Bny','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zFpJ9wo2MBs?si=9oLbq3f6tvjuN74q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zHEbmDZgMdI?si=WXEloEtP5UNOlmeN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zUTtIgqOGiI?si=VF2raUqsJiH0o71G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zUufThfBoOA?si=-bBqcAyJANR2mbEH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zX1piRMQYDQ?si=QlksJdINGk2gNpTB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zX1piRMQYDQ?si=mPLqy88KZ9q4cmCi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zaohM2DclNk?si=BXu5XeVmt2QOFyW9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zaohM2DclNk?si=_Xw2NxImq2kuq93W','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zbh-v8ICJWc?si=DcC_zz-yzmUC0yzc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zgDvEXCxNDw?si=ze6saSBMb10HshVc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zgMPMwVdAns?si=uH7j6N13Y5TTUOz6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zpb-L9T_lRw?si=-iJsIWCK6RByMMuT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ztmn-aLrvsk?si=XEyDYBjSUH2Jdhxp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zxDjfJfd-rc?si=GX7ZrMhlu_82NH2S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FqiW9whtRXg?si=2i-h95pBdYRXqIW8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3GkL3W8TFMs?si=fhWDVbYeF5-M7Yhd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/y4YjcRt0UvE?si=nzYqmo_ow_JrvaNn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/teLVv0ar6Q4?si=f23eSgv-jHHupU-Z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9VGhwQ3ZVUE?si=y1GGsWxQ1wdd8Ywp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nm-OZOn1qME?si=OwVwax9X1SOCBpws','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IlPrtnlFGgE?si=wjKO7cqdVdQuwcPf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/CwVw1U0siHs?si=-AZait-7yHKRRhUc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mvr1LqtsCGE?si=tMCH_DIMO2TpbcoI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-a1FnTox5Hk?si=gWPD5y2at9CQUQEo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/grqODaXejxM?si=6wxqA-FWaLDR2wE-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3IRMJF8DNWg?si=zcOxFIFkbV79j5Vz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/W7_pVTWVxzU?si=bno4M5_LcdmZN1R7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uSvo9SPzJx0?si=IZdkPFwMdLsHhWRi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9PeJn8vca98?si=5RwzdR69D45ALnpq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IfxJPkiJFek?si=BGXGuPoqNtu1dzAI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YZBMHpLpgBQ?si=3pB1tQi8n9KHPEOM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fi_HO6SrwSA?si=C_sfA-n2OuY71eq7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/q4_eBoPCKVE?si=HoWVAIEK3MHZVur9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8psOMzUofNk?si=VdxbSRz55wbwyl8J','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=-UA72DV1X7SxdJbV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/apPveasyJC4?si=1miVZEauEJuLlDa5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PuCPE75jHD8?si=WhzvOQFf_bMelO3N','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Bb3bXgUEMk4?si=1f2CK0wKHSb3lyaH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vml4s2nuv5c?si=7IdCwOInn-9_wdpV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ezbam7HOMEw?si=v7Yp5_yXVWuUhrqM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/nhvElLCjoW4?si=5YGdWB1KotHq3NOd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PRYYs70gMkc?si=NwP4Oz4S-wq778FU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/l2G5k_q5U9M?si=foDBmn_AioCHm2mk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YxhqmUkwPnM?si=gMx7Z1PjpAlnflIG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SH74mSrhIAY?si=KIsX-ZhrgO4gxau_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=rzhmD9DvaVDMzc9c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jJFRpJzcanM?si=Z7lCmh-8hWIIwcBQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XoiAUjdTHvU?si=WaibuR2oyzMdvCxW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TFo-vMIg-Ng?si=DZagk5mrDvrPgPnK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ILPL76HDVGs?si=eFoEGMvcPele8AI8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LKKBS8gxY7s?si=-GtgwYNn88dL7gF5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7jBfSzr0VdU?si=soMSP7Jhn69xKOsK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kkJqRkaq8co?si=lSx1Mo-mQ77rqgu8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=GKZNye3v_THdsvYx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S4HOxtffg2Q?si=OFxNjo0c25-Kr9cz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jl05g9R2q-c?si=UKkbtH-NZfqMkUB_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hi0Hy27v4OA?si=JKaumGnmLLLb_rLK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9isUIkGzlQk?si=HaJ95KWSvkQDh_Le','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=-7C9b8g-PUblx-pA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eHNv2Irj7eU?si=ioR7USzOMUW83SB_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/En8GM9T8k3I?si=URXOOQiLYFVEEvGJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h9v_y5Lnkgc?si=i4HKPCNooy2MZybi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FUOyJuRIkmE?si=I8Q7m5zoS4NfFsLy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3rIpI7B4yCw?si=c25gGvzDoEtEZxnh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=igoGrHmP9O2hW3Ll','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0Sag5BaVrBY?si=dpDKaCnWlUhhbw-G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bnacVVjI1A4?si=dBgddFmxh4vtLFb9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dQuc2IYC2O0?si=NvqlQGgY2ZOY0909','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/37EEjeVLhbw?si=D2zYSNwklbgkD-av','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ICAPVhY29GY?si=O3ZthiD76nK13GFC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/z8gYHGn0CzE?si=Bau4kXcYFNiU0Bny','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7xAPIJHiVa8?si=clNKkR2UlVWL_c6R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sDv1jLmW3ao?si=ZN5FD0TmBz7YyMpr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cMwwnxpsXjU?si=8nqK21oBuv6DMO8k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zUufThfBoOA?si=-bBqcAyJANR2mbEH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hgUcLoyDRx0?si=ax_MOEBeqf9kkWGO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Grq35_AvDmk?si=v31t9_Bqerw5vF5s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r5oQhMgP_Mo?si=lHzIBI39hgtquRRx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jC6HaSsf7p4?si=e3xhx7Ch0G68Ssd8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NuHgTidVjhk?si=HNPhE01HfjmMhEN1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h4X319Y9e2o?si=ffM8_rsVtSo3R7vb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/36dp-5ra1gY?si=aTCrW0l9wMjyYfoA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=Hoj40B-EQ2hVEPuF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ymMnPccHUw0?si=Sg-fDiH4OJKZFjss','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WAHq0FGOBDQ?si=EjpPU34-6CYxrm2e','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Aqx7riSTgkg?si=St3ajk6TbPTm8Z3p','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ID-k9i6Goyc?si=0oCPwnlxDQtvWxkL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/txZ3MrhdbzU?si=DyNUaCCYpfnaiANH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SeTdy0ky2d4?si=3gINVt8Zp9TI70O8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=_uMChOw4bWwPpSul','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=G6k_DkznXNbqwUwN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Mg1saQRCy-8?si=f4JIBXJ_0u7KCTgu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AXGUKdHcCPI?si=kCbM9Q4J6iEo0cdW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yZxUFBOyGcU?si=R1kcKX-L1cGLCKfY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/97f620UXqao?si=DWvUx4o3jq1-5iLj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eVqW4XjZwC8?si=cpyHdQPdpKA3a2Aj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TW8JGNmYrCk?si=7gCqcul1EVdamLjY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/omaN1q43N20?si=_1uiLzbJk_TSbiIT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lt_1kx9z3kU?si=2pO3I46a5nvklUjN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/E-rygOH87Ag?si=vl0F8qNGkRavwtgs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/K9eQLXVylgg?si=V1X_xlv0oZgayHY5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/dJk5FUvepzM?si=xO4sq1BsGFpExbll','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8UQCPCDjMSs?si=Y_N_hSqrTEdkSxbG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/I4jJsGPMf_E?si=IJZEKGRtNRcDgkdq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X7KmISVMBtc?si=CsXjkMbAiMkIyR4C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9isUIkGzlQk?si=c6_t-Mg9sO0m4alN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6xBuXocNHM4?si=PEqxkIVMXJOl34t9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cH-cTLHglzc?si=0PJAJrcNn3DNwZiQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wy8RFjeV6pM?si=XNVVGxoxBmSr5JDl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bhNuLTPZvMU?si=0-8zlQ2phcfxrbEd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_6pYUfNEiTw?si=Yy0ima1adecWWvzH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/P6SgwnYFtYQ?si=8Vi5pFouxMUj2c0B','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9r0Bpn8Qgoc?si=A6DH0orWS5O7GiAE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/59BhIdSDxWU?si=5urasWm2yMDuy-ST','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dbczgN4DtGg?si=P1XaqvZAU4tvVWao','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jd0rQi24PBQ?si=wMCrnGNjdgfmwzoE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YsvEFKSeM6s?si=nbX93tVMi8TVzzBX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bUruyUgisCs?si=pFg8NqVh_FaisvYz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/g7sCYN5C5po?si=wQO5V5GgKh7l1K_u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/E-yzwIBzOR4?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I9QP6QPW9_k?si=A50p-Lh4vtkmglvW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=aexRh-Gm-aY7A1DE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5UJhpWKUpJ4?si=BTtIwydfXnVIoujz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_x7NSw0Irc0?si=eZaYjZFm1aMwcthF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=MFbq2bHOtrjdKYlu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=Avrvz9_RIrTz_mjq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/44Do5x5abRY?si=-rf0Nl3wgAZuPIq1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Pw2vRbewluA?si=nq6UDPSDL6quqbVn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5TXjZD6QYi4?si=Ep-D4X4SLyjk5uDu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PFglrIzOJQs?si=dEtVwQzE60eRcPJ8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=zY6TIctodBdtEnyH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Qv--FRnnJ54?si=bc0W9TxP_fhm1ejf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Y4aAmWGu6nU?si=dwdHw0FVoZEZVpeA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VnDoOQwXL9o?si=3fbzbnsouyPT5lF0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZsvMwmwIhqbRn02S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M90umYYPqjo?si=tlmc-tePjB_8L67T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_XznSuuA_1E?si=8JZ6Q5JtpLwX-eIC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xhfbho8HUTo?si=Zpbd2KvwlEwaOujE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=wj4RLPmaDf3yEUgo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CDvS5yNd7W8?si=wf17n2saSg_IxPRE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qWHN0B2Hw3Q?si=rifexWP48KkPUbRX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5pduSNPnpS4?si=liG8A2EljvfA8Bty','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=hz5wfQWohC05bAuE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PRoywBGZTVg?si=E_cPvdzq56eZPSXT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KdsB3dInJLM?si=FEMBK2FtP3ovnHr0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iYJuoDhPDfE?si=gvcZJ4uzESCP4ss7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q2L9buy0LnQ?si=KqZGmmIR54DH21F2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hi5LGOW9dZI?si=HTxyYoe1a6FIdg5F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/we3AVK2Xlxc?si=rse9U29sQ8Y8XNNc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8A1BMr310dg?si=_VdaD5e1db-oGWYB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pTJPHtqt8so?si=aehld_9yw4BhMi6V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ekrxN9u1eLc?si=AKwU4gJgua6K6GER','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LD5SA8ekaTA?si=aaoMlxGKkXvYv482','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vy9SHOzmBWo?si=u_0WW7OKG3KFDyKe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VuE91YZ7SLw?si=1hAJAc81CEaPs9U2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=U0Q2TREggZ0uQnsl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PxJWeA1hHqQ?si=gTPBIXSIoG9bZAei','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xm6FMunktSk?si=wAlOV4nIruhBu-QX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vLBtWxkbzgM?si=633SGP1oUBlZZo6t','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8drEnfy_bek?si=ViaATc_phoxz4EYw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iov-Yc1hrFM?si=XTkKnyW7QjAmeDko','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KTFFbHQ_p0Y?si=4vxLoa-lcsq9K1nW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9jwvu81fX1c?si=fBYPnHdfxOUXXVlT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_6pYUfNEiTw?si=XgExnAWoEFrtyCg-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZWoVImWXuuo?si=XAHoQU0H-dq2jIBs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EvC9rZxOweA?si=4nNV4Lx2TJyR-Lno','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WBy8xpN-FJ0?si=_lZVLx2W6A1CKIvl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/virn7AEkGqM?si=9VEdak7IYrf9pBYu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dobxbndOqd8?si=_tug9qYrK2adNM2C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8mv5frNkuqo?si=-67tYjdVj8W_HQyJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zHEbmDZgMdI?si=WXEloEtP5UNOlmeN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CWZtVb5FG2Q?si=ruFKc-AeGMmECII1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/s2SPsHlVuS4?si=UzmybN6PcGwjuJkq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JJsRnHBT6r8?si=JgIBMT8iydaNsqUV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/06lnVXM1FUY?si=ChNCxHtlygiyXfOO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6zW2WTp9SCk?si=waXwy6_dhXgEJsV-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0_fVFw-m4t4?si=VQdZllXXyUKyY-gL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q20_QXrnURM?si=eoOIooOnoHBAiDqf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-84vzasHnRw?si=vAAaW1JgJTU3i0SI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hSDNKXg8_S0?si=Aq3cVDaCHwytmggE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GDlEVZkCVVY?si=fPMlomSrL_9nQZm_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=D6YW0dXyQ-Bt2KwC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B9gbU7vRXSk?si=CkZqAWLZ5_TD2OD_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GEcZvD0bTEY?si=WDuUVdNw5iqyK60j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sebw4dMv074?si=RBP-WAzQep1MYCIE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Lzqe8PIOHOQ?si=-mp1KjzEXFc9jWz9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=B0ovvCeEIVJIXn5s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/L4OuFRI8yus?si=TJ1KgqWpaP4mZcX-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RdjJPWWZ1Dg?si=IUhWyG10PK022SiE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EVB1umgh1ww?si=_j11Qj1eswKwNLQd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/thXJHs5tRIU?si=OmCv1XmvL8nCQc3T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/D2L1dR8CqEo?si=QDeQnIyH9YEgPm6G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EmF1CodTtb4?si=oTBbV6u11Kfrk37y','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S8qKkpLHv14?si=ZIqFv2htbHj5wUgp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_nkMB5IZb1I?si=CqyehIc2lDZCHfES','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1RtjAJEr0iY?si=xRhiLzh-PdY4Q0Nw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vT6AAzaimyU?si=b1mZhgcHaS8sz30Q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PrwnnIjiRJA?si=d5pvEHBQ5P9_u6Yy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CoW4KPGOO-E?si=N5_EOGP6Wv-UGWUr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UuidwnXciEM?si=GtfcREHaromKHPrA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TOHwcYNRvss?si=F6pBC1lSdmWw3jnk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jS5rH3Q0VTo?si=LwkYkm_IJH6gdaJz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VclVpQyhLxA?si=ML70E7qqTxswY8sg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=MgPw9GmJK4_UbHr0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gP3luSR9_fw?si=PxAH3_GmGwk7lseK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jGKk4J3_yvA?si=0OL4h34k0dJveXMv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FL7eUyZGrx0?si=fPFRSNX2QTOhfyd2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vIE5O_v2KLA?si=DTQeZneFsTZBOdAM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DkrBQbHcyJA?si=8Cm4FSMxykdcsGXt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1vwE-tY_P1Q?si=yiI1v-YzvNS4sLHC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=U6awMBUKCbEMj2zZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0G0ZskbiYyg?si=5NXEaFLHg4RsBdWJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5vrkCOwiyXE?si=4uPd5pgDnJQl62Cw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vMacidXz1zA?si=uRItVKs2HjFik79r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=8aitigmsTij3gAX4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2s9lxdTxHZA?si=ErE8ysi6v0j-MBKD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3Q92K1BWZ-8?si=kXwsCroHsi4XaDOJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FdFc6jIxUos?si=qTqM52bR0aj2tkjv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tUsXPAuHZVE?si=4IJeJK4au3yHNU0N','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UkYp9BL8yu8?si=hKKpELT_2MaqbN_5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pXfukvVAMqY?si=3jjzZQ_80b97SjDZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6ids62HkfSM?si=HkI23QW-IMAwkja_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RiRKCzsq8oU?si=VjmwErEauuClX1ms','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BeHcVwfuJ0Q?si=LMwKP0A8cH4-zYee','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=LwKf7xiWaMkZtoj_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/o9V7jdolGOE?si=AdFLND4fs8k2dwBj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CWZtVb5FG2Q?si=jB5UGu2612nDz4Fm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/nPMoA0S-kpU?si=Ai4gNTiFxI_1Vhua','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/T4eoVk_2g-4?si=hM1waWxyXhnK_NQu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RW5K7OBoMaA?si=3J8MYR0KS8nfH5iW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/w5_LhCB1i84?si=9kVfwnehfZW_INXF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q2L9buy0LnQ?si=ROc7nDl-FTOj7xAe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=3e9xgkJYyD_tQQlw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OSRAoSCO2O0?si=LxC22KxoK49VomTd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0i9tR0nNr-M?si=7C73mMcSiKvshJQh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/e6NvvELXggY?si=mBpitHLlPtzKKWFS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oYe6PgzGVJY?si=NTnf7Ab8xc69wUaK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MMWaqR54GDQ?si=2DsaBzaYlCreN6PC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cMwwnxpsXjU?si=r6wcVisOnKL1ka2x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kK4bnE_noqA?si=oxh6RJ9nHjxKDnqz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tADvYY-2K74?si=Ip1UW_Nfu-3cHjZQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C3VHEByjqXQ?si=woGsDB2puwbBEtVn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q-g7LOewdHo?si=svASAQyLyCJkO2wF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UqJLGXcDH2w?si=7aH0RXadSW2JTwOh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PeYXczC3sNE?si=pFM_sLV9qZoQ84_r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/c1xoMKGwjUc?si=XjDCIfjpGIwwGltI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DlVwR_xC40w?si=gPTfdcgB30eO2dnF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GpDM7saE4jg?si=lBL15P82_vqZfWSO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Cis7rilF0HQ?si=mAQmDs940mhn9FdY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dM37_dSJdbk?si=5kqGE15-amg498sd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KquLnUzFC0Y?si=Qm_rr55AV9ILVwAv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gTUGyRVH26Y?si=jCi6Y7JDG5Mrw2aB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cZI7W5Eatno?si=7xMucdwyThDww8Eq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=Un7zGUL8BqIPmjxT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ue8xs6Jb6xs?si=9A21MLG0reDXfqWP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GhLlvn58GZ0?si=n5B11kH3HcQvl450','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ofX5pU7EBQg?si=abK6MDu4OgPWlpS6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Fnk6hWr8kZQ?si=9sRFLxYyEwfbKC0b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ekrxN9u1eLc?si=6bWh7VOCucVC2lGF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OYy0Rk2KEUU?si=g1UxNLgYdKVvevDo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JEaFaGmdG0g?si=ox1CbnO87pCamtbK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_ttguHeSoNs?si=Sd0XclreZXIPH1AK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4nKj5_erykI?si=goKUpkjtzQUNnky6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CLT2wnMEeWY?si=k5oN_xP3BTKtBukl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/g54Lq80FyJI?si=9R0C8hVmkvh1mhZs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/teQ-bvdw-xk?si=7lsFPaQcEC7UVXWa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kyJhPwlqDPk?si=3aljue5jQacsPGYX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5-UASvJTSaA?si=fCBDqHkFdLhIDhfT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/evakcP2CtsY?si=DbfEU7533bYV8qI5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Yxi9ypHdFyM?si=H2tHhixePgF7BArn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ivErUOTUqes?si=-vBw5O3pvUYIFpB9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GGZ5bcHTu5Y?si=BJuCDolXKKoGkCBT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_z_uHs8dH5E?si=f6a0xc3OHMjzns0C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ts-3_i6qrMc?si=ycSGQ8PihjfhZjZZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=JgweeQbrpzTNzEJU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KwokmGJM4XY?si=OnssasAeNmrPzX5B','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/F3YawWRQILs?si=WawZF1JMqIxhMISe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qbcl-h_uZS4?si=aqzQJ1X2Uh6I-P0_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/35DrorRhRXA?si=7Ka-Z9oVMu7dzzNq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=jNNQUqzBNQ8QB1gh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_M28RBFdYLU?si=79LVwml0CKsBeget','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=xdG39tkkpwjQvkwS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=3OkcdhGFw-tDWmPk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aFwr5caJcWA?si=xSCH_3GchcexP7Di','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VyZHQJpTaNE?si=kcrRbUZTxLR57LvT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VtZZ7QxVvh4?si=0qwzowOAvqm5mbTU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OZyJnbeYG_Q?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wKdYGUhx-u8?si=0zCniFt-iowEfzrQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Kq0uG5mGGkw?si=vMmEtXz3SEpsszKW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=Gmv9RoZ6xCp0slmu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hcQrxOHpJe4?si=PthENNUy6vGN0T-S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kO78J1wOG_A?si=-O-qrcxjYlb7j-vp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OdPrG4kKYck?si=F2vhTJMiMvfJlLG7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/exGOdwwOpqk?si=v8krkYiaaoVvlBRP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/trpzwt1dP9M?si=Rv8Ati6Q_xGqFmOt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_K5IAPDsOYI?si=JeTRZ_im6fIn4ez1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vRGSnEbQf0U?si=bBixCMeDS1LMrLD1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ecAn8iensMM?si=NnUR06dAPIseoqq2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WUswCyMEeiQ?si=rEsko_t_Pn-4-Chz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/J1h3MbbJYZQ?si=DDU7ft-BSWZfwhxJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dOl3NAdpbpI?si=P9f2L5J8OfW0AzQC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/59Gtpsz-Wio?si=QrcdsvxozsYBi_2S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/H0bxGJPc6dc?si=Me4rqZHWrOswlvfk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/unhHn40niMc?si=o5sVjWGpHlfLH2z3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fO_0u0xg63M?si=PjIatiFHp4yg7744','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nXktNMJOs-M?si=CAZoF6Hci18-COlv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Uxz3WNHqJYk?si=pgVbLsFBAivggFCX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dQ0EgA-W0Us?si=6ifX2iBEPvdnkqCe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rFThjHedkQs?si=vDkXZWs6zapAjGf1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8CK4It8iHCk?si=qY_nEtzXVNkzR4n9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Afo7t9JaOjk?si=dHZB-L-kT4OdDdmX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gio0IVr7tWM?si=fbwPmFm-lQuwVkDn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=-6ck3bEr8UesKyOv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qRtzKdtG_qc?si=RtSl7FqVghCGNd6o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jr-Mu0fDTf8?si=Iw3UBTZWbZ-LoCvA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dKF1RmGppa4?si=TUTadIf9Mzfu_kDc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WBfb4OH7YEA?si=JEtJEVKfTDQXOXUT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GWvggYmBKcs?si=y4e5qBFNYZjH-6rg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q7E09MBDncY?si=w7Z1jvKmGnXCpF7A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0C2SNblI9To?si=KNiBeR74MR0261jP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oe08cCMJEkg?si=K4XutE4Z3qGjRaKz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/g2BjfYCSZEo?si=1vpUdo7tcZCSOVV8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/N7lLOdwGMdQ?si=uxzNilUy5YkOCbrx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WTRqWKxncdw?si=mgy37pOYxUaWbyHh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Fkh0rfrzNsk?si=t5RZC-OPvuC8tFvz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5czDyuxwx7Q?si=X_-bClX8F1Mfqfvn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TDUySYLHicI?si=WAAK0k4sC8OVFYKr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9IAq8TeY4qQ?si=HbikiW7hcZfv8zgr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/R1kO0R4T0lo?si=zS82gmou4aQKZ1MC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4nivVPJTxMM?si=rqkJXUx5e4RVSO88','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7o83vZczieU?si=b8WxdBYLW0JM7K04','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OACXOIZtPho?si=q522vdvHsKUik0N-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/d7zzt0Q5iNI?si=OFEnamO2EjkHwF2j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=a3iyxmheaYkkb-as','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NWv6TSFg4Ik?si=d3629JwEcOvmx8fI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IVdaysrIS74?si=OciOegj8T8TaARJ6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MF9glaWugbg?si=lIfa-aW2gaYCkBCp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Kcohq313q00?si=e0bBqabkjMWLr497','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XVstYKLVPrc?si=UH5OZk6gecIQ1cWO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zb3D7acV87o?si=XJez2epQsOfkYpIu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pIpl3VxttmM?si=xc6PHLBVtKnq03O8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/b7fFfIMeZyM?si=T4zE8yuCPRIET2hL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S8J2JDIKZJk?si=wl6X1mCOs9ycqlJf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/35dkSdLE1KE?si=2gdxMnomYNHD6aLL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cZIUK_8M2Vg?si=9vstPD0Xa5U_Etp7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UuidwnXciEM?si=y7AzGS6j60bGPl7v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/-MsSNgjRCaw?si=MpEASYMZK6oN_Svd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8fjias2skJo?si=HFAl8Fqr55NLOoUb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cFWA4lHQncs?si=NzCYa1rqxJTRU5ek','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tYJlDhJijg4?si=2isHdLYJKm6BoqO1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UNix5iTeWJo?si=B_QHMOseBMbsY2__','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/B6MIHrLxAms?si=AUgmRLC0tDPZnB7Z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=PazwxBgMfRYdTfO4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/y1iY5KDZatA?si=vuQBB-S7EucJPDE2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gp_6QgcA_SA?si=W8__-uBWTSuHPhvs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pa9px0JLQhY?si=2WkV3DrZLj-GFSKz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2nU_Kyb8fxM?si=7rhtTe4V71mB2Tb8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qPbLzd1UdaU?si=pHzVGSWM0x5bdOXV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6FyQ1oXTpYk?si=ZGzHU2D23CHYMbmW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=u8ygbDT3DJwfwSwd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JR6x1iHKBig?si=2GiNTdm8oUp5VNrB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FWnPxke0row?si=ILQ32sJ1AZAT-AtK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SLqOIHFitL0?si=rAV2ZYz7zBS8IaAx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/do0hV2MnurY?si=xQTsyRGyo9qENUzu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UAY_ghm0kGQ?si=tHSNRvzlz3-6ehs2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bsKHCG8fWWQ?si=AETjiDpIXXsAWqhU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_P0myujlOs8?si=x5u5QvPexqwkuYS3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jWQYt12WhnE?si=u6GG3xq19rV0koA8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NMkbY2F60xE?si=i3XXgxiIzh_JcAQf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cJ1u45g_WT0?si=ak2C1LiHmwj8i5un','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EKQH409-PGE?si=8e5wHqWlA_UfDURt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/H_hA4uiUpSk?si=OI9McYoxsKYnAfZ6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M_2Sh700w_E?si=t7F0gbSmqIwd_i6_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fBx2mFAJbYY?si=RspzQZH6QvVC-rDy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zOJaPDmzUV0?si=VXw2L3DjZW7IIt0X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NkZjjZijYDU?si=WSY3th7R9BXI9dzH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kRGniNQn34E?si=zGX2T664nnqj7rym','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/W2EmtmoDrcU?si=pg452ZuAHy79s8FD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vFbE81pCHLI?si=oFh83TWXSu-8yb0-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/p-uA009s1dM?si=gr-BvSztnaXBe9pG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KfhdguONGOg?si=u1ksyz_P1bVPB60S','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4xhSGNnP3lM?si=iaEhwG3DM4oPhMy1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YBCTf918fso?si=1Xk1HbBiGEaO3ksF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gdqj-r4p2P8?si=-50IMUNdrd8_UBm6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2ZS1kxz7jdk?si=OIPmFRUw7BGwuP-6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BleoXYnM0wA?si=UY2YKRZ66_P_2iTa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1aRB_F4kzDg?si=L9Q-jsb_MALyevcO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8ysVpBUjeaA?si=miGDrCDuQPrC0Zv1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-spS_VhpjcY?si=MJyEKxU5eXGAjzpz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9FNWyK4AbEE?si=PwzUTLVIMYTdKlVz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ThDRciEPqcU?si=JMpwskxxHsYXa9zB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jZOmeqUSjIE?si=NrjbJtDsc1o2jJZ4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/D-ZF_oHnjpU?si=WMkGP9Z02HEUWUfl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MUcyqZLnAWQ?si=HTVHTj0gmMIUAJUe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GU5mGhXwTEM?si=zEk10ZqXGk25dm_B','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qdnx8QsjjIo?si=y6J2UhJ5721QbwJC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HmAxk_5RYDU?si=XfBhvXrvlcypnC4k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l5e6UU_YUCE?si=dAIRtNT4bG2l1SEN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1qpZ7TSgvqM?t=510','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IdSvfey-WWc?si=5zE5IHHkyVKtWgFp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0g3evsRyfWQ?si=L2grCWwKTR3RpXAo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uycCMq6mpoM?si=dr4IKBZolk9sAu_T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9NqBsENDpd4?si=R0dBdeS2fLsIpXB0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OfVPTOdxoDw?si=9--KlypfTU3RfUOu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AxwHaKEjbDo?si=AnsGsZy36zuYJFrE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/91XwGFrFdDE?si=KdoH7wCRQdQcIc4K','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLKEzuOOEQvYNf1xvRn8D6bEN5JbvJXraV&si=nwHPEOJOcQ8ypipv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6sTIOEHi3YY?si=djC9JVKQ_SesBbbt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=ruQurg78YS6R6Atu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M_2Sh700w_E?si=sPakp5gx_1wtWH1Z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/m2tNsDLM05g?si=vYzq85FYeGpk2BBR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/byzVFuu_Eac?si=Sv0RiR_XKgJUviGa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=TdArVmLqVH8gxty4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NWFSJPP2clE?si=cUaVMPmAkWURDQ7v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HL4utvyfxLA?si=7nLKjo-J5e9-cx6H','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/b1JEPGr7t7I?si=od-g4D05FrJv1n9f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kxyulZODTyI?si=US7S6tSUALE9Dtdi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PixTdRMiAzQ?si=zdsUZjjX1wv7r7II','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/XYW1HGskfQ8?si=bMMUSFy48nxUUk2X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4uuWROHLfIY?si=EHAxEUf9K9Td6Vqm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MVQOn4__UDk?si=THO_V-_2iiRkihR9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=8Q4q6lgUCUp5B9TP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Cd3XMAJ5TD0?si=kojil5JAfZ0QDmOs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4xfoD09e81I?si=tVqK3hTcvucD3P_w','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sDQhHS6nJyE?si=Ks37JxpnQN912zSM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7hRy2N2CMhQ?si=p_45CoQ_TGb855aW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3-jh9EKenUs?si=lYUcnRJQFUW3c0Lt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LuMGrWUXJDw?si=Cr9kIx8pJZAnheei','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wCkaNh5_OPg?si=oY5YB4H0gDlZrKLE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9_rvh90DBgs?si=lJSjI26IjdzVEVA6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/uHPIpmwwQqw?si=9SRy42Nd8Iuu8x2f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5eiwprUj0BA?si=_yZZUbNL_KDKQf-i','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0lqicuSY-YQ?si=4jxWmngyw7VnQ9AA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9OaEAAXPc7U?si=_JBxxgIAXmQd7fwR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hEYSjT-7MYI?si=H0XY4AhB2I_M0SVA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/29Kxrv9gUqQ?si=GVArE-IMIhHU6mNq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ra2IoDqtPpo?si=CEjTLnHfgnUBN9O3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OYkNrUYiIPs?si=NrvBIXZwdsTGA3pb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VfDLiuHHfbQ?si=cITmU_VFm9TwIlFc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lFL3HmX_YMg?si=0ChCZbN3nsFR7Mo2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eWlwooxhgOo?si=iETUU4CoYHEsedMq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/G8g5BrLm7uQ?si=HLFy1kxObZbM8VIv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/o3-XL4NmIpQ?si=-tjKXkVGYiKK_61q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/C8VeeXrSb0Q?si=E3FzDYVo5wLgVJ2i','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=SpsAuT_1v0bSIy_O','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OfiJrxKkvzc?si=SOH8jmXNKoX252Yr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zRcbCb8mFNI?si=y0kG2Pv_mJdeYsf9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wCvCjCqaKQw?si=qRUZTkWYvJonhMqk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UuidwnXciEM?si=gu6hk404wQ5fRCT2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Bt59CHiFZcA?si=hClx3f8w874RPa4G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=1hVfp-KDixBQzSGR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XcxbfvwH6z4?si=W-otMGaY_44ARmHa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/N-vmvhFTLBU?si=TG3bTMacIlhlrXfi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/W_i-eaIyFuM?si=GkXzOy4zu27cFSYD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iEOttfOJr2o?si=DWRIAleTNWgLmvv5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/T9dUnUcnvY0?si=hUMCDt7dX5cNNCf2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cDU-WTiKBFA?si=w8yy5I2LiwzCh9T6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C_cgzZm44a8?si=3MJdeacrE7Fy5HYa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5J-NXeor6a4?si=hOEurw2MTXbFMeA7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RwPybgjTfPg?si=C5PnMxeL65oils_4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tVwZEVsTclU?si=PLZcnwLkoFPvEqYf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-5vL2KDbh1Q?si=bjDzLSf_03smLDwd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5gAJCNpUlLM?si=vuHkbR0GD6CqPIag','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2ZCV3WfILQI?si=ednKeNZx2JNB7c_x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G8Phq5OFvOM?si=_9Lf_zodU2hsjqXE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wValyK7oAf8?si=W73LaOe7Dj_nOqnz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=p24RlJQ7GCrh_whO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/oPvC9qQ-8gE?si=rwYiuFvH6F-IYq0D','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/StB9sJXtHyw?si=OQaCWvFkrO7CeBAh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-q2lVwUAJA0?si=t0T00gjAbnNxg2uM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pZg5lmQKxw4?si=53fXVz_zGg19ZnY2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lbGws36R04Y?si=LL6cLyxw3L6j4Bt7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bhNuLTPZvMU?si=gnVBWDO3EDid2KRw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=IzJ_K7AwXQ_UpDim','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qGIQnA-oOG4?si=qXkXld5x3WuBIq_b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bszrKFtEpDk?si=UYZrJnML7S2GliQd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wHCCKmrsEJY?si=-QrBzA-3sR2lMI0V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G2leAHi7UNk?si=bHC9l0myd_8nJmXV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hm-I9krlpLQ?si=hXieBrOI8EeDtUpV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GkYk_39toq8?si=1R-2ro7AocuQTepe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5zQM2vAYr5o?si=CqbrLrivoJW2VuS-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GUV9NboDr4I?si=v_BWV6-CqqAJHPsa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ioZtwTKu4s8?si=D0E-BlKFUga-2V5-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B0N-qYLP2_4?si=EWWl681lbvIRaqub','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YYKS1AEshJQ?si=GvDrgEkRPOE0g5np','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hS5yWody8Ts?si=F2_l0XizYn_BmOEb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0SuDVcTv25g?si=plpuFKijkh3sYTiq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s_vWJdp0Ydo?si=Cbdc9zWRqGRW2zzH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WNgJCe3HSGY?si=LbaSsri-FdHEtilQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yKCSBDUeAw4?si=-vaeqXLoB4jW6U7A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AUs07XHMD6E?si=alXZl7SZ3CWILV43','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qX1L_PuhmXM?si=Bg33lA0SMarIRoZm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0uRn6O0B61U?si=as-fTjfwdcGQ-6aK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/peFPurW_Nk0?si=dWSpBMFWPPafCc8V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FpmhRoF2-HA?si=_yhpVLEVTclNlEd2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8IB8hP-Tia8?si=13EsbFi2pB5Y1PEh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/TwLg5sCOYCI?si=AjIB7NrwoUpu2xTl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8sbrJbDJVYQ?si=kWAK5wFOBzbA1rpw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WNr7GbF7Z2s?si=5JAH1XFlQRUxt8Bg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Bb52TSr73qE?si=HPlb7WI7tJKN7K-k','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hm-I9krlpLQ?si=vULGHgkEY_mi8Fv8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7BB0knNGTXU?si=-xp-Gh0kMjPbWS4l','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jSpJhzxNAFw?si=MTzdLHnJfYZlazIl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2gUeBn0Vnn4?si=FGFp8DiWtxUux1O1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FWnPxke0row?si=eaZZHz2QM1IeFWVf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sAEQTpl3YTs?si=QaIZi-DpMuPlRLkQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EVw7uRsEY1E?si=YXDiDrVT1gZ1vJxs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/BR0Siv6CSy0?si=_XRUuUCTUO5Pn7dg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M7N--Zf-Ypo?si=nA1DS0ahN6JWk8H9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/rb_tWptGXk8?si=IZqG_Do2o71Iwx9f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VE52IOpNYJ0?si=d47qQUprj-NgAduW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6a2FTvhKUI0?si=x36FJ426NtimiKl9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dm7hZDPtdsA?si=aqfRrEmNxgFOgkAl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8eOYNvJ_i0w?si=zGq2XOZPRseCUS7M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LKoyWl7RQw4?si=ANvF6s6dvkqZflJF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IfxJPkiJFek?si=JnkgbsaeEuSTMRIf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=G7LGjfvyvKZ_2UoR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RC1L_ngLP_U?si=pcU-Tqy0XIdjBh0B','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/c_arQ-6ElYI?si=iZl1JhfiM4tABzxH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OqTFDFWEJUg?si=Ba8tqeT6IpRq6jo5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=c8mLw-HzZpcavzMJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=ciOOyeywyOZdq-C5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=y0ykjrjSit5PL8CK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/46gqDpsrRmc?si=Gpk6l_nPEhlksjMR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vRGSnEbQf0U?si=koEkzE535owAd8X0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ie8SUasOjL0?si=OxTl3gouEWYpKeo6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M6_YRPq39P8?si=VGYBq1U2-QUslxPt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vml4s2nuv5c?si=XhMB41eu-biakP0-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rixf25wAkcA?si=_ZlJ9KzMrvcHDb0W','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VE52IOpNYJ0?si=OzkZkA0EHqnLEJpr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=EfkP5lUvue_32vp_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ybbi5lHczi4?si=OLHzGxqFJK37PmOP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tisK4ZVnAZk?si=hIcMmPZQBIjMMqS1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ie52kwaIwy4?si=O7maGTsYVarKYkWa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kEsv9jYlw0c?si=VvsnsIUEmp3R6mdg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6uh5Q9AlzsU?si=mw1RNL12whD-LNfZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ObeijqNrLFg?si=9HSIGzRHoPjCoSN1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/163jrmnh-aU?si=VWBFV6OoSEI4CvaU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6XV03-wQxjA?si=2JCAyKRzBg5mXE-7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vl_57YfCDV8?si=tGYysDrBhI_zE7WI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=OUD148FfF6Q3hg2F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qTclurwnwi0?si=FOka618UDYM_D9kc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8ySY8x6yNzA?si=ULZEjVAKDAF0Xs7C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GBsuGS40aIA?si=rPl57u3B2Gp0dtMF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0-qzydP0_nY?si=2Lkiv94wPrdfkyLJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2eFQoRufe3M?si=IYZ_pvVW8gaaJv3q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MhkPAYXOT1A?si=yZm_RKqhIn4AAzpo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uUyCfZqfjEM?si=r5F3tzRgDa2pwOWL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/HO4GNX00R1o?si=xMtmmIVQ3emm1FGb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ix-U4Ld4oj0?si=FG4RNFwJcBab1iPZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/W0BT8bVYR0A?si=fN0Vkt8B59ZJFfh9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UQxJhLgEzL4?si=bb2CHAb0nj3XtEZD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zb3D7acV87o?si=q2Ok22Fl8LfUyXPU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jrvfSXX01Fk?si=D62dBXyqjHBiRXFO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lxE2K27ZbAo?si=3_P2TOpL_FqGkyfT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XYHOi-twy_0?si=mU2SqP75bCvcJw1M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G_rOy6UH4Jk?si=_udbCz6Qy4qqa6_c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cQYovxBFVGY?si=bksUK3W3PqJz-p76','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jHrgg-YyAE8?si=sxXvuPZuzN-_z6jq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DIfpMTXA2kU?si=y-pKY9FQdF3GNEUj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DWodDqDj594?si=_QV0sNZC4bT1SaAE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xHK-wTVGOTo?si=wYLy_F9FAtSdc1IS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/q_j-rAhhFT4?si=y9ifImtV98oQBVVm','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BKvzvdWjBMg?si=-63GzNi1HNvwe8fO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ia4oKy_oqoI?si=5j8nIvQyUEzMKCEt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6YxSt8nX8sk?si=DIujAXP-W0lgjSt1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SsVOWRGKNPc?si=pUTfduO6zEm_cJB-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6YOhCKaW4Q4?si=6XH7pUA6O04x_RI9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1-DvXBoxKjY?si=MWMWBTzji9V_wI-2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/POl0f9XP-6s?si=ToPdgSya1pULCal7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wVAHr53KoBQ?si=HfzbtCUbVzPSJFqD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sCHMQV1ZxIA?si=cpE6o5o_DuFhgfVa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/a4bgPCige98?si=_EfUoybi0uUR3BjA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qIsRvi7F6w4?si=kDrwGDRXbySM8xMu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kvNlL-Ag3pQ?si=PnIO2rcnqKesbS9o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_2P6Idz1eMg?si=wF2GE4ZmnHnDpEIZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-9McsW-ZUVE?si=OibhONuJ_zw-ZZhC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Iiiyf5r-WX4?si=jfqFwOCXEU2byBMd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yhenZGc_WzM?si=2fOxyUhzuDCPRKMk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uHRKq_0ezKc?si=frEdLNu3ILj-WEWh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eI-htLxwRwo?si=n3sxEnMyMldHV2-Q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/o7w0vx7trS0?si=vJtFV79tQgR2Gh11','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s7E4m_2FLV4?si=tZvgeaDa2LwxyAVM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ia9mp9P0t88?si=LaPw5zWavsvia2L5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KqKe4nmLuU8?si=u-2jl9NFTzN1SOo9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rGfKvZSK-gc?si=cZVGjBi5UElJsJzW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8Y8TxkKs6Xw?si=FSvesXs8f114soj2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-VSjx9nDM_Q?si=hHC6tPNQ4JsS76PY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xHK-wTVGOTo?si=T03kd3EmenFzSvXL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/q_ANuvDAM_k?si=3zL2LFFdMHfu5M9I','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Q2vgdp9UpeM?si=6AiD7eurPJ736EQd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VclVpQyhLxA?si=RqIdtb7p81xWqjGH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=iIwinYHdMJxUnAbO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V9UJcDKtp58?si=SfHdzQwAT77lfKa2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WGB0w4Y4T3E?si=r2PwH4uhmLy8vAdK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SD2eJf8b1MM?si=A1vMfemBLV7JJ1Jg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Azg0icuRinA?si=kap9cVXgHIhOjZ_V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7n3iqcL2a88?si=I7aTTXk6EZDoZ8Fc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/H6rCkQI8lr8?si=at-WAPWlks6m1K7u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/shGUqsDxrVw?si=zQ4uZ_fa-VMBR9Bv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EXdCcCwauEg?si=TJKyOrfQ_Zj9q6Yt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aOyQS81tR_E?si=OH_zwKp_L9NsAwbT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Efs6XBg3axA?si=pwTEUjKxxhu3y6aL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MC9oCBoyYFA?si=nnOigzGWwzvbcgzY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FXqFvnsAS3g?si=rp4IVbTVnCgDfNQP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hfKUfJLwBhQ?si=EUZt7n9kwEUdPclq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=LJ8T0Z5kHWxUz1-n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hiP_UPqKFVc?si=ewu5CrVa1EXd0QeK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j_gNH3K1KU8?si=NXFfNcPgCxh2jJjZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xq804xDXSI4?si=-ZBnAYQSL5sODc6f','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TUxKXffEUL0?si=ztvJLGAcAIh3Vyxr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ggWuc5ecsIg?si=G7SLro8gnyZPmIlD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_LskVXk9eT4?si=mGTdlMr8IVCWnPzn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eGMY9G0eTa8?si=EIAGHaIowDlIAObt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AvbDYtDZk1s?si=UqIoXrXf0BZfY0sg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/mWsUPEACMuU?si=d4PfIRxeDX39uw1R','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7GsSzlok4EE?si=Og_7OzoM6lVa3OOh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bc2MYQ8odLM?si=edVUjcFidVYYKW-q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gFtI57kUtzE?si=2hbZuALfMpSrl5gZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AhuzorPrwRw?si=PDBIXq4vu1l7NQCz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IsQY0iOBtGI?si=-2417souqjyWdYOJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OPBmKwlkAfM?si=rJvws8xqtHynJ6hw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qGC_a6cKHok?si=3R5W_-jGkPP7PbeA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vT6AAzaimyU?si=24cwJyGm8x5HfCE0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/90Bs-nHu6qg?si=DediXlJ4d8kllVbI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zCDKvGtyO1k?si=Bc1PFGL8PltqPuf6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=nOYFH676hBsancJF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s8AGlWM0DvQ?si=Kf0ToS6YSFfK1u0W','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s3C_6hakFvI?si=QX_-8Q00WFDhkill','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NqENNjgzBrw?si=imQnbf8hABO8MFN8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GhOXiPzdI_c?si=nxlQ3Jbn9L7Lg7Oy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=woQjvYfiOh8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5qTbzbU1ouA?si=nr4TldW_E4QrQ98v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/V2vPB2jSS8E?si=w1OjNT0rs5gpWDaV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IKvSr8-ciNQ?si=Yf4rOr1FaKw5GnZ2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=LdrMb1-rlv8CtwkL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YPoIQDNax6s?si=uShjLLxFVjWdgQdt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TfriSyaFc6Y?si=qW5kSmM4F3ncEGLv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sUs4UC0gn0w?si=oUSlFyJx7ON8lphF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RIdzy5sGQrU?si=Kznc7PSPmiRdmzgT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gi2qfrTtLPw?si=pPyK_kbPyGdROJJ3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/aXUl5xpmGCg?si=K7itlvKZcS6ot8wC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pTn7HjZBeJw?si=OvSG29Wo7VZpRmQy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4xGbuPMF5JM?si=VHLW1DytmCIXuUvJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/MD3thQufPzg?si=bEsE3zwyZwKe7eEY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Y1Gv4zR92ds?si=ybDVUThfvxWOgJzA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/97OMyGe9eKk?si=-dyPATnk9FriXcMh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/UEG25-xwFYY?si=bGltfqs9D2uOsH5d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jpBRvkMYkTk?si=Ocsk6pyEam_9jKdz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6y3759NBUOM?si=w13Cdp66lPj0jpo-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/j-dzEcpzcT8?si=OybeApyECiTEgu98','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sjLTNgdrpCg?si=WmhIStThparbQO1_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/E20JaTSHbe0?si=wndGVikIPd07lolu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TRLreW9atAA?si=7g2bTbUmxijoKdFr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Y0Kapf8tPsw?si=3BTPybaJFY3-7lvp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/v3tIL36ZxBQ?si=xiKOKxFxioXnk9Lu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7dpKAwLJl5E?si=XMzW8tSsoA1J_kHy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r5oQhMgP_Mo?si=amTSyWHYOUZfemm0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LJeIo9VBwts?si=ZseWAjuFhjLm9Dd8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VCYusUqneJU?si=xTr2QGOXNQNxAAsy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/pyd_TeJTiT0?si=rT9keXjBTfnpvYyQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ieKfAks22NY?si=32zL1men4S6xu3IT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LZgeIReY04c?si=WPJ0-SZH2cRyzVay','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/szX_RuNdhio?si=JZ-K1vWxItZsxPI7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FOoQ-z1BZAk?si=BBRcjez6Lbue-6c9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-r9mW6OFIIU?si=VL_L5zHZegAtzBtk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KtilpKBJBSE?si=O4M8s-swk_uWOD3s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=phKRx1mwO1D8pzGi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4UbOlnLMJj8?si=DzBNMqRXn0SycdXx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UD5XdjkfyzM?si=p4Trb1vE5oVAAoq1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S0Y4bshdyKQ?si=z1X2hdeQqL8l3S9c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7aLRUqUzVw0?si=HTU1aXzR60d9sDTI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/26uK5VbaDRY?si=dAD-OEwzPI8YrF0b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KlgXxFDsIVg?si=ufx5aEbEdlSH-CPe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yyxdV2sqePo?si=FdB8AqwPGPdcHEMP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SoqFg8MfFIQ?si=usazg2W6GUACZG6p','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6ids62HkfSM?si=t5byWVuad82xGdDW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/glMs2uzUPOI?si=ranWoYjFc8nG67b3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0gOqrdAYyp0?si=bgWV68Gr-XJjcgAI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7sjrR0yLdSM?si=8AlNHH8xPTs0w8Pq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Hm6Sj1ffV-E?si=zG8ZaC12d7tcjUi6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/elzJx8cdE_k?si=5RlTvJhsNVLJgWmB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/10A5qpmC6pE?si=LU-tTNQ60uDkriHA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JZvynm3AI3k?si=SqFOvIBViIIyR2AY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/HxiPUYAiBs4?si=WqDldgry3Kkcz4NI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/82LMaO1Cel8?si=6gUOAdQEGoxcnoW7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AMzJtd5GMFQ?si=d8vnsU4F8dX_eseP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/E1kOqCCX8-M?si=zH1FpBT_nZtU0Zp7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lnl8rwB-fwg?si=dT0om4kbZmX5QtwN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2AGOP7pLqu0?si=w5a02m8MXol3uYSB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/37EEjeVLhbw?si=gLhyjrGRZEF4aWmi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/U8oKs6c0eA0?si=X1dyX24NxWYdeajt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DyhYYsii6I4?si=qRa5-v9d0yPxbv2F','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/J9xhUg4wydA?si=lKNjq7j43hHTnGqt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/l-bxvtlG7b0?si=vt4TzbezTvTpU5vA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mkihEtuVliU?si=rvGDH67dt-ctV8m5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/38gKLjdx_NY?si=YH8V0RSoNnJg3AVd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TPa5sA5jsrA?si=QF-h3RGh1vtqnP5d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Wt_dM90X1II?si=18b-dsI7tcKQ6_mH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8IyYqlnG4Bo?si=QGyZc_CULRfZHtfY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zdrjDRI_ynQ?si=DrGHzskO8T3hDv2P','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3jTovCrsK2o?si=D0y7eG0J_OXUzIAf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3gZRtD3YI10?si=vzIaVONQpqSHUEZM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SLqOIHFitL0?si=Bu3dSy3pcCq0R6Vj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AbzyAMmEf2A?si=fhmheu-hkEV4mWne','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Dvra2L0EmoU?si=7PFmfi8c2pWQ-bXs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/CJ3Rv0ulE5o?si=GymDgVvmnncCxEF0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eUbEvDsRFHM?si=qJohd7mkkAAW1HDO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VYO7EAsBUyA?si=nJMvYTTaAGuaXPKh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/dU70KUfVN-c?si=ng2jqa1ykERUQ6Fe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/czIonbLUXfg?si=7ZWQM74K3EzUW902','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hIlRZxX5IXw?si=TxjudtJv9ufIFS_n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eRN9Y4pNC8k?si=EVyHWwrS9U-OwlcV','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FWnPxke0row?si=Ezzyhx4seNAh7065','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VdMGPD4wUjk?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Y8tqlMOSiVA?si=PMZhXBnhbae-iqpu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kzf4J2cjTcw?si=eAwTo_ogTYbkfRhJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/y2eqWorSQKM?si=f7O1YzEwHh3MqP4n','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6wEa08hiilk?si=-N167SDPxP1Wp9jT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_RUFFOH3DB4?si=lRD6zBzXK3m9uQVz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/agRChf-NQas?si=Aa6bRjIa148FoSO0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/six4VdTGzdk?si=pG5nP7SqyWg14QHO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RY_bFkKxth8?si=-wqZ3AlLEOubmm43','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/esfGVbh_LTI?si=fubyqvyDp9A9cTea','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=rM5sfLER5rI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/66lBqKRPKN4?si=Ze6e8t67nozzjbtC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SZmXKH-DcGk?si=9-6YPQpRNLDg1LVv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7w98SesTufo?si=4se2sEWVbloBnlAu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/snvl2WP32hs?si=d0KdRlrCFeKTzfPY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NjQXwRNPXcE?si=WBAJVgQfvKOETnP1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1av-nSYnZlw?si=4J2W5HLqTk-8NCpX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X_1bgdz7vig?si=XaHSWKAzXbN7rfgQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/C1mDvO5RiBw?si=pnlAeudyRTZZQ2m4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hf7uWoxhrB4?si=5alRAYiEP7Dr4EmH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wvppl5Jj1mk?si=BsXLsfjPkDvhJxas','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hboTxdSD0nk?si=8rm9jVMPoUcAwRVb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NgKIYlfoF7U?si=m4ZSEqjiH1tRs5qr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Mg1saQRCy-8?si=kbZVJtaMzH0xjlUQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gag8jLIsuTI?si=aqILwa4uigtN7H0A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hRqYHN2sBZc?si=0ATzFyiJtBm8-_F8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/p4KCy6YFSkM?si=YauNbqW3-Dp901CT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rVErzH5LvN8?si=tPye-OpIc1RvGBj2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=mo6e5FF2knU8D-2M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/91XwGFrFdDE?si=2XtqvBizJxn46hk9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dn5U1eJjSxE?si=rPYgX7W62-vYLBhl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OGvM-M5NPMM?si=jVvexZ-Hgrf261kN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ymtHD9BVrpk?si=u6xezY4lUhM656iQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JJpc43asg8E?si=T4GW_NeBIWHqIRCk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WhD28kAD7oE?si=oHNrHFNwonvpZ0q1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HdLD0oM_yMY?si=IEq6pdjwxFTB6Zeu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vsnh_vYAt6E?si=ODzAoL3vydbIwo8s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/riFwVLdyPfY?si=tkg121pD58ntoolY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JuqADXcnWr4?si=3UsJ0oUeuON7EqiT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/QiiVbLQFrIo?si=2GPbOrojHLR0LIoy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BTWhhc0lQLU?si=R3o2OeWRVdD0_ioR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/snYVIqzl6Gs?si=0X8uoo6oTt7NOo-s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zfVYSY5uZv8?si=Vg8B_FTuvkI_1QWy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_zZ6ufK9KWQ?si=ncDDroyDh-Ok-Ei5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/K0Q4dMnH864?si=gp3TuoVOizGkS86u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/b5VtYFAQ0fs?si=_0_D5ddJMKBJYmQy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iE7vtpXi41Y?si=P9KDexoHXG36CRiP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0ICHsyA6Eyw?si=O1GZUa6gfYUzoFQM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1OCRGVwwhm8?si=Plq7t56uz7ag8Xp_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ILPL76HDVGs?si=4H7Hp8GJq9-gPA8A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8sOjf1kospQ?si=odfpikRffYCdn3sq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XIHM90KiPAA?si=7I5AUW2R_ZeaR-CC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-FJgjjlahso?si=IlYGMx5WNfxS_gzL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YeePo8Ua-y0?si=Q7To_qygD1Jlv2NL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ds_hr2BQzp8?si=-t2g--gFjAtklVnF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HaCDNfx8JWA?si=DPJkaHaxUL8BRwbz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TkGtMstJ-kU?si=5pN5r4XGzEXrO0g8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ghoac5rWF0o?si=zWnZZmuZ7CBMkknh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iafhDKHue-g?si=VnTIWaz4tmIOYf1r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=ztY0SMsD3jrdQp8J','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD1F2I3Zfk?si=gmQi1IeCt4Dt3yOH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Zhb4xg6oMEk?si=Zdy_NpNZ3Ho81xbx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9NQWbeHSmD8?si=s3Pa14hHRaZIOPq-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kdlqhI3TJJQ?si=T2d6GKmk1Uqqql1l','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/J_njKVmyKc4?si=OLL5HmMrm2LeqVwx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kqQjkC7tdwc?si=rj2GjO2wtOqE485v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iks8eGhYcdY?si=mT2kJHDsi8boL1ll','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/E_M5Jkp2A1I?si=WNu42RTLyrYg035U','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tRHU-YFdz78?si=L32c7xw4Ff2YxF7s','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JWYnNx5BX2k?si=KpmmUAlxPWxQJfmE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TF5VLi_qrDk?si=bQF_hn6DAW9QyBx7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OGsIqbCmXUM?si=em1XnDOjaA-R2pzb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KGNDGwP7-80?si=jFWXXGGznFXBoLg9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9MjfnqRDQu4?si=ttktukS4BEdMwwOT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ll_UhrQMC-I?si=OCxhwGO-y-hR0vP-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=PRQdKZ9E49VNBg6o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/E--GDs-VKYw?si=gyWryFdtPlk5TxdS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/JZ6tYkStri4?si=ACkmQrqSZifteXKc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/lMoUOHAf8zo?si=5msMmyQU6NvR2mzX','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_AOaQIFJk-Q?si=A1Ui4LultuXBsnyr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8vM37T9Pv4I?si=7tEGO1Ulq83ncmj2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-ekfg0-d2tA?si=3wV7kiheKw6uLlWW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q6bzAKoOnac?si=AjkRMOZvANqKfQmM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s8AGlWM0DvQ?si=UVdAg75vSmaKI2fi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0jrkmjfiaIg?si=BnNvy8Zfs_9YPQIp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/LoZdralHqpc?si=QixNK5t4GX2lhBEN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/c_arQ-6ElYI?si=PnRP9Lm7ORv9K8or','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/R-yef88RCb8?si=_140rzIXj0ukglF0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z2mnM9CpaBI?si=sk47FLQ2fbBCPl3z','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qZzDDd0hQTA?si=fbAuGOa1317y4lh1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/GHITLSJze70?si=5wdwLMQdgU4gGFLK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RHnRGKLYRps?si=gVN5Tw54bODkpm3h','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iAZ5jYPBNoo?si=YDE-AFSUEm4VuSEa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VZrUBsRd8dE?si=12Q2UxljshuyBVEi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eiyCdYnFGX8?si=9TmAEsVKcojSStC5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hg5Wptgr50c?si=oXzblH_lRlXF74A7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0JJ70b8tbOg?si=PKIGnF2pmKTu6vGl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/sx5PUXwpgNU?si=EHJ48JuN_P17-mUb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fIKhnbNhGLc?si=_7gFYT1fnC5mcqbv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_P0myujlOs8?si=IRt5anEQmQkUjomt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FVU6F48Isok?si=Xxl-att0pJUJzutn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/sI1fNHoWWag?si=dC5axnuzHCyZOW1L','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/z6R5BeBL7wE?si=vrbIenPBBs7vZ-jY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AEUBWw9H_IY?si=VnVFDWWdbLl2ADtj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S0Ejaf-7SnM?si=vnn_HnEPTczvwoYG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/mWsUPEACMuU?si=2t0-yPeFhS9Q3tpi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KVw-NXCInn4?si=5eKtfvfeSg6vajfC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/y1iY5KDZatA?si=tSRqX0_p1aFV9oyh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qAWqH8C2v3w?si=rxY9ddlSouzkNX2y','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/u6X2kSlEEWk?si=1NNCD8hjzPwBQDt5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cMIOKkF_NuA?si=qKYHDpp-S-EihTuu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gx3AZLjLHes?si=LOrOa5qxVOpfUJdJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aK6pdReYc4U?si=garSv2f_H4Fzh3eA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QqBzTTABj7g?si=k_5Lv9F-1Jo0HpOi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/pC75E0y4DPw?si=yF3Pm8fxQg2UM5fB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I1QFAUJ95OQ?si=4mFUAtC-e0kIHsyI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/W9AINUkCz1g?si=dT3-GVPFgnXsppYe','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QF6ATQgYruU?si=W8ZP_Dj5TUxl97wy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/x_8AqsloapM?si=6stSKqhaow0xjRTJ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GaXxAhCC8Es?si=mtz2J3pbbrYy6val','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/yKf-F50FhSE?si=omP7KtBa-gjAoA2q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3TMO6HlEqms?si=KR-kQYpqazjs_GHM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/87HHnVc7Ido?si=Ii7c-2vqcJc-k0Mv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RxvOtltUiFA?si=IgFDuhDUyT4p0y-8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Wln7kMJsWkg?si=XBTiabRYTo6EOa0v','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LDQRyjVhuYA?si=JJa-jfpp44GKhbV0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Bla4apuWtdU?si=ivbngZWj7jtVGMkW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zpb-L9T_lRw?si=-iJsIWCK6RByMMuT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xMJ_qvaMhoI?si=bht82D8WdKMANyRS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/iOa2SaEaSFQ?si=O44O5ZqPbVarQvId','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cQYovxBFVGY?si=HMasmtevimIvdXts','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NLtNF_0vQIk?si=AmHcaoaIEZ-pRP37','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zEyfw9PM6oc?si=X4QuTMpyxTBD5Sci','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cGxGsRvOvN0?si=3pD9J9KT2SrGt2Cj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fRIUkROmyB0?si=-rQPji-BJtpdNHdW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kc7rcHYKk3g?si=ztCuxYDLZSVRdqzb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Pw2vRbewluA?si=FcyBPTVAYmP6HktS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9YgLfadZ6OQ?si=N6thu4p7uZb4sF-p','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VLLo6T8ydBQ?si=50amRu4Tu0RHbpFO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8ZRfSuaJpBI?si=_J-iExsAwdkNLISk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Gz9DVWegGX4?si=jueWjqkchfzAFE1w','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zA-fZmS_vrU?si=nf-1xHRaolv8dnWt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PJNxKeo8Uc0?si=-Egv15LvFxbEnMP3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RfLtAdSgWPQ?si=_J_lOpxVMF0KuWXN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cKLwvO_3OoU?si=ilQar8OGZE3I619N','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/P-v9BGUFWNk?si=VMecpZtwegwx25EK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ArD6-SbXINY?si=oFP30Fk9hDy_jgvG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RYIu7Qlqh4M?si=s_8uz_fIcDx2euaH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=lUgjtsLZ0i97zu_r','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zWZxK9iCRuk?si=J9i5jtXBRrqn7Ymp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YADGLmnXqwM?si=yH1eW0Dk9x82n3Sy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8drEnfy_bek?si=TwuCtvhzPus1qisO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MHVRJTAGEEQ?si=1pBGFKSTYBmU6uUB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=MaIDlHM3qC4&list=PL6sOIpFyShKP9Vowr5Arl92Kym3iXUhOh&pp=iAQB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JCCfTPoqBVA?si=XGQuz84vLIZHWyzk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vt7EC1PEJoI?si=pXZrt5iNvplh-u4u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xea248WTzWQ?si=f5XWdWPKuzYFVZ9Y','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Wa576Mozsyw?si=oKARp0P0H-q9rX_6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=lX1oIRZnxlFW27dl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/rqVCdNkMGlE?si=vbt_xdPe6MKWvxk6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hGCXQKj0JtM?si=KQ6xQk8XrZfnex7D','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Rcif_7hmjiU?si=eJMhz3kiZ-9smX5o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4KH-bdBsRUQ?si=MdrDW4p9ZZB-QEXM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/aDQO6e5fu-8?si=VPCQxAtQvXeGUa_V','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VvWWOhVyb3g?si=agpWAs-zRjetrK7_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EA6WBEedmH0?si=ZXypGoYiYqxpClVQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/eFlm1mZsaHo?si=CNnViO9oXhS11iML','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/42gsUJ67oYQ?si=0szjK91YteyiFiR1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TagiVDEKxyc?si=KkZTU59Va5xRw6ri','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/7OKmJXfHM-c?si=IQiTZrpJHKRuuYGL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ku1k4f8cJwk?si=0hGU2NrmPUfIS_Gt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/u88upbbUasU?si=XrGs0GCpLv95AUiS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Lbf37m2QDJY?si=hsOUAQUYYOnsHQFS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uyxi_6amDeQ?si=Sqq7U6hS3OxTKEZP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zOJaPDmzUV0?si=Wy0StYEfS2zjK5VQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cT4EDGDM18o?si=H0uC5OHoRQHrmKCb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Wlbp5hNtlnk?si=aWcT8V9sB4ubWFQi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/DH3aKv-0vko?si=nMcTefwHd_KVoCbL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jcXB-4ZQiKU?si=THZ5878bRJ7TbW4C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/-Jwc1uzVOP4?si=u8eVltdBhtlpI6lZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/2xohi-vmKlI?si=eyViNOBVSLtokcHs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SuMpqn9CZB4?si=Hk6sFUCfJINK5R6l','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ABHmlHMPnis?si=xbwbcXQEtAzRveTM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lleTlMtbN8Q?si=vSxaJIvKh26CyTVj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4LHp58J7vz8?si=2NbloaUiJrle2bH9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tznGzMuc1uE?feature=shared','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zC9aoRNrvLs?si=ryblKQV5vR4N1PBs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AH5F73qPtQQ?si=lOSnu3NTAuDrH-7u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/TAD8HrvMbVU?si=UpMexexfV3HuyqtQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/h82S8-Xdxg8?si=4bA-295gzFoxI_3D','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/c1v5kxs3Hts?si=qvi_RIV6kEeD3xJi','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ov7tj2oKRM8?si=5Z9sm0aVrt4NarfO','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IVdaysrIS74?si=GlC4k-hWpJmC5idx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/-wiJxu3BSRk?si=hQRnKFz-11G5u6mG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4NcNhlImBmE?si=3d2WcwB8W2hWI5UM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zwn3QVsrndU?si=ryW_QEn4qPRkomoF','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/-zBl2_XL60s?si=YMy4P2K4qWOanIZp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OnC_P0rUgys?si=azTbt3YOHEIwKZ_D','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MV8frsygXaY?si=Tf7wQXaQwWCc5nfS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5M7GRI_XTP0?si=UyS6tWO7ah7Pwkty','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/wl2AQEBSJ6Q?si=AV2MhwPx3W-FFyrj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/37aRGW3j3Zc?si=iVvbJnXMdwbJsCkk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/d7ltudlIht8?si=7YPhA3WGfvZJMLSd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tHaZHeFZq6w?si=4vGXs8u9eRw1Kuri','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/D6enxa3tdEk?si=wSRayrZWs8Seat56','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/v7ddV0t7DbQ?si=1nUeb1Qiv6tbrrGa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kKAnOdIxZ3M?si=vAbr4lo2h3iIGH41','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZVkc6mEcP2o?si=dJXJUBpmKOsS4_Zk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EBpwBnkMfyo?si=oPTIH5oRpxZf6rab','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3IGjKjTkPW4?si=yWV3ZluXqlE4w22A','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IHhd4CthYZI?si=guEigo56-3Klxgnv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=kco8rRnmxptZEpRp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M_WLflMCXHs?si=oagWgcLMDnnhN2w0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HA_3Qm_0WHQ?si=7a4Er9fWuuJ3JUMD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/W2SjAWjf-Jc?si=AGmfpudM_m5AtNtf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Z-mjNJ5GkIc?si=rqFqF-tEYXhSYz1q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/xuM4PEqg1Z8?si=lmLKRvHLE92tMnEn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yRuqFceddfU?si=vXhFVmheUsKscBVC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mSHPi0IMy38?si=f_z5m3U8nlDfgmmR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OMtJAq4Z0K8?si=tMDFwyM408MGnvhc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M6_YRPq39P8?si=WF01Fb_nNUJR2EvC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ll_UhrQMC-I?si=0PJLZxnjFc-lHUk3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IonwS9J9vf8?si=jnWzB_HzJtCkdqDI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fRIUkROmyB0?si=4-2RfZ9-5AtH415g','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Dkt1f_cpqF4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wUIWU1HZvF4?si=vqJL8xWxu-VDBvAy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s0bhhPVG21E?si=XWSj4RCTJoYeTmjy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/s46TZDTTFdM?si=3BPbVv9PszjbmtI9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DLjJwW1lFxI?si=zbGa5Kbqz6OiStsf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YWdbDSZWlBU?si=3Iec3OqIA4tczv8o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RBbBFPfX_io?si=3JT8zXrP-ZC5XnmZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ksVJcues82A?si=Eoqa1PMcWjVHfzE7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/s3g49Fbw14E?si=47ouxRUxdRTEXkEy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EGcFGPZMrcg?si=D6Sg3w2z6cG_AogA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f5f_Biexd4o?si=iJ5qTWvWRDxupIkD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ROldqrpDjeo?si=rZ3c4GEbsW9HaEIG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tJqnfEc-SdE?si=OknjkuIreWfmIXRz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Z8AFcsmoW5Q?si=6aVfUkydiLm01Ikq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/elG4sq4Xxvw?si=_u-QVUfUGA1dvJ-C','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/KZjkvoTl6tk?si=S_x9QmKKlvRnKT7m','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Lt37DJkGg-0?si=FUszWpmhvraUrktL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=_mxyq21C8MfDy6iA','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/SAW3fyd8OwM?si=_I2jP-ls9O0i_BRx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YEPrTL3cA4A?si=GEzsThFmffKgOedt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9cRm4VUBYhE?si=gq82gx1K8D1O3M-0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/OU427erQJKI?si=xpGYtfjeJBghmeZo','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/q_ANuvDAM_k?si=CdlFkqqLxkBQbsWn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PPhEVzoW90o?si=WlDFleXG5D1iZuxM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XM8BmLipo2k?si=QCcAdH7oo8fjrTxC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rK_smGgn_8A?si=MEpR5saHFeE8eoJP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XDH4MldRqwU?si=mFpuppM30T3JOf74','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Us1InfcEpHc?si=_zl6OvyC8kKfs3se','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/0jYIr9MCTcM?si=eD7B4NhJMHN6fqsP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qRQX9fgrI4s?si=0jbulkUAUs4GyvVv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0w3IcMMCkBY?si=HpkY-abnMxW7_Yhj','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LnYMlXM91uE?si=AWpBIZjSWW6Ell8T','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5q6fmCg9RKk?si=WhXgSJ6u8w2jX0Au','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/b-aVEs4QNVc?si=zSHAPHQBAXJxbTAd','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=MVttbWnAN0NVxSuc','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/A7Aymz733pg?si=MkiojqsetMNkoqqH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I6U1qrD6aA0?si=28BLCeMNd9tEavOB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GAK62_qiSU0?si=X-J45wrkm3T4Bhst','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KC4jamHFxzY?si=N-flxrkTWkveaPa1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r4VFFgNzblY?si=eYx7W3LtHzSBxaHD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tyUI3dbkGWU?si=ruquOk92Doxfgtr_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ti2MNaKtcbU?si=94FPsbA2a8NwUWWZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bjqEkFscMVE?si=bigwQIYwWilk0bkh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AwDjkI57pP0?si=ATKdNRd4YHkWgTc6','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yI19__8tdwQ?si=Dqz5R0nlByTko0oK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/toTtunvlqE4?si=a8a2qVvU5_5ETp27','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/3v8k5hJTbCs?si=mJFa5BDvyPlS4rOz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6khdlewOjjk?si=PWe14wAjFsHvPV6M','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hnhs3tlWLxc?si=rSOMP0XREZXIsyCa','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mhBQ1bg2X5k?si=q-zUQsg-opXlPZGw','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/GbZw4crfhxY?si=iCLw7Yabzlz8TDU5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FTe0esFXhaM?si=nURmZ6_yDbxVrbsk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Ocs00dEpqXg?si=bzpgAPnSj-ib5NHP','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Jj2EYOcqK7g?si=pRe9G105z2E_yBu1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/2V_xYubUJFo?si=naMYQ0JPyX1Z0814','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/M04JlWTRQEA?si=rC66mr3uClpZcXDL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/88zU6TbGiqY?si=8rsaWQYdnYBLH0pf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fBx2mFAJbYY?si=CXFVolc8w2e2eMJ4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/uncVb6V6FJ4?si=MiMb7TDC8qVj1Mga','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/zdrjDRI_ynQ?si=ID4pb3RIb6MDF5J5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M7tyJiumObk?si=H29iJrjnKeUmxK_o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/aRkkMKImxXQ?si=ZheY3x03huCW79Cb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/c-UnQ5AT3CE?si=8nCy355YOxfOTnRv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OSRAoSCO2O0?si=s_WLJIVNYC6hVBOG','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WlaKqDmkmPI?si=BNNHXrC9kmBm0USp','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MekuBUZGewk?si=7gzh6dqgk7SGe8G5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1lHmGTXOMcY?si=crDMqH-nQ0kkU7_8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GBMHlMwux74?si=uWoD-GJMgi0Wd0ho','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B0KIhkkHx9A?si=H_LnHDuxuv2T7x4d','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/AcCikCZwIvM?si=1bOFFPyXuDbndjYl','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mC-UikSpQjc?si=8y9fGD7qvGzqwu79','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hKxceiuOVfY?si=B2hIrZo54LwEiHTk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/kvNlL-Ag3pQ?si=KEhKlnUHY9DnWx4p','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/iK55qZ-e2kg?si=b9qf2_VuJEN4aVFs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/r7vW0HtaFPw?si=E4NEpo0F8uE0ZMXK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nlDxl-eoBIs?si=VHHBIN3xGGfN76UQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/gBxwXanK4yM?si=nO_lprvJ5HC0fe5X','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/NrIZWX5T6Mg?si=M926n_wAiqYE5drk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8uj_XhZB8YM?si=CS8Dlwfbeig_hvgk','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0mSdk_H-JuE?si=x5U3S7ljT00Jr1zq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/_ZQFJwTxpSs?si=6xD_lhVjTtVcWznf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0cmtCBCpASE?si=hjCfRWK-vOlF2n81','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/L_5CgBvHKVU?si=us76Pn1Ku-5UkWeh','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ugdESt4y3IA?si=AdBn9RLQQbnAVgz5','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/l3rpFtF7sKI?si=3ED_EWyWAaGOiBJM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/skFjWOpqtmE?si=Oxx3jPKfJzEkoKhg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/nWFa4u1cNl8?si=H3QzyngSdJgdnhSY','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FQpXYUM89xE?si=Ypb-NDxGb2ubFm5Q','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KMLMQRS3Krk?si=vKKjz_XVucXezLIE','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/GmOSDuq05Kk?si=iSv8RKBoyU8Z5-k9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/f5-ZRZA-1eY?si=JfFqzIIXpAuTpNg-','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/REyNqPhcquw?si=gb2DhnAnBiKCAJD7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/svt3ou8ZLKc?si=qxgO3jCLtcXquOqR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/hIaL138AeJo?si=PtTW6_JbAr6bStDz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ffBP4zZhehA?si=lMl1h9MWm7xWakM7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1UBYpY3GiLg?si=YWPw6r41J54gKpf2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/czphf8TYR0o?si=6i4Rig69dYieKr1o','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/lFfL8fexGQE?si=qR9-nMW3CG5Zhax4','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/obPbMsIySOE?si=CJB0QoRlIt6RHLkf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/N-U6dc_F0m0?si=GU-uN-BrCsTTZoQL','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/FaswgkmJmGs?si=do_gbZMwYxFlhvRN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vlKEO9XIY-Q?si=-1jg2YaUf9O7k8pv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/H_AN1B7T0MQ?si=wCqddz5J5DehaKn_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4MZqDcPP7HE?si=gS1sQGDwfyx77GCn','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/2R0623DQTlo?si=5PiQnm53VcHU7xqC','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/SqXrdEtIeZI?si=UIdJWiHwZgi5LTVt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/qT44dVrKXXo?si=-CtK8Dr4Bpk3g899','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Hon4mGJXgm0?si=sk_UuAT0dIWROUYq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/B9YSwvAbTQk?si=l0e1Yb80RcJdUnP8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/oEPWWQT_2NE?si=5shxkQi3T0EaUy9x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MJjql8kEdK8?si=PB4ii92i437NJZo0','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YFHwyzX1aNU?si=E5tzriyyaXRZk-qv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LCddtIJYZac?si=B2hRARwGDCH7Ot06','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VGodkiW8Fqg?si=X_Mc7uDE2nNogzR9','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0OXlDyKhzcg?si=oC7xkg81cmDJ15Re','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/B4OTIRIKnv8?si=0NaW8jpmLM3EmJtW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Iov-Yc1hrFM?si=XoRQN_g8ykkGDgxz','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KwG6X4t7NdU?si=qoBS0KeP6gv5RUAI','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/a5jy6mLelAU?si=Lycq-hntOAQU02hq','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/4DihusgPs3s?si=cMj4ytHDp8AYgc29https://youtu.be/MytRMvYSCwg?si=K1XbUVbcr5EBw_Ue','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ntJafPCcSPA?si=x6bCQpYEtlZfDsq7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/krXH8jXefqE?si=t5Xh_KvggUWHJ3nN','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9GwPO38q6eY?si=Yjd4eADLs4kfVdRy','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/VYKPr3qyLwk?si=E43L_SlWVDsEPYES','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/FdElcyixFdg?si=VU7lJGbarwlRB2x2','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/sdWmm33VzBM?si=0xcJ8HOI7rj8Lr9j','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/F9x1DFHTkMs?si=_0Str2Y2p7qbKrie','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/e6l3nXEMV9A?si=ncvK2KlWHR6OI9WD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/qhumZYxU4dI?si=LU8fzCtaydkvi1-a','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/G2G8d1LJS_U?si=fTbRIs2zL0b_lJNr','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=2fKEg0qUhLLRbRjH','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_vJTU3uYRxg?si=dYdx1awXMd0BKSzW','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/krXH8jXefqE?si=246ggrROahVM1jtT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/txAC4WMD5f8?si=TRpQMm8FrF6jQJfK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vxtFsjSMbfM?si=c0pitgsZr7umvD9_','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zunJKyMlBiA?si=vkXRnMq0a8ikXe89','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/LouEkgWq3Fo?si=5ba4ZDo5WfZc0New','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NV55ANSYoAs?si=KCq6VBV57gy70FtS','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dmaqfR-F2-M?si=EI1QsqlK9zHE6Egf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=sOwgE7Kr0ZcLOsf7','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=nzAU_YyH6489gBkt','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dsxOX1CCtBA?si=-eu8071PSK5PeTaZ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ti2MNaKtcbU?si=CleogT-oUvFIu2ni','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Kjg9j1e7-Y4?si=o2qvCVx2gpN4xrRf','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0cgaQZmUV_g?si=Jvf_boaGXmVJvGxb','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DPLT4l1JrgY?si=EmebXfl_5bOajG8u','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hdoqatUHGoU?si=YirhnFQzNILuzGiU','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/JyOYBJmhZ2Q?si=IwStSmGXjf1QfUVR','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PRaycqLnRr4?si=04GITJqY61_TeYa3','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/-XflmrrdTNk?si=7itzloETCE8wMEtK','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/75hgWJT6P0Y?si=99hF-wEzstKeS-rv','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jDF0wY3lUQA?si=6QI0jtQ6iMUI_U6b','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NRdkk6_64_4?si=FEoRA_L2MkN-l_ND','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/4i7P9nbOTvA?si=FIERsJekkoI-Ak16','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Nf-FT2C4YQw?si=YYYgirsIwWYbCK7c','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9Uc1ti_jXq8?si=Q8vCRDJWD1X0ok4U','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/k_1Z3WEzLj4?si=qI_biniUalADNfRQ','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PYzoR_hy_ko?si=DcdNgybIoV5TrFA8','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0HeuTBRlm1Q?si=YbMPr4hgXisb3fEg','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NRdkk6_64_4?si=n4H1HH_IbltQW9qs','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=xhCcU3Kw_Lo0Z8yB','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/a8nfwg3Ty1Y?si=WeQ3pVMnGZ0fXumx','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/1QGxfzUwrD0?si=rf69JiXqZXiRy6aD','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0cgaQZmUV_g?si=5GkWcTJziikILQHM','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_xXIC96jXBQ?si=3mcRESXLYhZttBcT','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/krXH8jXefqE?si=E-vqQnnmTius3de1','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WjKN8jFc22E?si=nuEKgagPPX35ns6x','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3HuGo5O-Ohc?si=DerEx1ZU79zC7Q4G','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/fgxYmHvlL8M?si=buNZoUc5vCs8MZdu','YouTube');
+INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cHTmEaO_Es8?si=5N4qawKOusrDc9aw','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLVJm3zu0epIR0gTJJXOxvPfttMOphfcHw','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=F3VoKWhGVc0&list=RDh-2LRO8sGCI&index=8','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=8UXARTxJG_0&list=TLPQMTkwOTIwMjO8l0fuhHgXeg&index=8','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=03nEANVssrU&list=TLPQMDExMDIwMjNv5whrX1fjzg&index=5','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/a7xDtho6rp8?si=wGAwhaFD47puQ9th','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=rBnGqx6DEBk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=znlEfDxKhRg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/SNkNOGKwAvE?si=58s2v4K4B7WWuBxA','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=T4Dqm1B3RKQ','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=8rKm43kUWYM','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=SFoq7xzaF60','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=3-Gy4Zw1pGo','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=1w6m2VW-2gM&list=TLPQMTEwOTIwMjOBM_wuyLJPJw&index=6','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/7jTcVpQ-gow?si=lgv7Zv4rT225OXUG','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=0Hwjmek0Uvw','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=qco3aBhSaJA','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=-h0h1CydP6o','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=6wXi0PTDWIg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=FqXeeIsDlSM&list=RDMM&index=30','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/IaPvDXeQOko?si=QgLfg0dHBYTv0ZwX','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://music.youtube.com/watch?v=4D5johGkx8w&list=RDAMPLOLAK5uy_kpzLXGZL8OQP7jUozC8CaYe441DvVKeZk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=mnAf2ADH3gc','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=KYtZ9fSiP4A&list=PLM03VPTxa5E0dm6753y4KdZy1KXYAz-Wk&index=1','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=DnY5xz11lR0&list=TLPQMTYxMDIwMjNk7YSVAtRcrg&index=11','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=VIcPWGuT7ko&list=RDMM&index=28','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=qWlESLwGSjI','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=VB0kLldqid0&t=104s','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=9iDUSsj1nAg&list=PLhgjDTevquDaOy5yy26y8Ww72b-XHoZVY&index=1','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_ve6BqXzbjw?si=lCIucGkG2cyXanBU','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=IlEnGbsnnUU','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=AUNHmK7OSjU&list=PLdQiPgqc2AHKm3c4hm1CJ6gEbrXigbBNt','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Hm2k8vImNWc','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/jaNbz0Pdk8U?si=siF1oplY2eslSffR','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=CJMw7avweyk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Dg1zeY-iRDc?si=4mHNy76xzRen4uTk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=vE9HeGbPDv4&list=PL7ysdPk8eh0YWVUMMcoWIOtny_LH6hHQw&index=1','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=T-JrP0_OqFc','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=CsF5_5kQjlI&list=RDIOCmYw7SJR8&index=32','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=-yfDRM5m9w8','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=fUkRmhcbIoA&list=TLPQMjAwOTIwMjO22XXG-rVlWw&index=5','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=-_02dnnby2c&list=PLTY-fHX-ZIGwdsXnDUPhGYLkhvH9TmtXD&index=55','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=eSvIGp9iZjM&list=RD_xPqx0-ssXw&index=33','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtube.com/shorts/rq5zaMZo92k?si=Aj0mbt5qaqJVo5lk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=SrTWvZUz2_s&list=PLQ7IynhlyfvvavrgxHfXl6kQFlLDL9sw_&index=6','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=amUYZ8W3D9I','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=1lHmGTXOMcY','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=KYtZ9fSiP4A&list=PLM03VPTxa5E0dm6753y4KdZy1KXYAz-Wk&index=3','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=9o4ZtkufYgQ','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=yK68PRlDr54','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=fP5o0h_8D5Q&list=PLsIraC2-WzPcaq-F2_DCwF-Cei-dbB04B&index=3','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Exm8xCSQ9AY?si=G0eldAWapuI_MNdJ','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/27FpK_1NK20?si=lvu-7YHmdIaVPUp7','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=oo9z-xbgKjw&list=RDMM&index=37','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=M8yg6YQqk1Y','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/AnMvTBGOcBc?si=Oc1RnfoUE92PtVF7&t=635','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/qm7y9jlebrA?si=ejxLgswHfI7V95K5','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=eNJsfP_7lbc','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/mJyX1DzVqTI?si=Z8EDlGWrq6Mwpp9l','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=wJYQW5Sn3mg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=ZEmuywER37A','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/lJKczg3vUTo?si=iBT5vxS5nr10FI8Q','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=0i0Ho-x7s_U&list=PLsIraC2-WzPdiUrIgj3_pjw832j2K91Iq&index=144','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=87SJb4oD5iA&t=37s','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/PWI1F6xUGlQ?si=NHcjfv1DKgTZs7kh&t=326','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=UCaso6X0lAw','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=eTqprp6o3ls','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=MTUJ5ueVbc0&list=TLPQMjAxMDIwMjNbLRrdbHyY0Q&index=3','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=o0MK2xkVu6I','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/3dwUd8zi-PQ?si=FeccRnI8bt6vsV72&t=1527','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/AO2HcVB4hrE?si=CCHtPuR-AgjKP9td','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/Ysot4dDNCPc?si=cyQN5jHH1WhVTUeg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/yNRAxXg_Vcs?si=Na_3Wdn7BPGEDa72','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Tl2_LUgu4yA&list=PLVFcqhRkJbXPLd9sOtvr7_jCopT8IDmVM&index=5','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=eeKkzDETESg&list=PLkbODR_gyOj82ynTzSyx85pJCdQqaS3O7&index=10','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=Wo04fpHrGHo','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=9OzXu1WFQ-c','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=JXBdQ_X6kPg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=BVbtgSqb-ds','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=-Cx6O0vM8Jc&list=PLQ7IynhlyfvsuQTVrcNOrejiVYDqCMA3h&index=64','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=SUayfi0Zzf0&list=RDMM&index=28','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=HAdi0rNIXlk','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=eiPyf-lPyh8&t=203s','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=a6zmIvT7WZw&list=PL3tRBEVW0hiDL09lO0xjKEix84OY27xet&index=20','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=ByzS2BEomhg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/0XiMMIkvJvM?si=AtUE3lS9BgOELcUi','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=b9s-7oMSMKs','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=gh3BOhc0mkY','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=esV5Cb6X0rE','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=ZdWSig8lTdQ','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=JXBdQ_X6kPg','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=F6B4puJ31QE','YouTube');
 COMMIT;
