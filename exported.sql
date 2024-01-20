@@ -563,7 +563,6 @@ INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=jEDQmD7nhyQ','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/93pInGfn84o?si=t56JL-wUlUqqJ1p1','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/XQqQqK9ufo8?si=HQmmgdwOVbYFWtCw','YouTube');
-INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/ux_nqA-7Zks','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=OLAK5uy_lk11aliTic05KPQfZlW0E2R_O0y3m14hU','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/EvRRt_JPFeg?si=tK4ysuFekyMBCw_I','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/GNJtPFXUnm4','YouTube');
@@ -737,7 +736,6 @@ INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/X_JRnGaDiuA?si=mUFl8_CSyQN3bZnu','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UF87Xw1VO2Y?si=0hSqi3gvpD0l3MKe','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=HvFm-ZdXInY&list=PL9-hU2hW7bfM8L-adI3cu5ypTNFAnF44e&pp=iAQB','YouTube');
-INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PL9-hU2hW7bfM2aSfCWSoBSzz6NBcd0YEE','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/fEbFfoBPfw4?si=wwbP79MvLBsyFL0w','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/UPOAA3b0qg4?si=rG5opTYL3RYZZqtq','YouTube');
 INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/OqxnCEXdUn4?si=5gkPtNwK6E00pS8T','YouTube');
@@ -2032,7 +2030,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/S8J2JDIKZJk?si=wl6X1mCOs9ycqlJf','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/35dkSdLE1KE?si=2gdxMnomYNHD6aLL','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cZIUK_8M2Vg?si=9vstPD0Xa5U_Etp7','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UuidwnXciEM?si=y7AzGS6j60bGPl7v','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/-MsSNgjRCaw?si=MpEASYMZK6oN_Svd','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8fjias2skJo?si=HFAl8Fqr55NLOoUb','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cFWA4lHQncs?si=NzCYa1rqxJTRU5ek','YouTube');
@@ -2833,7 +2830,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZXu6wtd8brk?si=Y-5cTLoF3MAUIvzQ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/xFfkLo0FvGk?si=S6asrkcANZW2A_FA','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/K4WkdvZ2948?si=IDw4U1wjsiNdjwXB','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLco9vQ1v_KE7TuejaTCLv5yVgTLOUoepN&si=IYWRMfLKKF5D3F2M','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IjS0OzilTu8?si=fB65bPIu5YcNdbj-','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9lsbg3adJCY?si=KlPdDmSuiliXiWTR','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/dQsSV7K_iiM?si=kMJB6B8gXSHyFdJ7','YouTube');
@@ -2852,7 +2848,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jCTKZF0H5vI?si=4R5gDo8podYhVTPc','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PB_zGDZtEOI?si=zUCbijkOQfDUF4e9','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lfC_tU6nZ2M?si=pVJ6lsDSxnPJg30P','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWoUDt_zGmmtrFI7y2M96TFU&si=jm3ilDRKbwUNLnvO','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kmfpGXVCQd8?si=Qkca1d-naY0PFf3m','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IVKUbiOyx64?si=svjPHJeTxnDjFgDj','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/YMduxG1JGzc?si=yBU45pHUKtZbWbBz','YouTube');
@@ -2937,7 +2932,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/p4GaDBlTVOw?si=4QkL4iEAR2HwdUyb','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/KpPTZLKxpvc?si=CLvQjN2N6TEQn2kO','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8ZtM2VUhFU0?si=p5Tuv9eK9g5aTdh_','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/6zt-5Dn2jlA?si=gS_Uu3nDWMN0hQSi','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_ve6BqXzbjw?si=lCIucGkG2cyXanBU','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/YmfgzeSOI_Y?si=k_aa7qRTKbkAuaVr','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/0l8nJ_liqrw?si=xHxh1xk4DbeJoztY','YouTube');
@@ -3077,7 +3071,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/syoBBH_Ye4U?si=yb4GFjmGAg-eCNYU','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Hon4mGJXgm0?si=UVbyWL4bAUQA586i','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3dEiZn6mllU?si=k4pEAxidMdtnqCbp','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWqFdqCeMmc_Zkx9eUo8rtoE&si=STRuljiwNs9PYEb-','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vnTZw5iIOwg?si=mMgb_RkazgAVbNgG','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/G5WF0ok7fWQ?si=kex629Kp2YULH473','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/S3oZsrp61Fg?si=wzhcbytlspEC_5QI','YouTube');
@@ -3098,7 +3091,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VO--eWP70GQ?si=pkv3vfEq_K-Uld8G','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/VXE4kzTpcTo?si=4bpK5dDmababVY_h','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/m3WNTn_0gcs?si=CDzP5n9HiMhe_xUa','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWotWp37qPd57Q7ekTfeGohJ&si=zUIPSCb7UMXYFSl7','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/X-miELlaEYw?si=LBkx5jLCCYkgt3Cb','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/izQUsLPxwSg?si=MgP7ODts3M-QxgcM','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/8HVI6mAGW_c?si=gb5shaf4Syn78-su','YouTube');
@@ -3219,7 +3211,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yK68PRlDr54?si=rTRfGcfVbU2wmADe','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/EaM6Dh88EHU?si=c1leODdQUDECyOQH','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/PmE_CEUraTs?si=ySy0OBepG6IvDOxo','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/2LLjA_qJiAs?si=Z0rLsr9SQY4rCIOY','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/O-neQAX0fxM?si=mbj_db3lKo9JZ9b1','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/L50zLY9FnDI?si=mjGJ_VWySIjHE49q','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BUPSfK-VVeU?si=QLJTHiPax6GF1phx','YouTube');
@@ -3322,7 +3313,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UOvI0tPLWBI?si=-td_LOaWtC4HvUTZ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kmfpGXVCQd8?si=FJnW3T4mrtsoVUOk','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/St1DjbYbA88?si=9lzGmga_F2wOMPJa','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLAs1Kha_R9dLAPNbN6LnhIU91xwRfjFQr','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/M6yCF4Bij3s?si=aEoKNycl47cp5DhI','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/IXYumCSHCPI?si=IJoAoldcvE_zDPRq','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/33x37BqH8v4?si=zPcYPABy_PE-sg5R','YouTube');
@@ -3382,7 +3372,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/3dwUd8zi-PQ?si=TkwtG3Ld4jQnoaSb','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/rhqVHUTjA14?si=cqPKt7rutqPy1Kjk','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hkbpbY8-yAA?si=dqH3apd5PyeyrwQO','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLco9vQ1v_KE7tP2NFsoYMZF4OV0JgyxAC&si=igGVCVjoyR4IJYf3','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eX4MdXF3OWI?si=vRAqqd6JyVdDE8yU','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/i4JeMr5x8EE?si=TMP3_FJQVnBQMlMJ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/xEJsM6pGFsc?si=y6GbBtjPPjSM_SDq','YouTube');
@@ -3407,7 +3396,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UBTR3UG_6m4?si=v9qOICo-DhPNZ30R','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/bxTc09jyzwc?si=E9bN6tNlbulK3ePv','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/XxPexYXqNEI?si=I3QZ8EKMvMbp0_fv','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZRY8v1iiuB8?si=8YTCE1faD8vCABLA','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hqciBkIg4t0?si=y2htvG7-26p_N0WC','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/egbiXzmPJSs?si=slTELiZGeqNlKQAa','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/Qs7KrxGp2JI?si=bfqt_kmdL4E8WDSo','YouTube');
@@ -3500,7 +3488,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/wrauy2GVSJY?si=jx1vGDkiYnJ6WB9i','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/50YN1uD39_E?si=46TzDPf7N347JI07','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/58En0w94sW8?si=2c61J7R9kpOMoqCS','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PL997rjsj8no2Q31BG9fa813Xza0O3vRbC&si=y-WsNR1H5SNjeKNC','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/q_wSkOScuvI?si=qVeJM1ghFa2n6guW','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/vKwrMD7zDvM?si=r0N943cHXubWvxwB','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WA6ryeOceM0?si=2oVSmSvOxWoFohIc','YouTube');
@@ -3563,7 +3550,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZUGrmj7gdXI?si=QFSLEz5oSqLReXbp','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oPtohGLrovg?si=An9n6AXR4jZnPR0R','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/DXfCYUYDdcA?si=o5Pg9o4CZ7AkOLnz','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/OqxnCEXdUn4?si=5gkPtNwK6E00pS8T','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/QqhsXBTvCRo?si=XbiIQMKlLeazBOLp','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/TEQBUI4cpHI?si=uwFXdMlt_0X0k9wR','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/mtPrrO-Rfuw?si=VF4F2_mspIGiVj0E','YouTube');
@@ -3577,7 +3563,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/bmxwL6WwQAU?si=5XFG7lCqOsurMqo3','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_C2Jmg82_1g?si=rQ5wqEwMRS_n6UlF','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HIrDMR6CaHY?si=ysui9WPc-lGgNf6g','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWoty9nnlU2EhUUK3Z-BXVNx&si=m1ON1BmasD5cx5vz','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/cx-hIxqu-U4?si=Hewdr7zNphrB2P68','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/cuXJWimu4Q8?si=5wMzxeG5JfSvRbUB','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Bp8HYPlcA8w?si=BL_x_xagTV1OzvYK','YouTube');
@@ -3597,7 +3582,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/5LBpxfZ1Q5M?si=CxNH3-8IrCi0jaUC','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLjyLjyXJQJUPwyA6zRzaq5Jnl2f7S4BY7&si=I3FcV2Ni6fNlcByK','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/HMj0xWsf1Io','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/lJzEqszoPXA?si=Mk1a44oAJjIuZxYO','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tqudp3kfwjE?si=uNOt2xyBoyimXCX-','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/_v2tCz8uUZc?si=hEQVEgrXM70a2HxG','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/oLcyb7pPg4w?si=003ZcSgyPPOI14ki','YouTube');
@@ -3668,7 +3652,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9si1le2EOGU?si=XJr23uRC4xXgO0Q3','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ZiXg6H_FycI?si=i-EZWTq7ABrUPXJe','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/T5r72yCeV7Q?si=2OS0fbIhFpGhuyWS','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/NQATHDc_weU?si=OWDZ6VEAnQTyC7Zb','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kff2SGZxUtw?si=dbzsh0WstxRrv2gu','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/7kFZYFfxzB0?si=FvcTFq-0Yvv9YfEk','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/kla7zHQYs1o?si=a-DBaTiEFYSHdQs8','YouTube');
@@ -3680,7 +3663,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/5AcXt5mrBbc?si=P8KVnr1kDQKDOK9D','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/augRX2SmkpM?si=4Qrx1NZxqcflcDcL','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ck5mUgNtr1o?si=dedJ1K5l0MsBi3_Q','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/QG_XnvzYYDw?si=UEBPE34FhIdHYkdW','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Klb447IrWqs?si=og5UoZhmv3l2a_eF','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/RiFDPg20d34?si=hrLmRdWKpu1Ipgn3','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9AtIc8dj0Ac?si=uyRvtLM_TerA4nic','YouTube');
@@ -3738,7 +3720,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/g63Sgg3zj-c?si=vLi5hcIjEbyE8XIt','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/w2XPcf3vfFo?si=Eg8seo3J4UiAKBxM','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/peUnSMMa0aU?si=stvvIRdnJNYgK6nS','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLco9vQ1v_KE4YD3kz1AoGa_GInUDDpLLe&si=MHmkB9Q14YsHlIPj','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/8881CkvB_u4?si=cvOzrb2pODw6Hp8F','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/6XFEaHXgRlA?si=vk1dh6UWqpZCqznm','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9J_DG1lEQsA?si=BXygkxpP_MSQU_09','YouTube');
@@ -3780,7 +3761,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yLEkmfYg5bM?si=Kk2lDu2Q1E3-rv-5','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/97zXfN5vQy4?si=zeEHVgYpamZMFS9_','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/r4puTOwOPdI?si=khJyhR8aU6fOp9ks','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/eWSU8YOa3jU?si=baC2G2vV39GnxEEp','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Ck5mUgNtr1o?si=faaVGBDHHOaQHA8n','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/lbiV43ZstH4?si=bWjZ37xj5hTLOpE_','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/1ktQo1rRWb4?si=f8PkAeVxPwOuWz7S','YouTube');
@@ -3962,7 +3942,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/10M5DowLTsg?si=FviafJnCYbHmZtaa','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9Urmmn-B-iE?si=Rxg1HhO7oo2p4Y8p','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ZFLAv6xMT30?si=yzQ2mDmqc0XRj2S7','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWqe12rAqVytzyvENVvQw8en&si=gme8ght1qEgFmgzf','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Du56HPEqlag?si=NKHql44DxL1IPwEw','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/IllwluULm6c?si=_14ZUIYOsel6SXxC','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/JNX6ybKqlqA?si=vmTtF0tNJPXiXOY6','YouTube');
@@ -4086,7 +4065,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/q89i9J598Es?si=Oll0v552WCJNZzjZ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Qzqprjzyve0?si=g_ROb8CUzONLL7mu','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hsMC36e1SEU?si=99iRrveFm_sjpQRD','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWqT32gxaV4VxlBjpJodBlfV&si=7gYSHyPo5OvE9aH-','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Klb447IrWqs?si=6G8tEB7LSQj1dPKt','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/EAdl2RqAwSw?si=-lh27rDyfxpFtqPo','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/tyviiPGTq2U?si=UMu6sZ4ctU4gGkCo','YouTube');
@@ -4188,7 +4166,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/GvidYVCW3fs?si=moUcN214FNiBODQd','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/9zho1JXOnBw?si=d7Vyjs_opnnkF5Ro','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/V_wXQqyBjJg?si=bu1GGEwF74Rb0Tzf','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/jYM5Dlh56SQ?si=rPGorPmrcdTCNvMD','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/zWluTRezFnA?si=HtSNZfVBD_pxe4rW','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/vF7OdsTVCMc?si=PiX0oaJiTP_dt5yZ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jq5ICYuPEew?si=JTE2X2xZPA5GIT41','YouTube');
@@ -4204,8 +4181,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/aBaUoyMBvbQ?si=nSEWCpbdyvEpOpi7','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/tmb6bLbxd08?si=AIvbPtzY89WJqGWT','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/q6AJsWKS_eo?si=yalGnDlpbb9SzNBI','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/WQbjJTcz25o?si=akLlLUwkAK4-d_VL','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/UPOAA3b0qg4?si=rG5opTYL3RYZZqtq','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/BIKmFWcZKXA?si=tfKo7T6sfXZji2ks','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/shKS8bYeFmg?si=_ph5P0D_aBMO1rgz','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/ej_itpTXAn4?si=6A8lEj9ndWAqBZT-','YouTube');
@@ -4252,7 +4227,6 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/RSwUj6SSA4A?si=vYMVAqI5mTbqaY6n','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/neC_WYF1CIk?si=PRf5HAxUE3iq30j-','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/Q-2WIpOE58A?si=cSHZKCNd-ngXGTpB','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWofN7hJwUFDIaaUT3JrO4Sc&si=q4swDq8qJ4Gg31C4','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/JlkUC7pKcMY?si=Q0xwL8DDztk-gcdv','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/B94N37aWwwA?si=oHMOUTYQEwdBj5So','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/MhoPiOJAcKs?si=c0Qrp6gtw7CQ_bgP','YouTube');
@@ -4262,17 +4236,14 @@ INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/PIG6TH2FkHs?si=OAwRfVn4kusIwpRW','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/jZTVG6GElbA?si=RJ7oCYGvbZTkQKWQ','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/hd7lcetMQ5g?si=Y_47nkCfeLL9Wko7','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/playlist?list=PLYertRCjOcWq1UuGHLwigR71wmeKpbdkL&si=kL1YfoQ3Gyzc-oX6','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/yLEkmfYg5bM?si=Tq_RuI9TgGErq__9','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I80Yp2d4aqg?si=lFKzriqTn_kdEFcn','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/T6qV8Sjdyiw?si=Wq6Ww9AJ4uCSId8b','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9zcJArFdUEA?si=9gkGAagiv_MAuqxo','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/ntJafPCcSPA?si=x6bCQpYEtlZfDsq7','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/BoH89vxiQDk?si=6mK0qu9CXNgnC3pi','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/9cInM8mAb1s?si=1zL-wtUKiM65UQTu','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/I7Iuia5560Y?si=QR83yh-05NKfm6lT','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fAO7n72gXAA?si=99xmza_TR3CO_1Td','YouTube');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/epMiL4VZ_LA?si=DbKBWdH3iQfKn3ab','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtu.be/AKPOyviFi8Q?si=HJFh8HD-E4hcwxLO','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/fEIo_BJEg_8?si=3FQFYCZVZqyS99q1','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://youtube.com/shorts/WQ5z6ryrC6E?si=RNvfJWfNNer02IkC','YouTube');
@@ -4522,4 +4493,6 @@ INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'h
 INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=ZdWSig8lTdQ','YouTube');
 INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=JXBdQ_X6kPg','YouTube');
 INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/watch?v=F6B4puJ31QE','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'messages','YouTube');
+INSERT INTO "to_watch" ("user_id","url","Service") VALUES (168422909482762240,'messages','YouTube');
 COMMIT;
