@@ -797,7 +797,16 @@ INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https
  (168422909482762240,'https://youtu.be/OMPiGAK-52w?si=WdxD4Si6avpxTZGl','YouTube'),
  (168422909482762240,'https://youtu.be/42RGs0fTck8?si=vZHVeIdYRVHQ8KH7','YouTube'),
  (168422909482762240,'https://youtu.be/vqvXgkynj44?si=_4Qcuep0g31gkw7l','YouTube'),
- (1059007460372926535,'https://youtu.be/494STlRAn3A?feature=shared','YouTube');
+ (1059007460372926535,'https://youtu.be/494STlRAn3A?feature=shared','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLZpBm1mm4R4LAcEhXuhh6MvgnGeuVn2nZ','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLsKjksKouJ62UoAwK2vfaXaHAxlTIBWDo','YouTube'),
+ (168422909482762240,'https://www.youtube.com/watch?v=pXxW_ABhHjM','YouTube'),
+ (168422909482762240,'https://youtube.com/playlist?list=PLco9vQ1v_KE4LgGKjLxpRK5ST0W9pTo3j&si=hYGXGuTg2Cn0na3o','YouTube'),
+ (168422909482762240,'https://youtube.com/playlist?list=PLco9vQ1v_KE4LgGKjLxpRK5ST0W9pTo3j&si=Od1GbZ7LqWRE8PLL','YouTube'),
+ (168422909482762240,'https://youtu.be/Tu8-wIc0nZU?si=rO6-6TcKLF79gDhR','YouTube'),
+ (168422909482762240,'https://youtube.com/playlist?list=PLjyLjyXJQJUMq3oCa-wQkPMD_1AmnAtC5&si=xoo5JpzzOPlxl2L1','YouTube'),
+ (168422909482762240,'https://youtu.be/srZdDAJbHfc?si=DLqh6OmqN4e_jJr6','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PL_NRFCT313HZgkvZMghtslAamfQRpJyX9','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
