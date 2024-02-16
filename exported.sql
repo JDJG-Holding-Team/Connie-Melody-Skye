@@ -1,5 +1,5 @@
 BEGIN TRANSACTION;
-CREATE TABLE IF NOT EXISTS "data" (
+CREATE TABLE IF NOT EXISTS "music" (
 	"user_id"	INTEGER,
 	"url"	TEXT,
 	"Service"	TEXT
@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS "to_watch" (
 	"url"	TEXT,
 	"Service"	TEXT
 );
-INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
+INSERT INTO "music" ("user_id","url","Service") VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
  (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube'),
  (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube'),
  (168422909482762240,'https://youtu.be/pDGjzTPH7FU','YouTube'),
@@ -806,7 +806,35 @@ INSERT INTO "data" ("user_id","url","Service") VALUES (168422909482762240,'https
  (168422909482762240,'https://youtu.be/Tu8-wIc0nZU?si=rO6-6TcKLF79gDhR','YouTube'),
  (168422909482762240,'https://youtube.com/playlist?list=PLjyLjyXJQJUMq3oCa-wQkPMD_1AmnAtC5&si=xoo5JpzzOPlxl2L1','YouTube'),
  (168422909482762240,'https://youtu.be/srZdDAJbHfc?si=DLqh6OmqN4e_jJr6','YouTube'),
- (168422909482762240,'https://www.youtube.com/playlist?list=PL_NRFCT313HZgkvZMghtslAamfQRpJyX9','YouTube');
+ (168422909482762240,'https://www.youtube.com/playlist?list=PL_NRFCT313HZgkvZMghtslAamfQRpJyX9','YouTube'),
+ (168422909482762240,'https://youtu.be/XTbuzSUOSEs?si=PeCFc2fbPXeKrdfh','YouTube'),
+ (168422909482762240,'https://youtu.be/gdcxRElTqDU?si=eqPBHJbr20vj7fOH','YouTube'),
+ (168422909482762240,'https://gametal.bandcamp.com/album/xiii','BandCamp'),
+ (168422909482762240,'https://youtu.be/jNUTxvki_d0?si=BR1peQHcbHCbblE6','YouTube'),
+ (168422909482762240,'https://youtu.be/Z3XQJobAVv0?si=kupJNM-VV9l_PqoS','YouTube'),
+ (168422909482762240,'https://youtu.be/dcbTsDWjEhM?si=XYVzqItvQTVlgAA-','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLnw0JPpZBa2ho4nl5r66pak2guDOC4ux-','YouTube'),
+ (168422909482762240,'https://youtu.be/xuXHrHRZzLk?si=rZEB6lAQvaGGGoEP','YouTube'),
+ (168422909482762240,'https://youtu.be/XCMRqJjGsQQ?si=ZctE74iaav5pPLAr','YouTube'),
+ (168422909482762240,'https://youtu.be/L8bg_VsnZnE?si=8aPOYIc3ufQZf_-v','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLuNyw_z6mVdWphWNNVk9u1A-CZd-deDOr','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLuNyw_z6mVdXeLljWva-vwMbaJuizcigQ','YouTube'),
+ (168422909482762240,'https://soundcloud.com/cedarjones/sets/music-for-video-games','SoundCloud'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLuNyw_z6mVdV33EblYMrtXw_ncJ-d_pV5','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLuNyw_z6mVdVP-P786PRmBxqdboTSL8Ja','YouTube'),
+ (168422909482762240,'https://youtu.be/H-QA4nuXPLA?si=NF7GAgaCXxi32DPi','YouTube'),
+ (168422909482762240,'https://youtu.be/Xj94aDlh0so?si=l6ckLBSd-4aMPT-0','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLLv3qeuV3YDpEQaSYzakzemJIdZ3Nd2IF','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLo8EWe4iWkrPRAOtSxtWAG23oCqN4eK5r','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PL2CzT2VlmVOPfLcGIEE1WliMYqEh8fEAM','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLDhajrZgo0TIR_VgfSUXuLXjukYxaWzjV','YouTube'),
+ (168422909482762240,'https://youtu.be/czX_6MHnI4A?si=SRuLpKBQcWs2xEWb','YouTube'),
+ (168422909482762240,'https://youtu.be/if7Sfi-O5JI?si=nQa21oTCyMS3_UsS','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLvBpq6ur-vO5za0B9WdnELyhWQ5e5zd6B','YouTube'),
+ (168422909482762240,'https://youtu.be/H4IF3xQO_uk?si=DsE8xWpMzIgpmh2P','YouTube'),
+ (168422909482762240,'https://youtu.be/gt6NuXBdUMM?si=7S6idPGv_Ztz6T0t','YouTube'),
+ (168422909482762240,'https://youtu.be/Z3QS8Q4tDQU?si=ecl6qWiUAJHOQi75','YouTube'),
+ (168422909482762240,'https://www.youtube.com/playlist?list=PLVGCS3NFcqxVyFCMyo7JrWKu13crYosBA','YouTube');
 INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
