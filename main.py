@@ -28,7 +28,7 @@ class MusicFinderBot(commands.Bot):
 
         main_cursor = await self.db.cursor()
 
-        result = await main_cursor.execute("SELECT DISTINCT Service FROM data")
+        result = await main_cursor.execute("SELECT DISTINCT Service FROM music")
 
         services = await result.fetchall()
         self.services = [utils.DataObject(dict(x)) for x in services]

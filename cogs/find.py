@@ -31,7 +31,7 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            result = await cur.execute("SELECT * from data WHERE user_id = ?", user_id)
+            result = await cur.execute("SELECT * from music WHERE user_id = ?", user_id)
 
             urls = await result.fetchall()
 
@@ -39,7 +39,7 @@ class Find(commands.Cog):
 
             if not proper_urls:
 
-                result = await cur.execute("SELECT * from data")
+                result = await cur.execute("SELECT * from music")
 
                 urls = await result.fetchall()
 
@@ -53,7 +53,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         elif service and not user:
-            result = await cur.execute("SELECT * from data WHERE service = ?", service)
+            result = await cur.execute("SELECT * from music WHERE service = ?", service)
 
             urls = await result.fetchall()
 
@@ -70,7 +70,7 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            result = await cur.execute("SELECT * from data WHERE service = ? and user_id = ?", service, user_id)
+            result = await cur.execute("SELECT * from music WHERE service = ? and user_id = ?", service, user_id)
 
             urls = await result.fetchall()
 
@@ -78,7 +78,7 @@ class Find(commands.Cog):
 
             if not proper_urls:
 
-                result = await cur.execute("SELECT * from data WHERE service = ?", service)
+                result = await cur.execute("SELECT * from music WHERE service = ?", service)
 
                 urls = await result.fetchall()
 
@@ -86,7 +86,7 @@ class Find(commands.Cog):
 
                 if not proper_urls:
 
-                    result = await cur.execute("SELECT * from data")
+                    result = await cur.execute("SELECT * from music")
 
                     urls = await result.fetchall()
 
@@ -100,7 +100,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         else:
-            result = await cur.execute("SELECT * from data")
+            result = await cur.execute("SELECT * from music")
 
             urls = await result.fetchall()
 
@@ -141,7 +141,7 @@ class Find(commands.Cog):
 
         cur = await self.bot.db.cursor()
 
-        result = await cur.execute("SELECT * from data")
+        result = await cur.execute("SELECT * from music")
 
         urls = await result.fetchall()
 
