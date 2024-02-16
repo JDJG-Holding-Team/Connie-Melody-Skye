@@ -8,4 +8,6 @@ urls = result.fetchall()
 
 print(list(urls))
 
+# could use a little bit more than this.
+
 connection.close()
