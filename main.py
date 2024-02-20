@@ -2,7 +2,6 @@ import os
 import traceback
 from typing import Any
 
-import asqlite
 import asyncpg
 import discord
 from discord.ext import commands
@@ -31,23 +30,13 @@ class MusicFinderBot(commands.Bot):
 
         await self.load_extension("jishaku")
 
-        self.old_db = await asqlite.connect("database.db")
         self.db = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)
 
-        main_cursor = await self.old_db.cursor()
-
-        result = await main_cursor.execute("SELECT DISTINCT service FROM music")
         self.services = await self.db.fetch("SELECT DISTINCT service FROM music")
-
-        services_old = await result.fetchall()
-        self.services_old = [utils.DataObject(dict(x)) for x in services_old]
 
     async def close(self) -> None:
         if self.db:
             await self.db.close()
-        
-        if self.old_db:
-            await self.old_db.close()
         
         await super().close()
 
