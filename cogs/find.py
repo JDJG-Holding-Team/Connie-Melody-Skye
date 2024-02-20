@@ -29,11 +29,11 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.db.fetch("SELECT * from music WHERE user_id = $1", user_id)
+            proper_urls = await self.bot.db.fetch("SELECT * from music WHERE user_id = $1", user_id)
 
             if not proper_urls:
 
-                proper_urls = await self.db.fetch("SELECT * from music")
+                proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -43,7 +43,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         elif service and not user:
-            proper_urls = await self.db.fetch("SELECT * from music WHERE service = $1", service)
+            proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Songs"
@@ -55,15 +55,15 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.db.fetchrow("SELECT * from music WHERE service = $1 and user_id = $2", service, user_id)
+            proper_urls = await self.bot.db.fetchrow("SELECT * from music WHERE service = $1 and user_id = $2", service, user_id)
 
             if not proper_urls:
 
-                proper_urls = await self.db.fetch("SELECT * from music WHERE service = $1", service)
+                proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
 
                 if not proper_urls:
 
-                    proper_urls = await self.db.fetch("SELECT * from music")
+                    proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -73,7 +73,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         else:
-            proper_urls = await self.db.fetch("SELECT * from music")
+            proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -108,7 +108,7 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
 
-        proper_urls = await self.db.fetchrow("SELECT * from music")
+        proper_urls = await self.bot.db.fetchrow("SELECT * from music")
 
         url = random.choice(proper_urls)
 
@@ -119,7 +119,7 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a random video from the database", name="quickvideo")
     async def quickvideo(self, interaction: discord.Interaction):
 
-        proper_urls = await self.db.fetchrow("SELECT * from watched_videos")
+        proper_urls = await self.bot.db.fetchrow("SELECT * from watched_videos")
         url = random.choice(proper_urls)
 
         user = self.bot.get_user(url.user_id)
@@ -128,7 +128,7 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
 
-        proper_urls = await self.db.fetchrow("SELECT * from to_watch")
+        proper_urls = await self.bot.db.fetchrow("SELECT * from to_watch")
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
