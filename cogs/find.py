@@ -47,7 +47,7 @@ class Find(commands.Cog):
             url = random.choice(proper_urls)
 
             name = "Service Songs"
-            value = f"{url.Service}"
+            value = f"{url.service}"
 
             user = self.bot.get_user(url.user_id)
 
@@ -85,7 +85,7 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Song", description=f"Service:\n{url.Service} \nAdded By: \n{user}")
+        embed = discord.Embed(title="Random Song", description=f"Service:\n{url.service} \nAdded By: \n{user}")
 
         embed.add_field(name=name, value=value)
 
@@ -98,7 +98,7 @@ class Find(commands.Cog):
 
         services = self.bot.services
 
-        all_choices = [Choice(name=service.Service, value=service.Service) for service in services]
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
         if not (current and startswith):
             return all_choices[0:25]
@@ -114,7 +114,7 @@ class Find(commands.Cog):
 
         user = self.bot.get_user(url.user_id)
 
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nservice:{url.service}")
 
     @app_commands.command(description="gets a random video from the database", name="quickvideo")
     async def quickvideo(self, interaction: discord.Interaction):
@@ -123,7 +123,7 @@ class Find(commands.Cog):
         url = random.choice(proper_urls)
 
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
@@ -132,7 +132,7 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
 
 async def setup(bot):
