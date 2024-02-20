@@ -1,17 +1,15 @@
-CREATE TABLE music (
-	user_id	bigint,
+CREATE TABLE IF NOT EXISTS music (
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
-)
-
-CREATE TABLE to_watch (
-	user_id	bigint,
+);
+CREATE TABLE IF NOT EXISTS watched_videos (
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
-)
-
-CREATE TABLE watched_videos (
-	user_id	bigint,
+);
+CREATE TABLE IF NOT EXISTS to_watch (
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
-)
+);

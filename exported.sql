@@ -1,20 +1,20 @@
 BEGIN TRANSACTION;
 CREATE TABLE IF NOT EXISTS music (
-	user_id	bigint,
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
 );
 CREATE TABLE IF NOT EXISTS watched_videos (
-	user_id	bigint,
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
 );
 CREATE TABLE IF NOT EXISTS to_watch (
-	user_id	bigint,
+	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT
 );
-INSERT INTO music (user_id, url, service) VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
+INSERT INTO music (user_id,url,service) VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
  (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube'),
  (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube'),
  (168422909482762240,'https://youtu.be/pDGjzTPH7FU','YouTube'),
