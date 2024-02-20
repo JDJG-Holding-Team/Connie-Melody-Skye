@@ -25,25 +25,15 @@ class Find(commands.Cog):
         service: typing.Optional[str],
     ):
 
-        cur = await self.bot.db.cursor()
-
         if user and not service:
 
             user_id = user.id
 
-            result = await cur.execute("SELECT * from music WHERE user_id = ?", user_id)
-
-            urls = await result.fetchall()
-
-            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+            proper_urls = await self.db.fetch("SELECT * from music WHERE user_id = $1", user_id)
 
             if not proper_urls:
 
-                result = await cur.execute("SELECT * from music")
-
-                urls = await result.fetchall()
-
-                proper_urls = [utils.DataObject(dict(url)) for url in urls]
+                proper_urls = await self.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -53,12 +43,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         elif service and not user:
-            result = await cur.execute("SELECT * from music WHERE service = ?", service)
-
-            urls = await result.fetchall()
-
-            proper_urls = [utils.DataObject(dict(url)) for url in urls]
-
+            proper_urls = await self.db.fetch("SELECT * from music WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Songs"
@@ -70,27 +55,15 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            result = await cur.execute("SELECT * from music WHERE service = ? and user_id = ?", service, user_id)
-
-            urls = await result.fetchall()
-
-            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+            proper_urls = await self.db.fetchrow("SELECT * from music WHERE service = $1 and user_id = $2", service, user_id)
 
             if not proper_urls:
 
-                result = await cur.execute("SELECT * from music WHERE service = ?", service)
-
-                urls = await result.fetchall()
-
-                proper_urls = [utils.DataObject(dict(url)) for url in urls]
+                proper_urls = await self.db.fetch("SELECT * from music WHERE service = $1", service)
 
                 if not proper_urls:
 
-                    result = await cur.execute("SELECT * from music")
-
-                    urls = await result.fetchall()
-
-                    proper_urls = [utils.DataObject(dict(url)) for url in urls]
+                    proper_urls = await self.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -100,11 +73,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         else:
-            result = await cur.execute("SELECT * from music")
-
-            urls = await result.fetchall()
-
-            proper_urls = [utils.DataObject(dict(url)) for url in urls]
+            proper_urls = await self.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
 
@@ -139,13 +108,7 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
 
-        cur = await self.bot.db.cursor()
-
-        result = await cur.execute("SELECT * from music")
-
-        urls = await result.fetchall()
-
-        proper_urls = [utils.DataObject(dict(url)) for url in urls]
+        proper_urls = await self.db.fetchrow("SELECT * from music")
 
         url = random.choice(proper_urls)
 
@@ -156,35 +119,19 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a random video from the database", name="quickvideo")
     async def quickvideo(self, interaction: discord.Interaction):
 
-        cur = await self.bot.db.cursor()
-
-        result = await cur.execute("SELECT * from watched_videos")
-
-        urls = await result.fetchall()
-
-        proper_urls = [utils.DataObject(dict(url)) for url in urls]
-
+        proper_urls = await self.db.fetchrow("SELECT * from watched_videos")
         url = random.choice(proper_urls)
 
         user = self.bot.get_user(url.user_id)
-
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
 
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
 
-        cur = await self.bot.db.cursor()
-
-        result = await cur.execute("SELECT * from to_watch")
-
-        urls = await result.fetchall()
-
-        proper_urls = [utils.DataObject(dict(url)) for url in urls]
+        proper_urls = await self.db.fetchrow("SELECT * from to_watch")
 
         url = random.choice(proper_urls)
-
         user = self.bot.get_user(url.user_id)
-
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
 
 

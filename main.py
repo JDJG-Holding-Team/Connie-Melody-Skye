@@ -3,12 +3,19 @@ import traceback
 from typing import Any
 
 import asqlite
+import asyncpg
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
 import utils
 from cogs import EXTENSIONS
+
+class CustomRecordClass(asyncpg.Record):
+    def __getattr__(self, name: str) -> Any:
+        if name in self.keys():
+            return self[name]
+        return super().__getattr__(name)
 
 
 class MusicFinderBot(commands.Bot):
@@ -24,18 +31,24 @@ class MusicFinderBot(commands.Bot):
 
         await self.load_extension("jishaku")
 
-        self.db = await asqlite.connect("database.db")
+        self.old_db = await asqlite.connect("database.db")
+        self.db = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)
 
         main_cursor = await self.db.cursor()
 
         result = await main_cursor.execute("SELECT DISTINCT Service FROM music")
+        self.services = await self.db.fetch("SELECT DISTINCT Service FROM music")
 
-        services = await result.fetchall()
-        self.services = [utils.DataObject(dict(x)) for x in services]
+        services_old = await result.fetchall()
+        self.services_old = [utils.DataObject(dict(x)) for x in services2]
 
     async def close(self) -> None:
         if self.db:
             await self.db.close()
+        
+        if self.old_db:
+            await self.db.close()
+        
         await super().close()
 
 
