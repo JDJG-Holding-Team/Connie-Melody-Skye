@@ -7,7 +7,6 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
-import utils
 from cogs import EXTENSIONS
 
 class CustomRecordClass(asyncpg.Record):

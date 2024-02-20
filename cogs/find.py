@@ -6,9 +6,6 @@ from discord import app_commands
 from discord.app_commands import Choice
 from discord.ext import commands
 
-import utils
-
-
 class Find(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
