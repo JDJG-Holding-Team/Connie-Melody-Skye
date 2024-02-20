@@ -1,16 +1,16 @@
 BEGIN TRANSACTION;
 CREATE TABLE IF NOT EXISTS "music" (
-	"user_id"	INTEGER,
+	"user_id"	bigint,
 	"url"	TEXT,
 	"Service"	TEXT
 );
 CREATE TABLE IF NOT EXISTS "watched_videos" (
-	"user_id"	INTEGER,
+	"user_id"	bigint,
 	"url"	TEXT,
 	"Service"	TEXT
 );
 CREATE TABLE IF NOT EXISTS "to_watch" (
-	"user_id"	INTEGER,
+	"user_id"	bigint,
 	"url"	TEXT,
 	"Service"	TEXT
 );
