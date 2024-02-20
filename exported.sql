@@ -2,19 +2,19 @@ BEGIN TRANSACTION;
 CREATE TABLE IF NOT EXISTS music (
 	user_id	bigint,
 	url	TEXT,
-	Service	TEXT
+	service	TEXT
 );
 CREATE TABLE IF NOT EXISTS watched_videos (
 	user_id	bigint,
 	url	TEXT,
-	Service	TEXT
+	service	TEXT
 );
 CREATE TABLE IF NOT EXISTS to_watch (
 	user_id	bigint,
 	url	TEXT,
-	Service	TEXT
+	service	TEXT
 );
-INSERT INTO music (user_id, url, Service) VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
+INSERT INTO music (user_id, url, service) VALUES (168422909482762240,'https://youtu.be/_FI-hzS65mw','YouTube'),
  (168422909482762240,'https://youtu.be/DZ6Xkq09Ao4','YouTube'),
  (168422909482762240,'https://youtu.be/uVtgQX4Y11s','YouTube'),
  (168422909482762240,'https://youtu.be/pDGjzTPH7FU','YouTube'),
@@ -862,7 +862,7 @@ INSERT INTO music (user_id, url, Service) VALUES (168422909482762240,'https://yo
  (168422909482762240,'https://antimo.bandcamp.com/album/story-mode-archives','BandCamp'),
  (168422909482762240,'https://open.spotify.com/album/6RnW4rp3BWgJtM3gcZmNZD','Spotify'),
  (168422909482762240,'https://music.apple.com/us/album/story-mode-archives/1445356304','Apple Music');
-INSERT INTO watched_videos (user_id,url,Service) VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
+INSERT INTO watched_videos (user_id,url,service) VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube'),
@@ -7096,7 +7096,7 @@ INSERT INTO watched_videos (user_id,url,Service) VALUES (168422909482762240,'htt
  (168422909482762240,'https://youtu.be/PV6DfSypV-Q?si=7Ru8KE3YXIg1VNbo','YouTube'),
  (168422909482762240,'https://youtu.be/S45wijipyMQ?si=d4ovfW5NZqpjSi4H','YouTube'),
  (168422909482762240,'https://youtu.be/NY47a3WwWsw?si=aYaUbfRqitzvxEY3','YouTube');
-INSERT INTO to_watch (user_id,url,Service) VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLVJm3zu0epIR0gTJJXOxvPfttMOphfcHw','YouTube'),
+INSERT INTO to_watch (user_id,url,service) VALUES (168422909482762240,'https://www.youtube.com/playlist?list=PLVJm3zu0epIR0gTJJXOxvPfttMOphfcHw','YouTube'),
  (168422909482762240,'https://www.youtube.com/watch?v=F3VoKWhGVc0&list=RDh-2LRO8sGCI&index=8','YouTube'),
  (168422909482762240,'https://www.youtube.com/watch?v=8UXARTxJG_0&list=TLPQMTkwOTIwMjO8l0fuhHgXeg&index=8','YouTube'),
  (168422909482762240,'https://www.youtube.com/watch?v=03nEANVssrU&list=TLPQMDExMDIwMjNv5whrX1fjzg&index=5','YouTube'),
