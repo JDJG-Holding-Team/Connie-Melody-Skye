@@ -40,7 +40,7 @@ class MusicFinderBot(commands.Bot):
         self.services = await self.db.fetch("SELECT DISTINCT service FROM music")
 
         services_old = await result.fetchall()
-        self.services_old = [utils.DataObject(dict(x)) for x in services2]
+        self.services_old = [utils.DataObject(dict(x)) for x in services_old]
 
     async def close(self) -> None:
         if self.db:
