@@ -52,6 +52,10 @@ async def on_ready():
 
 
 # so far this.
+    
+if not os.getenv("TOKEN"):
+    load_dotenv()
+    print("I Ran yeah")
 
-load_dotenv()
+
 bot.run(os.environ["TOKEN"])
