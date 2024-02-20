@@ -2,3 +2,4 @@ discord.py @ git+https://github.com/Rapptz/discord.py
 jishaku @ git+https://github.com/Gorialis/jishaku
 python-dotenv
 git+https://github.com/Rapptz/asqlite
+asyncpg
