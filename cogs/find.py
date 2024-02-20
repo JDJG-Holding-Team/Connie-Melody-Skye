@@ -168,7 +168,7 @@ class Find(commands.Cog):
 
         user = self.bot.get_user(url.user_id)
 
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.Service}")
 
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
