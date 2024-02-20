@@ -1,4 +1,5 @@
 import os
+import sys
 import traceback
 from typing import Any
 
@@ -38,6 +39,17 @@ class MusicFinderBot(commands.Bot):
             await self.db.close()
         
         await super().close()
+
+    async def on_error(self, event, *args: Any, **kwargs: Any) -> None:
+        more_information = sys.exc_info()
+        error_wanted = traceback.format_exc()
+        traceback.print_exc()
+
+        # print(event)
+        # print(more_information[0])
+        # print(args)
+        # print(kwargs)
+        # check about on_error with other repos of mine as well to update this.
 
 
 bot = MusicFinderBot(
