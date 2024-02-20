@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS "music" (
 CREATE TABLE IF NOT EXISTS "watched_videos" (
 	"user_id"	INTEGER,
 	"url"	TEXT,
-	"service"	TEXT
+	"Service"	TEXT
 );
 CREATE TABLE IF NOT EXISTS "to_watch" (
 	"user_id"	INTEGER,
@@ -862,7 +862,7 @@ INSERT INTO "music" ("user_id","url","Service") VALUES (168422909482762240,'http
  (168422909482762240,'https://antimo.bandcamp.com/album/story-mode-archives','BandCamp'),
  (168422909482762240,'https://open.spotify.com/album/6RnW4rp3BWgJtM3gcZmNZD','Spotify'),
  (168422909482762240,'https://music.apple.com/us/album/story-mode-archives/1445356304','Apple Music');
-INSERT INTO "watched_videos" ("user_id","url","service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
+INSERT INTO "watched_videos" ("user_id","url","Service") VALUES (168422909482762240,'https://www.youtube.com/live/IG-OUPXKevU?si=FkHmaf03dLdAvvR8','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/IWmA8bjFZzM?si=2KcyGHTU8OyNn0-s','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=EUVVlAVGIz-ZhTnN','YouTube'),
  (168422909482762240,'https://www.youtube.com/live/LcLxaaB4SgU?si=Y6AZHwomKaEYUOqc','YouTube'),
