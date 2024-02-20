@@ -34,7 +34,7 @@ class MusicFinderBot(commands.Bot):
         self.old_db = await asqlite.connect("database.db")
         self.db = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)
 
-        main_cursor = await self.db.cursor()
+        main_cursor = await self.db2.cursor()
 
         result = await main_cursor.execute("SELECT DISTINCT Service FROM music")
         self.services = await self.db.fetch("SELECT DISTINCT Service FROM music")
