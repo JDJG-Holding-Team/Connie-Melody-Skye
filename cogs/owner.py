@@ -1,4 +1,6 @@
+import traceback
 import typing
+
 
 from discord.ext import commands
 
@@ -54,6 +56,11 @@ class Owner(commands.Cog):
             return await ctx.send(f"{url} already in idk_videos.")
 
         return await ctx.send(f"{url} added to idk_videos")
+    
+    
+    async def cog_command_error(self, ctx, error):
+        await ctx.send(error)
+        traceback.print_exc(error)
 
     # idk about remove stuff so idk.
 
