@@ -25,7 +25,7 @@ class Owner(commands.Cog):
         if url_check:
             return await ctx.send(f"{url} already in music videos.")
 
-        await bot.db.execute("INSERT INTO music VALUES($1, $2, $3)", user.id, url, service)
+        await self.bot.db.execute("INSERT INTO music VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to music.")
 
     @commands.command(brief="Adds to watched_videos videos")
@@ -41,7 +41,7 @@ class Owner(commands.Cog):
         if url_check:
             return await ctx.send(f"{url} already in watched_videos videos.")
 
-        await bot.db.execute("INSERT INTO watched_videos VALUES($1, $2, $3)", user.id, url, service)
+        await self.bot.db.execute("INSERT INTO watched_videos VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to watched_videos")
 
     @commands.command(brief="Adds to to_watch videos")
@@ -57,7 +57,7 @@ class Owner(commands.Cog):
         if url_check:
             return await ctx.send(f"{url} already in to_watch videos.")
 
-        await bot.db.execute("INSERT INTO to_watch VALUES($1, $2, $3)", user.id, url, service)
+        await self.bot.db.execute("INSERT INTO to_watch VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to to_watch")
 
     @commands.command(brief="Adds idk videos")
@@ -73,7 +73,7 @@ class Owner(commands.Cog):
         if url_check:
             return await ctx.send(f"{url} already in idk_videos.")
 
-        await bot.db.execute("INSERT INTO idk_videos VALUES($1, $2, $3)", user.id, url, service)
+        await self.bot.db.execute("INSERT INTO idk_videos VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to idk_videos")
     
     
