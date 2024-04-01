@@ -27,6 +27,19 @@ class Owner(commands.Cog):
 
         await self.bot.db.execute("INSERT INTO music VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to music.")
+    
+    @commands.command(brief="Removes music videos")
+    async def remove_music(self, ctx, url: typing.Optional[str] = None):
+        if not url:
+            return await ctx.send("Url cannot be None")
+        
+        url_check = await self.bot.db.fetchrow("SELECT * from music where url = $1", url)
+
+        if not url_check:
+            return await ctx.send(f"{url} must be in database")
+        
+        await self.bot.db.execute("DELETE FROM music WHERE url = $1", url)
+        return await ctx.send(f"Removed {url} from database")
 
     @commands.command(brief="Adds to watched_videos videos")
     async def add_watched_videos(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
