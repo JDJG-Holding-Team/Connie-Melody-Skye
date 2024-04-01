@@ -13,3 +13,9 @@ CREATE TABLE IF NOT EXISTS to_watch (
 	url	TEXT,
 	service	TEXT
 );
+
+CREATE TABLE IF NOT EXISTS idk_videos (
+	user_id	BIGINT,
+	url	TEXT,
+	service	TEXT
+);
