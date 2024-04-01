@@ -1,4 +1,5 @@
 import random
+import traceback
 import typing
 
 import discord
@@ -139,6 +140,12 @@ class Find(commands.Cog):
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+
+    async def cog_app_command_error(self, interaction, error):
+        await interaction.response.send_message(error)
+        traceback.print_exc(error)
+
+        # there lol.
 
 
 async def setup(bot):

@@ -62,6 +62,8 @@ class Owner(commands.Cog):
         await ctx.send(error)
         traceback.print_exc(error)
 
+    # error stuff lol
+
     # idk about remove stuff so idk.
 
 
