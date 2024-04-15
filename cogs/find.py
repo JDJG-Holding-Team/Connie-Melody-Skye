@@ -132,10 +132,19 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
-    @app_commands.command(description="gets a random unwatched video from the database", name="quickidk")
+    @app_commands.command(description="gets a random I don't know video from the database", name="quickidk")
     async def quickidk(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+
+        url = random.choice(proper_urls)
+        user = self.bot.get_user(url.user_id)
+        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+
+    @app_commands.command(description="gets a random Tech video from the database", name="quickidk")
+    async def quicktech(self, interaction: discord.Interaction):
+
+        proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
