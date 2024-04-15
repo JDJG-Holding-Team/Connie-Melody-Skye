@@ -25,4 +25,3 @@ CREATE TABLE IF NOT EXISTS tech_videos (
 	url	TEXT,
 	service	TEXT
 );
-
