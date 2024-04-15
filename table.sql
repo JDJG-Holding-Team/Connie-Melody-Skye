@@ -19,3 +19,10 @@ CREATE TABLE IF NOT EXISTS idk_videos (
 	url	TEXT,
 	service	TEXT
 );
+
+CREATE TABLE IF NOT EXISTS tech_videos (
+	user_id	BIGINT,
+	url	TEXT,
+	service	TEXT
+);
+
