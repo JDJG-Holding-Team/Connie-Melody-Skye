@@ -141,7 +141,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
-    @app_commands.command(description="gets a random Tech video from the database", name="quickidk")
+    @app_commands.command(description="gets a random Tech video from the database", name="quicktech")
     async def quicktech(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
