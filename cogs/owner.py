@@ -8,6 +8,7 @@ from discord.ext import commands
 class Owner(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.error_text = "Url cannot be None"
 
     async def cog_check(self, ctx):
         return await self.bot.is_owner(ctx.author)
@@ -31,7 +32,7 @@ class Owner(commands.Cog):
     @commands.command(brief="Removes music videos")
     async def remove_music(self, ctx, url: typing.Optional[str] = None):
         if not url:
-            return await ctx.send("Url cannot be None")
+            return await ctx.send(self.error_text)
         
         url_check = await self.bot.db.fetchrow("SELECT * from music where url = $1", url)
 
@@ -60,7 +61,7 @@ class Owner(commands.Cog):
     @commands.command(brief="Removes watched videos")
     async def remove_watched_videos(self, ctx, url: typing.Optional[str] = None):
         if not url:
-            return await ctx.send("Url cannot be None")
+            return await ctx.send(self.error_text)
         
         url_check = await self.bot.db.fetchrow("SELECT * from watched_videos where url = $1", url)
 
@@ -89,7 +90,7 @@ class Owner(commands.Cog):
     @commands.command(brief="Removes to_watch videos")
     async def remove_to_watch(self, ctx, url: typing.Optional[str] = None):
         if not url:
-            return await ctx.send("Url cannot be None")
+            return await ctx.send(self.error_text)
         
         url_check = await self.bot.db.fetchrow("SELECT * from to_watch where url = $1", url)
 
@@ -118,7 +119,7 @@ class Owner(commands.Cog):
     @commands.command(brief="Removes idk videos")
     async def remove_idk_videos(self, ctx, url: typing.Optional[str] = None):
         if not url:
-            return await ctx.send("Url cannot be None")
+            return await ctx.send(self.error_text)
         
         url_check = await self.bot.db.fetchrow("SELECT * from idk_videos where url = $1", url)
 
@@ -148,7 +149,7 @@ class Owner(commands.Cog):
     @commands.command(brief="Removes Tech videos")
     async def remove_tech_videos(self, ctx, url: typing.Optional[str] = None):
         if not url:
-            return await ctx.send("Url cannot be None")
+            return await ctx.send(self.error_text)
         
         url_check = await self.bot.db.fetchrow("SELECT * from tech_videos where url = $1", url)
 

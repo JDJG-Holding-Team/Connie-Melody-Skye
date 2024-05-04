@@ -37,7 +37,7 @@ class Find(commands.Cog):
 
             user = self.bot.get_user(url.user_id)
 
-            name = f"User Songs"
+            name = "User Songs"
             value = f"{user}"
 
         elif service and not user:
@@ -76,7 +76,7 @@ class Find(commands.Cog):
             url = random.choice(proper_urls)
 
             name = "Randomly Choosen"
-            value = f"\U0001f570"
+            value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
 
