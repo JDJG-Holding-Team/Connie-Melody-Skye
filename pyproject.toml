@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "musicfinder"
+version = "0.1.0"
+description = ""
+authors = ["JDBot <jdjgbot@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+discord-py = {git = "https://github.com/Rapptz/discord.py"}
+jishaku = {git = "https://github.com/Gorialis/jishaku"}
+python-dotenv = ">=1.0.1"
+asqlite = {git = "https://github.com/Rapptz/asqlite"}
+asyncpg = ">=0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
