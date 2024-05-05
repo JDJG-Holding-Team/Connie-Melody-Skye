@@ -15,6 +15,8 @@ class Find(commands.Cog):
         return
         # use for later.
 
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new song to listen to", name="find")
     async def find_song(
         self,
@@ -103,6 +105,8 @@ class Find(commands.Cog):
 
         return startswith
     
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
 
@@ -114,6 +118,8 @@ class Find(commands.Cog):
 
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nservice:{url.service}")
 
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random video from the database", name="quickvideo")
     async def quickvideo(self, interaction: discord.Interaction):
 
@@ -123,6 +129,8 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
 
@@ -132,6 +140,8 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random I don't know video from the database", name="quickidk")
     async def quickidk(self, interaction: discord.Interaction):
 
@@ -141,6 +151,8 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
 
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random Tech video from the database", name="quicktech")
     async def quicktech(self, interaction: discord.Interaction):
 
