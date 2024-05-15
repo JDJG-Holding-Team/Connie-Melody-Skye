@@ -14,7 +14,7 @@ class Owner(commands.Cog):
         return await self.bot.is_owner(ctx.author)
 
     @commands.command(brief="Adds to music videos")
-    async def add_music(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
+    async def add_music(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
@@ -43,7 +43,7 @@ class Owner(commands.Cog):
         return await ctx.send(f"Removed {url} from database (music)")
 
     @commands.command(brief="Adds to watched_videos videos")
-    async def add_watched_videos(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
+    async def add_watched_videos(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
@@ -72,7 +72,7 @@ class Owner(commands.Cog):
         return await ctx.send(f"Removed {url} from database(watched_videos)")
 
     @commands.command(brief="Adds to to_watch videos")
-    async def add_to_watch(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
+    async def add_to_watch(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
@@ -101,7 +101,7 @@ class Owner(commands.Cog):
         return await ctx.send(f"Removed {url} from database (to_watch)")
 
     @commands.command(brief="Adds idk videos")
-    async def add_idk(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
+    async def add_idk(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
@@ -131,7 +131,7 @@ class Owner(commands.Cog):
         
     
     @commands.command(brief="Adds Tech videos")
-    async def add_tech(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, service : typing.Optional[str] = None):
+    async def add_tech(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
