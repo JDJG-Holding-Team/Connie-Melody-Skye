@@ -32,8 +32,6 @@ class MusicFinderBot(commands.Bot):
 
         self.db = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)
 
-        self.services = await self.db.fetch("SELECT DISTINCT service FROM music")
-
     async def close(self) -> None:
         if self.db:
             await self.db.close()

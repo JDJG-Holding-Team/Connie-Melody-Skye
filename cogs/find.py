@@ -96,7 +96,7 @@ class Find(commands.Cog):
     @find_song.autocomplete("service")
     async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
 
-        services = self.bot.services
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM music")
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
