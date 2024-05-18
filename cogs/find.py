@@ -213,7 +213,7 @@ class Find(commands.Cog):
 
             if not proper_urls:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+                proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
 
             url = random.choice(proper_urls)
 
