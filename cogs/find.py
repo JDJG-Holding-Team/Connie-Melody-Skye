@@ -374,6 +374,96 @@ class Find(commands.Cog):
             return all_choices[0:25]
 
         return startswith
+
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new video to watch in my to watch videos", name="find_to_watch")
+    async def find_to_watch(
+        self,
+        interaction: discord.Interaction,
+        user: typing.Optional[typing.Union[discord.Member, discord.User]],
+        service: typing.Optional[str],
+    ):
+
+        if user and not service:
+
+            user_id = user.id
+
+            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE user_id = $1", user_id)
+
+            if not proper_urls:
+
+                proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
+
+            url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
+
+            name = "User Videos"
+            value = f"{user}"
+
+        elif service and not user:
+            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
+            url = random.choice(proper_urls)
+
+            name = "Service Videos"
+            value = f"{url.service}"
+
+            user = self.bot.get_user(url.user_id)
+
+        elif service and user:
+
+            user_id = user.id
+
+            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1 and user_id = $2", service, user_id)
+
+            if not proper_urls:
+
+                proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
+
+                if not proper_urls:
+
+                    proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
+
+            url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
+
+            name = "User and Service Videos"
+            value = f"{user}"
+
+        else:
+            proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
+
+            url = random.choice(proper_urls)
+
+            name = "Randomly Choosen"
+            value = "\U0001f570"
+        
+            user = self.bot.get_user(url.user_id)
+
+        if not user:
+            user = "Unknown"
+
+        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
+
+        embed.add_field(name=name, value=value)
+
+        await interaction.response.send_message(content=url.url, embed=embed)
+
+        # this definetly needs cleanup
+
+    @find_to_watch.autocomplete("service")
+    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM to_watch")
+
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
+
+        return startswith
     
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
