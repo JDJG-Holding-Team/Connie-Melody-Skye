@@ -617,6 +617,18 @@ class Find(commands.Cog):
 
         # this definetly needs cleanup
 
+    @find_anime.autocomplete("service")
+    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM anime_videos")
+
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
+
+        return startswith
+
 
 async def setup(bot):
     await bot.add_cog(Find(bot))
