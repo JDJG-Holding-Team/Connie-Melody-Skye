@@ -158,6 +158,35 @@ class Owner(commands.Cog):
         
         await self.bot.db.execute("DELETE FROM tech_videos WHERE url = $1", url)
         return await ctx.send(f"Removed {url} from database (tech_videos)")
+
+    @commands.command(brief="Adds anime videos")
+    async def add_anime(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
+
+        user = user or ctx.author
+        service = service or "YouTube"
+
+        if not url:
+            return await ctx.send("Url must exist, it cannot be None.")
+
+        url_check = await self.bot.db.fetchrow("SELECT * from anime_videos where url = $1", url)
+        if url_check:
+            return await ctx.send(f"{url} already in anime_videos.")
+
+        await self.bot.db.execute("INSERT INTO anime_videos VALUES($1, $2, $3)", user.id, url, service)
+        return await ctx.send(f"{url} added to anime_videos")
+
+    @commands.command(brief="Removes anime videos")
+    async def remove_anime_videos(self, ctx, url: typing.Optional[str] = None):
+        if not url:
+            return await ctx.send(self.error_text)
+        
+        url_check = await self.bot.db.fetchrow("SELECT * from anime_videos where url = $1", url)
+
+        if not url_check:
+            return await ctx.send(f"{url} must be in database")
+        
+        await self.bot.db.execute("DELETE FROM anime_videos WHERE url = $1", url)
+        return await ctx.send(f"Removed {url} from database (anime_videos)")
     
     
     async def cog_command_error(self, ctx, error):

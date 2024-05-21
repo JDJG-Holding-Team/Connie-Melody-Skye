@@ -487,7 +487,7 @@ class Find(commands.Cog):
         url = random.choice(proper_urls)
 
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
@@ -498,7 +498,7 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
@@ -509,7 +509,7 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
@@ -520,13 +520,102 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nService:{url.service}")
+        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     async def cog_app_command_error(self, interaction, error):
         await interaction.response.send_message(error)
         traceback.print_exc(error)
 
         # there lol.
+
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="gets a random anime video from the database", name="quickanime")
+    async def quickanime(self, interaction: discord.Interaction):
+
+        proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+
+        url = random.choice(proper_urls)
+        user = self.bot.get_user(url.user_id)
+        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new video to watch in my to watch videos", name="find_anime")
+    async def find_anime(
+        self,
+        interaction: discord.Interaction,
+        user: typing.Optional[typing.Union[discord.Member, discord.User]],
+        service: typing.Optional[str],
+    ):
+
+        if user and not service:
+
+            user_id = user.id
+
+            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE user_id = $1", user_id)
+
+            if not proper_urls:
+
+                proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+
+            url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
+
+            name = "User Videos"
+            value = f"{user}"
+
+        elif service and not user:
+            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
+            url = random.choice(proper_urls)
+
+            name = "Service Videos"
+            value = f"{url.service}"
+
+            user = self.bot.get_user(url.user_id)
+
+        elif service and user:
+
+            user_id = user.id
+
+            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1 and user_id = $2", service, user_id)
+
+            if not proper_urls:
+
+                proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
+
+                if not proper_urls:
+
+                    proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+
+            url = random.choice(proper_urls)
+
+            user = self.bot.get_user(url.user_id)
+
+            name = "User and Service Videos"
+            value = f"{user}"
+
+        else:
+            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+
+            url = random.choice(proper_urls)
+
+            name = "Randomly Choosen"
+            value = "\U0001f570"
+        
+            user = self.bot.get_user(url.user_id)
+
+        if not user:
+            user = "Unknown"
+
+        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
+
+        embed.add_field(name=name, value=value)
+
+        await interaction.response.send_message(content=url.url, embed=embed)
+
+        # this definetly needs cleanup
 
 
 async def setup(bot):
