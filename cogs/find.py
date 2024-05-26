@@ -639,7 +639,7 @@ class Find(commands.Cog):
     @app_commands.command()
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    async def source(self, interaction: Interaction[RTFMBot]):
+    async def source(self, interaction: discord.Interaction):
         """Sends link to the bot's source code"""
 
         url = "https://github.com/JDJG-Holding-Team/MusicFinder/"
