@@ -636,6 +636,23 @@ class Find(commands.Cog):
 
         return startswith
 
+    @app_commands.command()
+    @app_commands.user_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    async def source(self, interaction: Interaction[RTFMBot]):
+        """Sends link to the bot's source code"""
+
+        url = "https://github.com/JDJG-Holding-Team/MusicFinder/"
+        view = discord.ui.View()
+        view.add_item(
+            discord.ui.Button(
+                label=f"Source",
+                url=url,
+                style=discord.ButtonStyle.link,
+            )
+        )
+        await interaction.response.send_message(f"Source: {url}", view=view)
+
 
 async def setup(bot):
     await bot.add_cog(Find(bot))
