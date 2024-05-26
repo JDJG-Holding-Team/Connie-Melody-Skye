@@ -527,7 +527,7 @@ class Find(commands.Cog):
         traceback.print_exc(error)
 
         # there lol.
-
+    
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random anime video from the database", name="quickanime")
@@ -544,6 +544,8 @@ class Find(commands.Cog):
 
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.describe(user="User who added/suggested the content.")
+    @app_commands.describe(service="Service where it was added on.")
     @app_commands.command(description="Find a new video to watch in my to watch videos", name="find_anime")
     async def find_anime(
         self,
