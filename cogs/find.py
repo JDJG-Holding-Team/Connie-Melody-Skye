@@ -539,6 +539,9 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
+    # make spanish and japanese translations
+    # ask volunteers if they can help me with this.
+
     @app_commands.user_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video to watch in my to watch videos", name="find_anime")
