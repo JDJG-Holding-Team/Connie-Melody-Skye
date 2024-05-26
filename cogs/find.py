@@ -554,6 +554,8 @@ class Find(commands.Cog):
         service: typing.Optional[str],
     ):
 
+        # no describe for autocomplete args?
+
         if user and not service:
 
             user_id = user.id
