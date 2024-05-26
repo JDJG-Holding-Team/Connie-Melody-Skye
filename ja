@@ -1,17 +1,13 @@
-# MusicFinder
+import sqlite3
 
-This Bot is designed to help find music using the database
+connection = sqlite3.connect('database.db')
+cursor = connection.cursor()
 
-If you want to your own values to the database you can try:
+result = cursor.execute("SELECT url from watched_videos")
+urls = result.fetchall()
 
-```postgresql
-INSERT INTO data VALUES (user_id, url, service)
-```
+print(list(urls))
 
-For Example:
+# could use a little bit more than this.
 
-```postgresql
-INSERT INTO data VALUES (168422909482762240, 'https://youtu.be/arT86rIFM7k?si=Cg-KSSz5qU18wPH3', 'YouTube')
-```
-
-Please note that table.sql and exported.sql are designed to work with postgresql right now, if you want to use the data not in the bot with asqlite go ahead(it's still here as a requirements.txt)
+connection.close()
