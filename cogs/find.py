@@ -16,6 +16,7 @@ class Find(commands.Cog):
         # use for later.
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new song to listen to", name="find")
     async def find_song(
@@ -106,6 +107,7 @@ class Find(commands.Cog):
         return startswith
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video to watch in my random list", name="find_idk")
     async def find_idk(
@@ -196,6 +198,7 @@ class Find(commands.Cog):
         return startswith
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video to watch in my technology videos", name="find_tech")
     async def find_tech(
@@ -286,6 +289,7 @@ class Find(commands.Cog):
         return startswith
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video to watch in my watched videos", name="find_watched")
     async def find_watched(
@@ -376,6 +380,7 @@ class Find(commands.Cog):
         return startswith
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video to watch in my to watch videos", name="find_to_watch")
     async def find_to_watch(
@@ -466,6 +471,7 @@ class Find(commands.Cog):
         return startswith
     
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a song without any arguments", name="quicksong")
     async def quicksong(self, interaction: discord.Interaction):
@@ -479,6 +485,7 @@ class Find(commands.Cog):
         await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nservice:{url.service}")
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random video from the database", name="quickvideo")
     async def quickvideo(self, interaction: discord.Interaction):
@@ -490,6 +497,7 @@ class Find(commands.Cog):
         await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
     async def quickwatch(self, interaction: discord.Interaction):
@@ -501,6 +509,7 @@ class Find(commands.Cog):
         await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random I don't know video from the database", name="quickidk")
     async def quickidk(self, interaction: discord.Interaction):
@@ -512,6 +521,7 @@ class Find(commands.Cog):
         await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random Tech video from the database", name="quicktech")
     async def quicktech(self, interaction: discord.Interaction):
@@ -529,6 +539,7 @@ class Find(commands.Cog):
         # there lol.
     
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a random anime video from the database", name="quickanime")
     async def quickanime(self, interaction: discord.Interaction):
@@ -543,6 +554,7 @@ class Find(commands.Cog):
     # ask volunteers if they can help me with this.
 
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.describe(user="User who added/suggested the content.")
     @app_commands.describe(service="Service where it was added on.")
@@ -638,6 +650,7 @@ class Find(commands.Cog):
 
     @app_commands.command()
     @app_commands.user_install()
+    @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     async def source(self, interaction: discord.Interaction):
         """Sends link to the bot's source code"""
