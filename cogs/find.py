@@ -95,7 +95,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_song.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM music")
 
@@ -186,7 +186,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_idk.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_idk_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM idk_videos")
 
@@ -277,7 +277,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_tech.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_tech_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM tech_videos")
 
@@ -368,7 +368,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_watched.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM watched_videos")
 
@@ -459,7 +459,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_to_watch.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM to_watch")
 
@@ -637,7 +637,7 @@ class Find(commands.Cog):
         # this definetly needs cleanup
 
     @find_anime.autocomplete("service")
-    async def autocomplete_callback(self, interaction: discord.Interaction, current: str):
+    async def find_anime_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM anime_videos")
 
