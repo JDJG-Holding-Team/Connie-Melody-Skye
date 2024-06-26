@@ -104,7 +104,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -195,7 +195,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -286,7 +286,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -377,7 +377,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -468,7 +468,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
     
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -646,7 +646,7 @@ class Find(commands.Cog):
         if not (current and startswith):
             return all_choices[0:25]
 
-        return startswith
+        return startswith[0:25]
 
     @app_commands.command()
     @app_commands.user_install()
