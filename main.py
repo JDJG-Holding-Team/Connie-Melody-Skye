@@ -17,7 +17,7 @@ class CustomRecordClass(asyncpg.Record):
         return super().__getattr__(name)
 
 
-class MusicFinderBot(commands.Bot):
+class ConnieSkye(commands.Bot):
     def __init__(self, *args: Any, **kwargs: Any) -> None:
         super().__init__(*args, **kwargs)
 
@@ -50,7 +50,7 @@ class MusicFinderBot(commands.Bot):
         # check about on_error with other repos of mine as well to update this.
 
 
-bot = MusicFinderBot(
+bot = ConnieSkye(
     command_prefix=commands.when_mentioned_or("sb$"), intents=discord.Intents.all(), strip_after_prefix=True
 )
 

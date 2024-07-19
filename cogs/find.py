@@ -655,7 +655,7 @@ class Find(commands.Cog):
     async def source(self, interaction: discord.Interaction):
         """Sends link to the bot's source code"""
 
-        url = "https://github.com/JDJG-Holding-Team/MusicFinder/"
+        url = "https://github.com/JDJG-Holding-Team/Connie-Melody-Skye"
         view = discord.ui.View()
         view.add_item(
             discord.ui.Button(
