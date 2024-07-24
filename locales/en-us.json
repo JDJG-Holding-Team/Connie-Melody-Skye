@@ -13,6 +13,81 @@
     {
         "text" : "Song: {url_url}\nAdded by {user}\nservice:{url_service}"
     }
+    },
+    "quick_video": 
+    {
+    "name": 
+    {
+        "text": "quick_video"
+    },
+    "command_desc":
+    {
+        "text": "gets a random video from the database"
+    },
+    "response" :
+    {
+        "text" : "Video: {url_url}\nAdded by {user}\nService:{url_service}"
+    }
+    },
+    "quick_watch": 
+    {
+    "name": 
+    {
+        "text": "quick_watch"
+    },
+    "command_desc":
+    {
+        "text": "gets a random unwatched video from the database"
+    },
+    "response" :
+    {
+        "text" : "Video: {url_url}\nAdded by {user}\nService:{url_service}"
+    }
+    },
+    "quick_idk": 
+    {
+    "name": 
+    {
+        "text": "quick_idk"
+    },
+    "command_desc":
+    {
+        "text": "gets a random I don't know video from the database"
+    },
+    "response" :
+    {
+        "text" : "Video: {url_url}\nAdded by {user}\nService:{url_service}"
+    }
+    },
+    "quick_tech": 
+    {
+    "name": 
+    {
+        "text": "quick_tech"
+    },
+    "command_desc":
+    {
+        "text": "gets a random Tech video from the database"
+    },
+    "response" :
+    {
+        "text" : "Video: {url_url}\nAdded by {user}\nService:{url_service}"
+    }
+    },
+    "quick_anime": 
+    {
+    "name": 
+    {
+        "text": "quick_anime"
+    },
+    "command_desc":
+    {
+        "text": "gets a random anime video from the database"
+    },
+    "response" :
+    {
+        "text" : "Video: {url.url}\nAdded by {user}\nService:{url.service}"
+    }
     }
 
 }
