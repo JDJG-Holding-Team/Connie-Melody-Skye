@@ -78,7 +78,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
@@ -169,7 +169,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
@@ -260,7 +260,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
@@ -351,7 +351,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
@@ -442,7 +442,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
@@ -620,7 +620,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            name = "Randomly Choosen"
+            name = "Randomly Chosen"
             value = "\U0001f570"
         
             user = self.bot.get_user(url.user_id)
