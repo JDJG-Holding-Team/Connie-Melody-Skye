@@ -473,8 +473,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a song without any arguments", name="quicksong")
-    async def quicksong(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a song without any arguments", name="quick_song")
+    async def quick_song(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from music")
 
@@ -487,8 +487,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random video from the database", name="quickvideo")
-    async def quickvideo(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random video from the database", name="quick_video")
+    async def quick_video(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
         url = random.choice(proper_urls)
@@ -499,8 +499,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random unwatched video from the database", name="quickwatch")
-    async def quickwatch(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random unwatched video from the database", name="quick_watch")
+    async def quick_watch(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
 
@@ -511,8 +511,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random I don't know video from the database", name="quickidk")
-    async def quickidk(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random I don't know video from the database", name="quick_idk")
+    async def quick_idk(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
 
@@ -523,8 +523,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random Tech video from the database", name="quicktech")
-    async def quicktech(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random Tech video from the database", name="quick_tech")
+    async def quick_tech(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
 
@@ -541,8 +541,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random anime video from the database", name="quickanime")
-    async def quickanime(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random anime video from the database", name="quick_anime")
+    async def quick_anime(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 

@@ -1,0 +1,18 @@
+{
+    "quick_song": 
+    {
+    "name": 
+    {
+        "text": "quick_song"
+    },
+    "command_desc":
+    {
+        "text": "gets a song without any arguments"
+    },
+    "response" :
+    {
+        "text" : "Song: {url_url}\nAdded by {user}\nservice:{url_service}"
+    }
+    }
+
+}
