@@ -8,7 +8,8 @@
         },
         "response": {
             "text": "Song: {url_url}\nAdded by {user}\nservice:{url_service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     },
     "quick_video": {
         "name": {
@@ -19,7 +20,8 @@
         },
         "response": {
             "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     },
     "quick_watch": {
         "name": {
@@ -30,7 +32,8 @@
         },
         "response": {
             "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     },
     "quick_idk": {
         "name": {
@@ -41,7 +44,8 @@
         },
         "response": {
             "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     },
     "quick_tech": {
         "name": {
@@ -52,7 +56,8 @@
         },
         "response": {
             "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     },
     "quick_anime": {
         "name": {
@@ -63,6 +68,7 @@
         },
         "response": {
             "text": "Video: {url.url}\nAdded by {user}\nService:{url.service}"
-        }
+        },
+        "translator_id": "168422909482762240"
     }
 }
