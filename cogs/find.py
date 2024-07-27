@@ -18,7 +18,7 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="Find a new song to listen to", name="find")
+    @app_commands.command(description="Find a new song to listen to", name="find_song")
     async def find_song(
         self,
         interaction: discord.Interaction,
