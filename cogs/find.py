@@ -177,7 +177,11 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        await interaction.response.send_message(content=f"Random Video: {url.url} \nService:\n{url.service} \nAdded By: \n{user} \n{name}\n{value}")
+        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
+
+        embed.add_field(name=name, value=value)
+
+        await interaction.response.send_message(content=url.url, embed=embed)
 
         # this definetly needs cleanup
 
