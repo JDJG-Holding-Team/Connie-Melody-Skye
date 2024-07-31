@@ -1,0 +1,74 @@
+{
+    "quick_song": {
+        "name": {
+            "text": "quick_song"
+        },
+        "command_desc": {
+            "text": "รับเพลงอย่างรวดเร็วโดยไม่มีข้อโต้แย้งใดๆ"
+        },
+        "response": {
+            "text": "เพลง: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    },
+    "quick_video": {
+        "name": {
+            "text": "quick_video"
+        },
+        "command_desc": {
+            "text": "รับเพลงแบบสุ่มจากฐานข้อมูล"
+        },
+        "response": {
+            "text": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    },
+    "quick_watch": {
+        "name": {
+            "text": "quick_watch"
+        },
+        "command_desc": {
+            "text": "รับเพลงที่ยังไม่เคยดูแบบสุ่มจากฐานข้อมูล"
+        },
+        "response": {
+            "text": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    },
+    "quick_idk": {
+        "name": {
+            "text": "quick_idk"
+        },
+        "command_desc": {
+            "text": "รับวิดีโอแบบสุ่มที่ไม่รู้มาก่อนจากฐานข้อมูล"
+        },
+        "response": {
+            "text": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    },
+    "quick_tech": {
+        "name": {
+            "text": "quick_tech"
+        },
+        "command_desc": {
+            "text": "รับวิดีโอเกี่ยวกับเทคโนโลยีจากฐานข้อมูล"
+        },
+        "response": {
+            "text": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    },
+    "quick_anime": {
+        "name": {
+            "text": "quick_anime"
+        },
+        "command_desc": {
+            "text": "รับวิดีโอเกี่ยวกับอนิเมะจากฐานข้อมูล"
+        },
+        "response": {
+            "text": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}"
+        },
+        "translator_id": "688603574707552313"
+    }
+}
