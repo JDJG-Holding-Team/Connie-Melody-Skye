@@ -1,0 +1,74 @@
+{
+    "quick_song": {
+        "name": {
+            "text": "lấy_nhạc_nhanh"
+        },
+        "command_desc": {
+            "text": "Lấy nhạc mà không cần gõ thêm lệnh"
+        },
+        "response": {
+            "text": "Nhạc: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    },
+    "quick_video": {
+        "name": {
+            "text": "lấy_video"
+        },
+        "command_desc": {
+            "text": "Lấy một video bất kì trong dữ liệu của bot"
+        },
+        "response": {
+            "text": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    },
+    "quick_watch": {
+        "name": {
+            "text": "lấy_video_chưa_xem"
+        },
+        "command_desc": {
+            "text": "Lấy một video chưa xem bất kì trong dữ liệu của bot"
+        },
+        "response": {
+            "text": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    },
+    "quick_idk": {
+        "name": {
+            "text": "lấy_video_mà_tôi_cũng_đéo_biết"
+        },
+        "command_desc": {
+            "text": "Lấy một video mà tôi cũng không biết nó là cài gì bất kì trong dữ liệu của bot"
+        },
+        "response": {
+            "text": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    },
+    "quick_tech": {
+        "name": {
+            "text": "lấy_video_công_nghệ"
+        },
+        "command_desc": {
+            "text": "Lấy một video công nghệ bất kì trong dữ liệu của bot"
+        },
+        "response": {
+            "text": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    },
+    "quick_anime": {
+        "name": {
+            "text": "lấy_phim_anime"
+        },
+        "command_desc": {
+            "text": "Lấy một phim anime bất kì trong dữ liệu của bot"
+        },
+        "response": {
+            "text": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}"
+        },
+        "translator_id": "444360808412086292"
+    }
+}
