@@ -9,7 +9,7 @@
         "response": {
             "text": "Песня: {url_url}\nДобавлена: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     },
     "quick_video": {
         "name": {
@@ -21,7 +21,7 @@
         "response": {
             "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     },
     "quick_watch": {
         "name": {
@@ -33,7 +33,7 @@
         "response": {
             "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     },
     "quick_idk": {
         "name": {
@@ -45,7 +45,7 @@
         "response": {
             "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     },
     "quick_tech": {
         "name": {
@@ -57,7 +57,7 @@
         "response": {
             "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     },
     "quick_anime": {
         "name": {
@@ -69,6 +69,6 @@
         "response": {
             "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "540142383270985738"
     }
 }
