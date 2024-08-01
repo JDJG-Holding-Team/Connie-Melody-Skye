@@ -1,0 +1,74 @@
+{
+    "quick_song": {
+        "name": {
+            "text": "быстрый_поиск_песни"
+        },
+        "command_desc": {
+            "text": "Ищет песню без дополнительных аргументов"
+        },
+        "response": {
+            "text": "Песня: {url_url}\nДобавлена: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_video": {
+        "name": {
+            "text": "быстрый_поиск_видео"
+        },
+        "command_desc": {
+            "text": "Ищет случайное видео из базы данных"
+        },
+        "response": {
+            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_watch": {
+        "name": {
+            "text": "быстрый_поиск_непросмотренного"
+        },
+        "command_desc": {
+            "text": "Ищет случайное непросмотренное видео из базы данных"
+        },
+        "response": {
+            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_idk": {
+        "name": {
+            "text": "любое_видео"
+        },
+        "command_desc": {
+            "text": "Ищет случайное видео любой темы из базы данных"
+        },
+        "response": {
+            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_tech": {
+        "name": {
+            "text": "быстрый_поиск_технического_видео"
+        },
+        "command_desc": {
+            "text": "Ищет видео на техническую тематику в базе данных"
+        },
+        "response": {
+            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_anime": {
+        "name": {
+            "text": "быстрый_поиск_аниме"
+        },
+        "command_desc": {
+            "text": "Ищет случайное аниме в базе данных"
+        },
+        "response": {
+            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    }
+}
