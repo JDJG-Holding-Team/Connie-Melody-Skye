@@ -1,0 +1,74 @@
+{
+    "quick_song": {
+        "name": {
+            "text": "lagu_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan sebuah lagu tanpa argumen"
+        },
+        "response": {
+            "text": "Lagu: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}"
+        },
+        "translator_id": "781708312466554940"
+    },
+    "quick_video": {
+        "name": {
+            "text": "video_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan sebuah video acak dari database"
+        },
+        "response": {
+            "text": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}"
+        },
+        "translator_id": "781708312466554940"
+    },
+    "quick_watch": {
+        "name": {
+            "text": "tonton_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan sebuah video yang belum ditonton dari database"
+        },
+        "response": {
+            "text": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}"
+        },
+        "translator_id": "781708312466554940"
+    },
+    "quick_idk": {
+        "name": {
+            "text": "idk_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan video yang tidak saya ketahui dari database"
+        },
+        "response": {
+            "text": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}"
+        },
+        "translator_id": "781708312466554940"
+    },
+    "quick_tech": {
+        "name": {
+            "text": "teknologi_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan video teknologi acak dari database"
+        },
+        "response": {
+            "text": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}"
+        },
+        "translator_id": "781708312466554940"
+    },
+    "anime_acak": {
+        "name": {
+            "text": "anime_acak"
+        },
+        "command_desc": {
+            "text": "Dapatkan sebuah video anime acak dari database"
+        },
+        "response": {
+            "text": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia:{url_service}"
+        },
+        "translator_id": "781708312466554940"
+    }
+}
