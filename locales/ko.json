@@ -1,0 +1,74 @@
+{
+    "quick_song": {
+        "name": {
+            "text": "빠른_음악_찾기"
+        },
+        "command_desc": {
+            "text": "인수없이 음악을 가져옵니다"
+        },
+        "response": {
+            "text": "음악: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_video": {
+        "name": {
+            "text": "빠른_영상_찾기"
+        },
+        "command_desc": {
+            "text": "데이터베이스에 있는 아무 영상이나 가져옵니다"
+        },
+        "response": {
+            "text": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_watch": {
+        "name": {
+            "text": "빠른_시청"
+        },
+        "command_desc": {
+            "text": "데이터베이스에서 본 적 없는 영상을 아무거나 가져옵니다"
+        },
+        "response": {
+            "text": "Video: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_idk": {
+        "name": {
+            "text": "모르는_영상_찾기"
+        },
+        "command_desc": {
+            "text": "데이터베이스에서 사용자가 모르는 영상을 아무거나 가져옵니다"
+        },
+        "response": {
+            "text": "Video: {url_url}\n{user}이 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_tech": {
+        "name": {
+            "text": "빠른_기술_영상"
+        },
+        "command_desc": {
+            "text": "데이터베이스에서 기술과 연관 있는 아무 영상이나 가져옵니다"
+        },
+        "response": {
+            "text": "Video: {url_url}\n{user}이 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    },
+    "quick_anime": {
+        "name": {
+            "text": "빠른_애니"
+        },
+        "command_desc": {
+            "text": "데이터베이스에서 아무 애니메이션 영상이나 가져옵니다."
+        },
+        "response": {
+            "text": "Video: {url_url}\n{user}이 추가함\n서비스:{url_service}"
+        },
+        "translator_id": "168422909482762240"
+    }
+}
