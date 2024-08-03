@@ -1,13 +1,13 @@
 {
     "quick_song": {
         "name": {
-            "text": "nopea_laulu"
+            "text": "nopea_kappale"
         },
         "command_desc": {
-            "text": "Hakee laulun ilman parametreja"
+            "text": "Hakee musiikkikappaleen ilman parametreja"
         },
         "response": {
-            "text": "Laulu: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu:{url_service}"
+            "text": "Kappale: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu:{url_service}"
         },
         "translator_id": "1058768145722134528"
     },
@@ -52,7 +52,7 @@
             "text": "Nopea_tekniikka"
         },
         "command_desc": {
-            "text": "Hakee sattumanvaraisen tech-videon tietokannasta"
+            "text": "Hakee satunnaisen tech-videon tietokannasta"
         },
         "response": {
             "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
