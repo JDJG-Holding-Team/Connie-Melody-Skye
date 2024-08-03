@@ -25,7 +25,7 @@
     },
     "quick_watch": {
         "name": {
-            "text": "시청"
+            "text": "미시청"
         },
         "command_desc": {
             "text": "데이터베이스에서 사용자가 본 적 없는 영상을 아무거나 가져옵니다"
