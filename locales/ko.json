@@ -1,7 +1,7 @@
 {
     "quick_song": {
         "name": {
-            "text": "음악"
+            "text": "아무음악"
         },
         "command_desc": {
             "text": "인수없이 음악을 가져옵니다"
@@ -13,7 +13,7 @@
     },
     "quick_video": {
         "name": {
-            "text": "영상"
+            "text": "아무영상"
         },
         "command_desc": {
             "text": "데이터베이스에 있는 아무 영상이나 가져옵니다"
@@ -49,7 +49,7 @@
     },
     "quick_tech": {
         "name": {
-            "text": "기술"
+            "text": "아무기술영상"
         },
         "command_desc": {
             "text": "데이터베이스에서 과학기술과 연관 있는 아무 영상이나 가져옵니다"
@@ -61,7 +61,7 @@
     },
     "quick_anime": {
         "name": {
-            "text": "애니"
+            "text": "아무애니"
         },
         "command_desc": {
             "text": "데이터베이스에서 아무 애니메이션 영상이나 가져옵니다."
