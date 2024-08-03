@@ -1,10 +1,10 @@
 {
     "quick_song": {
         "name": {
-            "text": "즉시_음악_불러오기"
+            "text": "바로_음악_불러오기"
         },
         "command_desc": {
-            "text": "인수없이 음악을 가져옵니다"
+            "text": "인수없이 음악을 불러옵니다"
         },
         "response": {
             "text": "음악: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
@@ -13,10 +13,10 @@
     },
     "quick_video": {
         "name": {
-            "text": "즉시_영상_불러오기"
+            "text": "바로_영상_불러오기"
         },
         "command_desc": {
-            "text": "데이터베이스에 있는 아무 영상이나 가져옵니다"
+            "text": "데이터베이스에 있는 아무 영상이나 불러옵니다"
         },
         "response": {
             "text": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
@@ -25,10 +25,10 @@
     },
     "quick_watch": {
         "name": {
-            "text": "즉시_미시청영상_불러오기"
+            "text": "바로_미시청영상_불러오기"
         },
         "command_desc": {
-            "text": "데이터베이스에서 사용자가 본 적 없는 영상을 아무거나 가져옵니다"
+            "text": "데이터베이스에서 사용자가 본 적 없는 영상을 아무거나 불러옵니다"
         },
         "response": {
             "text": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
@@ -37,10 +37,10 @@
     },
     "quick_idk": {
         "name": {
-            "text": "즉시_모르는영상_불러오기"
+            "text": "바로_모르는영상_불러오기"
         },
         "command_desc": {
-            "text": "데이터베이스에서 사용자가 모르는 영상을 아무거나 가져옵니다"
+            "text": "데이터베이스에서 사용자가 모르는 영상을 아무거나 불러옵니다"
         },
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
@@ -49,10 +49,10 @@
     },
     "quick_tech": {
         "name": {
-            "text": "즉시_기술영상_불러오기"
+            "text": "바로_기술영상_불러오기"
         },
         "command_desc": {
-            "text": "데이터베이스에서 과학기술과 연관 있는 아무 영상이나 가져옵니다"
+            "text": "데이터베이스에서 과학기술과 연관 있는 아무 영상이나 불러옵니다"
         },
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
@@ -61,10 +61,10 @@
     },
     "quick_anime": {
         "name": {
-            "text": "즉시_애니영상_불러오기"
+            "text": "바로_애니영상_불러오기"
         },
         "command_desc": {
-            "text": "데이터베이스에서 아무 애니메이션 영상이나 가져옵니다."
+            "text": "데이터베이스에서 아무 애니메이션 영상이나 불러옵니다."
         },
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
