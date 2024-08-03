@@ -9,7 +9,7 @@
         "response": {
             "text": "음악: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     },
     "quick_video": {
         "name": {
@@ -21,7 +21,7 @@
         "response": {
             "text": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     },
     "quick_watch": {
         "name": {
@@ -33,7 +33,7 @@
         "response": {
             "text": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     },
     "quick_idk": {
         "name": {
@@ -45,7 +45,7 @@
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     },
     "quick_tech": {
         "name": {
@@ -57,7 +57,7 @@
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     },
     "quick_anime": {
         "name": {
@@ -69,6 +69,6 @@
         "response": {
             "text": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}"
         },
-        "translator_id": "168422909482762240"
+        "translator_id": "269444361236905984"
     }
 }
