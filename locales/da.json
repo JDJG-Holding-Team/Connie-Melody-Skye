@@ -1,74 +1,40 @@
 {
     "quick_song": {
-        "name": {
-            "text": "hurtig_sang"
-        },
-        "command_desc": {
-            "text": "får en sang uden noget skænderi"
-        },
-        "response": {
-            "text": "Sang: {url_url}\nTilføjet af {user}\ntjeneste:{url_service}"
-        },
+        "name": "hurtig_sang",
+        "description": "får en sang uden noget skænderi",
+        "content": "Sang: {url_url}\nTilføjet af {user}\ntjeneste:{url_service}",
         "translator_id": "844466398540333056"
     },
     "quick_video": {
-        "name": {
-            "text": "hurtig_video"
-        },
-        "command_desc": {
-            "text": "får en random video fra databasen"
-        },
-        "response": {
-            "text": "Video: {url_url}\nTilføjey af {user}\nTjeneste:{url_service}"
-        },
+        "name": "hurtig_video",
+        "description": "får en random video fra databasen",
+        "content": "Video: {url_url}\nTilføjey af {user}\nTjeneste:{url_service}",
         "translator_id": "844466398540333056"
     },
     "quick_watch": {
-        "name": {
-            "text": "hurtig_set"
-        },
-        "command_desc": {
-            "text": "får en random ikke set video fra databasen"
-        },
-        "response": {
+        "name": "hurtig_set",
+        "description": "får en random ikke set video fra databasen",
+        "content": {
             "text": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}"
         },
         "translator_id": "844466398540333056"
     },
     "quick_idk": {
-        "name": {
-            "text": "hurtig_det_ved_jeg_ikke"
-        },
-        "command_desc": {
-            "text": "får en random det ved jeg ikke video fra databasen"
-        },
-        "response": {
-            "text": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}"
-        },
+        "name": "hurtig_det_ved_jeg_ikke",
+        "description": "får en random det ved jeg ikke video fra databasen",
+        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
         "translator_id": "844466398540333056"
     },
     "quick_tech": {
-        "name": {
-            "text": "hurtig_tech"
-        },
-        "command_desc": {
-            "text": "får en random tech video fra databasen"
-        },
-        "response": {
-            "text": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}"
-        },
+        "name": "hurtig_tech",
+        "description": "får en random tech video fra databasen",
+        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
         "translator_id": "844466398540333056"
     },
     "quick_anime": {
-        "name": {
-            "text": "hurtig_anime"
-        },
-        "command_desc": {
-            "text": "får en random anime video fra databasen"
-        },
-        "response": {
-            "text": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}"
-        },
+        "name": "hurtig_anime",
+        "description": "får en random anime video fra databasen",
+        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
         "translator_id": "844466398540333056"
     }
 }

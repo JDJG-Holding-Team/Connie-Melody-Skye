@@ -1,74 +1,38 @@
 {
     "quick_song": {
-        "name": {
-            "text": "nopea_laulu"
-        },
-        "command_desc": {
-            "text": "Hakee laulun ilman parametreja"
-        },
-        "response": {
-            "text": "Laulu: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu:{url_service}"
-        },
+        "name": "nopea_laulu",
+        "description": "Hakee laulun ilman parametreja",
+        "content": "Laulu: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_video": {
-        "name": {
-            "text": "Nopea_Video"
-        },
-        "command_desc": {
-            "text": "Hakee satunnaisen videon tietokannasta"
-        },
-        "response": {
-            "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
-        },
+        "name": "Nopea_Video",
+        "description": "Hakee satunnaisen videon tietokannasta",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_watch": {
-        "name": {
-            "text": "Pikakatselu"
-        },
-        "command_desc": {
-            "text": "Hakee satunnaisen katsomattoman videon tietokannasta"
-        },
-        "response": {
-            "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
-        },
+        "name": "Pikakatselu",
+        "description": "Hakee satunnaisen katsomattoman videon tietokannasta",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_idk": {
-        "name": {
-            "text": "quick_idk"
-        },
-        "command_desc": {
-            "text": "Hakee satunnaisen 'äääääää' videon tietokannasta"
-        },
-        "response": {
-            "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
-        },
+        "name": "quick_idk",
+        "description": "Hakee satunnaisen 'äääääää' videon tietokannasta",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_tech": {
-        "name": {
-            "text": "Nopea_tekniikka"
-        },
-        "command_desc": {
-            "text": "Hakee sattumanvaraisen tech-videon tietokannasta"
-        },
-        "response": {
-            "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
-        },
+        "name": "Nopea_tekniikka",
+        "description": "Hakee sattumanvaraisen tech-videon tietokannasta",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_anime": {
-        "name": {
-            "text": "Nopea_animevideo"
-        },
-        "command_desc": {
-            "text": "Hakee satunnaisen animevideon tietokannasta"
-        },
-        "response": {
-            "text": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}"
-        },
+        "name": "Nopea_animevideo",
+        "description": "Hakee satunnaisen animevideon tietokannasta",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     }
 }

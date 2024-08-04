@@ -1,74 +1,38 @@
 {
     "quick_song": {
-        "name": {
-            "text": "быстрый_поиск_песни"
-        },
-        "command_desc": {
-            "text": "Ищет песню без дополнительных аргументов"
-        },
-        "response": {
-            "text": "Песня: {url_url}\nДобавлена: {user}\nСервис:{url_service}"
-        },
+        "name":  "быстрый_поиск_песни",
+        "description":  "Ищет песню без дополнительных аргументов",
+        "content":  "Песня: {url_url}\nДобавлена: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_video": {
-        "name": {
-            "text": "быстрый_поиск_видео"
-        },
-        "command_desc": {
-            "text": "Ищет случайное видео из базы данных"
-        },
-        "response": {
-            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
-        },
+        "name":  "быстрый_поиск_видео",
+        "description":  "Ищет случайное видео из базы данных",
+        "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_watch": {
-        "name": {
-            "text": "быстрый_поиск_непросмотренного"
-        },
-        "command_desc": {
-            "text": "Ищет случайное непросмотренное видео из базы данных"
-        },
-        "response": {
-            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
-        },
+        "name":  "быстрый_поиск_непросмотренного",
+        "description":  "Ищет случайное непросмотренное видео из базы данных",
+        "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_idk": {
-        "name": {
-            "text": "любое_видео"
-        },
-        "command_desc": {
-            "text": "Ищет случайное видео любой темы из базы данных"
-        },
-        "response": {
-            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
-        },
+        "name":  "любое_видео",
+        "description":  "Ищет случайное видео любой темы из базы данных",
+        "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_tech": {
-        "name": {
-            "text": "быстрый_поиск_технического_видео"
-        },
-        "command_desc": {
-            "text": "Ищет видео на техническую тематику в базе данных"
-        },
-        "response": {
-            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
-        },
+        "name":  "быстрый_поиск_технического_видео",
+        "description":  "Ищет видео на техническую тематику в базе данных",
+        "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_anime": {
-        "name": {
-            "text": "быстрый_поиск_аниме"
-        },
-        "command_desc": {
-            "text": "Ищет случайное аниме в базе данных"
-        },
-        "response": {
-            "text": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}"
-        },
+        "name":  "быстрый_поиск_аниме",
+        "description":  "Ищет случайное аниме в базе данных",
+        "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     }
 }

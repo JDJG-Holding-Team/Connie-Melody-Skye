@@ -1,74 +1,38 @@
 {
     "quick_song": {
-        "name": {
-            "text": "quick_song"
-        },
-        "command_desc": {
-            "text": "gets a song without any arguments"
-        },
-        "response": {
-            "text": "Song: {url_url}\nAdded by {user}\nservice:{url_service}"
-        },
+        "name": "quick_song",
+        "description": "gets a song without any arguments",
+        "content": "Song: {url_url}\nAdded by {user}\nservice:{url_service}",
         "translator_id": "168422909482762240"
     },
     "quick_video": {
-        "name": {
-            "text": "quick_video"
-        },
-        "command_desc": {
-            "text": "gets a random video from the database"
-        },
-        "response": {
-            "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        },
+        "name": "quick_video",
+        "description": "gets a random video from the database",
+        "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },
     "quick_watch": {
-        "name": {
-            "text": "quick_watch"
-        },
-        "command_desc": {
-            "text": "gets a random unwatched video from the database"
-        },
-        "response": {
-            "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        },
+        "name": "quick_watch",
+        "description": "gets a random unwatched video from the database",
+        "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },
     "quick_idk": {
-        "name": {
-            "text": "quick_idk"
-        },
-        "command_desc": {
-            "text": "gets a random I don't know video from the database"
-        },
-        "response": {
-            "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        },
+        "name": "quick_idk",
+        "description": "gets a random I don't know video from the database",
+        "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },
     "quick_tech": {
-        "name": {
-            "text": "quick_tech"
-        },
-        "command_desc": {
-            "text": "gets a random Tech video from the database"
-        },
-        "response": {
-            "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        },
+        "name": "quick_tech",
+        "description": "gets a random Tech video from the database",
+        "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },
     "quick_anime": {
-        "name": {
-            "text": "quick_anime"
-        },
-        "command_desc": {
-            "text": "gets a random anime video from the database"
-        },
-        "response": {
-            "text": "Video: {url_url}\nAdded by {user}\nService:{url_service}"
-        },
+        "name": "quick_anime",
+        "description": "gets a random anime video from the database",
+        "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     }
 }
