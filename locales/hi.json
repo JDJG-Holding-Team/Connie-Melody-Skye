@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "क्विक_सांग",
+        "description": "कोई तर्कों के बिना एक गाना प्राप्त करें",
+        "content": "गाना: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    },
+    "quick_video": {
+        "name": "क्विक_वीडियो",
+        "description": "डेटाबेस से एक यादृच्छिक वीडियो प्राप्त करें",
+        "content": "वीडियो: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    },
+    "quick_watch": {
+        "name": "क्विक_वॉच",
+        "description": "डेटाबेस से एक यादृच्छिक अवलोकित वीडियो प्राप्त करें",
+        "content": "वीडियो: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    },
+    "quick_idk": {
+        "name": "क्विक_आई_डोंट_नो",
+        "description": "डेटाबेस से एक यादृच्छिक 'मुझे नहीं पता' वीडियो प्राप्त करें",
+        "content": "वीडियो: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    },
+    "quick_tech": {
+        "name": "क्विक_टेक",
+        "description": "डेटाबेस से एक यादृच्छिक तकनीकी वीडियो प्राप्त करें",
+        "content": "वीडियो: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    },
+    "quick_anime": {
+        "name": "क्विक_एनीमे",
+        "description": "डेटाबेस से एक यादृच्छिक एनीमे वीडियो प्राप्त करें",
+        "content": "वीडियो: {url_url}\nजोड़ने वाला: {user}\nसेवा: {url_service}",
+        "translator_id": "747737674952999024"
+    }
+}
