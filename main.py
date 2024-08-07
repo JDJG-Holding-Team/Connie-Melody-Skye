@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 import os
 import sys
 import traceback
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import asyncpg
 import discord
@@ -9,6 +11,11 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 from cogs import EXTENSIONS
+
+if TYPE_CHECKING:
+    from utils.translator import TreeWithTranslator
+
+from utils.translator import TreeTranslator
 
 class CustomRecordClass(asyncpg.Record):
     def __getattr__(self, name: str) -> Any:
@@ -18,8 +25,7 @@ class CustomRecordClass(asyncpg.Record):
 
 
 class ConnieSkye(commands.Bot):
-    def __init__(self, *args: Any, **kwargs: Any) -> None:
-        super().__init__(*args, **kwargs)
+    tree: TreeWithTranslator
 
     async def setup_hook(self) -> None:
         for cog in EXTENSIONS:
@@ -30,12 +36,14 @@ class ConnieSkye(commands.Bot):
 
         await self.load_extension("jishaku")
 
-        self.db = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)
+        self.db: asyncpg.Pool = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)  # type: ignore
+
+        await self.tree.set_translator(TreeTranslator())
 
     async def close(self) -> None:
         if self.db:
             await self.db.close()
-        
+
         await super().close()
 
     async def on_error(self, event, *args: Any, **kwargs: Any) -> None:
@@ -48,6 +56,12 @@ class ConnieSkye(commands.Bot):
         # print(args)
         # print(kwargs)
         # check about on_error with other repos of mine as well to update this.
+
+    async def try_user(self, user_id: int) -> discord.User | None:
+        try:
+            return self.get_user(user_id) or await self.fetch_user(user_id)
+        except discord.NotFound:
+            return None
 
 
 bot = ConnieSkye(
@@ -62,7 +76,7 @@ async def on_ready():
 
 
 # so far this.
-    
+
 if not os.getenv("TOKEN"):
     load_dotenv()
     print("I Ran yeah")
