@@ -6,13 +6,13 @@
         "translator_id": "1058768145722134528"
     },
     "quick_video": {
-        "name": "Nopea_Video",
+        "name": "nopea_Video",
         "description": "Hakee satunnaisen videon tietokannasta",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_watch": {
-        "name": "Pikakatselu",
+        "name": "pikakatselu",
         "description": "Hakee satunnaisen katsomattoman videon tietokannasta",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
@@ -24,13 +24,13 @@
         "translator_id": "1058768145722134528"
     },
     "quick_tech": {
-        "name": "Nopea_tekniikka",
+        "name": "nopea_tekniikka",
         "description": "Hakee sattumanvaraisen tech-videon tietokannasta",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_anime": {
-        "name": "Nopea_animevideo",
+        "name": "nopea_animevideo",
         "description": "Hakee satunnaisen animevideon tietokannasta",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
