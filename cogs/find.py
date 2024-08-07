@@ -7,13 +7,14 @@ from discord import app_commands
 from discord.app_commands import Choice
 from discord.ext import commands
 
-class Find(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
+if typing.TYPE_CHECKING:
+    from main import ConnieSkye
 
-    async def cog_unload(self):
-        return
-        # use for later.
+
+class Find(commands.Cog):
+
+    def __init__(self, bot: ConnieSkye) -> None:
+        self.bot: ConnieSkye = bot
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -27,19 +28,13 @@ class Find(commands.Cog):
     ):
 
         if user and not service:
-
             user_id = user.id
-
             proper_urls = await self.bot.db.fetch("SELECT * from music WHERE user_id = $1", user_id)
-
             if not proper_urls:
-
                 proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
-
             user = self.bot.get_user(url.user_id)
-
             name = "User Songs"
             value = f"{user}"
 
@@ -80,7 +75,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
@@ -171,7 +166,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
@@ -262,7 +257,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
@@ -353,7 +348,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
@@ -444,7 +439,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
@@ -469,12 +464,12 @@ class Find(commands.Cog):
             return all_choices[0:25]
 
         return startswith[0:25]
-    
+
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="gets a song without any arguments", name="quick_song")
-    async def quick_song(self, interaction: discord.Interaction):
+    async def quick_song(self, interaction: discord.Interaction[ConnieSkye]):
 
         proper_urls = await self.bot.db.fetch("SELECT * from music")
 
@@ -482,7 +477,12 @@ class Find(commands.Cog):
 
         user = self.bot.get_user(url.user_id)
 
-        await interaction.response.send_message(f"Song: {url.url}\nAdded by {user}\nservice:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Song: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url, user=user, url_service=url.service
+        )
+        await interaction.response.send_message(content)
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -494,7 +494,14 @@ class Find(commands.Cog):
         url = random.choice(proper_urls)
 
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -506,7 +513,14 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -518,7 +532,14 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -530,14 +551,21 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
 
     async def cog_app_command_error(self, interaction, error):
         await interaction.response.send_message(error)
         traceback.print_exc(error)
 
         # there lol.
-    
+
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
@@ -548,7 +576,14 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
-        await interaction.response.send_message(f"Video: {url.url}\nAdded by {user}\nService:{url.service}")
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
 
     # make spanish and japanese translations
     # ask volunteers if they can help me with this.
@@ -622,7 +657,7 @@ class Find(commands.Cog):
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-        
+
             user = self.bot.get_user(url.user_id)
 
         if not user:
