@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "γρήγορο_τραγούδι",
+        "description": "επιστρέφει ένα τραγούδι χωρίς ορίσματα",
+        "content": "Τραγούδι: {url_url}\nΠροστέθηκε από την χρήστη {user}\nsService:{url_service}",
+        "translator_id": "189036489265381387"
+    },
+    "quick_video": {
+        "name": "γρήγορο_βίντεο",
+        "description": "επιστρέφει ένα τυχαίο βίντεο από τη βάση",
+        "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
+        "translator_id": "189036489265381387"
+    },
+    "quick_watch": {
+        "name": "γρήγορη_προβολή",
+        "description": "επιστρέφει ένα τυχαίο βίντεο από την βάση που δεν έχει προβληθεί",
+        "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
+        "translator_id": "189036489265381387"
+    },
+    "quick_idk": {
+        "name": "γρήγορο_δεν_ξέρω",
+        "description": "Επιστρέφει ένα τυχαίο βίντεο «δεν ξέρω» από την βάση",
+        "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
+        "translator_id": "189036489265381387"
+    },
+    "quick_tech": {
+        "name": "γρήγορο_τεχνολογίας",
+        "description": "Επιστρέφει ένα τυχαίο βίντεο τεχνολογίας από την βάση",
+        "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
+        "translator_id": "189036489265381387"
+    },
+    "quick_anime": {
+        "name": "γρήγορο_άνιμε",
+        "description": "Επιστρέφει ένα τυχαίο βίντεο άνιμε από την βάση",
+        "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
+        "translator_id": "189036489265381387"
+    }
+}
