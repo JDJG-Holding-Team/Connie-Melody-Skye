@@ -6,7 +6,7 @@
         "translator_id": "1058768145722134528"
     },
     "quick_video": {
-        "name": "nopea_Video",
+        "name": "nopea_video",
         "description": "Hakee satunnaisen videon tietokannasta",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
