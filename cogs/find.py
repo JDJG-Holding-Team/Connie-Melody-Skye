@@ -11,14 +11,15 @@ if typing.TYPE_CHECKING:
     from main import ConnieSkye
 
 
-@app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-@app_commands.allowed_installs(users=True, guilds=True)
-class Find(commands.GroupCog):
+class Find(commands.Cog):
 
     def __init__(self, bot: ConnieSkye) -> None:
         self.bot: ConnieSkye = bot
 
-    @app_commands.command(description="Find a new song to listen to", name="song")
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new song to listen to", name="find_song")
     async def find_song(
         self,
         interaction: discord.Interaction,
