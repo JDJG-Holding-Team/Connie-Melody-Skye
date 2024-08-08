@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "快速歌曲",
+        "description": "在沒有任何參數的情況下獲取一首歌",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    },
+    "quick_video": {
+        "name": "快速影片",
+        "description": "在資料庫中隨機獲得一個影片",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    },
+    "quick_watch": {
+        "name": "快速觀看",
+        "description": "在資料庫中隨機獲得一個沒看過的影片",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    },
+    "quick_idk": {
+        "name": "快速隨機",
+        "description": "在資料庫中隨機獲得一個未分類的影片",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    },
+    "quick_tech": {
+        "name": "quick_tech",
+        "description": "在資料庫中隨機獲得一個科技影片",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    },
+    "quick_anime": {
+        "name": "快速動漫",
+        "description": "在資料庫中隨機獲得一個動漫影片",
+        "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
+        "translator_id": "1130334020740321431"
+    }
+}
