@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "traccia_veloce",
+        "description": "Cerca una canzone senza specificare nessun parametro",
+        "content": "Canzone: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    },
+    "quick_video": {
+        "name": "video_veloce",
+        "description": "Riproduci un video dal nostro database",
+        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    },
+    "quick_watch": {
+        "name": "guarda_veloce",
+        "description": "Riproduci un video non visto dal database",
+        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    },
+    "quick_idk": {
+        "name": "veloce_idk",
+        "description": "Riproduci un IDK (i don't know) dal database.",
+        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    },
+    "quick_tech": {
+        "name": "tech_veloce",
+        "description": "Riproduci un video riguardante tecnologia random dal database.",
+        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    },
+    "quick_anime": {
+        "name": "anime_veloce",
+        "description": "Riproduci un video anime random dal database",
+        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
+        "translator_id": "144126010642792449"
+    }
+}
