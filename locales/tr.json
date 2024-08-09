@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+          "name": "hızlı_şarkı",
+          "description": "hiçbir tartışma olmadan bir şarkı alır",
+          "content": "Şarkı: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      },
+      "quick_video": {
+          "name": "hızlı_video",
+          "description": "veritabanından rastgele bir video alır",
+          "content": "Video: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      },
+      "quick_watch": {
+          "name": "hızlı_izle",
+          "description": "veritabanından rastgele izlenmemiş bir video alır",
+          "content": "Video: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      },
+      "quick_misc": {
+          "name": "hızlı_rastgele",
+          "description": "veritabanından rastgele bir video alır",
+          "content": "Video: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      },
+      "quick_tech": {
+          "name": "hızlı_teknoloji",
+          "description": "veritabanından rastgele bir Teknik video alır",
+          "content": "Video: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      },
+      "quick_anime": {
+          "name": "hızlı_anime",
+          "description": "veritabanından rastgele bir anime videosu alır",
+          "content": "Video: {url_url}\n{user} tarafından eklendi\nServis:{url_service}",
+          "translator_id": "997898996959952947"
+      }
+  }

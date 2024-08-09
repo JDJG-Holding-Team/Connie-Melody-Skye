@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "canción_rápida",
+        "description": "obtiene una canción sin argumentos",
+        "content": "Canción: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_video": {
+        "name": "video_rápido",
+        "description": "obtiene un video aleatorio de la base de datos",
+        "content": "Video: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_watch": {
+        "name": "ver_rápido",
+        "description": "obtiene un video aleatorio no visto de la base de datos",
+        "content": "Video: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_misc": {
+        "name": "varios_rápidos",
+        "description": "obtiene un video aleatorio variado de la base de datos",
+        "content": "Video: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_tech": {
+        "name": "tecnología_rápida",
+        "description": "obtiene un video aleatorio de tecnología de la base de datos",
+        "content": "Video: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_anime": {
+        "name": "anime_rápido",
+        "description": "obtiene un video aleatorio de anime de la base de datos",
+        "content": "Video: {url_url}\nAñadido por {user}\nServicio: {url_service}",
+        "translator_id": "811729705865969724"
+    }
+}
