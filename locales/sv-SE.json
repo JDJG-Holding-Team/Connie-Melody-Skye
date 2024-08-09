@@ -18,9 +18,9 @@
         "translator_id": "263602820496883712"
     },
     "quick_misc": {
-        "name": "snabb_idk",
-        "description": "hämtar en slumpmässig 'Jag vet inte' video från databasen",
-        "content": "Video: {url_url}\nTillagd av {user}\nService:{url_service}",
+        "name": "snabb_blandad",
+        "description": "hämtar diverse slumpmässig video från databasen",
+        "content": "Video: {url_url}\nTillagd av {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_tech": {
