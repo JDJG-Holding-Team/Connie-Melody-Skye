@@ -1,38 +1,38 @@
 {
     "quick_song": {
-        "name":  "ค้นหาเพลง_แบบรวดเร็ว",
-        "description":  "ค้นหาเพลงอย่างรวดเร็วโดยไม่มีข้อโต้แย้งใดๆ",
-        "content":  "เพลง: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาเพลง_แบบรวดเร็ว",
+        "description": "ค้นหาเพลงอย่างรวดเร็วโดยไม่มีข้อโต้แย้งใดๆ",
+        "content": "เพลง: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
     "quick_video": {
-        "name":  "ค้นหาวิดีโอ_แบบรวดเร็ว",
-        "description":  "ค้นหาเพลงแบบสุ่มจากฐานข้อมูล",
-        "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาวิดีโอ_แบบรวดเร็ว",
+        "description": "ค้นหาเพลงแบบสุ่มจากฐานข้อมูล",
+        "content": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
     "quick_watch": {
-        "name":  "ค้นหาวิดีโอ_ที่ยังไม่เคยดู",
-        "description":  "ค้นหาเพลงที่ยังไม่เคยดูแบบสุ่มจากฐานข้อมูล",
-        "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาวิดีโอ_ที่ยังไม่เคยดู",
+        "description": "ค้นหาเพลงที่ยังไม่เคยดูแบบสุ่มจากฐานข้อมูล",
+        "content": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
     "quick_misc": {
-        "name":  "ค้นหาวิดีโอ_แบบสุ่ม",
-        "description":  "ค้นหาวิดีโอแบบสุ่มมาจากฐานข้อมูล",
-        "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาวิดีโอ_แบบสุ่ม",
+        "description": "ค้นหาวิดีโอแบบสุ่มมาจากฐานข้อมูล",
+        "content": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
     "quick_tech": {
-        "name":  "ค้นหาวิดีโอ_เทคโนโลยี",
-        "description":  "ค้นหาวิดีโอเกี่ยวกับเทคโนโลยีจากฐานข้อมูล",
-        "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาวิดีโอ_เทคโนโลยี",
+        "description": "ค้นหาวิดีโอเกี่ยวกับเทคโนโลยีจากฐานข้อมูล",
+        "content": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
     "quick_anime": {
-        "name":  "ค้นหาวิดีโอ_อนิเมะ",
-        "description":  "ค้นหาวิดีโอเกี่ยวกับอนิเมะจากฐานข้อมูล",
-        "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
+        "name": "ค้นหาวิดีโอ_อนิเมะ",
+        "description": "ค้นหาวิดีโอเกี่ยวกับอนิเมะจากฐานข้อมูล",
+        "content": "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     }
 }
