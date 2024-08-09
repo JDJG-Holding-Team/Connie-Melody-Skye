@@ -18,10 +18,10 @@
         "translator_id": "144126010642792449"
     },
     "quick_misc": {
-        "name": "veloce_idk",
-        "description": "Riproduci un IDK (i don't know) dal database.",
-        "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
-        "translator_id": "144126010642792449"
+        "name": "misto_veloce",
+        "description": "Riproduce un video casuale dal database.",
+        "content": "Video: {url_url}\nAggiunto da {user}\nPiattaforma:{url_service}",
+        "translator_id": "14412601064279244"
     },
     "quick_tech": {
         "name": "tech_veloce",
