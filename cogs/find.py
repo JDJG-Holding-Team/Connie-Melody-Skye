@@ -182,8 +182,8 @@ class Find(commands.Cog):
 
         # this definetly needs cleanup
 
-    @find_idk.autocomplete("service")
-    async def find_idk_autocomplete(self, interaction: discord.Interaction, current: str):
+    @find_misc.autocomplete("service")
+    async def find_misc_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM misc_videos")
 
