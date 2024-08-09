@@ -19,7 +19,7 @@
     },
     "quick_misc": {
         "name": "gauti_įvairų",
-        "description": "gauna bet kokį įvairų iš duomenų bazės",
+        "description": "gauna bet kokį įvairų video iš duomenų bazės",
         "content": "Video: {url_url}\nDadėta by {user}\nServisas:{url_service}",
         "translator_id": "673129564511273000"
     },
