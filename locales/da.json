@@ -1,40 +1,38 @@
 {
     "quick_song": {
         "name": "hurtig_sang",
-        "description": "får en sang uden noget skænderi",
-        "content": "Sang: {url_url}\nTilføjet af {user}\ntjeneste:{url_service}",
-        "translator_id": "844466398540333056"
+        "description": "får en sang uden et skænderi",
+        "content": "Sang: {url_url}\nTilføjet af {user}\nservice:{url_service}",
+        "translator_id": "8444663985403330560"
     },
     "quick_video": {
         "name": "hurtig_video",
         "description": "får en random video fra databasen",
-        "content": "Video: {url_url}\nTilføjey af {user}\nTjeneste:{url_service}",
-        "translator_id": "844466398540333056"
+        "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
+        "translator_id": "8444663985403330560"
     },
     "quick_watch": {
         "name": "hurtig_set",
-        "description": "får en random ikke set video fra databasen",
-        "content": {
-            "text": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}"
-        },
-        "translator_id": "844466398540333056"
+        "description": "får en random uset video fra databasen",
+        "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
+        "translator_id": "8444663985403330560"
     },
     "quick_idk": {
-        "name": "hurtig_det_ved_jeg_ikke",
+        "name": "hurtig_idk",
         "description": "får en random det ved jeg ikke video fra databasen",
-        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
-        "translator_id": "844466398540333056"
+        "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
+        "translator_id": "8444663985403330560"
     },
     "quick_tech": {
         "name": "hurtig_tech",
         "description": "får en random tech video fra databasen",
-        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
-        "translator_id": "844466398540333056"
+        "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
+        "translator_id": "8444663985403330560"
     },
     "quick_anime": {
         "name": "hurtig_anime",
         "description": "får en random anime video fra databasen",
-        "content": "Video: {url_url}\nTilføjet af {user}\nTjeneste:{url_service}",
+        "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
         "translator_id": "844466398540333056"
     }
 }
