@@ -18,10 +18,10 @@
         "translator_id": "716212058445709362"
     },
     "quick_misc": {
-        "name":  "クイックidk",
-        "description":  "データベースより知らない動画をランダムに取得します。",
-        "content":  "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
-        "translator_id": "716212058445709362"
+        "name": "クイック未分類",
+        "description": "データベースから、ランダム未分類な動画を取得する",
+        "content": "動画: {url_url}\n{user} によって追加\nサービス: {url_service}",
+        "translator_id": "1048448686914551879"
     },
     "quick_tech": {
         "name":  "クイックtech",
