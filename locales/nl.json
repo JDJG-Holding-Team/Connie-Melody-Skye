@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "snel_nummer",
+        "description": "krijgt een nummer zonder argumenten",
+        "content": "Nummer: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_video": {
+        "name": "snel_video",
+        "description": "krijgt een willekeurig video uit de database",
+        "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_watch": {
+        "name": "snel_kijken",
+        "description": "krijgt een willekeurig niet-bekeken video uit de database",
+        "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_misc": {
+        "name": "snel_overig",
+        "description": "krijgt een willekeurig misc video uit de database",
+        "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_tech": {
+        "name": "snel_tech",
+        "description": "krijgt een willekeurig Tech video uit de database",
+        "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    },
+    "quick_anime": {
+        "name": "snel_anime",
+        "description": "krijgt een willekeurig anime video uit de database",
+        "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "811729705865969724"
+    }
+}
