@@ -19,7 +19,7 @@
     },
     "quick_misc": {
         "name": "quick_misc",
-        "description": "gets a random misc from the database",
+        "description": "gets a random misc video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "263602820496883712"
     },

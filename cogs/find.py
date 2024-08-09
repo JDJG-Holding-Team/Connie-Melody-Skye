@@ -527,7 +527,7 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random misc from the database", name="quick_misc")
+    @app_commands.command(description="gets a random misc video from the database", name="quick_misc")
     async def quick_misc(self, interaction: discord.Interaction):
 
         proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
