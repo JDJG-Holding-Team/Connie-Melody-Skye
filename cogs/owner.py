@@ -109,25 +109,25 @@ class Owner(commands.Cog):
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT * from idk_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT * from misc_videos where url = $1", url)
         if url_check:
-            return await ctx.send(f"{url} already in idk_videos.")
+            return await ctx.send(f"{url} already in misc_videos.")
 
-        await self.bot.db.execute("INSERT INTO idk_videos VALUES($1, $2, $3)", user.id, url, service)
-        return await ctx.send(f"{url} added to idk_videos")
+        await self.bot.db.execute("INSERT INTO misc_videos VALUES($1, $2, $3)", user.id, url, service)
+        return await ctx.send(f"{url} added to misc_videos")
 
     @commands.command(brief="Removes idk videos")
-    async def remove_idk_videos(self, ctx, url: typing.Optional[str] = None):
+    async def remove_misc_videos(self, ctx, url: typing.Optional[str] = None):
         if not url:
             return await ctx.send(self.error_text)
         
-        url_check = await self.bot.db.fetchrow("SELECT * from idk_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT * from misc_videos where url = $1", url)
 
         if not url_check:
             return await ctx.send(f"{url} must be in database")
         
-        await self.bot.db.execute("DELETE FROM idk_videos WHERE url = $1", url)
-        return await ctx.send(f"Removed {url} from database (idk_videos)")
+        await self.bot.db.execute("DELETE FROM misc_videos WHERE url = $1", url)
+        return await ctx.send(f"Removed {url} from database (misc_videos)")
         
     
     @commands.command(brief="Adds Tech videos")
