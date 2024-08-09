@@ -1,37 +1,37 @@
 {
     "quick_song": {
         "name": "snel_nummer",
-        "description": "krijgt een nummer zonder argumenten",
+        "description": "krijg een nummer zonder argumenten",
         "content": "Nummer: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     },
     "quick_video": {
         "name": "snel_video",
-        "description": "krijgt een willekeurige, niet bekeken, video uit de database.",
+        "description": "krijg een willekeurige, niet bekeken, video uit de database.",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     },
     "quick_watch": {
         "name": "snel_kijken",
-        "description": "krijgt een willekeurige niet-bekeken video uit de database",
+        "description": "krijg een willekeurige niet-bekeken video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     },
     "quick_misc": {
         "name": "snel_overig",
-        "description": "krijgt een willekeurige misc video uit de database",
+        "description": "krijg een willekeurige misc video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     },
     "quick_tech": {
         "name": "snel_tech",
-        "description": "krijgt een willekeurige Tech video uit de database",
+        "description": "krijg een willekeurige Tech video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     },
     "quick_anime": {
         "name": "snel_anime",
-        "description": "krijgt een willekeurige anime video uit de database",
+        "description": "krijg een willekeurige anime video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "811729705865969724"
     }
