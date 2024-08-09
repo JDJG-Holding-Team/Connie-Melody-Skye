@@ -18,8 +18,8 @@
         "translator_id": "1058768145722134528"
     },
     "quick_misc": {
-        "name": "quick_misc",
-        "description": "Hakee satunnaisen 'äääääää' videon tietokannasta",
+        "name": "nopea_sekoitus",
+        "description": "Hakee satunnaisen sekoitusvideon tietokannasta.",
         "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
         "translator_id": "1058768145722134528"
     },
