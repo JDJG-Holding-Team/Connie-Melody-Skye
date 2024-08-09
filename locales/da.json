@@ -21,7 +21,7 @@
         "name": "hurtig_misc",
         "description": "får en tilfældig video fra databasen",
         "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
-        "translator_id": "168422909482762240"
+        "translator_id": "844466398540333056"
     },
     "quick_tech": {
         "name": "hurtig_tech",
