@@ -222,10 +222,7 @@ class TreeTranslator(app_commands.Translator):
 
     async def translate_content(self, interaction: discord.Interaction, content: str, **string_formats: Any) -> str:
         translated = await interaction.translate(locale_str(content, key="content"), data=interaction.command)
-        if translated and string_formats:
-            return translated.format(**string_formats)
-
-        return translated or content
+        return (translated or content).format(**string_formats)
 
     async def translate(
         self, string: app_commands.locale_str, locale: discord.Locale, context: TranslationContextTypes
