@@ -18,8 +18,8 @@
         "translator_id": "269444361236905984"
     },
     "quick_misc": {
-        "name": "모르는영상_불러오기",
-        "description": "데이터베이스에서 사용자가 모르는 영상을 아무거나 불러옵니다",
+        "name": "기타등등_불러오기",
+        "description": "데이터베이스에서 기타 등등에 해당하는 영상을 아무거나 불러옵니다",
         "content": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}",
         "translator_id": "269444361236905984"
     },
