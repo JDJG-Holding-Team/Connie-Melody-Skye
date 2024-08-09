@@ -1,20 +1,20 @@
 {
     "quick_song": {
-        "name": "クイックソング",
-        "description": "引数無しで曲を取得します。",
-        "content": "曲: {url_url}\n{user} によって追加\nサービス:{url_service}",
+        "name":  "クイックソング",
+        "description":  "引数無しで曲を取得します。",
+        "content":  "曲: {url_url}\n{user} によって追加\nサービス:{url_service}",
         "translator_id": "716212058445709362"
     },
     "quick_video": {
-        "name": "クイックビデオ",
-        "description": "ランダムな動画をデータベースより取得します。",
-        "content": "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
+        "name":  "クイックビデオ",
+        "description":  "ランダムな動画をデータベースより取得します。",
+        "content":  "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
         "translator_id": "716212058445709362"
     },
     "quick_watch": {
-        "name": "クイックウォッチ",
-        "description": "データベースより未視聴の動画をランダムに取得します。",
-        "content": "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
+        "name":  "クイックウォッチ",
+        "description":  "データベースより未視聴の動画をランダムに取得します。",
+        "content":  "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
         "translator_id": "716212058445709362"
     },
     "quick_misc": {
@@ -24,15 +24,15 @@
         "translator_id": "1048448686914551879"
     },
     "quick_tech": {
-        "name": "クイック技術",
-        "description": "データベースから技術系の動画をランダムに取得します。",
-        "content": "動画: {url_url}\n{user} によって追加\nサービス: {url_service}",
+        "name":  "クイック技術",
+        "description":  "データベースから技術系の動画をランダムに取得します。",
+        "content":  "動画: {url_url}\n{user} によって追加\nサービス: {url_service}",
         "translator_id": "716212058445709362"
     },
     "quick_anime": {
-        "name": "クイックアニメ",
-        "description": "データベースよりアニメの動画をランダムに取得します。",
-        "content": "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
+        "name":  "クイックアニメ",
+        "description":  "データベースよりアニメの動画をランダムに取得します。",
+        "content":  "動画: {url_url}\n{user} によって追加\nサービス:{url_service}",
         "translator_id": "716212058445709362"
     }
 }

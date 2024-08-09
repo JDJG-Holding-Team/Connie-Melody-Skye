@@ -19,7 +19,7 @@
     },
     "quick_misc": {
         "name": "kjapp_tilfeldig",
-        "description": "henter en tilfeldig video om hva som helst fra databasen",
+        "description": "henter en tilfeldig video om hva som helst fra databasen", 
         "content": "Video: {url_url}\nLagd til av {user}\nTjeneste:{url_service}",
         "translator_id": "397745647723216898"
     },
