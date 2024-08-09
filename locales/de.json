@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "quick_song",
+        "description": "spielt ein zufälliges Lied",
+        "content": "Lied: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    },
+    "quick_video": {
+        "name": "quick_video",
+        "description": "spielt ein zufälliges Video aus der Datenbank ab",
+        "content": "Video: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    },
+    "quick_watch": {
+        "name": "quick_watch",
+        "description": "spielt ein zufälliges ungesehenes Video aus der Datenbank ab",
+        "content": "Video: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    },
+    "quick_misc": {
+        "name": "quick_misc",
+        "description": "spielt ein zufälliges Video aus der Datenbank ab",
+        "content": "Video: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    },
+    "quick_tech": {
+        "name": "quick_tech",
+        "description": "spielt ein zufälliges Technik-Video aus der Datenbank ab",
+        "content": "Video: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    },
+    "quick_anime": {
+        "name": "quick_anime",
+        "description": "spielt ein zufälliges Anime-Video aus der Datenbank ab",
+        "content": "Video: {url_url}\nHinzugefügt von {user}\nPlatform: {url_service}",
+        "translator_id": "293468815130492928"
+    }
+}
