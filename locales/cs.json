@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "rychlá_skladba",
+        "description": "získejte náhodnou skladbu bez jakýchkoli parametrů",
+        "content": "Skladba: {url_url}\nPřidáno uživatelem {user}\nslužba: {url_service}",
+        "translator_id": "344176097300054016"
+    },
+    "quick_video": {
+        "name": "rychlé_video",
+        "description": "získejte náhodné video z databáze",
+        "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
+        "translator_id": "344176097300054016"
+    },
+    "quick_watch": {
+        "name": "rychlé_sledování",
+        "description": "získejte náhodné neshlédnuté video z databáze",
+        "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
+        "translator_id": "344176097300054016"
+    },
+    "quick_misc": {
+        "name": "rychlé_neklasifikované",
+        "description": "získejte náhodné nekategorizované video z databáze",
+        "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
+        "translator_id": "344176097300054016"
+    },
+    "quick_tech": {
+        "name": "rychlá_technika",
+        "description": "získejte náhodné technické video z databáze",
+        "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
+        "translator_id": "344176097300054016"
+    },
+    "quick_anime": {
+        "name": "rychlé_anime",
+        "description": "získejte náhodné anime video z databáze",
+        "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
+        "translator_id": "344176097300054016"
+    }
+}

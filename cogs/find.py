@@ -527,10 +527,10 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="gets a random I don't know video from the database", name="quick_idk")
-    async def quick_idk(self, interaction: discord.Interaction):
+    @app_commands.command(description="gets a random misc from the database", name="quick_misc")
+    async def quick_misc(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+        proper_urls = await self.bot.db.fetch("SELECT * from MISC_VIDEOS")
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)

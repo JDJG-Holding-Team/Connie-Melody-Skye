@@ -17,7 +17,7 @@
         "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",
         "translator_id": "8444663985403330560"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name": "hurtig_idk",
         "description": "får en random det ved jeg ikke video fra databasen",
         "content": "Video: {url_url}\nTilføjet af {user}\nService:{url_service}",

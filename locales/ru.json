@@ -17,7 +17,7 @@
         "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
         "translator_id": "540142383270985738"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name":  "любое_видео",
         "description":  "Ищет случайное видео любой темы из базы данных",
         "content":  "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",

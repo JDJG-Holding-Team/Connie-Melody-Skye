@@ -17,7 +17,7 @@
         "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",
         "translator_id": "189036489265381387"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name": "γρήγορο_δεν_ξέρω",
         "description": "Επιστρέφει ένα τυχαίο βίντεο «δεν ξέρω» από την βάση",
         "content": "Βίντεο: {url_url}\nΠροστέθηκε από {user}\nService:{url_service}",

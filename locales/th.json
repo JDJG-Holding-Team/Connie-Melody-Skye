@@ -17,8 +17,8 @@
         "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
-    "quick_idk": {
-        "name":  "quick_idk",
+    "quick_misc": {
+        "name":  "quick_misc",
         "description":  "รับวิดีโอแบบสุ่มที่ไม่รู้มาก่อนจากฐานข้อมูล",
         "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"

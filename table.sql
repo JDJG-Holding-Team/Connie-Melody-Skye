@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS to_watch (
 	service	TEXT
 );
 
-CREATE TABLE IF NOT EXISTS idk_videos (
+CREATE TABLE IF NOT EXISTS MISC_VIDEOS (
 	user_id	BIGINT,
 	url	TEXT,
 	service	TEXT

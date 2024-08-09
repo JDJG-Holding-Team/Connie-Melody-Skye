@@ -17,7 +17,7 @@
         "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
         "translator_id": "1130334020740321431"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name": "快速隨機",
         "description": "在資料庫中隨機獲得一個未分類的影片",
         "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",

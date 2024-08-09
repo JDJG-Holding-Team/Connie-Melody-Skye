@@ -17,9 +17,9 @@
         "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },
-    "quick_idk": {
-        "name": "quick_idk",
-        "description": "gets a random I don't know video from the database",
+    "quick_misc": {
+        "name": "quick_misc",
+        "description": "gets a random misc from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService:{url_service}",
         "translator_id": "168422909482762240"
     },

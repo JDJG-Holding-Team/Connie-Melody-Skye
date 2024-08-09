@@ -17,7 +17,7 @@
         "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",
         "translator_id": "144126010642792449"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name": "veloce_idk",
         "description": "Riproduci un IDK (i don't know) dal database.",
         "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma:{url_service}",

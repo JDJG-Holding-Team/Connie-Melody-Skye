@@ -17,7 +17,7 @@
         "content": "视频：{url_url}\n由 {user} 请求\n提供：{url_service}",
         "translator_id": "1130334020740321431"
     },
-    "quick_idk": {
+    "quick_misc": {
         "name": "快速随机",
         "description": "从数据库中随机获得一个未分类的视频",
         "content": "视频：{url_url}\n由 {user} 请求\n提供：{url_service}",
