@@ -2,7 +2,7 @@
     "quick_song": {
         "name": "rychlá_skladba",
         "description": "získejte skladbu bez argumentů",
-        "content": "Skladba: {url_url}\nPřidáno uživatelem {user}\nslužba: {url_service}",
+        "content": "Skladba: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
         "translator_id": "344176097300054016"
     },
     "quick_video": {
@@ -24,7 +24,7 @@
         "translator_id": "344176097300054016"
     },
     "quick_tech": {
-        "name": "rychlá_tech",
+        "name": "rychlé_tech",
         "description": "získejte náhodné technické video z databáze",
         "content": "Video: {url_url}\nPřidáno uživatelem {user}\nSlužba: {url_service}",
         "translator_id": "344176097300054016"
