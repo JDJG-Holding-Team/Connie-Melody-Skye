@@ -106,8 +106,8 @@ class Find(commands.Cog):
     @app_commands.user_install()
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
-    @app_commands.command(description="Find a new video to watch in my random list", name="find_idk")
-    async def find_idk(
+    @app_commands.command(description="Find a new video that's misc.", name="find_misc")
+    async def find_misc(
         self,
         interaction: discord.Interaction,
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
@@ -118,11 +118,11 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from idk_videos WHERE user_id = $1", user_id)
+            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE user_id = $1", user_id)
 
             if not proper_urls:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+                proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
             url = random.choice(proper_urls)
 
@@ -132,7 +132,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from idk_videos WHERE service = $1", service)
+            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
@@ -144,15 +144,15 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from idk_videos WHERE service = $1 and user_id = $2", service, user_id)
+            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1 and user_id = $2", service, user_id)
 
             if not proper_urls:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from idk_videos WHERE service = $1", service)
+                proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
 
                 if not proper_urls:
 
-                    proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+                    proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
             url = random.choice(proper_urls)
 
@@ -162,7 +162,7 @@ class Find(commands.Cog):
             value = f"{user}"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from idk_videos")
+            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
             url = random.choice(proper_urls)
 
@@ -185,7 +185,7 @@ class Find(commands.Cog):
     @find_idk.autocomplete("service")
     async def find_idk_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM idk_videos")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM misc_videos")
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
@@ -530,7 +530,7 @@ class Find(commands.Cog):
     @app_commands.command(description="gets a random misc from the database", name="quick_misc")
     async def quick_misc(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from MISC_VIDEOS")
+        proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
         url = random.choice(proper_urls)
         user = self.bot.get_user(url.user_id)
