@@ -18,8 +18,8 @@
         "translator_id": "444360808412086292"
     },
     "quick_misc": {
-        "name":  "lấy_video_mà_tôi_cũng_đéo_biết",
-        "description":  "Lấy một video mà tôi cũng không biết nó là cài gì bất kì trong dữ liệu của bot",
+        "name":  "lấy_video_hỗn_hợp",
+        "description":  "Lấy một video bất kì mà có nhiều thứ khác nhau trong dữ liệu của bot",
         "content":  "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}",
         "translator_id": "444360808412086292"
     },
