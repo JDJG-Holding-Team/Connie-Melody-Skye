@@ -18,8 +18,8 @@
         "translator_id": "781708312466554940"
     },
     "quick_misc": {
-        "name":  "idk_acak",
-        "description":  "Dapatkan video yang tidak saya ketahui dari database",
+        "name":  "video_apapun",
+        "description":  "Mencari video acak dari semua topik dari database",
         "content":  "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     },
