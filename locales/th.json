@@ -19,7 +19,7 @@
     },
     "quick_misc": {
         "name":  "quick_misc",
-        "description":  "รับวิดีโอแบบสุ่มที่ไม่รู้มาก่อนจากฐานข้อมูล",
+        "description":  "รับวิดีโอแบบสุ่มมาจากฐานข้อมูล",
         "content":  "วิดีโอ: {url_url}\nเพิ่มโดย {user}\nบริการ:{url_service}",
         "translator_id": "688603574707552313"
     },
