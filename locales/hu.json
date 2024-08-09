@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "gyors_zene",
+        "description": "Lejátszik egy random zeneszámot paraméterek nélkül",
+        "content": "Zeneszám: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    },
+    "quick_video": {
+        "name": "gyors_videó",
+        "description": "Lejátszik egy random videót az adatbázisból",
+        "content": "Videó: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    },
+    "quick_watch": {
+        "name": "gyors_megnézetlen_videó",
+        "description": "Lejátszik egy eddig megnézetlen videót az adatbázisból",
+        "content": "Videó: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    },
+    "quick_misc": {
+        "name": "gyors_kategorizálatlan",
+        "description": "Lejátszik egy random kategorizálatlan videót az adatbázisból",
+        "content": "Videó: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    },
+    "quick_tech": {
+        "name": "gyors_tech",
+        "description": "Lejátszik egy random tech videót az adatbázisból",
+        "content": "Videó: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    },
+    "quick_anime": {
+        "name": "gyors_anime",
+        "description": "Lejátszik egy random animét az adatbázisból",
+        "content": "Videó: {url_url}\nHozzáadta: {user}\nSzolgáltató: {url_service}",
+        "translator_id": "695564552246525962"
+    }
+}
