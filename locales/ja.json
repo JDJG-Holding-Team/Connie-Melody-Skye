@@ -18,7 +18,7 @@
         "translator_id": "716212058445709362"
     },
     "quick_misc": {
-        "name": "クイック未分類",
+        "name": "クイックその他",
         "description": "データベースから、ランダム未分類な動画を取得する",
         "content": "動画: {url_url}\n{user} によって追加\nサービス: {url_service}",
         "translator_id": "1048448686914551879"
