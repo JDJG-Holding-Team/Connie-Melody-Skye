@@ -33,6 +33,6 @@
         "name": "kjapp_anime",
         "description": "henter en tilfeldig anime-video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
-        "translator_id": "397745647723216898"
+        "translator_id": "554107005824925707"
     }
 }
