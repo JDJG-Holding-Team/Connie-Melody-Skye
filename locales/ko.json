@@ -1,38 +1,38 @@
 {
     "quick_song": {
         "name": "음악_불러오기",
-        "description": "인수가 필요없이 아무 음악이나 불러옵니다",
-        "content": "음악: {url_url}\n{user}이/가 추가함\n서비스:{url_service}",
+        "description": "아무 음악이나 불러옵니다",
+        "content": "음악: {url_url}\n{user}이/가 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     },
     "quick_video": {
         "name": "영상_불러오기",
         "description": "데이터베이스에 있는 아무 영상이나 불러옵니다",
-        "content": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}",
+        "content": "영상: {url_url}\n{user}이/가 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     },
     "quick_watch": {
         "name": "미시청영상_불러오기",
         "description": "데이터베이스에서 사용자가 본 적 없는 영상을 아무거나 불러옵니다",
-        "content": "영상: {url_url}\n{user}이/가 추가함\n서비스:{url_service}",
+        "content": "영상: {url_url}\n{user}이/가 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     },
     "quick_misc": {
         "name": "기타등등_불러오기",
         "description": "데이터베이스에서 기타 등등에 해당하는 영상을 아무거나 불러옵니다",
-        "content": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}",
+        "content": "영상: {url_url}\n{user}이 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     },
     "quick_tech": {
         "name": "기술영상_불러오기",
         "description": "데이터베이스에서 과학기술과 연관 있는 아무 영상이나 불러옵니다",
-        "content": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}",
+        "content": "영상: {url_url}\n{user}이 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     },
     "quick_anime": {
         "name": "애니영상_불러오기",
         "description": "데이터베이스에서 아무 애니메이션 영상이나 불러옵니다.",
-        "content": "영상: {url_url}\n{user}이 추가함\n서비스:{url_service}",
+        "content": "영상: {url_url}\n{user}이 추가함\n플랫폼:{url_service}",
         "translator_id": "269444361236905984"
     }
 }
