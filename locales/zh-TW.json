@@ -24,7 +24,7 @@
         "translator_id": "1130334020740321431"
     },
     "quick_tech": {
-        "name": "quick_tech",
+        "name": "快速科技",
         "description": "在資料庫中隨機獲得一個科技影片",
         "content": "影片：{url_url}\n被 {user} 要求\n提供：{url_service}",
         "translator_id": "1130334020740321431"
