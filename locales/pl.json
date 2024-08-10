@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "szybka_piosenka",
+        "description": "zdobądź piosenkę bez argumentów",
+        "content": "Piosenka: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    },
+    "quick_video": {
+        "name": "szybki_film",
+        "description": "zdobądź losowy film z naszej bazy danych",
+        "content": "Film: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    },
+    "quick_watch": {
+        "name": "szybkie_oglądanie",
+        "description": "zdobądź losowy nieobejrzany film z naszej bazy danych",
+        "content": "Film: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    },
+    "quick_misc": {
+        "name": "szybkie_różne",
+        "description": "zdobądź różne losowe filmy z naszej bazy danych",
+        "content": "Film: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    },
+    "quick_tech": {
+        "name": "szybkie_technologiczne",
+        "description": "zdobądź losowy film o technologii z naszej bazy danych",
+        "content": "Film: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    },
+    "quick_anime": {
+        "name": "szybkie_anime",
+        "description": "zdobądź losowy film o anime z naszej bazy danych",
+        "content": "Film: {url_url}\nDodane przez {user}\nSerwis:{url_service}",
+        "translator_id": "998119011923537970"
+    }
+}
