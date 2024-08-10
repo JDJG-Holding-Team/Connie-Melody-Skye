@@ -18,7 +18,7 @@
         "translator_id": "293468815130492928"
     },
     "quick_misc": {
-        "name": "quick_misc",
+        "name": "schnelles_unkategorisiertes_video",
         "description": "Spielt ein zufälliges Video aus der Datenbank ab",
         "content": "Video: {url_url}\nHinzugefügt von {user}\nPlattform: {url_service}",
         "translator_id": "293468815130492928"
