@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "cançao_rapido",
+        "description": "Obtem um cançao sem qualquer parâmetro",
+        "content": "Som: {url_url}\nAdicionando po {user}\nservice:{url_service}",
+        "translator_id": "946127478940921968"
+    },
+    "quick_video": {
+        "name": "video_rapido",
+        "description": "Obtem um video aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionando po {user}\nService:{url_service}",
+        "translator_id": "946127478940921968"
+    },
+    "quick_watch": {
+        "name": "novo_video_rápido",
+        "description": "Obtem um vídeo não assistido do DataBase",
+        "content": "Video: {url_url}\nAdicionando po {user}\nService:{url_service}",
+        "translator_id": "946127478940921968"
+    },
+    "quick_misc": {
+        "name": "video_miscelaneo",
+        "description": "Obtem uma video miscelâneo aleatória do DataBase",
+        "content": "Video: {url_url}\nAdicionando po {user}\nService:{url_service}",
+        "translator_id": "946127478940921968"
+    },
+    "quick_tech": {
+        "name": "tech_rapido",
+        "description": "Obtem um vídeo sobre Tecnologia aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionando po {user}\nService:{url_service}",
+        "translator_id": "946127478940921968"
+    },
+    "quick_anime": {
+        "name": "anime_rápido",
+        "description": "Obtem um video de Anime Aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionando por {user}\nService:{url_service}",
+        "translator_id": "946127478940921968"
+    }
+}
