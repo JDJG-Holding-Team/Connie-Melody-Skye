@@ -12,9 +12,9 @@
         "translator_id": "444360808412086292"
     },
     "quick_watch": {
-        "name": "lấy_video_chưa_xem",
+        "name":"xem_nhanh",
         "description": "Lấy một video chưa xem bất kì trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng:{url_service}",
         "translator_id": "444360808412086292"
     },
     "quick_misc": {
