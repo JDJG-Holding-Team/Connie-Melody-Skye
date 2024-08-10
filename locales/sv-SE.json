@@ -2,19 +2,19 @@
     "quick_song": {
         "name": "snabb_sång",
         "description": "hämtar en sång utan argument",
-        "content": "Sång: {url_url}\nAdded by {user}\nservice:{url_service}",
+        "content": "Sång: {url_url}\nAdded by {user}\nservice: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_video": {
         "name": "snabb_video",
         "description": "hämtar en slumpmässig video från databasen",
-        "content": "Video: {url_url}\nTillagd av {user}\nService:{url_service}",
+        "content": "Video: {url_url}\nTillagd av {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_watch": {
         "name": "titta_snabbt",
         "description": "hämtar en slumpmässig osedd video från databasen",
-        "content": "Video: {url_url}\nTillagd av {user}\nService:{url_service}",
+        "content": "Video: {url_url}\nTillagd av {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_misc": {
@@ -26,13 +26,13 @@
     "quick_tech": {
         "name": "snabb_tech",
         "description": "hämtar en slumpmässig 'Tech' video från databasen",
-        "content": "Video: {url_url}\nTillagd av {user}\nService:{url_service}",
+        "content": "Video: {url_url}\nTillagd av {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_anime": {
         "name": "snabb_anime",
         "description": "hämtar en slumpmässig anime från databasen",
-        "content": "Video: {url_url}\nTillagd av {user}\nService:{url_service}",
+        "content": "Video: {url_url}\nTillagd av {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     }
 }

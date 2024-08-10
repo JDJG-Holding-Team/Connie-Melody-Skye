@@ -2,37 +2,37 @@
     "quick_song": {
         "name": "nopea_laulu",
         "description": "Hakee laulun ilman parametreja",
-        "content": "Laulu: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu:{url_service}",
+        "content": "Laulu: {url_url}\nLisätty käyttäjän toimesta: {user}\nPalvelu: {url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_video": {
         "name": "nopea_video",
         "description": "Hakee satunnaisen videon tietokannasta",
-        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu: {url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_watch": {
         "name": "pikakatselu",
         "description": "Hakee satunnaisen katsomattoman videon tietokannasta",
-        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu: {url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_misc": {
         "name": "nopea_sekoitus",
         "description": "Hakee satunnaisen sekoitusvideon tietokannasta.",
-        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu: {url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_tech": {
         "name": "nopea_tekniikka",
         "description": "Hakee sattumanvaraisen tech-videon tietokannasta",
-        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu: {url_service}",
         "translator_id": "1058768145722134528"
     },
     "quick_anime": {
         "name": "nopea_animevideo",
         "description": "Hakee satunnaisen animevideon tietokannasta",
-        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu:{url_service}",
+        "content": "Video: {url_url}\nLisätty käyttäjän toimesta: {user}\nPavelu: {url_service}",
         "translator_id": "1058768145722134528"
     }
 }

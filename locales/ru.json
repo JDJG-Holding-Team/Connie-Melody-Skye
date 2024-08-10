@@ -2,37 +2,37 @@
     "quick_song": {
         "name": "быстрый_поиск_песни",
         "description": "Ищет песню без дополнительных аргументов",
-        "content": "Песня: {url_url}\nДобавлена: {user}\nСервис:{url_service}",
+        "content": "Песня: {url_url}\nДобавлена: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_video": {
         "name": "быстрый_поиск_видео",
         "description": "Ищет случайное видео из базы данных",
-        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
+        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_watch": {
         "name": "быстрый_поиск_непросмотренного",
         "description": "Ищет случайное непросмотренное видео из базы данных",
-        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
+        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_misc": {
         "name": "любое_видео",
         "description": "Ищет случайное видео любой темы из базы данных",
-        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
+        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_tech": {
         "name": "быстрый_поиск_технического_видео",
         "description": "Ищет видео на техническую тематику в базе данных",
-        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
+        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     },
     "quick_anime": {
         "name": "быстрый_поиск_аниме",
         "description": "Ищет случайное аниме в базе данных",
-        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис:{url_service}",
+        "content": "Видео: {url_url}\nДобавлено: {user}\nСервис: {url_service}",
         "translator_id": "540142383270985738"
     }
 }

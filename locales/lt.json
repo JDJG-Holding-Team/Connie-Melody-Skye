@@ -2,37 +2,37 @@
     "quick_song": {
         "name": "gauti_daina",
         "description": "gauna dainą be jokių argumentų",
-        "content": "Daina: {url_url}\nDadėta {user}\nServiso:{url_service}",
+        "content": "Daina: {url_url}\nDadėta {user}\nServiso:: {url_service}",
         "translator_id": "673129564511273000"
     },
     "quick_video": {
         "name": "gauti_video",
         "description": "gauna bet kokį video iš duomenų bazės",
-        "content": "Video: {url_url}\nDadėta by {user}\nServiso:{url_service}",
+        "content": "Video: {url_url}\nDadėta by {user}\nServiso:: {url_service}",
         "translator_id": "673129564511273000"
     },
     "quick_watch": {
         "name": "spartus_žiurėjimas",
         "description": "gauna bet kokį nežiurėtą video iš duomenų bazės",
-        "content": "Video: {url_url}\nDadėta by {user}\nServiso:{url_service}",
+        "content": "Video: {url_url}\nDadėta by {user}\nServiso:: {url_service}",
         "translator_id": "673129564511273000"
     },
     "quick_misc": {
         "name": "gauti_įvairų",
         "description": "gauna bet kokį įvairų video iš duomenų bazės",
-        "content": "Video: {url_url}\nDadėta by {user}\nServisas:{url_service}",
+        "content": "Video: {url_url}\nDadėta by {user}\nServisas:: {url_service}",
         "translator_id": "673129564511273000"
     },
     "quick_tech": {
         "name": "gauti_tech",
         "description": "gauna bet kokį Tech video iš duomenų bazės",
-        "content": "Video: {url_url}\nDadėta by {user}\nServiso:{url_service}",
+        "content": "Video: {url_url}\nDadėta by {user}\nServiso:: {url_service}",
         "translator_id": "673129564511273000"
     },
     "quick_anime": {
         "name": "gauti_anime",
         "description": "gauna bet kokį anime video iš duomenų bazės",
-        "content": "Video: {url_url}\nDadėta by {user}\nServiso:{url_service}",
+        "content": "Video: {url_url}\nDadėta by {user}\nServiso:: {url_service}",
         "translator_id": "673129564511273000"
     }
 }

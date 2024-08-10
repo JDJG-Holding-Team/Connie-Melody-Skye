@@ -481,7 +481,7 @@ class Find(commands.Cog):
 
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Song: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Song: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url, user=user, url_service=url.service
         )
         await interaction.response.send_message(content)
@@ -498,7 +498,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url,
             user=user,
             url_service=url.service,
@@ -517,7 +517,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url,
             user=user,
             url_service=url.service,
@@ -536,7 +536,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url,
             user=user,
             url_service=url.service,
@@ -555,7 +555,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url,
             user=user,
             url_service=url.service,
@@ -580,7 +580,7 @@ class Find(commands.Cog):
         user = self.bot.get_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
-            "Video: {url_url}\nAdded by {user}\nService:{url_service}",
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
             url_url=url.url,
             user=user,
             url_service=url.service,

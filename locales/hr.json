@@ -2,37 +2,37 @@
     "quick_song": {
         "name": "brza_pjesma",
         "description": "dovodi pjesmu bez ikakvih argumenata",
-        "content": "Pjesma: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Pjesma: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     },
     "quick_video": {
         "name": "brzi_video",
         "description": "dovodi nasumični video iz baze podataka",
-        "content": "Video: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Video: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     },
     "quick_watch": {
         "name": "brzi_pregled",
         "description": "dovodi nasumični nepregledani video iz baze podataka",
-        "content": "Video: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Video: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     },
     "quick_misc": {
         "name": "brzi_mišcelanea",
         "description": "dovodi nasumični razni video iz baze podataka",
-        "content": "Video: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Video: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     },
     "quick_tech": {
         "name": "brza_tehnologija",
         "description": "dovodi nasumični tehnološki video iz baze podataka",
-        "content": "Video: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Video: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     },
     "quick_anime": {
         "name": "brzi_anime",
         "description": "dovodi nasumični anime video iz baze podataka",
-        "content": "Video: {url_url}\nDodao {user}\nServis:{url_service}",
+        "content": "Video: {url_url}\nDodao {user}\nServis: {url_service}",
         "translator_id": "700210850513944576"
     }
 }
