@@ -25,7 +25,7 @@
     },
     "quick_tech": {
         "name": "tech_veloce",
-        "description": "Riproduci un video riguardante tecnologia random dal database.",
+        "description": "Riproduci un video della tecnologia random dal database.",
         "content": "Video: {url_url}\nAggiunta da {user}\nPiattaforma: {url_service}",
         "translator_id": "144126010642792449"
     },
