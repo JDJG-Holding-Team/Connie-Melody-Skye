@@ -100,8 +100,8 @@ class Owner(commands.Cog):
         await self.bot.db.execute("DELETE FROM to_watch WHERE url = $1", url)
         return await ctx.send(f"Removed {url} from database (to_watch)")
 
-    @commands.command(brief="Adds idk videos")
-    async def add_idk(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
+    @commands.command(brief="Adds misc videos")
+    async def add_misc(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
 
         user = user or ctx.author
         service = service or "YouTube"
@@ -116,7 +116,7 @@ class Owner(commands.Cog):
         await self.bot.db.execute("INSERT INTO misc_videos VALUES($1, $2, $3)", user.id, url, service)
         return await ctx.send(f"{url} added to misc_videos")
 
-    @commands.command(brief="Removes idk videos")
+    @commands.command(brief="Removes misc videos")
     async def remove_misc_videos(self, ctx, url: typing.Optional[str] = None):
         if not url:
             return await ctx.send(self.error_text)
