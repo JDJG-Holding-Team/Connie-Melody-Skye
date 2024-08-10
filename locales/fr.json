@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "chanson_vite",
+        "description": "Retrouve une chanson aléatoire sans arguments nécessaires.",
+        "content": "Chanson: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    },
+    "quick_video": {
+        "name": "video_vite",
+        "description": "Retrouve une vidéo aléatoire dans la base de données.",
+        "content": "Vidéo: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    },
+    "quick_watch": {
+        "name": "regarde_vite",
+        "description": "Retrouve une vidéo aléatoire dans la base de données dont vous n'avez pas déjà regardé.",
+        "content": "Vidéo: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    },
+    "quick_misc": {
+        "name": "alévite",
+        "description": "Retrouve une vidéo aléatoire dans la base de données.",
+        "content": "Vidéo: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    },
+    "quick_tech": {
+        "name": "tech_vite",
+        "description": "Retrouve une vidéo aléatoire dans la base de données sur la base thèmatique technologique.",
+        "content": "Vidéo: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    },
+    "quick_anime": {
+        "name": "anime_vite",
+        "description": "Retrouve une vidéo animé aléatoire dans la base de données.",
+        "content": "Vidéo: {url_url}\nAjouté par: {user}\nService:{url_service}",
+        "translator_id": "713411619895509112"
+    }
+}
