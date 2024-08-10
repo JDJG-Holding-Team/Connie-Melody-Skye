@@ -1,37 +1,37 @@
 {
     "quick_song": {
         "name": "quick_song",
-        "description": "get a song without any arguments",
+        "description": "Get a song without any arguments",
         "content": "Song: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_video": {
         "name": "quick_video",
-        "description": "get a random video from the database",
+        "description": "Get a random video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_watch": {
         "name": "quick_watch",
-        "description": "get a random unwatched video from the database",
+        "description": "Get a random unwatched video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_misc": {
         "name": "quick_misc",
-        "description": "get a random misc video from the database",
+        "description": "Get a random misc video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_tech": {
         "name": "quick_tech",
-        "description": "get a random Tech video from the database",
+        "description": "Get a random tech video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     },
     "quick_anime": {
         "name": "quick_anime",
-        "description": "get a random anime video from the database",
+        "description": "Get a random anime video from the database",
         "content": "Video: {url_url}\nAdded by {user}\nService: {url_service}",
         "translator_id": "263602820496883712"
     }
