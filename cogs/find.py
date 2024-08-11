@@ -83,11 +83,7 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Song", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
+        await interaction.response.send_message(content=f"Random Song\nService:\n{url.service} \nAdded By: \n{user} {name}:\n{value}", embed=embed)
 
         # this definetly needs cleanup
 
