@@ -1,38 +1,38 @@
 {
     "quick_song": {
-        "name": "cançao_rapido",
-        "description": "Obtem um cançao sem qualquer parâmetro",
+        "name": "canção_rápida",
+        "description": "Obtem uma canção sem qualquer parâmetro",
         "content": "Som: {url_url}\nAdicionando po {user}\nservice: {url_service}",
         "translator_id": "946127478940921968"
     },
     "quick_video": {
-        "name": "video_rapido",
-        "description": "Obtem um video aleatório do DataBase",
+        "name": "vídeo_rápido",
+        "description": "Obtém um vídeo aleatório do DataBase",
         "content": "Video: {url_url}\nAdicionando po {user}\nService: {url_service}",
         "translator_id": "946127478940921968"
     },
     "quick_watch": {
-        "name": "novo_video_rápido",
-        "description": "Obtem um vídeo não assistido do DataBase",
-        "content": "Video: {url_url}\nAdicionando po {user}\nService: {url_service}",
-        "translator_id": "946127478940921968"
+        "name": "novo_vídeo_rápido",
+        "description": "Obtém um vídeo não assistido do DataBase",
+        "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
+        "translator_id": "471802758777798698"
     },
     "quick_misc": {
-        "name": "video_miscelaneo",
-        "description": "Obtem uma video miscelâneo aleatória do DataBase",
-        "content": "Video: {url_url}\nAdicionando po {user}\nService: {url_service}",
-        "translator_id": "946127478940921968"
+        "name": "vídeo_miscelâneo",
+        "description": "Obtém um vídeo miscelâneo aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
+        "translator_id": "471802758777798698"
     },
     "quick_tech": {
         "name": "tech_rapido",
-        "description": "Obtem um vídeo sobre Tecnologia aleatório do DataBase",
-        "content": "Video: {url_url}\nAdicionando po {user}\nService: {url_service}",
+        "description": "Obtém um vídeo sobre Tecnologia aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
         "translator_id": "946127478940921968"
     },
     "quick_anime": {
         "name": "anime_rápido",
-        "description": "Obtem um video de Anime Aleatório do DataBase",
-        "content": "Video: {url_url}\nAdicionando por {user}\nService: {url_service}",
+        "description": "Obtem um vídeo de Anime Aleatório do DataBase",
+        "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
         "translator_id": "946127478940921968"
     }
 }
