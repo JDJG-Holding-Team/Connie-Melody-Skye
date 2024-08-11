@@ -38,14 +38,14 @@ class Find(commands.Cog):
             url = random.choice(proper_urls)
             user = self.bot.get_user(url.user_id)
             name = "User Songs"
-            value = f"{user}"
+            value = f"\U0001f3a7"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Songs"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -68,7 +68,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Songs"
-            value = f"{user}"
+            value = f"\U0001f3a7\U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from music")
