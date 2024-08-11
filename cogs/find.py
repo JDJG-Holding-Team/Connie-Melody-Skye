@@ -124,14 +124,14 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -154,7 +154,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
@@ -211,14 +211,14 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -241,7 +241,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
@@ -297,14 +297,14 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -327,7 +327,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
@@ -384,14 +384,14 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -414,7 +414,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
@@ -598,14 +598,14 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
             user = self.bot.get_user(url.user_id)
 
@@ -628,7 +628,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
