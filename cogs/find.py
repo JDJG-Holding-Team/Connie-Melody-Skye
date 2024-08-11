@@ -83,9 +83,8 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        await interaction.response.send_message(content=f"Song: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Song: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
 
     @find_song.autocomplete("service")
     async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -170,13 +169,9 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+       
 
     @find_misc.autocomplete("service")
     async def find_misc_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -261,13 +256,8 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
 
     @find_tech.autocomplete("service")
     async def find_tech_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -351,14 +341,10 @@ class Find(commands.Cog):
 
         if not user:
             user = "Unknown"
-
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
+        
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        
 
     @find_watched.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -443,13 +429,9 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+      
 
     @find_to_watch.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -660,14 +642,10 @@ class Find(commands.Cog):
 
         if not user:
             user = "Unknown"
-
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
+        
         # this definetly needs cleanup
+        await interaction.response.send_message(f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+      
 
     @find_anime.autocomplete("service")
     async def find_anime_autocomplete(self, interaction: discord.Interaction, current: str):
