@@ -83,7 +83,7 @@ class Find(commands.Cog):
         if not user:
             user = "Unknown"
 
-        await interaction.response.send_message(content=f"Random Song: {url.url}\nService: {url.service}\nAdded By: {user} {name}:\n{value}")
+        await interaction.response.send_message(content=f"Random Song: {url.url}\nService: {url.service}\nAdded By: {user} \n{name}: {value}")
 
         # this definetly needs cleanup
 
