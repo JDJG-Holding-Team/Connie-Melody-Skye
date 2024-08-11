@@ -68,7 +68,7 @@ class Find(commands.Cog):
             user = self.bot.get_user(url.user_id)
 
             name = "User and Service Songs"
-            value = f"\U0001f3a7\U0001f5a5"
+            value = f"\U0001f3a7 \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from music")
