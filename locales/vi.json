@@ -2,37 +2,37 @@
     "quick_song": {
         "name": "lấy_nhạc_mà_không_cần_gõ_lệnh",
         "description": "Lấy nhạc mà không cần gõ thêm lệnh",
-        "content": "Nhạc: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Nhạc: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "444360808412086292"
     },
     "quick_video": {
         "name": "lấy_video",
         "description": "Lấy một video bất kì trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "444360808412086292"
     },
     "quick_watch": {
-        "name": "lấy_video_chưa_xem",
+        "name":"xem_nhanh",
         "description": "Lấy một video chưa xem bất kì trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "444360808412086292"
     },
     "quick_misc": {
         "name": "lấy_video_bất_kì",
         "description": "Lấy một video bất kì với nhiều thứ khác nhau trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "1002018505601863730"
     },
     "quick_tech": {
         "name": "lấy_video_công_nghệ",
         "description": "Lấy một video công nghệ bất kì trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "444360808412086292"
     },
     "quick_anime": {
         "name": "lấy_phim_anime",
         "description": "Lấy một phim anime bất kì trong dữ liệu của bot",
-        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\n Nền tảng: {url_service}",
+        "content": "Video: {url_url}\nĐược thêm vào bởi {user}\nNền tảng: {url_service}",
         "translator_id": "444360808412086292"
     }
 }

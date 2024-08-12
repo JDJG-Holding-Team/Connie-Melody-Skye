@@ -1,0 +1,38 @@
+{
+    "quick_song": {
+        "name": "швидкий_пошук_пісні",
+        "description": "шукаю пісню без додаткових аргументів",
+        "content": "Пісня: {url_url}\nДодано: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    },
+    "quick_video": {
+        "name": "шкидкий_пошук_відео",
+        "description": "Шукаю випадкове відео в базі данних",
+        "content": "Відео: {url_url}\nДодано: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    },
+    "quick_watch": {
+        "name": "шкидкий_пошук_не_переглянуного",
+        "description": "Шукаю випадкое, не переглянуте відео в базі данних",
+        "content": "Відео: {url_url}\nДодано: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    },
+    "quick_misc": {
+        "name": "випадкое_відео",
+        "description": "Шукаю відео любої теми в базі данних",
+        "content": "Відео: {url_url}\nДодано: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    },
+    "quick_tech": {
+        "name": "швидкі_програми",
+        "description": "Шукаю випадкове відео на технічну тематику в базі данних",
+        "content": "Видео: {url_url}\nДобавленно: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    },
+    "quick_anime": {
+        "name": "шкидкий_пошук_аніме",
+        "description": "Шукаю випадкове аніме в базі данних",
+        "content": "Відео: {url_url}\nДодано: {user}\nПоставщик: {url_service}",
+        "translator_id": "1056487924566335540"
+    }
+}

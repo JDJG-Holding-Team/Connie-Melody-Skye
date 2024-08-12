@@ -36,18 +36,18 @@ class Find(commands.Cog):
                 proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
             name = "User Songs"
-            value = f"{user}"
+            value = f"\U0001f3a7"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Songs"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -65,10 +65,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Songs"
-            value = f"{user}"
+            value = f"\U0001f3a7 \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from music")
@@ -78,18 +78,13 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Song", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Song: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
 
     @find_song.autocomplete("service")
     async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -126,19 +121,19 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -156,10 +151,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
@@ -169,18 +164,14 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+       
 
     @find_misc.autocomplete("service")
     async def find_misc_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -217,19 +208,19 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -247,10 +238,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
@@ -260,18 +251,13 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
 
     @find_tech.autocomplete("service")
     async def find_tech_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -308,19 +294,19 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -338,10 +324,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
@@ -351,18 +337,14 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
-
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
+        
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        
 
     @find_watched.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -399,19 +381,19 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -429,10 +411,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
@@ -442,18 +424,14 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
 
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
         # this definetly needs cleanup
+        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+      
 
     @find_to_watch.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -477,7 +455,7 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
 
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
 
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -495,7 +473,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
         url = random.choice(proper_urls)
 
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -514,7 +492,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -533,7 +511,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -552,7 +530,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -577,7 +555,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -617,19 +595,19 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
             url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"{url.service}"
+            value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -647,10 +625,10 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
-            value = f"{user}"
+            value = f"\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
@@ -660,18 +638,14 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
-
-        embed = discord.Embed(title="Random Video", description=f"Service:\n{url.service} \nAdded By: \n{user}")
-
-        embed.add_field(name=name, value=value)
-
-        await interaction.response.send_message(content=url.url, embed=embed)
-
+        
         # this definetly needs cleanup
+        await interaction.response.send_message(f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+      
 
     @find_anime.autocomplete("service")
     async def find_anime_autocomplete(self, interaction: discord.Interaction, current: str):

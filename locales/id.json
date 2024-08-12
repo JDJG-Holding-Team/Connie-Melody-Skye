@@ -1,13 +1,13 @@
 {
     "quick_song": {
         "name": "lagu_acak",
-        "description": "Dapatkan sebuah lagu tanpa argumen",
+        "description": "Dapatkan sebuah lagu secara acak tanpa argumen",
         "content": "Lagu: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     },
     "quick_video": {
         "name": "video_acak",
-        "description": "Dapatkan sebuah video acak dari database",
+        "description": "Dapatkan sebuah video secara acak dari database",
         "content": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     },
@@ -19,19 +19,19 @@
     },
     "quick_misc": {
         "name": "video_apapun",
-        "description": "Mencari video acak dari semua topik dari database",
+        "description": "Mencari video secara acak dari semua topik dari database",
         "content": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     },
     "quick_tech": {
         "name": "teknologi_acak",
-        "description": "Dapatkan video teknologi acak dari database",
+        "description": "Dapatkan video teknologi secara acak dari database",
         "content": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     },
     "quick_anime": {
         "name": "anime_acak",
-        "description": "Dapatkan sebuah video anime acak dari database",
+        "description": "Dapatkan sebuah video anime secara acak dari database",
         "content": "Video: {url_url}\nDitambahkan oleh {user}\nPenyedia: {url_service}",
         "translator_id": "781708312466554940"
     }

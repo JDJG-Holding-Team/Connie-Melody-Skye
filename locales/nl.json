@@ -1,38 +1,38 @@
 {
     "quick_song": {
-        "name": "snel_nummer",
-        "description": "krijg een nummer zonder argumenten",
-        "content": "Nummer: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "name": "snelle_liedje",
+        "description": "Krijg een liedje zonder argumenten",
+        "content": "Lied: {url_url}\nToegevoegd door {user}\nService: {url_service}",
+        "translator_id": "150665783268212746"
     },
     "quick_video": {
-        "name": "snel_video",
-        "description": "krijg een willekeurige, niet bekeken, video uit de database.",
+        "name": "snelle_video",
+        "description": "Krijg een willekeurige video uit de database.",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "translator_id": "150665783268212746"
     },
     "quick_watch": {
         "name": "snel_kijken",
-        "description": "krijg een willekeurige niet-bekeken video uit de database",
+        "description": "Krijg een willekeurige, niet-bekeken video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "translator_id": "150665783268212746"
     },
     "quick_misc": {
-        "name": "snel_overig",
-        "description": "krijg een willekeurige misc video uit de database",
+        "name": "snelle_overig",
+        "description": "Krijg een willekeurige video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "translator_id": "150665783268212746"
     },
     "quick_tech": {
-        "name": "snel_tech",
-        "description": "krijg een willekeurige Tech video uit de database",
+        "name": "snelle_tech",
+        "description": "Krijg een willekeurige tech video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "translator_id": "150665783268212746"
     },
     "quick_anime": {
-        "name": "snel_anime",
-        "description": "krijg een willekeurige anime video uit de database",
+        "name": "snelle_anime",
+        "description": "Krijg een willekeurige anime video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
-        "translator_id": "811729705865969724"
+        "translator_id": "150665783268212746"
     }
 }
