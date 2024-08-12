@@ -24,7 +24,7 @@
         "translator_id": "1056487924566335540"
     },
     "quick_tech": {
-        "name": "quick_tech",
+        "name": "швидкі_програми",
         "description": "Шукаю випадкове відео на технічну тематику в базі данних",
         "content": "Видео: {url_url}\nДобавленно: {user}\nПоставщик: {url_service}",
         "translator_id": "1056487924566335540"
