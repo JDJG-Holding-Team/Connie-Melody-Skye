@@ -160,9 +160,9 @@ class Owner(commands.Cog):
         return await ctx.send(f"Removed {url} from database (tech_videos)")
 
     @commands.command(brief="Adds anime videos")
-    async def add_anime(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = None, *, service : typing.Optional[str] = None):
-
-        user = user or ctx.author
+    async def add_anime(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
+        
+        print(user)
         service = service or "YouTube"
 
         if not url:
