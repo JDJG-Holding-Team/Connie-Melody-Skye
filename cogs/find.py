@@ -36,7 +36,7 @@ class Find(commands.Cog):
                 proper_urls = await self.bot.db.fetch("SELECT * from music")
 
             url = random.choice(proper_urls)
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
             name = "User Songs"
             value = f"\U0001f3a7"
 
@@ -47,7 +47,7 @@ class Find(commands.Cog):
             name = "Service Songs"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -65,7 +65,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Songs"
             value = f"\U0001f3a7 \U0001f5a5"
@@ -78,7 +78,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
@@ -121,7 +121,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
             value = f"\U0001f4fa"
@@ -133,7 +133,7 @@ class Find(commands.Cog):
             name = "Service Videos"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -151,7 +151,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
             value = f"\U0001f4fa \U0001f5a5"
@@ -164,7 +164,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
@@ -208,7 +208,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
             value = f"\U0001f4fa"
@@ -220,7 +220,7 @@ class Find(commands.Cog):
             name = "Service Videos"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -238,7 +238,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
             value = f"\U0001f4fa \U0001f5a5"
@@ -251,7 +251,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
@@ -294,7 +294,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
             value = f"\U0001f4fa"
@@ -306,7 +306,7 @@ class Find(commands.Cog):
             name = "Service Videos"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -324,7 +324,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
             value = f"\U0001f4fa \U0001f5a5"
@@ -337,7 +337,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
@@ -381,7 +381,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
             value = f"\U0001f4fa"
@@ -393,7 +393,7 @@ class Find(commands.Cog):
             name = "Service Videos"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -411,7 +411,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
             value = f"\U0001f4fa \U0001f5a5"
@@ -424,7 +424,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
@@ -455,7 +455,7 @@ class Find(commands.Cog):
 
         url = random.choice(proper_urls)
 
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
 
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -473,7 +473,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
         url = random.choice(proper_urls)
 
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -492,7 +492,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -511,7 +511,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -530,7 +530,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -555,7 +555,7 @@ class Find(commands.Cog):
         proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 
         url = random.choice(proper_urls)
-        user = self.bot.get_user(url.user_id)
+        user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
             "Video: {url_url}\nAdded by {user}\nService: {url_service}",
@@ -595,7 +595,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User Videos"
             value = f"\U0001f4fa"
@@ -607,7 +607,7 @@ class Find(commands.Cog):
             name = "Service Videos"
             value = f"\U0001f5a5"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         elif service and user:
 
@@ -625,7 +625,7 @@ class Find(commands.Cog):
 
             url = random.choice(proper_urls)
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
             name = "User and Service Videos"
             value = f"\U0001f4fa \U0001f5a5"
@@ -638,7 +638,7 @@ class Find(commands.Cog):
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = self.bot.get_user(url.user_id)
+            user = await self.bot.try_user(url.user_id)
 
         if not user:
             user = "Unknown"
