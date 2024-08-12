@@ -1,7 +1,7 @@
 {
     "quick_song": {
-        "name": "snelle_liedje",
-        "description": "Krijg een liedje zonder argumenten",
+        "name": "snel_nummer",
+        "description": "Krijg een nummer zonder zoekopdracht",
         "content": "Lied: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "150665783268212746"
     },
@@ -18,7 +18,7 @@
         "translator_id": "150665783268212746"
     },
     "quick_misc": {
-        "name": "snelle_overig",
+        "name": "snel_overig",
         "description": "Krijg een willekeurige video uit de database",
         "content": "Video: {url_url}\nToegevoegd door {user}\nService: {url_service}",
         "translator_id": "150665783268212746"
