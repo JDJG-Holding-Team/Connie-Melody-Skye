@@ -30,34 +30,47 @@ class DatabaseData(NamedTuple):
 
 async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typing.Optional[discord.User], service: typing.Optional[str] = None):
 
-    url = None
+    result = None
     name = None
     value = None
 
     if user and not service:
         user_id = user.id
-        url = await bot.db.fetchrow("SELECT user, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2 ORDER BY RANDOM()", user_id, content_type.value)
+        result = await bot.db.fetchrow("SELECT user, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2 ORDER BY RANDOM()", user_id, content_type.value)
 
         if content_type.music:
             name = "User Songs"
             value = "\U0001f3a7"
 
+        else:
+            name = "User Videos"
+            value = "\U0001f4fa"
+
     elif service and not user:
-        url = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2 ORDER BY RANDOM()", service, content_type.value)   
+        result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2 ORDER BY RANDOM()", service, content_type.value)   
 
         if content_type.music:        
             name = "Service Songs"
             value = f"\U0001f5a5"
 
+        else:
+            name = "Service Videos"
+            value = "\U0001f5a5"
+
+
     elif service and user:
         user_id = user.id
-        url = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
+        result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
 
         if content_type.music:
             name = "User and Service Songs"
             value = "\U0001f3a7 \U0001f5a5"
 
-    url = url or await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
+        else:
+            name = "User and Service Videos"
+            value = "\U0001f4fa \U0001f5a5"
+
+    result = url or await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
     name = name or "Randomly Chosen"
     value = value or "\U0001f570"
 
