@@ -1,3 +1,5 @@
+import enum
+
 class ContentType(enum.IntEnum):
     music : 0
     tech: 1
