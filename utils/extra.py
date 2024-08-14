@@ -43,7 +43,7 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
             value = "\U0001f3a7"
 
     elif service and not user:
-        url = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2 ORDER BY RANDOM()", service, content_type.value)   
+        url = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2 ORDER BY RANDOM()", service, content_type.value)   
 
         if content_type.music:        
             name = "Service Songs"
@@ -51,13 +51,13 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
 
     elif service and user:
         user_id = user.id
-        url = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
+        url = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
 
         if content_type.music:
             name = "User and Service Songs"
             value = "\U0001f3a7 \U0001f5a5"
 
-    url = url or await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
+    url = url or await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
     name = name or "Randomly Chosen"
     value = value or "\U0001f570"
 
