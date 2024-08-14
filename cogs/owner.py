@@ -47,8 +47,8 @@ class Owner(commands.Cog):
 
     @commands.command(brief="Adds to watched_videos videos")
     async def add_watched_videos(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
-
         
+        content_type = ContentType.watched
         service = service or "YouTube"
 
         if not url:

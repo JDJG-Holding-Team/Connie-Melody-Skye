@@ -37,6 +37,5 @@ CREATE TABLE CONTENT(
   url TEXT NOT NULL,
   service TEXT,
   content_type smallint,
-  PRIMARY KEY(url, service),
-  UNIQUE(url, content_type)
+  PRIMARY KEY(url, service, content_type)
 );
