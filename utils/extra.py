@@ -38,7 +38,7 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
         user_id = user.id
         result = await bot.db.fetchrow("SELECT user, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2 ORDER BY RANDOM()", user_id, content_type.value)
 
-        if content_type.music:
+        if content_type.value == ContentType.music.value:
             name = "User Songs"
             value = "\U0001f3a7"
 
@@ -49,7 +49,7 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
     elif service and not user:
         result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2 ORDER BY RANDOM()", service, content_type.value)   
 
-        if content_type.music:        
+        if content_type.value == ContentType.music.value:        
             name = "Service Songs"
             value = f"\U0001f5a5"
 
@@ -62,7 +62,7 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
         user_id = user.id
         result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
 
-        if content_type.music:
+        if content_type.value == ContentType.music.value:
             name = "User and Service Songs"
             value = "\U0001f3a7 \U0001f5a5"
 
