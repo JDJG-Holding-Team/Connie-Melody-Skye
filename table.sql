@@ -31,3 +31,12 @@ CREATE TABLE IF NOT EXISTS anime_videos (
 	url	TEXT,
 	service	TEXT
 );
+
+CREATE TABLE CONTENT(
+  user_id BIGINT NOT NULL,
+  url TEXT NOT NULL,
+  service TEXT,
+  content_type smallint,
+  PRIMARY KEY(url, service),
+  UNIQUE(url, content_type)
+);
