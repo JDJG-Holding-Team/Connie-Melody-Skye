@@ -70,9 +70,9 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
             name = "User and Service Videos"
             value = "\U0001f4fa \U0001f5a5"
 
-    result = url or await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
+    result = result or await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where content_type = $1 ORDER BY RANDOM()", content_type.value)
     name = name or "Randomly Chosen"
     value = value or "\U0001f570"
 
-    user = await bot.try_user(url.user_id) or "Unknown"
+    user = await bot.try_user(result.user_id) or "Unknown"
     return DatabaseData(result.url, result.service, user, name, value)
