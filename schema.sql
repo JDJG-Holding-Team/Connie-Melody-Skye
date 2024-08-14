@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 16.3 (Ubuntu 16.3-1.pgdg22.04+1)
--- Dumped by pg_dump version 16.3 (Ubuntu 16.3-1.pgdg22.04+1)
+-- Dumped from database version 16.4 (Ubuntu 16.4-1.pgdg22.04+1)
+-- Dumped by pg_dump version 16.4 (Ubuntu 16.4-1.pgdg22.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -35,6 +35,18 @@ CREATE TABLE public.anime_videos (
     user_id bigint,
     url text,
     service text
+);
+
+
+--
+-- Name: content; Type: TABLE; Schema: public; Owner: -
+--
+
+CREATE TABLE public.content (
+    user_id bigint NOT NULL,
+    url text NOT NULL,
+    service text NOT NULL,
+    content_type smallint
 );
 
 
@@ -91,6 +103,22 @@ CREATE TABLE public.watched_videos (
     url text,
     service text
 );
+
+
+--
+-- Name: content content_pkey; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.content
+    ADD CONSTRAINT content_pkey PRIMARY KEY (url, service);
+
+
+--
+-- Name: content content_url_content_type_key; Type: CONSTRAINT; Schema: public; Owner: -
+--
+
+ALTER TABLE ONLY public.content
+    ADD CONSTRAINT content_url_content_type_key UNIQUE (url, content_type);
 
 
 --
