@@ -9,7 +9,7 @@ from discord import app_commands
 from discord.app_commands import Choice
 from discord.ext import commands
 
-from utils.extra import ContentType
+from utils.extra import ContentType, database_lookup
 
 if typing.TYPE_CHECKING:
     from main import ConnieSkye
@@ -30,63 +30,9 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-        content_type = ContentType.music.value
-        if user and not service:
-            user_id = user.id
-            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2", user_id, content_type)
-            if not proper_urls:
-                proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT where content_type = $1", content_type)
-
-            url = random.choice(proper_urls)
-            user = await self.bot.try_user(url.user_id)
-            name = "User Songs"
-            value = f"\U0001f3a7"
-
-        elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2", service, content_type)
-            url = random.choice(proper_urls)
-
-            name = "Service Songs"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
-
-        elif service and user:
-
-            user_id = user.id
-
-            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3", service, user_id, content_type)
-
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2", service, content_type)
-
-                if not proper_urls:
-
-                    proper_urls = await self.bot.db.fetch("SELECT user_id, url, service from content where content_type = $1", content_type)
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
-
-            name = "User and Service Songs"
-            value = f"\U0001f3a7 \U0001f5a5"
-
-        else:
-            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT where content_type = $1", content_type)
-
-            url = random.choice(proper_urls)
-
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
-
-        # this definetly needs cleanup
-        await interaction.response.send_message(content=f"Song: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        content_type = ContentType.music
+        result = await database_lookup(self.bot, content_type.music, user, service)
+        await interaction.response.send_message(content=f"Song: {result}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_song.autocomplete("service")
     async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
@@ -112,64 +58,41 @@ class Find(commands.Cog):
     ):
 
         if user and not service:
-
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE user_id = $1", user_id)
-
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
 
             name = "User Videos"
-            value = f"\U0001f4fa"
+            value = "\U0001f4fa"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
-            url = random.choice(proper_urls)
+            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
             name = "Service Videos"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
+            value = "\U0001f5a5"
 
         elif service and user:
 
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 and user_id = $2 BY RANDOM()", service, user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1 and user_id = $2", service, user_id)
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from misc_videos WHERE service = $1", service)
-
-                if not proper_urls:
-
-                    proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+                if not url:
+                    url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
 
             name = "User and Service Videos"
-            value = f"\U0001f4fa \U0001f5a5"
+            value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
-
-            url = random.choice(proper_urls)
-
+            url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
             name = "Randomly Chosen"
             value = "\U0001f570"
-
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
+        
+        user = await self.bot.try_user(url.user_id) or "Unknown"
 
         # this definetly needs cleanup
         await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
@@ -201,62 +124,40 @@ class Find(commands.Cog):
         if user and not service:
 
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE user_id = $1 ORDER BY RANDOM", user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE user_id = $1", user_id)
-
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+            if not url:
+               url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
 
             name = "User Videos"
-            value = f"\U0001f4fa"
+            value = "\U0001f4fa"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE service = $1", service)
-            url = random.choice(proper_urls)
-
+            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 ORDER BY RANDOM()", service)
             name = "Service Videos"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
+            value = "\U0001f5a5"
 
         elif service and user:
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE service = $1 and user_id = $2", service, user_id)
+            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
 
-            if not proper_urls:
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
-                proper_urls = await self.bot.db.fetch("SELECT * from tech_videos WHERE service = $1", service)
-
-                if not proper_urls:
-
-                    proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+                if not url:
+                    proper_urls = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
 
             name = "User and Service Videos"
-            value = f"\U0001f4fa \U0001f5a5"
+            value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
-
-            url = random.choice(proper_urls)
-
+            proper_urls = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
             name = "Randomly Chosen"
             value = "\U0001f570"
-
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
+        
+        user = await self.bot.try_user(url.user_id) or "Unknown"
 
         # this definetly needs cleanup
         await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
@@ -285,66 +186,43 @@ class Find(commands.Cog):
     ):
 
         if user and not service:
-
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE user_id = $1", user_id)
+            if not url:
 
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+               url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
 
             name = "User Videos"
-            value = f"\U0001f4fa"
+            value = "\U0001f4fa"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE service = $1", service)
-            url = random.choice(proper_urls)
+            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
             name = "Service Videos"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
+            value = "\U0001f5a5"
 
         elif service and user:
-
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE service = $1 and user_id = $2", service, user_id)
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from watched_videos WHERE service = $1", service)
-
-                if not proper_urls:
-
-                    proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+                if not url:
+                   url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
 
             name = "User and Service Videos"
-            value = f"\U0001f4fa \U0001f5a5"
+            value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
-
-            url = random.choice(proper_urls)
+            url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
 
             name = "Randomly Chosen"
             value = "\U0001f570"
-
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
         
         # this definetly needs cleanup
+        user = await self.bot.try_user(url.user_id) or "Unknown"
         await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
         
 
@@ -372,64 +250,42 @@ class Find(commands.Cog):
     ):
 
         if user and not service:
-
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE user_id = $1 ORDER BY RANDOM()", user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE user_id = $1", user_id)
-
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
-
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
+            
             name = "User Videos"
-            value = f"\U0001f4fa"
+            value = "\U0001f4fa"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
-            url = random.choice(proper_urls)
-
+            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 ORDER BY RANDOM()", service)
             name = "Service Videos"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
+            value = "\U0001f5a5"
 
         elif service and user:
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1 and user_id = $2", service, user_id)
+            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
 
-            if not proper_urls:
+            if not url:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from to_watch WHERE service = $1", service)
+                url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 ORDER BY RANDOM()", service)
 
-                if not proper_urls:
-
-                    proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
-
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
+                if not url:
+                    url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
 
             name = "User and Service Videos"
-            value = f"\U0001f4fa \U0001f5a5"
+            value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
-
-            url = random.choice(proper_urls)
-
+            url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
+        user = await self.bot.try_user(url.user_id) or "Unknown"
 
         # this definetly needs cleanup
         await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
@@ -454,7 +310,6 @@ class Find(commands.Cog):
     async def quick_song(self, interaction: discord.Interaction[ConnieSkye]):
 
         proper_urls = await self.bot.db.fetch("SELECT user_id, url, service from content where content_type = $1", ContentType.music.value)
-
         url = random.choice(proper_urls)
 
         user = await self.bot.try_user(url.user_id)
@@ -554,9 +409,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random anime video from the database", name="quick_anime")
     async def quick_anime(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
-
-        url = random.choice(proper_urls)
+        proper_urls = await self.bot.db.fetchrow("SELECT * FROM ANIME_VIDEOS ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -566,9 +419,6 @@ class Find(commands.Cog):
             url_service=url.service,
         )
         await interaction.response.send_message(content)
-
-    # make spanish and japanese translations
-    # ask volunteers if they can help me with this.
 
     @app_commands.user_install()
     @app_commands.guild_install()
@@ -582,9 +432,6 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-
-        # no describe for autocomplete args?
-
         if user and not service:
 
             user_id = user.id
@@ -595,21 +442,14 @@ class Find(commands.Cog):
 
                 proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
-
             name = "User Videos"
-            value = f"\U0001f4fa"
+            value = "\U0001f4fa"
 
         elif service and not user:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
-            url = random.choice(proper_urls)
 
             name = "Service Videos"
-            value = f"\U0001f5a5"
-
-            user = await self.bot.try_user(url.user_id)
+            value = "\U0001f5a5"
 
         elif service and user:
 
@@ -625,25 +465,17 @@ class Find(commands.Cog):
 
                     proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 
-            url = random.choice(proper_urls)
-
-            user = await self.bot.try_user(url.user_id)
-
             name = "User and Service Videos"
-            value = f"\U0001f4fa \U0001f5a5"
+            value = "\U0001f4fa \U0001f5a5"
 
         else:
             proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
 
-            url = random.choice(proper_urls)
-
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-            user = await self.bot.try_user(url.user_id)
-
-        if not user:
-            user = "Unknown"
+        url = random.choice(proper_urls)
+        user = await self.bot.try_user(url.user_id) or "Unknown"
         
         # this definetly needs cleanup
         await interaction.response.send_message(f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
@@ -672,7 +504,7 @@ class Find(commands.Cog):
         view = discord.ui.View()
         view.add_item(
             discord.ui.Button(
-                label=f"Source",
+                label="Source",
                 url=url,
                 style=discord.ButtonStyle.link,
             )

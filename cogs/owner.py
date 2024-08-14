@@ -23,7 +23,7 @@ class Owner(commands.Cog):
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type", url, content_type)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type)
         if url_check:
             return await ctx.send(f"{url} already in music videos.")
 
