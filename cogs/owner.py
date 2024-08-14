@@ -79,30 +79,33 @@ class Owner(commands.Cog):
     @commands.command(brief="Adds to to_watch videos")
     async def add_to_watch(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
 
+        content_type = ContentType.watch
         service = service or "YouTube"
 
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT * from to_watch where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
         if url_check:
-            return await ctx.send(f"{url} already in to_watch videos.")
+            return await ctx.send(f"{url} already in {content_type.name} videos.")
 
-        await self.bot.db.execute("INSERT INTO to_watch VALUES($1, $2, $3)", user.id, url, service)
-        return await ctx.send(f"{url} added to database (to_watch).")
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
+        return await ctx.send(f"{url} added to {content_type.name} videos.")
 
     @commands.command(brief="Removes to_watch videos")
     async def remove_to_watch(self, ctx, url: typing.Optional[str] = None):
+
+        content_type = ContentType.watch
         if not url:
             return await ctx.send(self.error_text)
         
-        url_check = await self.bot.db.fetchrow("SELECT * from to_watch where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
 
         if not url_check:
             return await ctx.send(f"{url} must be in database")
         
-        await self.bot.db.execute("DELETE FROM to_watch WHERE url = $1", url)
-        return await ctx.send(f"Removed {url} from database (to_watch)")
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
+        return await ctx.send(f"Removed {url} from database ({content_type.name})")
 
     @commands.command(brief="Adds misc videos")
     async def add_misc(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
@@ -139,58 +142,64 @@ class Owner(commands.Cog):
     @commands.command(brief="Adds Tech videos")
     async def add_tech(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
 
+        content_type = ContentType.tech
         service = service or "YouTube"
 
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT * from tech_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
         if url_check:
-            return await ctx.send(f"{url} already in tech_videos.")
+            return await ctx.send(f"{url} already in {content_type.name} videos.")
 
-        await self.bot.db.execute("INSERT INTO tech_videos VALUES($1, $2, $3)", user.id, url, service)
-        return await ctx.send(f"{url} added to tech_videos")
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
+        return await ctx.send(f"{url} added to {content_type.name} videos.")
     
     @commands.command(brief="Removes Tech videos")
     async def remove_tech_videos(self, ctx, url: typing.Optional[str] = None):
+
+        content_type = ContentType.tech
         if not url:
             return await ctx.send(self.error_text)
         
-        url_check = await self.bot.db.fetchrow("SELECT * from tech_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
 
         if not url_check:
             return await ctx.send(f"{url} must be in database")
         
-        await self.bot.db.execute("DELETE FROM tech_videos WHERE url = $1", url)
-        return await ctx.send(f"Removed {url} from database (tech_videos)")
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
+        return await ctx.send(f"Removed {url} from database ({content_type.name})")
 
     @commands.command(brief="Adds anime videos")
     async def add_anime(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
         
+        content_type = ContentType.anime
         service = service or "YouTube"
 
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT * from anime_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
         if url_check:
-            return await ctx.send(f"{url} already in anime_videos.")
+            return await ctx.send(f"{url} already in {content_type.name} videos.")
 
-        await self.bot.db.execute("INSERT INTO anime_videos VALUES($1, $2, $3)", user.id, url, service)
-        return await ctx.send(f"{url} added to anime_videos")
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
+        return await ctx.send(f"{url} added to {content_type.name} videos.")
 
     @commands.command(brief="Removes anime videos")
     async def remove_anime_videos(self, ctx, url: typing.Optional[str] = None):
+
+        content_type = ContentType.anime
         if not url:
             return await ctx.send(self.error_text)
         
-        url_check = await self.bot.db.fetchrow("SELECT * from anime_videos where url = $1", url)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
 
         if not url_check:
             return await ctx.send(f"{url} must be in database")
         
-        await self.bot.db.execute("DELETE FROM anime_videos WHERE url = $1", url)
-        return await ctx.send(f"Removed {url} from database (anime_videos)")
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
+        return await ctx.send(f"Removed {url} from database ({content_type.name})")
     
     
     async def cog_command_error(self, ctx, error):
