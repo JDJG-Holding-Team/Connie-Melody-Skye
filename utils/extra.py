@@ -51,7 +51,7 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
 
         if content_type.value == ContentType.music.value:        
             name = "Service Songs"
-            value = f"\U0001f5a5"
+            value = "\U0001f5a5"
 
         else:
             name = "Service Videos"
