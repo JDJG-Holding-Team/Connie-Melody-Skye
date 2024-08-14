@@ -21,7 +21,7 @@ class ContentType(enum.IntEnum):
 class DatabaseData(NamedTuple):
     url: str
     service: str
-    user: discord.User
+    user: typing.Optional[discord.User]
     name: str
     value: str
 
@@ -74,5 +74,5 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
     name = name or "Randomly Chosen"
     value = value or "\U0001f570"
 
-    user = await bot.try_user(result.user_id) or "Unknown"
+    user = await bot.try_user(result.user_id) or None
     return DatabaseData(result.url, result.service, user, name, value)
