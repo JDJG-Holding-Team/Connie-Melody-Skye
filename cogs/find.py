@@ -31,7 +31,7 @@ class Find(commands.Cog):
         service: typing.Optional[str],
     ):
         content_type = ContentType.music
-        result = await database_lookup(self.bot, content_type.music, user, service)
+        result = await database_lookup(self.bot, content_type, user, service)
         user = result.user or "Unknown"
         await interaction.response.send_message(content=f"Song: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
@@ -58,51 +58,15 @@ class Find(commands.Cog):
         service: typing.Optional[str],
     ):
 
-        if user and not service:
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
-
-            name = "User Videos"
-            value = "\U0001f4fa"
-
-        elif service and not user:
-            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-            name = "Service Videos"
-            value = "\U0001f5a5"
-
-        elif service and user:
-
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 and user_id = $2 BY RANDOM()", service, user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from misc_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-                if not url:
-                    url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
-
-            name = "User and Service Videos"
-            value = "\U0001f4fa \U0001f5a5"
-
-        else:
-            url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-        
-        user = await self.bot.try_user(url.user_id) or "Unknown"
-
-        # this definetly needs cleanup
-        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
-       
+        content_type = ContentType.misc
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_misc.autocomplete("service")
     async def find_misc_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM misc_videos")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.misc.value)
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
@@ -121,52 +85,15 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-
-        if user and not service:
-
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE user_id = $1 ORDER BY RANDOM", user_id)
-
-            if not url:
-               url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
-
-            name = "User Videos"
-            value = "\U0001f4fa"
-
-        elif service and not user:
-            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 ORDER BY RANDOM()", service)
-            name = "Service Videos"
-            value = "\U0001f5a5"
-
-        elif service and user:
-
-            user_id = user.id
-
-            url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-                if not url:
-                    url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
-
-            name = "User and Service Videos"
-            value = "\U0001f4fa \U0001f5a5"
-
-        else:
-            url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-        
-        user = await self.bot.try_user(url.user_id) or "Unknown"
-
-        # this definetly needs cleanup
-        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        content_type = ContentType.tech
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_tech.autocomplete("service")
     async def find_tech_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM tech_videos")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.tech.value)
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
@@ -185,53 +112,16 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-
-        if user and not service:
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
-
-            if not url:
-
-               url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
-
-            name = "User Videos"
-            value = "\U0001f4fa"
-
-        elif service and not user:
-            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-            name = "Service Videos"
-            value = "\U0001f5a5"
-
-        elif service and user:
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from watched_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-                if not url:
-                   url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
-
-            name = "User and Service Videos"
-            value = "\U0001f4fa \U0001f5a5"
-
-        else:
-            url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
-
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-        
-        # this definetly needs cleanup
-        user = await self.bot.try_user(url.user_id) or "Unknown"
-        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        content_type = ContentType.watched
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
         
 
     @find_watched.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM watched_videos")
-
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.watched.value)
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
         if not (current and startswith):
@@ -248,54 +138,16 @@ class Find(commands.Cog):
         interaction: discord.Interaction,
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
-    ):
-
-        if user and not service:
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE user_id = $1 ORDER BY RANDOM()", user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
-            
-            name = "User Videos"
-            value = "\U0001f4fa"
-
-        elif service and not user:
-            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 ORDER BY RANDOM()", service)
-            name = "Service Videos"
-            value = "\U0001f5a5"
-
-        elif service and user:
-
-            user_id = user.id
-
-            url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
-
-            if not url:
-
-                url = await self.bot.db.fetchrow("SELECT * from to_watch WHERE service = $1 ORDER BY RANDOM()", service)
-
-                if not url:
-                    url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
-
-            name = "User and Service Videos"
-            value = "\U0001f4fa \U0001f5a5"
-
-        else:
-            url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-
-        user = await self.bot.try_user(url.user_id) or "Unknown"
-
-        # this definetly needs cleanup
-        await interaction.response.send_message(content=f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
-      
+    ): 
+        content_type = ContentType.watch
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_to_watch.autocomplete("service")
     async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM to_watch")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.watch.value)
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
@@ -326,7 +178,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random video from the database", name="quick_video")
     async def quick_video(self, interaction: discord.Interaction):
 
-        url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.watched.value)
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -343,7 +195,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random unwatched video from the database", name="quick_watch")
     async def quick_watch(self, interaction: discord.Interaction):
 
-        url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.watch.value)
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -360,7 +212,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random misc video from the database", name="quick_misc")
     async def quick_misc(self, interaction: discord.Interaction):
 
-        url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.misc.value)
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -377,7 +229,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random tech video from the database", name="quick_tech")
     async def quick_tech(self, interaction: discord.Interaction):
 
-        url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.tech.value)
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -400,7 +252,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random anime video from the database", name="quick_anime")
     async def quick_anime(self, interaction: discord.Interaction):
 
-        url = await self.bot.db.fetchrow("SELECT * FROM ANIME_VIDEOS ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.anime.value)
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -423,56 +275,16 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-        if user and not service:
-
-            user_id = user.id
-            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
-
-            if not url:
-                url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
-
-            name = "User Videos"
-            value = "\U0001f4fa"
-
-        elif service and not user:
-            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-            name = "Service Videos"
-            value = "\U0001f5a5"
-
-        elif service and user:
-
-            user_id = user.id
-
-            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
-
-            if not url:
-
-                url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 ORDER BY RANDOM()", service)
-
-                if not url:
-
-                    url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
-
-            name = "User and Service Videos"
-            value = "\U0001f4fa \U0001f5a5"
-
-        else:
-            url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
-
-            name = "Randomly Chosen"
-            value = "\U0001f570"
-
-        user = await self.bot.try_user(url.user_id) or "Unknown"
-        
-        # this definetly needs cleanup
-        await interaction.response.send_message(f"Video: {url.url}\nService: {url.service}\nAdded By: {user} \n{name} {value}")
+        content_type = ContentType.anime
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
       
 
     @find_anime.autocomplete("service")
     async def find_anime_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM anime_videos")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.anime.value)
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
