@@ -17,32 +17,32 @@ class Owner(commands.Cog):
     @commands.command(brief="Adds to music videos")
     async def add_music(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
         
-        content_type = ContentType.music.value
+        content_type = ContentType.music
         service = service or "YouTube"
 
         if not url:
             return await ctx.send("Url must exist, it cannot be None.")
 
-        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
         if url_check:
             return await ctx.send(f"{url} already in music videos.")
 
-        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type)
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
         return await ctx.send(f"{url} added to music.")
     
     @commands.command(brief="Removes music videos")
     async def remove_music(self, ctx, url: typing.Optional[str] = None):
 
-        content_type = ContentType.music.value
+        content_type = ContentType.music
         if not url:
             return await ctx.send(self.error_text)
         
-        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type)
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
 
         if not url_check:
             return await ctx.send(f"{url} must be in database")
         
-        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type)
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
         return await ctx.send(f"Removed {url} from database (music)")
 
     @commands.command(brief="Adds to watched_videos videos")
