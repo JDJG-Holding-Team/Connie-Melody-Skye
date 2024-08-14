@@ -34,8 +34,6 @@ class ConnieSkye(commands.Bot):
             except commands.errors.ExtensionError:
                 traceback.print_exc()
 
-        await self.load_extension("jishaku")
-
         self.db: asyncpg.Pool = await asyncpg.create_pool(os.getenv("DB_key"), record_class=CustomRecordClass)  # type: ignore
 
         await self.tree.set_translator(TreeTranslator())
