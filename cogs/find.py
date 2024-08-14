@@ -147,13 +147,13 @@ class Find(commands.Cog):
                 url = await self.bot.db.fetchrow("SELECT * from tech_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
                 if not url:
-                    proper_urls = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
+                    url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
 
             name = "User and Service Videos"
             value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
+            url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
             name = "Randomly Chosen"
             value = "\U0001f570"
         
@@ -309,9 +309,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a song without any arguments", name="quick_song")
     async def quick_song(self, interaction: discord.Interaction[ConnieSkye]):
 
-        proper_urls = await self.bot.db.fetch("SELECT user_id, url, service from content where content_type = $1", ContentType.music.value)
-        url = random.choice(proper_urls)
-
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.music.value)
         user = await self.bot.try_user(url.user_id)
 
         content = await self.bot.tree.translator.translate_content(
@@ -327,9 +325,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random video from the database", name="quick_video")
     async def quick_video(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from watched_videos")
-        url = random.choice(proper_urls)
-
+        url = await self.bot.db.fetchrow("SELECT * from watched_videos ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -346,9 +342,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random unwatched video from the database", name="quick_watch")
     async def quick_watch(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from to_watch")
-
-        url = random.choice(proper_urls)
+        url = await self.bot.db.fetchrow("SELECT * from to_watch ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -365,9 +359,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random misc video from the database", name="quick_misc")
     async def quick_misc(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from misc_videos")
-
-        url = random.choice(proper_urls)
+        url = await self.bot.db.fetchrow("SELECT * from misc_videos ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -384,9 +376,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random tech video from the database", name="quick_tech")
     async def quick_tech(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from tech_videos")
-
-        url = random.choice(proper_urls)
+        url = await self.bot.db.fetchrow("SELECT * from tech_videos ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -409,7 +399,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a random anime video from the database", name="quick_anime")
     async def quick_anime(self, interaction: discord.Interaction):
 
-        proper_urls = await self.bot.db.fetchrow("SELECT * FROM ANIME_VIDEOS ORDER BY RANDOM()")
+        url = await self.bot.db.fetchrow("SELECT * FROM ANIME_VIDEOS ORDER BY RANDOM()")
         user = await self.bot.try_user(url.user_id)
         content = await self.bot.tree.translator.translate_content(
             interaction,
@@ -435,18 +425,16 @@ class Find(commands.Cog):
         if user and not service:
 
             user_id = user.id
+            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE user_id = $1 ORDER BY RANDOM()", user_id)
 
-            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE user_id = $1", user_id)
-
-            if not proper_urls:
-
-                proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+            if not url:
+                url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
 
             name = "User Videos"
             value = "\U0001f4fa"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
+            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
             name = "Service Videos"
             value = "\U0001f5a5"
@@ -455,26 +443,25 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1 and user_id = $2", service, user_id)
+            url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 and user_id = $2 ORDER BY RANDOM()", service, user_id)
 
-            if not proper_urls:
+            if not url:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from anime_videos WHERE service = $1", service)
+                url = await self.bot.db.fetchrow("SELECT * from anime_videos WHERE service = $1 ORDER BY RANDOM()", service)
 
-                if not proper_urls:
+                if not url:
 
-                    proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+                    url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
 
             name = "User and Service Videos"
             value = "\U0001f4fa \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from anime_videos")
+            url = await self.bot.db.fetchrow("SELECT * from anime_videos ORDER BY RANDOM()")
 
             name = "Randomly Chosen"
             value = "\U0001f570"
 
-        url = random.choice(proper_urls)
         user = await self.bot.try_user(url.user_id) or "Unknown"
         
         # this definetly needs cleanup
