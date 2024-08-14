@@ -30,12 +30,12 @@ class Find(commands.Cog):
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
         service: typing.Optional[str],
     ):
-
+        content_type = ContentType.music.value
         if user and not service:
             user_id = user.id
-            proper_urls = await self.bot.db.fetch("SELECT * from music WHERE user_id = $1", user_id)
+            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2", user_id, content_type)
             if not proper_urls:
-                proper_urls = await self.bot.db.fetch("SELECT * from music")
+                proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT where content_type = $1", content_type)
 
             url = random.choice(proper_urls)
             user = await self.bot.try_user(url.user_id)
@@ -43,7 +43,7 @@ class Find(commands.Cog):
             value = f"\U0001f3a7"
 
         elif service and not user:
-            proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
+            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2", service, content_type)
             url = random.choice(proper_urls)
 
             name = "Service Songs"
@@ -55,15 +55,15 @@ class Find(commands.Cog):
 
             user_id = user.id
 
-            proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1 and user_id = $2", service, user_id)
+            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3", service, user_id, content_type)
 
             if not proper_urls:
 
-                proper_urls = await self.bot.db.fetch("SELECT * from music WHERE service = $1", service)
+                proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and content_type = $2", service, content_type)
 
                 if not proper_urls:
 
-                    proper_urls = await self.bot.db.fetch("SELECT * from music")
+                    proper_urls = await self.bot.db.fetch("SELECT user_id, url, service from content where content_type = $1", content_type)
 
             url = random.choice(proper_urls)
 
@@ -73,7 +73,7 @@ class Find(commands.Cog):
             value = f"\U0001f3a7 \U0001f5a5"
 
         else:
-            proper_urls = await self.bot.db.fetch("SELECT * from music")
+            proper_urls = await self.bot.db.fetch("SELECT user_id, url, service FROM CONTENT where content_type = $1", content_type)
 
             url = random.choice(proper_urls)
 
@@ -91,7 +91,7 @@ class Find(commands.Cog):
     @find_song.autocomplete("service")
     async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
 
-        services = await self.bot.db.fetch("SELECT DISTINCT service FROM music")
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.music.value)
 
         all_choices = [Choice(name=service.service, value=service.service) for service in services]
         startswith = [choices for choices in all_choices if choices.name.startswith(current)]
@@ -453,7 +453,7 @@ class Find(commands.Cog):
     @app_commands.command(description="Gets a song without any arguments", name="quick_song")
     async def quick_song(self, interaction: discord.Interaction[ConnieSkye]):
 
-        proper_urls = await self.bot.db.fetch("SELECT * from music")
+        proper_urls = await self.bot.db.fetch("SELECT user_id, url, service from content where content_type = $1", ContentType.music.value)
 
         url = random.choice(proper_urls)
 
