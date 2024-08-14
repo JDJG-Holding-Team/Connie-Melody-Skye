@@ -32,7 +32,8 @@ class Find(commands.Cog):
     ):
         content_type = ContentType.music
         result = await database_lookup(self.bot, content_type.music, user, service)
-        await interaction.response.send_message(content=f"Song: {result}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Song: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_song.autocomplete("service")
     async def find_song_autocomplete(self, interaction: discord.Interaction, current: str):
