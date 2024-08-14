@@ -145,7 +145,7 @@ class Find(commands.Cog):
         await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {result.user} \n{result.name} {result.value}")
 
     @find_to_watch.autocomplete("service")
-    async def find_watched_autocomplete(self, interaction: discord.Interaction, current: str):
+    async def find_watch_autocomplete(self, interaction: discord.Interaction, current: str):
 
         services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.watch.value)
 
