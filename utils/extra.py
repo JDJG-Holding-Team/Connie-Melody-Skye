@@ -35,9 +35,8 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
     value = None
 
     if user and not service:
-        print(user)
         user_id = user.id
-        result = await bot.db.fetchrow("SELECT user, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2 ORDER BY RANDOM()", user_id, content_type.value)
+        result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE user_id = $1 and content_type = $2 ORDER BY RANDOM()", user_id, content_type.value)
 
         if content_type.value == ContentType.music.value:
             name = "User Songs"
@@ -60,7 +59,6 @@ async def database_lookup(bot: ConnieSkye, content_type: ContentType, user : typ
 
 
     elif service and user:
-        print(user)
         user_id = user.id
         result = await bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT WHERE service = $1 and user_id = $2 and content_type = $3 ORDER BY RANDOM()", service, user_id, content_type.value)
 
