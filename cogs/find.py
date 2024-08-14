@@ -9,6 +9,8 @@ from discord import app_commands
 from discord.app_commands import Choice
 from discord.ext import commands
 
+from utils.extra import ContentType
+
 if typing.TYPE_CHECKING:
     from main import ConnieSkye
 
