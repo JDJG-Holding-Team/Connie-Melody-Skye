@@ -28,17 +28,6 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: anime_videos; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.anime_videos (
-    user_id bigint,
-    url text,
-    service text
-);
-
-
---
 -- Name: content; Type: TABLE; Schema: public; Owner: -
 --
 
@@ -46,62 +35,7 @@ CREATE TABLE public.content (
     user_id bigint NOT NULL,
     url text NOT NULL,
     service text NOT NULL,
-    content_type smallint
-);
-
-
---
--- Name: misc_videos; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.misc_videos (
-    user_id bigint,
-    url text,
-    service text
-);
-
-
---
--- Name: music; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.music (
-    user_id bigint,
-    url text,
-    service text
-);
-
-
---
--- Name: tech_videos; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.tech_videos (
-    user_id bigint,
-    url text,
-    service text
-);
-
-
---
--- Name: to_watch; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.to_watch (
-    user_id bigint,
-    url text,
-    service text
-);
-
-
---
--- Name: watched_videos; Type: TABLE; Schema: public; Owner: -
---
-
-CREATE TABLE public.watched_videos (
-    user_id bigint,
-    url text,
-    service text
+    content_type smallint NOT NULL
 );
 
 
@@ -110,15 +44,7 @@ CREATE TABLE public.watched_videos (
 --
 
 ALTER TABLE ONLY public.content
-    ADD CONSTRAINT content_pkey PRIMARY KEY (url, service);
-
-
---
--- Name: content content_url_content_type_key; Type: CONSTRAINT; Schema: public; Owner: -
---
-
-ALTER TABLE ONLY public.content
-    ADD CONSTRAINT content_url_content_type_key UNIQUE (url, content_type);
+    ADD CONSTRAINT content_pkey PRIMARY KEY (url, service, content_type);
 
 
 --
