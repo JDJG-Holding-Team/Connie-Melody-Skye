@@ -1,37 +1,37 @@
 {
     "quick_song": {
         "name": "kjapp_sang",
-        "description": "henter en sang uten noen argumenter",
+        "description": "Henter en sang uten noen argumenter",
         "content": "Sang: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "397745647723216898"
     },
     "quick_video": {
         "name": "kjapp_video",
-        "description": "henter en tilfeldig video fra databasen",
+        "description": "Henter en tilfeldig video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "397745647723216898"
     },
     "quick_watch": {
         "name": "kjapp_usett_video",
-        "description": "henter en tilfeldig usett video fra databasen",
+        "description": "Henter en tilfeldig usett video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "397745647723216898"
     },
     "quick_misc": {
         "name": "kjapp_misc",
-        "description": "henter en tilfeldig video fra databasen",
+        "description": "Henter en tilfeldig video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "397745647723216898"
     },
     "quick_tech": {
         "name": "kjapp_teknologi",
-        "description": "henter en tilfeldig teknologi-video fra databasen",
+        "description": "Henter en tilfeldig teknologi-video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "397745647723216898"
     },
     "quick_anime": {
         "name": "kjapp_anime",
-        "description": "henter en tilfeldig anime-video fra databasen",
+        "description": "Henter en tilfeldig anime-video fra databasen",
         "content": "Video: {url_url}\nLagt til av {user}\nTjeneste: {url_service}",
         "translator_id": "554107005824925707"
     }
