@@ -2,7 +2,7 @@
     "quick_song": {
         "name": "快速歌曲",
         "description": "在没有任何参数的情况下获取一首歌",
-        "content": "视频：{url_url}\n由 {user} 请求\n提供：{url_service}",
+        "content": "歌曲：{url_url}\n由 {user} 请求\n提供：{url_service}",
         "translator_id": "1130334020740321431"
     },
     "quick_video": {
