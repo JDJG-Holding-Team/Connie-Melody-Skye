@@ -3,13 +3,13 @@
         "name": "Música_rápida",
         "description": "Pega uma música sem qualquer parâmetro",
         "content": "Som: {url_url}\nAdicionando po {user}\nservice: {url_service}",
-        "translator_id": "946127478940921968"
+        "translator_id": "452486568759001090"
     },
     "quick_video": {
         "name": "vídeo_rápido",
         "description": "Pega um vídeo aleatório do DataBase",
         "content": "Video: {url_url}\nAdicionando po {user}\nService: {url_service}",
-        "translator_id": "946127478940921968"
+        "translator_id": "452486568759001090"
     },
     "quick_watch": {
         "name": "novo_vídeo_rápido",
@@ -27,12 +27,12 @@
         "name": "tech_rapido",
         "description": "Pega um vídeo aleatório sobre tecnologia do DataBase",
         "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
-        "translator_id": "946127478940921968"
+        "translator_id": "452486568759001090"
     },
     "quick_anime": {
         "name": "anime_rápido",
         "description": "Pega um Anime Aleatório do DataBase",
         "content": "Video: {url_url}\nAdicionado por {user}\nService: {url_service}",
-        "translator_id": "946127478940921968"
+        "translator_id": "452486568759001090"
     }
 }
