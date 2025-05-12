@@ -1,6 +1,6 @@
 {
     "quick_song": {
-        "name": "Música_rápida",
+        "name": "música_rápida",
         "description": "Pega uma música sem qualquer parâmetro",
         "content": "Som: {url_url}\nAdicionando po {user}\nservice: {url_service}",
         "translator_id": "452486568759001090"
