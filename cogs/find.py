@@ -311,6 +311,51 @@ class Find(commands.Cog):
         )
         await interaction.response.send_message(f"Source: {url}", view=view)
 
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Gets a random politics video from the database", name="quick_politics")
+    async def quick_politics(self, interaction: discord.Interaction):
+
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.politics.value)
+        user = await self.bot.try_user(url.user_id)
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
+
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new video that's politics related.", name="find_politics")
+    async def find_politics(
+        self,
+        interaction: discord.Interaction,
+        user: typing.Optional[typing.Union[discord.Member, discord.User]],
+        service: typing.Optional[str],
+    ):
+
+        content_type = ContentType.politics
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {user} \n{result.name} {result.value}")
+
+    @find_politics.autocomplete("service")
+    async def find_politics_autocomplete(self, interaction: discord.Interaction, current: str):
+
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.politics.value)
+
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
+
+        return startswith[0:25]
+
 
 async def setup(bot):
     await bot.add_cog(Find(bot))

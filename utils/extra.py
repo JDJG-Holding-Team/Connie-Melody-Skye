@@ -17,6 +17,7 @@ class ContentType(enum.IntEnum):
     misc = 3
     watch = 4
     watched = 5
+    politics = 6
 
 class DatabaseData(NamedTuple):
     url: str
