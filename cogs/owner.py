@@ -233,7 +233,7 @@ class Owner(commands.Cog):
         return await ctx.send(f"Removed {url} from database ({content_type.name})")
 
     @commands.command(brief="Adds horror videos")
-    async def add_horor(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
+    async def add_horror(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
         
         content_type = ContentType.horror
         service = service or "YouTube"
