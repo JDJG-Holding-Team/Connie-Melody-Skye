@@ -377,7 +377,7 @@ class Find(commands.Cog):
     @app_commands.guild_install()
     @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
     @app_commands.command(description="Find a new video that's horror game related.", name="find_horror")
-    async def find_horor(
+    async def find_horror(
         self,
         interaction: discord.Interaction,
         user: typing.Optional[typing.Union[discord.Member, discord.User]],
