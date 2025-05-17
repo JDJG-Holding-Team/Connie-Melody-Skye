@@ -231,7 +231,69 @@ class Owner(commands.Cog):
         
         await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
         return await ctx.send(f"Removed {url} from database ({content_type.name})")
+
+    @commands.command(brief="Adds horror videos")
+    async def add_horor(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
         
+        content_type = ContentType.horror
+        service = service or "YouTube"
+
+        if not url:
+            return await ctx.send("Url must exist, it cannot be None.")
+
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
+        if url_check:
+            return await ctx.send(f"{url} already in {content_type.name} videos.")
+
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
+        return await ctx.send(f"{url} added to {content_type.name} videos.")
+
+    @commands.command(brief="Removes horror videos")
+    async def remove_horror(self, ctx, url: typing.Optional[str] = None):
+
+        content_type = ContentType.horror
+        if not url:
+            return await ctx.send(self.error_text)
+        
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
+
+        if not url_check:
+            return await ctx.send(f"{url} must be in database")
+        
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
+        return await ctx.send(f"Removed {url} from database ({content_type.name})")
+
+    @commands.command(brief="Adds games videos")
+    async def add_games(self, ctx, url: typing.Optional[str] = None, user : typing.Optional[discord.User] = commands.Author, *, service : typing.Optional[str] = None):
+        
+        content_type = ContentType.games
+        service = service or "YouTube"
+
+        if not url:
+            return await ctx.send("Url must exist, it cannot be None.")
+
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
+        if url_check:
+            return await ctx.send(f"{url} already in {content_type.name} videos.")
+
+        await self.bot.db.execute("INSERT INTO content VALUES($1, $2, $3, $4)", user.id, url, service, content_type.value)
+        return await ctx.send(f"{url} added to {content_type.name} videos.")
+
+    @commands.command(brief="Removes games videos")
+    async def remove_games(self, ctx, url: typing.Optional[str] = None):
+
+        content_type = ContentType.games
+        if not url:
+            return await ctx.send(self.error_text)
+        
+        url_check = await self.bot.db.fetchrow("SELECT user_id, url, service FROM CONTENT where url = $1 and content_type = $2", url, content_type.value)
+
+        if not url_check:
+            return await ctx.send(f"{url} must be in database")
+        
+        await self.bot.db.execute("DELETE FROM CONTENT WHERE url = $1 and content_Type = $2", url, content_type.value)
+        return await ctx.send(f"Removed {url} from database ({content_type.name})")
+
     
     async def cog_command_error(self, ctx, error):
         await ctx.send(error)

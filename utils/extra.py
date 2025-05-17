@@ -18,6 +18,11 @@ class ContentType(enum.IntEnum):
     watch = 4
     watched = 5
     politics = 6
+    games = 7
+    horror = 8
+
+# games for video games.
+# horror for yes as in horror games
 
 class DatabaseData(NamedTuple):
     url: str

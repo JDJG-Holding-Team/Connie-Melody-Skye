@@ -356,6 +356,96 @@ class Find(commands.Cog):
 
         return startswith[0:25]
 
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Gets a random horror video from the database", name="quick_horror")
+    async def quick_horror(self, interaction: discord.Interaction):
+
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.horror.value)
+        user = await self.bot.try_user(url.user_id)
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
+
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new video that's horror game related.", name="find_horror")
+    async def find_horor(
+        self,
+        interaction: discord.Interaction,
+        user: typing.Optional[typing.Union[discord.Member, discord.User]],
+        service: typing.Optional[str],
+    ):
+
+        content_type = ContentType.horror
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {user} \n{result.name} {result.value}")
+
+    @find_horror.autocomplete("service")
+    async def find_horror_autocomplete(self, interaction: discord.Interaction, current: str):
+
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.horror.value)
+
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
+
+        return startswith[0:25]
+
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Gets a random video game video from the database", name="quick_games")
+    async def quick_games(self, interaction: discord.Interaction):
+
+        url = await self.bot.db.fetchrow("SELECT user_id, url, service from content where content_type = $1 ORDER BY RANDOM()", ContentType.games.value)
+        user = await self.bot.try_user(url.user_id)
+        content = await self.bot.tree.translator.translate_content(
+            interaction,
+            "Video: {url_url}\nAdded by {user}\nService: {url_service}",
+            url_url=url.url,
+            user=user,
+            url_service=url.service,
+        )
+        await interaction.response.send_message(content)
+
+    @app_commands.user_install()
+    @app_commands.guild_install()
+    @app_commands.allowed_contexts(guilds=True, dms=True, private_channels=True)
+    @app_commands.command(description="Find a new video that's video game related.", name="find_games")
+    async def find_games(
+        self,
+        interaction: discord.Interaction,
+        user: typing.Optional[typing.Union[discord.Member, discord.User]],
+        service: typing.Optional[str],
+    ):
+
+        content_type = ContentType.games
+        result = await database_lookup(self.bot, content_type, user, service)
+        user = result.user or "Unknown"
+        await interaction.response.send_message(content=f"Video: {result.url}\nService: {result.service}\nAdded By: {user} \n{result.name} {result.value}")
+
+    @find_horror.autocomplete("service")
+    async def find_games_autocomplete(self, interaction: discord.Interaction, current: str):
+
+        services = await self.bot.db.fetch("SELECT DISTINCT service FROM content where content_type = $1", ContentType.gamesvalue)
+
+        all_choices = [Choice(name=service.service, value=service.service) for service in services]
+        startswith = [choices for choices in all_choices if choices.name.startswith(current)]
+        if not (current and startswith):
+            return all_choices[0:25]
+
+        return startswith[0:25]
+
 
 async def setup(bot):
     await bot.add_cog(Find(bot))
